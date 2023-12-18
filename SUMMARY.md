@@ -1,7 +1,8 @@
 # Table of contents
 
 * [Introdução](README.md)
-* [Empresa](empresa.md)
+* [Empresa](empresa/README.md)
+  * [Políticas](empresa/politicas.md)
 * [Pessoas](pessoas.md)
 * [Plataforma](plataforma/README.md)
   * [Changelog](plataforma/changelog/README.md)
