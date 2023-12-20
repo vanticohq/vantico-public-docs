@@ -3,6 +3,7 @@
 * [Introdução](README.md)
 * [Empresa](empresa/README.md)
   * [Políticas](empresa/politicas.md)
+  * [Indicações](empresa/indicacoes.md)
 * [Pessoas](pessoas.md)
 * [Serviços](servicos.md)
 * [Operações](operacoes/README.md)
