@@ -4,6 +4,8 @@
 * [Empresa](empresa/README.md)
   * [Políticas](empresa/politicas.md)
   * [Indicações](empresa/indicacoes.md)
+  * [Branding](empresa/branding/README.md)
+    * [Tipografia](empresa/branding/tipografia.md)
 * [Pessoas](pessoas.md)
 * [Serviços](servicos.md)
 * [Operações](operacoes/README.md)
