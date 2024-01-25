@@ -6,6 +6,7 @@
   * [Indicações](empresa/indicacoes.md)
   * [Branding](empresa/branding/README.md)
     * [Tipografia](empresa/branding/tipografia.md)
+    * [Tom de voz & Descrições](empresa/branding/tom-de-voz-and-descricoes.md)
 * [Pessoas](pessoas.md)
 * [Serviços](servicos.md)
 * [Operações](operacoes/README.md)
