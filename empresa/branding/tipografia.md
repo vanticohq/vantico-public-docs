@@ -6,7 +6,7 @@ description: >-
 
 # Tipografia
 
-Sempre usamos a fonte Poppins (apenas) para tópicos de marketing e comunicação externa. Em combinação com as nossas cores, permite-nos ser consistentes e mais facilmente reconhecíveis.
+Sempre usamos a fonte Roboto (apenas) para tópicos de marketing e comunicação externa. Em combinação com as nossas cores, permite-nos ser consistentes e mais facilmente reconhecíveis.
 
 Nós o recusamos em estilos diferentes para criar uma hierarquia visual em nossos ativos.
 
@@ -14,19 +14,40 @@ Nós o recusamos em estilos diferentes para criar uma hierarquia visual em nosso
 
 ## Estilo de fonte
 
-<div align="left">
+<figure><img src="../../.gitbook/assets/fonte - roboto bold (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image.png" alt="" width="188"><figcaption></figcaption></figure>
-
-</div>
-
-Variant: **Poppins Bold**
+Variante: **Poppins Bold**
 
 Light Color: **Blue 800, Blue 900**
 
 Dark Color: **Neutral 0**
 
-Always use Poppins bold for your titles! If you need to highlight a word in your title, you can simply use one of our accent colors.
+Sempre use Roboto em negrito para seus títulos! Se precisar destacar uma palavra em seu título, você pode simplesmente usar uma de nossas cores de destaque.
+
+<figure><img src="../../.gitbook/assets/fonte - roboto light.png" alt="" width="375"><figcaption></figcaption></figure>
+
+
+
+
+
+
+
+
+
+\
+
+
+<figure><img src="../../.gitbook/assets/fonte - roboto black.png" alt="" width="375"><figcaption></figcaption></figure>
+
+
+
+
+
+O que não fazer
+
+:x:Utilizar outras fontes
+
+:x:Utilizar outras variações da fonte
 
 \
 
