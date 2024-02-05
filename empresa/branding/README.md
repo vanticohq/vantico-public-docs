@@ -76,7 +76,6 @@ Esta é a versão preferida do nosso logotipo. Esta é a sua escolha se você ti
 
 </div>
 
+## Baixe todos os arquivos do nosso logo
 
-
-
-
+[https://google.com](https://google.com)
