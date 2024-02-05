@@ -15,7 +15,7 @@ Nosso logotipo principal é usado nas versões Light & Dark para garantir a legi
 
 
 
-<figure><img src="../../.gitbook/assets/logo azul fundo azul claro.png" alt="" width="375"><figcaption><p>Light Version</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/logo azul fundo azul claro.png" alt="" width="375"><figcaption></figcaption></figure>
 
 **Light version**
 
@@ -44,18 +44,15 @@ Esta é a versão preferida do nosso logotipo. Esta é a sua escolha se você ti
 
 ## O que não fazer
 
-:x:**Utilizar cores que não são as cores oficiais da Vantico**
+## :x:**Utilizar cores que não são as cores oficiais da Vantico**
 
 <figure><img src="../../.gitbook/assets/logo cor errada - laranja (1).png" alt=""><figcaption></figcaption></figure>
 
-
-
-:x:**Utilizar com fundos que não dão leitura**
+## :x:**Utilizar com fundos que não dão leitura**
 
 <figure><img src="../../.gitbook/assets/aplicação com fundo errado.png" alt=""><figcaption></figcaption></figure>
 
-:x:Distorcer\
-
+## :x:Distorcer
 
 <figure><img src="../../.gitbook/assets/logo distorcido (1).png" alt=""><figcaption></figcaption></figure>
 
