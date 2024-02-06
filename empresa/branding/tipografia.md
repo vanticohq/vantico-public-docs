@@ -24,6 +24,14 @@ Dark Color: **Neutral 0**
 
 Sempre use Roboto em negrito para seus títulos! Se precisar destacar uma palavra em seu título, você pode simplesmente usar uma de nossas cores de destaque.
 
+
+
+<figure><img src="../../.gitbook/assets/fonte - roboto regular (1).png" alt="" width="375"><figcaption></figcaption></figure>
+
+
+
+
+
 <figure><img src="../../.gitbook/assets/fonte - roboto light.png" alt="" width="375"><figcaption></figcaption></figure>
 
 
