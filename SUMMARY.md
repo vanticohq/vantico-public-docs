@@ -29,6 +29,7 @@
   * [Aplicações Web](metodologias/aplicacoes-web/README.md)
     * [Duplo Fator / MFA](metodologias/aplicacoes-web/duplo-fator-mfa.md)
     * [Race Condition](metodologias/aplicacoes-web/race-condition.md)
+  * [Pós Exploração](metodologias/pos-exploracao.md)
 * [Plataforma](plataforma/README.md)
   * [Changelog](plataforma/changelog/README.md)
     * [Em breve](plataforma/changelog/em-breve.md)
