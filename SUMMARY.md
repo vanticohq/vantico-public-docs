@@ -27,7 +27,7 @@
     * [GraphQL](metodologias/api/graphql.md)
     * [REST](metodologias/api/rest.md)
   * [Aplicações Web](metodologias/aplicacoes-web/README.md)
-    * [2 Fator](metodologias/aplicacoes-web/2-fator.md)
+    * [Duplo Fator / MFA](metodologias/aplicacoes-web/duplo-fator-mfa.md)
     * [Race Condition](metodologias/aplicacoes-web/race-condition.md)
 * [Plataforma](plataforma/README.md)
   * [Changelog](plataforma/changelog/README.md)
