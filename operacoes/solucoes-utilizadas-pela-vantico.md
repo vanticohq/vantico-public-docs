@@ -7,18 +7,14 @@ Usamos muitos provedores de serviços terceirizados (ferramentas SaaS). Seguindo
 | Microsoft Office 365 | Todos        |                                 |
 | Microsoft SharePoint | Todos        |                                 |
 | Microsoft Teams      | Todos        | Communication, chat, ChatOps    |
+| Microsoft Loop       | Todos        | Gestão de Conhecimento          |
 | Gather               | Todos        |                                 |
 | Pipedrive            | Vendas       |                                 |
 | Amazon AWS           | Dev          |                                 |
 | Cloudflare           | Dev          |                                 |
 | Github               | Dev          | Repositório de Código           |
 | Gitbook              | Dev          | Manual da Vantico               |
-| Coda                 | Todos        | Gestão de conhecimento          |
 | Clickup              | Todos        | Gestão de atividades e projetos |
 | Twitter              | Marketing    |                                 |
 | Linkedin             | Marketing    |                                 |
-|                      |              |                                 |
-|                      |              |                                 |
-|                      |              |                                 |
-|                      |              |                                 |
-|                      |              |                                 |
+| Slack                |              |                                 |
