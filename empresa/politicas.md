@@ -13,3 +13,5 @@ description: Políticas, processos e documentos da Vantico.
 4 - Política de Notificação em caso de Incidente - **Interna**
 
 5 - Política de Proteção contra Código Malicioso - **Interna**
+
+6 - Gestão de Ativos **- Interna**
