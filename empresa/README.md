@@ -17,4 +17,16 @@ Informações da empresa
 
 
 
+Domínios oficiais:
+
+* vantico.com.br
+* vanticomail.com
+* vanticosec.com
+
+
+
+Registro de marca em vigor.
+
+
+
 {% embed url="https://open.vantico.com.br/empresa/branding" fullWidth="false" %}
