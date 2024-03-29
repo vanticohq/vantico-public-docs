@@ -1,2 +1,0 @@
-# Contribuindo com o Manual
-

@@ -1,23 +1,25 @@
 # Empresa
 
-Sobre a Vantico
+**Sobre a Vantico**
+
+Com nossa metodologia exclusiva, sua empresa tem acesso a testes de segurança sob demanda, com atualizações em tempo real, resultados mais ágeis, relatórios detalhados e uma equipe de especialistas pronta para proteger a sua empresa.
 
 
 
-Nossa Filosofia
+**Nossa Filosofia**
 
 
 
-Informações da empresa
+**Informações da empresa**
 
-* CNPJ:&#x20;
-* Razão Social:
+* CNPJ: 40.914.494/0001-34
+* Razão Social: VANTICO SEGURANÇA CIBERNÉTICA LTDA
 * Site: https://vantico.com.br
-* Notícias:
+* Notícias: https://vantico.com.br/quem-somos
 
 
 
-Domínios oficiais:
+**Domínios oficiais:**
 
 * vantico.com.br
 * vanticomail.com
@@ -25,7 +27,7 @@ Domínios oficiais:
 
 
 
-Registro de marca em vigor.
+**Registro de marca em vigor.**
 
 
 
