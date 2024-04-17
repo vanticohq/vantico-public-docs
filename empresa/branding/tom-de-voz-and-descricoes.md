@@ -36,9 +36,7 @@ Tudo isso com acesso sob demanda aos melhores profissionais do mercado, especial
 
 Teste suas aplicações web, mobile, APIs, dispositivos IoT, redes internas e externas, cloud, smart contract e muito mais, além de se preparar para merge & acquisitons (fusão e aquisição), compliance e auditorias.
 
-![Tela de celular
 
-Descrição gerada automaticamente com confiança média](file:///Users/kaiquebonato/Library/Group%20Containers/UBF8T346G9.Office/TemporaryItems/msohtmlclip/clip\_image001.png)
 
 Com a Vantico, você une o melhor da Cibersegurança a uma metodologia ágil, completa e intuitiva, resultando em um Pentest mais eficaz e confiável!
 
@@ -54,9 +52,7 @@ Sugestão de título: Pentest como você nunca viu
 
 Nos modelos mais tradicionais, a contratação do Pentest pode ser um processo longo, contratual e esporádico. Com o Pentest as a Service (PTaaS), tudo isso fica mais simples, aumentando a autonomia da empresa e a recorrência do teste, o que eleva os níveis de segurança da organização.
 
-![Diagrama
 
-Descrição gerada automaticamente](file:///Users/kaiquebonato/Library/Group%20Containers/UBF8T346G9.Office/TemporaryItems/msohtmlclip/clip\_image002.png)
 
 Por isso, oferecemos uma metodologia própria, em que disponibilizamos uma plataforma com todos os recursos necessários, com contratação com recorrência mensal ou sob demanda, de acordo com cada necessidade. Cada cliente pode escolher o tipo, escopo e profundidade do teste, desde startups até multinacionais.
 
@@ -70,9 +66,7 @@ Além disso, através do PTaaS também contamos com uma ampla rede de pentesters
 
 _Propósito: para evidenciar os principais benefícios do PTaaS da Vantico_
 
-![Gráfico, Gráfico de explosão solar
 
-Descrição gerada automaticamente](file:///Users/kaiquebonato/Library/Group%20Containers/UBF8T346G9.Office/TemporaryItems/msohtmlclip/clip\_image003.png)
 
 Inicie testes com agilidade
 
@@ -100,15 +94,9 @@ Crie novos testes e verifique seus ativos continuamente com nossos planos, que d
 
 Assim, a equipe testa os itens e funcionalidades com recorrência e agilidade.
 
-![Diagrama
 
-Descrição gerada automaticamente](file:///Users/kaiquebonato/Library/Group%20Containers/UBF8T346G9.Office/TemporaryItems/msohtmlclip/clip\_image004.png)
 
 &#x20;
-
-Encontre o plano ideal para você:
-
-\[planos]
 
 &#x20;
 

@@ -7,7 +7,7 @@
   * [Branding](empresa/branding/README.md)
     * [Cores](empresa/branding/cores.md)
     * [Tipografia](empresa/branding/tipografia.md)
-    * [Personagem](empresa/branding/personagem.md)
+    * [Ilustrações](empresa/branding/ilustracoes.md)
     * [Tom de voz & Descrições](empresa/branding/tom-de-voz-and-descricoes.md)
 * [Pessoas](pessoas.md)
 * [Serviços](servicos.md)
