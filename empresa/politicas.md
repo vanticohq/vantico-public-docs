@@ -30,4 +30,8 @@ description: Políticas, processos e documentos da Vantico.
 
 8 - Política de Resposta a Incidentes - **Interna** - última atualização&#x20;
 
-9 -&#x20;
+9 - Política de Gestão de Vulnerabilidades - **Interna** - última atualização 19/04/2024
+
+10 - Política de Gestão de Criptografia - **Interna** - última atualização 19/04/2024
+
+11 - Política de Gestão de Riscos - **Interna** - última atualização 19/04/2024
