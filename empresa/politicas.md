@@ -34,4 +34,4 @@ description: Políticas, processos e documentos da Vantico.
 
 10 - Política de Gestão de Criptografia - **Interna** - última atualização 19/04/2024
 
-11 - Política de Gestão de Riscos - **Interna** - última atualização 19/04/2024
+11 - Política de Gestão de Riscos - **Interna** - última atualização 22/04/2024
