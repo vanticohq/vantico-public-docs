@@ -14,9 +14,9 @@ description: Políticas, processos e documentos da Vantico.
 
 4 - Código de Conduta de Terceiros **Interna** - última atualização 19/04/2024
 
-5 - Política Anticorrupção e Antissuborno
+5 - Política Anticorrupção e Antissuborno **Interna** - última atualização 19/04/2024
 
-6 - Política Antiassédio
+6 - Política Antiassédio **Interna** - última atualização 19/04/2024
 
 
 
