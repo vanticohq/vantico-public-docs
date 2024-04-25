@@ -1,0 +1,358 @@
+---
+description: Aprenda mais sobre o mercado de segurança da informação
+---
+
+# Glossário
+
+Se você não encontrar uma definição de termo nesta página, consulte uma das normas governamentais ou da indústria citadas nas Referências.\
+As definições incluídas nesta página podem variar dos padrões citados, com base na forma como configuramos e usamos o software Vantico.\
+Risco AgregadoO Risco Agregado é a soma dos riscos das descobertas individuais encontradas em um pentest.O risco de uma descoberta individual é a probabilidade multiplicada pelo impacto (Risco = Probabilidade \* Impacto)\
+Lista de permissãoUma lista de permissão permite explicitamente que sistemas identificados acessem. Em redes, uma lista de permissão pode especificar endereços IP. Normalmente, você pode encontrar listas de permissão e listas de negação em arquivos como /etc/hosts.allow e /etc/hosts.deny.\
+API EndpointUm endpoint é tipicamente uma URL usada para permitir que duas aplicações de software se comuniquem entre si.Ao delimitar um pentest para um ativo de API, ignore parâmetros específicos e métodos HTTP para cada endpoint. Por exemplo, essas são duas solicitações HTTP diferentes para o mesmo endpoint:
+
+* GET https://api.vantico.io/pentests
+* POST https://api.vantico.io/pentests
+
+Alguns endpoints da API RESTful incluem informações adicionais que podem fazê-los parecer diferentes. Por exemplo, os dois URLs a seguir são, na verdade, o mesmo endpoint, pois o conteúdo após o símbolo (&) descreve uma ação nos dados enviados a partir desse URL:
+
+* example.com/endpoint1&\_prettyPrint=true
+* example.com/endpoint1&\_prettyPrint=false
+
+O GraphQL opera em um único endpoint da API. Funcionalmente, as queries e mutations do GraphQL são semelhantes aos comandos RESTful GET, POST, PUT e outros.\
+Escopo APIConsulte o endpoint da API para saber como visualizamos as APIs RESTful e GraphQL. Para delimitar nosso trabalho, quando precisamos de informações sobre sua API, precisamos de números para:
+
+* RESTful API Endpoints
+* GraphQL queries e mutations
+
+\
+AtivoPara pentests, um ativo é um componente de software de valor, como um aplicativo web ou API. A Vantico pode realizar pentests em ativos nas seguintes categorias:
+
+* Apps Web
+* Redes Externas
+* Redes Internas
+* Mobile
+* APIs
+* Configuração Cloud (AWS, Azure, GCP)
+
+\
+Tag do AtivoUma tag de ativo é um metadado definido pelo cliente associado a um ativo Vantico.Aprenda como usar tag de ativos.\
+Segurança da Aplicação (AppSec)A segurança de aplicativos é a prática de utilizar software, hardware, técnicas, melhores práticas e procedimentos de segurança para proteger aplicativos de computador contra ameaças externas de segurança.\
+Segurança da Aplicação Verificação Padrão (ASVS)A OWASP Application Security Verification Standard (ASVS) está relacionado a pentests de controles de segurança técnica de aplicativos web.\
+AtacanteÀs vezes também conhecido como agente de ameaça, hacker malicioso, "hacker black hat" ou "cracker". Pode ser um indivíduo, um grupo ou até mesmo um estado-nação. Especificado como "atacante" nos relatórios de pentest Vantico.\
+Attestation LetterUm relatório de uma página adequado para partes interessadas externas. Inclui o seguinte:
+
+* Resumo Executivo
+* Uma tabela de resumo das descobertas gerais
+
+Saiba mais sobre relatórios de pentest.\
+Attestation ReportUm relatório semelhante à Carta ao Cliente, com detalhes adicionais:
+
+* Informações do usuário Pentester
+* Uma lista geral de descobertas
+
+Saiba mais sobre relatórios de pentest\
+Relatório AutomatizadoUm relatório gerado pelo sistema para um Pentest ágil destinado ao uso interno. Inclui as seguintes seções:
+
+* Informações do usuário Pentester
+* Resumo Executivo
+* Metodologia Correão Pós-Teste
+* Detalhes das Descobertas
+
+Você não pode personalizar um Relatório Automatizado. Saiba mais sobre relatórios de pentest.\
+Teste Black-BoxQuando o pentester não possui conhecimento dos detalhes internos do ativo. Contrasta com os testes de grey-box e white-box.Também conhecido como "teste de opaque-box".\
+Centro de Segurança na Internet (CIS)O Center for Internet Security é uma organização independente sem fins lucrativos que desenvolve e aprimora soluções de segurança de melhores práticas.Um dos critérios de teste utilizados pelos nossos pentesters é o CIS Controls v8, lançado em 2021.\
+Média VanticoA média da Vantico para um determinado ano é a média do Risco Agregado de todos os pentests realizados em todos os clientes nesse ano.Saiba mais sobre a página de Insights e como usar essa métrica para analisar seus ativos.\
+Enumeração de Plataforma Comum (CPE)Conforme definido pelo NIST, a Enumeração de Plataforma Comum (CPE) é um esquema de nomeação estruturado para sistemas de tecnologia da informação, software e pacotes. O Dicionário CPE oficial é hospedado e mantido pelo NIST.\
+Auditoria de ConformidadeConforme definido pelo NIST, uma revisão abrangente da aderência de uma organização aos documentos regulatórios, tais como:
+
+* Se uma Declaração de Práticas de Certificação satisfaz os requisitos de uma Política de Certificado
+* Se uma organização adere à sua Declaração de Práticas de Certificação
+
+\
+Carta ao ClienteUm resumo executivo do pentest. Pode ser usado como um certificado de conclusão. Ótimo para partes interessadas externas. Inclui:
+
+* Resumo Executivo
+* Metodologia
+
+Saiba mais sobre relatórios de pentest.\
+Página da Web DinâmicaUma página da web com conteúdo dinâmico com o qual o usuário pode interagir. O conteúdo pode ser construído no lado do servidor ou do cliente. Contrasta com Páginas da Web Estáticas.\
+AmbienteNo contexto de um pentest Vantico, você pode especificar uma das três opções para um ambiente:
+
+* Produção (para usuários finais)
+* Staging (ambiente de produção proposto para o futuro)
+* Desenvolvimento (recurso em trabalho)
+
+\
+DescobertaUma descoberta é uma vulnerabilidade que um pentester relata durante um pentest. Incluímos descobertas em relatórios de vulnerabilidade, como algo que um ator ameaçador pode explorar.Quando você seleciona Relatório Completo + Detalhes da Descoberta, adicionamos uma lista detalhada de descobertas ao seu relatório, que inclui:
+
+* Tipo de Vulnerabilidade
+* Descrição
+* URLs Afetados
+* Prova de Conceito da vulnerabilidade
+* Gravidade
+* Solução Sugerida
+
+\
+Relatório CompletoUm relatório que contém informações abrangentes sobre o pentest. Inclui as seguintes seções:
+
+* Informações do usuário do pentester
+* Resumo Executivo, com uma lista geral de descobertas
+* Escopo de Trabalho
+* Metodologia
+* Resumo das Descobertas
+* Recomendações
+* Correção Pós-Teste
+
+Saiba mais sobre relatórios de pentest\
+Relatório Completo + Detalhes das DescobertasUm relatório que adiciona detalhes de cada descoberta de teste ao Relatório Completo.Saiba mais sobre relatórios de pentest.\
+API GraphQLDe acordo com [https://graphql.org](https://graphql.org/), o GraphQL é uma linguagem de consulta para sua API. Uma API GraphQL é projetada com um endpoint.Para pentests de uma API GraphQL, a Vantico precisa do número de queries e mutations que você configurou. Consulte também o Endpoint da API.\
+GraphQL Queries e MutationsPara mais informações, visite [https://graphql.org/learn/queries/](https://graphql.org/learn/queries/)\
+Teste Gray-BoxOnde o pentester tem conhecimento limitado dos detalhes internos do ativo. Contrasta com os testes de white-box e black-box.\
+GraylistingO graylisting é um método de proteção dos usuários de e-mail contra spam. Um Agente de Transferência de E-mail (MTA) que utiliza o graylisting rejeita temporariamente e-mails de remetentes desconhecidos. O servidor de origem tenta reenviar o e-mail após um atraso. Se o e-mail for legítimo, o MTA o aceita.\
+Pentest InternoUm Pentest Interno é um pentest que uma organização realiza na plataforma Vantico sem envolver pentesters da Vantico. Você pode iniciar Pentests Internos usando a Plataforma de Gerenciamento de Pentest (PMP).\
+Jump BoxTambém conhecido como jump host ou jump server, um jump box é um sistema (geralmente) em uma rede interna ou em uma DMZ. Jump boxes são usados para acessar e gerenciar dispositivos em uma zona de segurança separada.Quando o pentester tem conhecimento limitado dos detalhes internos do ativo. Contraste com testes de white-box e black-box.\
+Vulnerabilidade ConhecidaUma vulnerabilidade de segurança "bem conhecida". Documentada em um boletim de segurança ou em um CVE (Vulnerabilidades e Exposições Comuns) do MITRE.Nos relatórios de pentest da Vantico, você pode encontrar isso como uma vulnerabilidade publicada ou documentada.\
+MitigarAplicar medidas preventivas. Com base nos problemas identificados por um teste de penetração ou relatório de incidente. Exemplos:
+
+* Instalar atualizações de segurança em servidores potencialmente afetados
+* Revisar e atualizar uma base de código para problemas identificados em arquivos específicos
+
+Contrasta com remediar. Isso reflete como usamos mitigar na Vantico e difere ligeiramente da definição de mitigar do NIST.\
+Tela móvelUma tela móvel é o que você vê em um dispositivo móvel, como um iPhone ou um sistema Android. Conforme descrito pela Codepath, as telas móveis se enquadram em vários arquétipos.Você pode ter várias telas de um arquétipo. Por exemplo, você pode ter 10 telas móveis para o arquétipo de integração.Para pentests de um dispositivo móvel, precisamos do número de telas que você possui, para cada sistema operacional que você suporta.\
+Autenticação de múltiplos fatoresAutenticação que utiliza dois ou mais fatores diferentes, que podem incluir:
+
+* Algo que você sabe, como uma senha ou um número PIN
+* Algo que você possui, como um token de identidade
+* Algo que você é, que funciona com autenticação biométrica
+
+\
+Open Web Application Security Project (OWASP)OWASP é uma fundação sem fins lucrativos com "Top 10" problemas de segurança para diferentes tipos de ativos, incluindo aplicativos da Web, APIs e sistemas em nuvem.\
+Manual de Metodologia de Teste de Segurança de Código Aberto (OSSTMM)O OSSTMM testa a segurança operacional de locais físicos, interações humanas e todas as comunicações na rede, sejam elas sem fio, com fio, analógicas ou digitais.\
+Segurança Operacional (OpSec)A Segurança Operacional, comumente conhecida como OpSec, identifica informações críticas e como elas podem ser utilizadas por oponentes ou inimigos. Medidas de OpSec podem reduzir os riscos de segurança.\
+PentestAbreviação de teste de penetração. Conforme descrito no Guia de Introdução, você pode elaborar um pentest. Depois de enviá-lo para revisão, a Vantico revisa seu pentest e atribui pentesters que, em seguida, testam o ativo especificado em seu pentest.\
+Pentest as a Service (PtaaS)Combina testes manuais e humanos com uma plataforma de entrega moderna para implantar programas de teste de penetração.\
+Relatório de PentestUm resumo de todos os relatórios de vulnerabilidade, incluindo observações sobre medidas de segurança positivas. Público-alvo: executivos, engenheiros de segurança e desenvolvedores. Inclui:
+
+* Resumo Executivo
+  * Descreve os testes realizados com critérios.
+* Análise Executiva
+  * Inclui um resumo de alto nível das vulnerabilidades.
+* Escopo de Trabalho
+
+O escopo de trabalho para um pentest inclui:
+
+* Descrição do alvo
+* Ambiente Metodologias de teste dentro do escopo
+* Suposições e restrições
+* Metodologias de teste
+* Questões específicas da aplicação web (endpoints, fuzzing)
+* Casos de teste seguros
+* Resumo dos resultados
+  * Tendências e problemas críticos
+  * Gráficos gerados automaticamente
+* Resumo das recomendações
+  * Destaques do trabalho que recomendamos para remediar as descobertas
+* Correção pós-teste
+  * Lista de detalhes com tipo, gravidade, estado e resolução
+* Detalhes da descoberta
+  * Mais informações sobre cada descoberta
+
+Dentro da Vantico, isso também é conhecido como um Relatório ou um Relatório Final. Para mais informações, consulte os Relatórios de Pentest.\
+Pentest TagIdentificador de pentest na plataforma Vantico que começa com #. Você pode ver a tag na página do pentest, abaixo do título.(imagem da página)\
+Projetos (Ativos na Nuvem)Todos os recursos incluídos no seu ativo na nuvem. Por exemplo, a AWS define um projeto como uma coleção de recursos associados a um ativo.\
+Pentest PtaaSUm pentest que os pentesters da Vantico realizam na plataforma Vantico Pentest as a Service (PtaaS) para um cliente. Isso inclui os seguintes tipos de pentest:
+
+* Pentest Ágil
+* Pentest Completo
+
+Contraste com o Pentest Interno que um cliente executa na plataforma de gerenciamento de pentest da Vantico (PMP) com seus próprios pentesters internos.\
+Pentest ÁgilUm Pentest Ágil realizado por pentesters da Vantico foca em mudanças de código ou em uma área específica de um ativo e vem com um Relatório Automatizado destinado ao uso interno. Saiba mais sobre os tipos de pentest.Você pode querer um Pentest Ágil para:
+
+* Mudanças recentes de código, como após um sprint ou antes de um lançamento
+* Subconjuntos específicos do seu ativo, como:
+  * Uma única funcionalidade, como um novo ponto de extremidade de API RESTful
+  * Um microserviço
+* Você também pode usar um Pentest ágil para testar:
+  * Uma única categoria OWASP ou OSSTMM
+  * Um problema específico, como uma vulnerabilidade conhecida
+
+\
+Pentest CompletoUm Pentest Completo é realizado por pentesters da Vantico para auditoria de segurança, auditoria de conformidade ou atestação do cliente e inclui relatórios abrangentes destinados a partes externas interessadas. Saiba mais sobre Pentests Completos.Você pode querer um Pentest Completo para:
+
+* Uma auditoria abrangente de segurança do seu software
+* Subconjuntos amplos de seus ativos, como:
+  * API com todos os endpoints que ela inclui
+  * Todos os microserviços
+* Uma auditoria de conformidade baseada em um framework específico, como SOC 2
+* Todas as categorias da lista OWASP Top 10
+* Due diligence de fusões e aquisições, para identificar e eliminar possíveis riscos para todas as partes envolvidas
+* Um pedido específico de atestação de terceiros de um cliente
+
+\
+Relatório de PentestUm resumo de todos os relatórios de vulnerabilidade, incluindo observações sobre medidas de segurança positivas. Público-alvo: executivos, engenheiros de segurança e desenvolvedores. Inclui:
+
+* Resumo Executivo
+  * Descreve os testes realizados com critérios.
+* Análise Executiva
+  * Inclui um resumo de alto nível das vulnerabilidades.
+* Escopo de Trabalho
+
+O escopo de trabalho para um pentest inclui:
+
+* Descrição do alvo
+* Ambiente
+* Metodologias de teste dentro do escopo
+* Suposições e restrições
+* Metodologias de teste
+* Questões específicas da aplicação web (endpoints, fuzzing)
+* Casos de teste seguros
+* Resumo dos Resultados
+  * Tendências e questões críticas
+  * Gráficos gerados automaticamente
+* Resumo das Recomendações
+  * Destaques do trabalho que recomendamos para correção os resultados
+* Correção Pós-Teste
+  * Lista de detalhes com tipo, gravidade, estado e resolução
+* Detalhes da Descoberta
+  * Mais informações sobre cada descoberta
+
+Dentro da Vantico, isso também é conhecido como um Relatório ou um Relatório Final. Para mais informações, consulte os Relatórios de Pentest.\
+Ponto de ContatoUm usuário designado como ponto de contato em um pentest pode ser contatado pelos membros da equipe da Vantico com perguntas relacionadas ao pentest.Saiba mais sobre a atribuição de um ponto de contato.\
+Projetos (Ativos na Nuvem)Todos os recursos incluídos no seu ativo na nuvem. Por exemplo, a AWS define um projeto como uma coleção de recursos associados a um ativo.\
+Código de RecuperaçãoUma opção de recuperação, com 2FA ativado, para recuperar o acesso à sua conta caso você perca o acesso ao seu dispositivo e/ou aplicativo autenticador.\
+CorreçãoCorrigir uma vulnerabilidade identificada por um teste de penetração ou relatório de incidente. Exemplos:
+
+* Instalar uma atualização de segurança em um servidor afetado
+* Atualizar o código diretamente afetado
+
+Contrasta com mitigar. Isso reflete como usamos remediar na Vantico e difere um pouco da definição de remediação do NIST.\
+Grupo de Recursos (Nuvem)Um conjunto de recursos em um ativo de nuvem. Para mais informações, consulte a documentação do Google GCP.\
+API RESTfulDe acordo com a TechTarget, "Uma API RESTful é um estilo arquitetural para uma interface de programa de aplicação (API) que utiliza requisições HTTP para acessar e utilizar dados." Veja também Endpoint da API.\
+Rota (Software)Conforme definido por Manning, em software, é um sistema de navegação de recursos. Se você está trabalhando no navegador, pode estar familiarizado com o roteamento no que se refere a:
+
+* URLs
+* Recursos, como caminhos para imagens e scripts, funções, e assim por diante
+
+Se você está trabalhando no servidor, correspondendo caminhos de solicitação recebidos a recursos de um banco de dados.\
+SAML Single Sign-on (SSO)Single sign-on (SSO) é um método de autenticação que permite aos usuários acessar vários sistemas independentes com um único conjunto de credenciais.O SSO baseado no protocolo SAML 2.0 funciona passando dados de autenticação na forma de arquivos XML digitalmente assinados (assertions) entre dois sistemas: um provedor de serviço (SP) e um provedor de identidade (IdP).
+
+* Um provedor de serviços solicita afirmações de autenticação ao provedor de identidade.
+* Um provedor de identidade envia afirmações de autenticação ao provedor de serviços assim que a identidade do usuário é confirmada.
+
+Dependendo de onde o fluxo de autenticação começa, o SSO SAML pode ser dos seguintes tipos:
+
+* SSO iniciado pelo provedor de serviço (SP-initiated)
+* SSO iniciado pelo provedor de identidade (IdP-initiated)
+
+O SAML SSO oferece uma experiência segura porque as credenciais do usuário nunca são transmitidas durante a autenticação.\
+SSO iniciado pelo provedor de serviçosNo SSO SAML iniciado pelo provedor de serviços (SP-initiated), o fluxo de autenticação começa no lado do provedor de serviços.
+
+* Quando um usuário faz login no sistema do provedor de serviços, o provedor de serviços envia uma solicitação de autenticação para o provedor de identidade.
+* Assim que o provedor de identidade autenticar a identidade do usuário, o usuário faz login no sistema do provedor de serviços.
+
+\
+SSO iniciado pelo IdPNo SSO iniciado pelo provedor de identidade (IdP-initiated), o fluxo de autenticação começa no lado do provedor de identidade.
+
+* Primeiro, um usuário faz login no sistema do provedor de identidade, como Okta, OneLogin ou Microsoft Azure AD.
+* O usuário seleciona o aplicativo configurado para o seu provedor de serviços no sistema IdP ou segue uma URL única.
+* O provedor de serviços solicita ao IdP que autentique o usuário.
+* Assim que a identidade do usuário for autenticada no lado do IdP, o usuário é conectado ao sistema do provedor de serviços.
+
+\
+Linguagem de marcação de declaração de segurançaConforme definido pela Organização para o Avanço de Padrões de Informações Estruturadas (OASIS), a Linguagem de Marcação de Asserção de Segurança (SAML) SAML é uma estrutura baseada em XML para comunicar informações de autenticação, autorização e atributos do usuário.\
+Auditoria de segurançaConforme definido pelo NIST, uma revisão e exame independentes dos registros e atividades de um sistema para determinar a adequação dos controles do sistema, garantir a conformidade com a política e os procedimentos de segurança estabelecidos, detectar violações nos serviços de segurança e recomendar quaisquer alterações que sejam indicadas para contramedidas.\
+Estrutura de política do remetenteSender Policy Framework (SPF) é um método de autenticação de e-mail.Um registro SPF é um tipo de registro que um proprietário de domínio usa para especificar quais servidores de e-mail estão autorizados a enviar e-mails em nome de seu domínio.\
+Instituto SANSPatrocinador original de um conjunto de padrões para testes de redes. SANS significa SysAdmin, Auditoria, Rede e Segurança. O SANS Top 20 foi migrado para o CIS Controls Versão 8.\
+Escopo do TrabalhoVantico pode se referir a isso como o “escopo” do seu pentest. O escopo de trabalho de um pentest inclui:
+
+* Descrição do alvo
+* Ambiente
+* Metodologias de testes no escopo
+* Pressupostos e Restrições
+* Metodologias de Teste
+* Problemas específicos de aplicativos da Web (endpoints, difusão)
+* Casos de teste seguros
+
+\
+Aplicativo de página únicaPara obter mais informações, consulte [https://developer.mozilla.org/en-US/docs/Glossary/SPA](https://developer.mozilla.org/en-US/docs/Glossary/SPA)Compare com o aplicativo da Web tradicional.\
+Pentest EspecializadoUm pentest especializado que você vê na UI da Vantico é um envolvimento conduzido pela equipe de serviços de segurança cibernética da Vantico.Saiba mais sobre os serviços de segurança cibernética.\
+Página da Web estáticaUma página web com conteúdo estático que não muda dependendo do usuário ou localização. Compare com páginas da Web dinâmicas.\
+Aplicativo Web TradicionalUm aplicativo da web que consiste em um navegador da web no lado do cliente e um servidor da web. A maior parte da lógica do aplicativo é executada no lado do servidor.Também pode ser chamado de aplicativo de várias páginas (MPA). Compare com o aplicativo de página única.\
+Papel do usuárioUma função de usuário é um grupo de usuários em um aplicativo com permissões específicas, como administrador, gerente ou convidado.Ao definir o escopo de um pentest, especifique o número de funções que você deseja testar.\
+VulnerabilidadeUm problema de segurança descoberto durante um pentest. Também é uma fraqueza específica que pode ser explorada por um agente de ameaça, como um invasor que ultrapassa limites de privilégios (e executa ações não autorizadas) dentro de um sistema de computador.Compare com Vulnerabilidade Conhecida. Uma vulnerabilidade pode ser parte de uma descoberta.\
+Gerenciamento de vulnerabilidadesA prática cíclica de identificar, classificar, remediar e mitigar vulnerabilidades. Na Vantico, nos concentramos em pentests manuais (aprimorados com ferramentas automatizadas). Consulte também Avaliação e gerenciamento de vulnerabilidades, conforme definido pela Agência de Infraestrutura e Cibersegurança dos EUA (CISA).\
+Relatório de vulnerabilidade (manual)Um documento que fornece informações sobre uma descoberta específica. Os relatórios de vulnerabilidade da Vantico são baseados em testes manuais. Esses relatórios incluem:
+
+* Notas passo a passo sobre como o testador identificou cada vulnerabilidade (quando possível)
+* Locais, como arquivos ou hardware
+* Recomendações para correção
+
+\
+Relatório de vulnerabilidade (automatizado)Um documento criado por uma ferramenta de digitalização automatizada. Usado principalmente para listar vulnerabilidades conhecidas associadas a padrões de código específicos.\
+Tipo de vulnerabilidadeComo a Vantico classifica a vulnerabilidade. Exemplos incluem:
+
+* Injeção do lado do cliente
+* Configuração incorreta de segurança do servidor > Falta de confirmação de senha
+* Autenticação quebrada e gerenciamento de sessão
+
+\
+Página da InternetUm documento de hipertexto na web. Os aplicativos da Web normalmente incluem páginas da Web estáticas e dinâmicas.Uma página da Web estática contém conteúdo estável que parece igual para todos os usuários que abrem a página.Uma página da Web dinâmica inclui conteúdo que pode ser personalizado, seja por meio de um servidor de aplicativos (lado do servidor) ou por meio de código como JavaScript executado no navegador (lado do cliente).\
+Teste de white-boxOnde o pentester tenha pleno conhecimento dos detalhes internos do ativo. Compare com os testes de black-box e grey-box.Também conhecido como “teste de clear-box”.\
+Referências
+
+* ISO/IEC 27000:2018
+* O Glossário de Segurança na Internet
+* Glossário do Centro de Recursos de Segurança de Computadores
+* O Glossário de Segurança Cibernética da Agência de Segurança Cibernética e de Infraestrutura dos EUA
+* Centro Canadense de Segurança Cibernética
+
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\

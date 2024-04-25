@@ -34,6 +34,8 @@
 * [Plataforma](plataforma/README.md)
   * [Começe aqui](plataforma/comece-aqui/README.md)
     * [Preparação para o Pentest](plataforma/comece-aqui/preparacao-para-o-pentest.md)
+    * [Acessando a Plataforma](plataforma/comece-aqui/acessando-a-plataforma.md)
+    * [Glossário](plataforma/comece-aqui/glossario.md)
   * [Changelog](plataforma/changelog/README.md)
     * [Em breve](plataforma/changelog/em-breve.md)
   * [Pentester](plataforma/pentester/README.md)
