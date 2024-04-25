@@ -32,6 +32,8 @@
     * [Duplo Fator / MFA](metodologias/aplicacoes-web/duplo-fator-mfa.md)
     * [Race Condition](metodologias/aplicacoes-web/race-condition.md)
 * [Plataforma](plataforma/README.md)
+  * [Começe aqui](plataforma/comece-aqui/README.md)
+    * [Preparação para o Pentest](plataforma/comece-aqui/preparacao-para-o-pentest.md)
   * [Changelog](plataforma/changelog/README.md)
     * [Em breve](plataforma/changelog/em-breve.md)
   * [Pentester](plataforma/pentester/README.md)
