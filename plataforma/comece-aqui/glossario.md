@@ -6,8 +6,22 @@ description: Aprenda mais sobre o mercado de segurança da informação
 
 Se você não encontrar uma definição de termo nesta página, consulte uma das normas governamentais ou da indústria citadas nas Referências.\
 As definições incluídas nesta página podem variar dos padrões citados, com base na forma como configuramos e usamos o software Vantico.\
-Risco AgregadoO Risco Agregado é a soma dos riscos das descobertas individuais encontradas em um pentest.O risco de uma descoberta individual é a probabilidade multiplicada pelo impacto (Risco = Probabilidade \* Impacto)\
-Lista de permissãoUma lista de permissão permite explicitamente que sistemas identificados acessem. Em redes, uma lista de permissão pode especificar endereços IP. Normalmente, você pode encontrar listas de permissão e listas de negação em arquivos como /etc/hosts.allow e /etc/hosts.deny.\
+Risco AgregadoO Risco Agregado é a soma dos riscos das descobertas individuais encontradas em um pentest.O risco de uma descoberta individual é a probabilidade multiplicada pelo impacto (Risco = Probabilidade \* Impacto)
+
+{% hint style="info" %}
+daddsaasdasda
+{% endhint %}
+
+
+
+
+
+> dadsadadsadsdasdsaa
+
+\
+**Lista de permissão**
+
+Uma lista de permissão permite explicitamente que sistemas identificados acessem. Em redes, uma lista de permissão pode especificar endereços IP. Normalmente, você pode encontrar listas de permissão e listas de negação em arquivos como /etc/hosts.allow e /etc/hosts.deny.\
 API EndpointUm endpoint é tipicamente uma URL usada para permitir que duas aplicações de software se comuniquem entre si.Ao delimitar um pentest para um ativo de API, ignore parâmetros específicos e métodos HTTP para cada endpoint. Por exemplo, essas são duas solicitações HTTP diferentes para o mesmo endpoint:
 
 * GET https://api.vantico.io/pentests
