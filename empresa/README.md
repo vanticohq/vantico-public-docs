@@ -31,4 +31,24 @@ Com nossa metodologia exclusiva, sua empresa tem acesso a testes de segurança s
 
 
 
+> Relatórios de Auditorias
+
+**Pentest**
+
+Relatório Q3 de 2023
+
+Relatório Q1 de 2024
+
+
+
+**Scans de Vulnerabilidades**
+
+
+
+
+
+
+
+
+
 {% embed url="https://open.vantico.com.br/empresa/branding" fullWidth="false" %}
