@@ -55,7 +55,7 @@ Uma vez que você tenha configurado um pentest, começamos a analisar seu ativo.
 
 
 
-Perguntas Frequentes\
+**Perguntas Frequentes**\
 
 
 * **O que é uma organização?**
@@ -70,7 +70,20 @@ Os proprietários da organização podem gerenciar usuários para sua organizaç
 
 Para saber mais, por favor consulte Funções e Permissões do Usuário.
 
+* **O que é um Ativo?**
 
+Para pentests, um ativo é um componente de software de valor, como um aplicativo web ou API. Saiba mais sobre os tipos de ativos que suportamos. Depois de criar um ativo, você pode iniciar pentests para ele.
+
+
+
+**Entrar em Contato**
+
+
+
+Se você precisar de ajuda, não hesite em entrar em contato conosco.
+
+* Se você tiver um Gerente para o Cliente Designado, entre em contato com ele.
+* Caso contrário, envie um ticket ou envie um e-mail para [support@vantico.com.br](mailto:support@vantico.com.br)
 
 Processamos solicitações de suporte dentro de um dia útil.\
 
@@ -78,49 +91,62 @@ Processamos solicitações de suporte dentro de um dia útil.\
 Se você encontrar um problema de segurança na plataforma Vantico, por favor, reporte para [support@vantico.com.br](mailto:support@vantico.com.br). Saiba mais sobre nossas práticas de segurança.\
 
 
-Preparação para Pentest Checklist
+
+
+**Preparação para Pentest Checklist**
 
 Informações necessárias para configurar seu Pentest\
-Entrar na Vantico
 
-Começar o processo do Pentest\
-Defina seus Ativos
+
+**Entrar na Vantico**
+
+Começar o processo do Pentest
+
+\
+**Defina seus Ativos**
 
 Profissionais de Segurança performam pentests nos seus ativos.&#x20;
 
-Colete a informação que eles precisam\
 
 
-Selecione o tipo de Pentest
+**Selecione o tipo de Pentest**
 
-Comece configurando seu Pentest\
-Revise seu Ativo
+Comece configurando seu Pentest
 
-Verifique os detalhes do Ativo\
-Requisitos do Pentest
+\
+**Revise seu Ativo**
 
-Defina os Requisitos do Pentest\
-Especifique os detalhes do Pentest
+Verifique os detalhes do Ativo
+
+\
+**Requisitos do Pentest**
+
+Defina os Requisitos do Pentest
+
+\
+**Especifique os detalhes do Pentest**
 
 Descreve os detalhes chaves de seu Pentest\
 
 
-Planejar e Definir o Escopo do Pentest
+**Planejar e Definir o Escopo do Pentest**
 
 Estabeleça um cronograma. Definir o escopo do&#x20;
 
 Pentest.\
 
 
-Revisar e Enviar o Pentest
+**Revisar e Enviar o Pentest**
 
 Revisar seu pedido de Pentest
 
-Expectativas do Pentest
+
+
+**Expectativas do Pentest**
 
 O que acontece depois de planejar seu Pentest\
 
 
-Glossário
+**Glossário**
 
 Aprenda mais sobre a linguagem do software de segurança
