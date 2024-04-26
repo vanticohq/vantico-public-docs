@@ -42,6 +42,8 @@
       * [Teste suas Crendenciais](plataforma/comece-aqui/definir-os-requisitos-do-pentest/teste-suas-crendenciais.md)
       * [Instruções para cada Pentest](plataforma/comece-aqui/definir-os-requisitos-do-pentest/instrucoes-para-cada-pentest.md)
       * [Tecnologia Stack](plataforma/comece-aqui/definir-os-requisitos-do-pentest/tecnologia-stack.md)
+    * [Especifique os Detalhes do Pentest](plataforma/comece-aqui/especifique-os-detalhes-do-pentest/README.md)
+      * [Planejamento e Escopo do Pentest](plataforma/comece-aqui/especifique-os-detalhes-do-pentest/planejamento-e-escopo-do-pentest.md)
     * [Glossário](plataforma/comece-aqui/glossario.md)
   * [Changelog](plataforma/changelog/README.md)
     * [Em breve](plataforma/changelog/em-breve.md)
