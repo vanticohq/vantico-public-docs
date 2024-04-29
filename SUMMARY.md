@@ -47,6 +47,8 @@
       * [Revisar e Enviar o Pentest](plataforma/comece-aqui/especifique-os-detalhes-do-pentest/revisar-e-enviar-o-pentest.md)
       * [Expectativas do Pentest](plataforma/comece-aqui/especifique-os-detalhes-do-pentest/expectativas-do-pentest.md)
       * [Glossário](plataforma/comece-aqui/especifique-os-detalhes-do-pentest/glossario.md)
+  * [Serviços de CiberSegurança](plataforma/servicos-de-ciberseguranca/README.md)
+    * [Avaliação de Risco Digital](plataforma/servicos-de-ciberseguranca/avaliacao-de-risco-digital.md)
   * [Changelog](plataforma/changelog/README.md)
     * [Em breve](plataforma/changelog/em-breve.md)
   * [Pentester](plataforma/pentester/README.md)
