@@ -135,10 +135,14 @@ katana -list (arquivo.txt)
 
 **Referências:**
 
-[https://github.com/projectdiscovery](https://github.com/projectdiscoveryhttps://projectdiscovery.iohttps://blog.projectdiscovery.io/ultimate-nuclei-guide/https://rootsec.com.br/subfinder-a-ferramenta-que-descobre-todos-os-subdominios-ocultos/https://blog.projectdiscovery.io/introducing-katana-the-best-cli-web-crawler/https://www.geeksforgeeks.org/katana-crawling-and-spidering-framework/)[\
-https://projectdiscovery.io](https://github.com/projectdiscoveryhttps://projectdiscovery.iohttps://blog.projectdiscovery.io/ultimate-nuclei-guide/https://rootsec.com.br/subfinder-a-ferramenta-que-descobre-todos-os-subdominios-ocultos/https://blog.projectdiscovery.io/introducing-katana-the-best-cli-web-crawler/https://www.geeksforgeeks.org/katana-crawling-and-spidering-framework/)[\
-https://blog.projectdiscovery.io/ultimate-nuclei-guide/](https://github.com/projectdiscoveryhttps://projectdiscovery.iohttps://blog.projectdiscovery.io/ultimate-nuclei-guide/https://rootsec.com.br/subfinder-a-ferramenta-que-descobre-todos-os-subdominios-ocultos/https://blog.projectdiscovery.io/introducing-katana-the-best-cli-web-crawler/https://www.geeksforgeeks.org/katana-crawling-and-spidering-framework/)[\
-https://rootsec.com.br/subfinder-a-ferramenta-que-descobre-todos-os-subdominios-ocultos/](https://github.com/projectdiscoveryhttps://projectdiscovery.iohttps://blog.projectdiscovery.io/ultimate-nuclei-guide/https://rootsec.com.br/subfinder-a-ferramenta-que-descobre-todos-os-subdominios-ocultos/https://blog.projectdiscovery.io/introducing-katana-the-best-cli-web-crawler/https://www.geeksforgeeks.org/katana-crawling-and-spidering-framework/)[\
-https://blog.projectdiscovery.io/introducing-katana-the-best-cli-web-crawler/](https://github.com/projectdiscoveryhttps://projectdiscovery.iohttps://blog.projectdiscovery.io/ultimate-nuclei-guide/https://rootsec.com.br/subfinder-a-ferramenta-que-descobre-todos-os-subdominios-ocultos/https://blog.projectdiscovery.io/introducing-katana-the-best-cli-web-crawler/https://www.geeksforgeeks.org/katana-crawling-and-spidering-framework/)[\
-https://www.geeksforgeeks.org/katana-crawling-and-spidering-framework/](https://github.com/projectdiscoveryhttps://projectdiscovery.iohttps://blog.projectdiscovery.io/ultimate-nuclei-guide/https://rootsec.com.br/subfinder-a-ferramenta-que-descobre-todos-os-subdominios-ocultos/https://blog.projectdiscovery.io/introducing-katana-the-best-cli-web-crawler/https://www.geeksforgeeks.org/katana-crawling-and-spidering-framework/)[\
-](https://github.com/projectdiscoveryhttps://projectdiscovery.iohttps://blog.projectdiscovery.io/ultimate-nuclei-guide/https://rootsec.com.br/subfinder-a-ferramenta-que-descobre-todos-os-subdominios-ocultos/https://blog.projectdiscovery.io/introducing-katana-the-best-cli-web-crawler/https://www.geeksforgeeks.org/katana-crawling-and-spidering-framework/)
+{% embed url="https://github.com/projectdiscovery" %}
+
+{% embed url="https://projectdiscovery.io" %}
+
+{% embed url="https://blog.projectdiscovery.io/ultimate-nuclei-guide/" %}
+
+{% embed url="https://rootsec.com.br/subfinder-a-ferramenta-que-descobre-todos-os-subdominios-ocultos/" %}
+
+{% embed url="https://blog.projectdiscovery.io/introducing-katana-the-best-cli-web-crawler/" %}
+
+{% embed url="https://www.geeksforgeeks.org/katana-crawling-and-spidering-framework/" %}
