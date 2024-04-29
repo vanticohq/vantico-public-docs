@@ -2,7 +2,7 @@
 description: Execute serviços com o Time de CiberSegurança da Vantico.
 ---
 
-# Serviços de CiberSegurança
+# Serviços
 
 Os serviços de cibersegurança fornece soluções de testes de segurança além do Pentesting as a Service. Nosso foco na execução de processos permite engajamentos mais rápidos com uma visão centralizada da integridade dos programas de segurança e um caminho claro para uma postura de segurança elevada.
 
@@ -39,13 +39,9 @@ O time de cibersegurança da Vantico segue os seguintes compromissos:
 
 
 
-
-
 **Tipos de Ativos**
 
 Os serviços de segurança cibernética oferecem suporte a tipos de ativos adicionais, além dos nossos tipos de ativos de pentest padrão. Você pode ver estes tipos de ativos na IU do Vantico:
-
-
 
 | Tipo de Ativo | Descrição                                                                                                                                                                                                                                                                                                                                                                                       |
 | ------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -53,8 +49,6 @@ Os serviços de segurança cibernética oferecem suporte a tipos de ativos adici
 | Físico        | Escritórios, edifícios, data centers, campi ou qualquer outro espaço físico que exija controle de acesso devido à presença de informações, equipamentos ou processos confidenciais.                                                                                                                                                                                                             |
 | Rede Wireless | As redes Wi-Fi consistem em um roteador sem fio ou ponto de acesso que transmite sinais, permitindo que dispositivos equipados com capacidade Wi-Fi (como smartphones, laptops, tablets e dispositivos domésticos inteligentes) se conectem sem fio. Os usuários podem acessar a Internet ou se comunicar com outros dispositivos dentro do alcance da rede sem a necessidade de cabos físicos. |
 | Outros        | Ativo usado em outros compromissos, como phishing, red teaming, reforço de segurança e muito mais.                                                                                                                                                                                                                                                                                              |
-
-
 
 
 

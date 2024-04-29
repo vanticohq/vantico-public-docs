@@ -42,4 +42,3 @@ A Vantico usará informações publicamente disponíveis e metodologias e ferram
 * Pesquisa da empresa
 * Layouts de construção
 * Enumeração de domínio e host
-
