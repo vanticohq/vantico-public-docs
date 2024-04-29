@@ -30,7 +30,7 @@
     * [iOS](metodologias/mobile/ios.md)
   * [Kubernetes](metodologias/kubernetes.md)
   * [Aplicações Web](metodologias/aplicacoes-web/README.md)
-    * [low hang](metodologias/aplicacoes-web/low-hang.md)
+    * [Low Hanging Fruit](metodologias/aplicacoes-web/low-hanging-fruit.md)
     * [Duplo Fator / MFA](metodologias/aplicacoes-web/duplo-fator-mfa.md)
     * [Race Condition](metodologias/aplicacoes-web/race-condition.md)
     * [Automatizando o Scan por Secrets](metodologias/aplicacoes-web/automatizando-o-scan-por-secrets.md)
