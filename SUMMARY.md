@@ -49,6 +49,8 @@
       * [Glossário](plataforma/comece-aqui/especifique-os-detalhes-do-pentest/glossario.md)
   * [Serviços de CiberSegurança](plataforma/servicos-de-ciberseguranca/README.md)
     * [Avaliação de Risco Digital](plataforma/servicos-de-ciberseguranca/avaliacao-de-risco-digital.md)
+  * [Metodologias](plataforma/metodologias/README.md)
+    * [Metodologias WEB](plataforma/metodologias/metodologias-web.md)
   * [Changelog](plataforma/changelog/README.md)
     * [Em breve](plataforma/changelog/em-breve.md)
   * [Pentester](plataforma/pentester/README.md)
