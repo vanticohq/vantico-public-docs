@@ -6,6 +6,8 @@ description: Políticas, processos e documentos da Vantico.
 
 ## Políticas Corporativas
 
+<table><thead><tr><th width="86">ID</th><th>Política</th><th>Classificação</th><th>Última Revisão</th></tr></thead><tbody><tr><td>001</td><td>Política de Viagens</td><td>Interna</td><td>26/03/2024</td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr></tbody></table>
+
 1 - Política de Viagens - **Interna** - última atualização 26/03/2024
 
 2 - Política de Brindes, Presentes, Hospitalidade e Entretenimento **Interna** - última atualização 01/04/2024
@@ -21,6 +23,12 @@ description: Políticas, processos e documentos da Vantico.
 
 
 ## Políticas de Segurança da Informação
+
+|   |   |   |
+| - | - | - |
+|   |   |   |
+|   |   |   |
+|   |   |   |
 
 1 - Política de Segurança da Informação - **Pública** - última atualização 26/03/2024
 
