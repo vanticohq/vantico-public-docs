@@ -52,6 +52,8 @@
   * [Metodologias](plataforma/metodologias/README.md)
     * [Metodologias WEB](plataforma/metodologias/metodologias-web.md)
     * [Metodologias API](plataforma/metodologias/metodologias-api.md)
+    * [Metodologias Mobile](plataforma/metodologias/metodologias-mobile.md)
+    * [Metodologias de Rede Interna](plataforma/metodologias/metodologias-de-rede-interna.md)
   * [Changelog](plataforma/changelog/README.md)
     * [Em breve](plataforma/changelog/em-breve.md)
   * [Pentester](plataforma/pentester/README.md)
