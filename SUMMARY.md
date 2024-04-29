@@ -51,6 +51,7 @@
     * [Avaliação de Risco Digital](plataforma/servicos-de-ciberseguranca/avaliacao-de-risco-digital.md)
   * [Metodologias](plataforma/metodologias/README.md)
     * [Metodologias WEB](plataforma/metodologias/metodologias-web.md)
+    * [Metodologias API](plataforma/metodologias/metodologias-api.md)
   * [Changelog](plataforma/changelog/README.md)
     * [Em breve](plataforma/changelog/em-breve.md)
   * [Pentester](plataforma/pentester/README.md)
