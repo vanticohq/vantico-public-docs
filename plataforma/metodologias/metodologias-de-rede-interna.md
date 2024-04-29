@@ -21,7 +21,7 @@ O teste de penetração de uma rede interna inclui as seguintes etapas:
 * Verificações de vulnerabilidade&#x20;
 * Avaliação manual&#x20;
 * Testes adicionais
-* Relatórios, triagem e novos testes
+* Relatórios, triagem e re-tests
 
 
 
