@@ -56,6 +56,8 @@
     * [Metodologias de Rede Interna](plataforma/metodologias/metodologias-de-rede-interna.md)
     * [Metodologias de Rede Externa](plataforma/metodologias/metodologias-de-rede-externa.md)
     * [Metodologias de Configuração Cloud](plataforma/metodologias/metodologias-de-configuracao-cloud.md)
+    * [Metodologias Pentest Azure Active Directory](plataforma/metodologias/metodologias-pentest-azure-active-directory.md)
+    * [Metodologias Desktop](plataforma/metodologias/metodologias-desktop.md)
   * [Changelog](plataforma/changelog/README.md)
     * [Em breve](plataforma/changelog/em-breve.md)
   * [Pentester](plataforma/pentester/README.md)

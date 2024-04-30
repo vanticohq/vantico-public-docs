@@ -80,7 +80,7 @@ Os pentesters Vantico procuram todas as informações que um usuário mal-intenc
 * Para receber e-mail, você precisa postar um endereço de servidor de e-mail.&#x20;
 * Para configurar um servidor web, você precisa postar seu URL e muito mais.
 
-Um invasor pode ter vários caminhos de exploração. Os pentesters Cobalt exploram todos esses caminhos para coletar informações que um invasor poderia usar para obter acesso a recursos internos, como:
+Um invasor pode ter vários caminhos de exploração. Os pentesters Vantico exploram todos esses caminhos para coletar informações que um invasor poderia usar para obter acesso a recursos internos, como:
 
 * Credenciais de força bruta usando formatos de e-mail corporativos descobertos&#x20;
 * Construindo dicionários de senha contendo informações comerciais públicas do site corporativo
@@ -280,7 +280,7 @@ Nossos pentesters procuram erros de configuração que possam deixar um caminho 
 
 Os servidores Web são vulneráveis a ataques de desfiguração ou podem ser usados como plataforma de lançamento para novos ataques contra hosts baseados localmente no servidor Web.
 
-Os pentesters Cobalt verificam todos os servidores web e FTP na rede interna em busca de possíveis explorações e vulnerabilidades, como:
+Os pentesters Vantico verificam todos os servidores web e FTP na rede interna em busca de possíveis explorações e vulnerabilidades, como:
 
 * Política de patch ruim
 * Instalação padrão
@@ -324,7 +324,7 @@ Os pentesters Vantico usam várias ferramentas personalizadas e disponíveis pub
 
 **Relatórios, triagem e re-test**
 
-Os pentesters Vantico relatam e fazem a triagem de todas as vulnerabilidades durante a avaliação. Você pode revisar os detalhes de todas as descobertas, em tempo real, por meio da plataforma Cobalt. Nessas descobertas, assim como em qualquer relatório, nossos pentesters incluem informações detalhadas sobre como você pode:
+Os pentesters Vantico relatam e fazem a triagem de todas as vulnerabilidades durante a avaliação. Você pode revisar os detalhes de todas as descobertas, em tempo real, por meio da plataforma Vantico. Nessas descobertas, assim como em qualquer relatório, nossos pentesters incluem informações detalhadas sobre como você pode:
 
 * Corrigir cada descoberta
 * Melhorar sua postura geral de segurança
