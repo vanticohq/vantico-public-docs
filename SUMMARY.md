@@ -74,6 +74,7 @@
         * [Relatórios de Pentest de marca conjunta](plataforma/mais-a-fundo-na-plataforma/pentests/relatorios/relatorios-de-pentest-de-marca-conjunta.md)
       * [Colaboração](plataforma/mais-a-fundo-na-plataforma/pentests/colaboracao/README.md)
         * [Colabore em Pentests](plataforma/mais-a-fundo-na-plataforma/pentests/colaboracao/colabore-em-pentests.md)
+        * [Grupos](plataforma/mais-a-fundo-na-plataforma/pentests/colaboracao/grupos.md)
   * [Changelog](plataforma/changelog/README.md)
     * [Em breve](plataforma/changelog/em-breve.md)
   * [Pentester](plataforma/pentester/README.md)
