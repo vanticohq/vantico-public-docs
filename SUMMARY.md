@@ -66,6 +66,7 @@
         * [Lista de verificação de cobertura](plataforma/mais-a-fundo-na-plataforma/pentests/processos-do-pentest/lista-de-verificacao-de-cobertura.md)
     * [Descobertas](plataforma/mais-a-fundo-na-plataforma/descobertas/README.md)
       * [Corrigindo Descobertas](plataforma/mais-a-fundo-na-plataforma/descobertas/corrigindo-descobertas.md)
+      * [Estados das Descobertas](plataforma/mais-a-fundo-na-plataforma/descobertas/estados-das-descobertas.md)
   * [Changelog](plataforma/changelog/README.md)
     * [Em breve](plataforma/changelog/em-breve.md)
   * [Pentester](plataforma/pentester/README.md)
