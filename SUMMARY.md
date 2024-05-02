@@ -70,6 +70,7 @@
         * [Níveis de gravidade](plataforma/mais-a-fundo-na-plataforma/pentests/descobertas/niveis-de-gravidade.md)
       * [Relatórios](plataforma/mais-a-fundo-na-plataforma/pentests/relatorios/README.md)
         * [Conteúdo de um relatório Pentest](plataforma/mais-a-fundo-na-plataforma/pentests/relatorios/conteudo-de-um-relatorio-pentest.md)
+        * [Customize seu Relatório de Pentest](plataforma/mais-a-fundo-na-plataforma/pentests/relatorios/customize-seu-relatorio-de-pentest.md)
   * [Changelog](plataforma/changelog/README.md)
     * [Em breve](plataforma/changelog/em-breve.md)
   * [Pentester](plataforma/pentester/README.md)
