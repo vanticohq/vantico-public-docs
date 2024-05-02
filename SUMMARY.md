@@ -67,6 +67,7 @@
     * [Descobertas](plataforma/mais-a-fundo-na-plataforma/descobertas/README.md)
       * [Corrigindo Descobertas](plataforma/mais-a-fundo-na-plataforma/descobertas/corrigindo-descobertas.md)
       * [Estados das Descobertas](plataforma/mais-a-fundo-na-plataforma/descobertas/estados-das-descobertas.md)
+      * [Níveis de gravidade](plataforma/mais-a-fundo-na-plataforma/descobertas/niveis-de-gravidade.md)
   * [Changelog](plataforma/changelog/README.md)
     * [Em breve](plataforma/changelog/em-breve.md)
   * [Pentester](plataforma/pentester/README.md)

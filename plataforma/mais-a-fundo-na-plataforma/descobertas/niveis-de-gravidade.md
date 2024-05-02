@@ -1,0 +1,57 @@
+---
+description: Encontrar níveis de gravidade.
+---
+
+# Níveis de gravidade
+
+{% hint style="info" %}
+Quando nossos pentesters encontram vulnerabilidades, eles também identificam níveis de gravidade. Isso ajuda você a compreender o risco associado ao negócio.
+{% endhint %}
+
+
+
+A Metodologia de Classificação de Risco OWASP especifica os níveis Alto, Médio e Baixo. Adicionamos níveis Crítico e Informativo para ajudá-lo a priorizar nossas descobertas.
+
+<figure><img src="../../../.gitbook/assets/SeverityLevels.png" alt=""><figcaption></figcaption></figure>
+
+Seguimos o modelo de risco padrão descrito pela OWASP, onde:
+
+```
+Risco = Probabilidade * Impacto
+```
+
+Neste caso, a classificação de risco é baseada nos seguintes fatores:
+
+* **Probabilidade**: especifica a probabilidade de explorar a descoberta. Pode incluir fatores como:
+  * Habilidade necessária para um invasor explorar uma vulnerabilidade
+  * Disponibilidade de explorações documentadas
+  * Facilidade de explorar a vulnerabilidade
+* **Impacto**: Depende do efeito nas operações técnicas e comerciais. Pode incluir:
+  * Perda de confidencialidade
+  * Problemas com integridade de dados
+  * Disponibilidade reduzida de dados ou sistemas
+  * Perdas potenciais de dinheiro ou reputação
+
+
+
+Quando nossos pentesters encontram vulnerabilidades, eles usam o modelo de risco padrão OWASP e depois as classificam em um dos seguintes níveis:
+
+| Categoria   | Classificação | Descrição                                                                                                                                                            |
+| ----------- | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Crítico     | 25            | Inclui vulnerabilidades que requerem atenção imediata.                                                                                                               |
+| Alto        | 16-24         | Afeta a segurança do seu aplicativo/plataforma/hardware, incluindo sistemas suportados. Inclui vulnerabilidades de alta probabilidade com alto impacto nos negócios. |
+| Médio       | 5-15          | Inclui vulnerabilidades que são: risco médio, impacto médio; baixo risco, alto impacto; alto risco, baixo impacto.                                                   |
+| Baixo       | 2-4           | Especifica vulnerabilidades comuns com impacto mínimo.                                                                                                               |
+| Informativo | 1             | Observa vulnerabilidades de risco mínimo para o seu negócio.                                                                                                         |
+
+Assim que nossos pentesters atribuírem um nível de severidade, moveremos a descoberta para **Correção Pendente**, conforme descrito em nossos **Estados de Descoberta.**
+
+
+
+{% tabs %}
+{% tab title="Risco Agregado" %}
+Risco Agregado é a soma dos riscos de descobertas individuais descobertas em um pentest.
+
+Você pode visualizar o **risco agregado** de um ativo nas páginas **Ativos** e **Insights**. Para obter detalhes, aponte para a dica de ferramenta em uma página específica.
+{% endtab %}
+{% endtabs %}
