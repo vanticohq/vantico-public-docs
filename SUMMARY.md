@@ -75,6 +75,7 @@
       * [Colaboração](plataforma/mais-a-fundo-na-plataforma/pentests/colaboracao/README.md)
         * [Colabore em Pentests](plataforma/mais-a-fundo-na-plataforma/pentests/colaboracao/colabore-em-pentests.md)
         * [Grupos](plataforma/mais-a-fundo-na-plataforma/pentests/colaboracao/grupos.md)
+        * [Gerenciar colaboradores do Pentest](plataforma/mais-a-fundo-na-plataforma/pentests/colaboracao/gerenciar-colaboradores-do-pentest.md)
   * [Changelog](plataforma/changelog/README.md)
     * [Em breve](plataforma/changelog/em-breve.md)
   * [Pentester](plataforma/pentester/README.md)
