@@ -79,6 +79,7 @@
       * [Funções e permissões do usuário](plataforma/mais-a-fundo-na-plataforma/colaboracao/funcoes-e-permissoes-do-usuario.md)
       * [Notificações](plataforma/mais-a-fundo-na-plataforma/colaboracao/notificacoes.md)
     * [Domínios](plataforma/mais-a-fundo-na-plataforma/dominios.md)
+    * [DAST Scanner](plataforma/mais-a-fundo-na-plataforma/dast-scanner.md)
   * [Changelog](plataforma/changelog/README.md)
     * [Em breve](plataforma/changelog/em-breve.md)
   * [Pentester](plataforma/pentester/README.md)
