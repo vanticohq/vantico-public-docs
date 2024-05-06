@@ -82,6 +82,7 @@
     * [DAST Scanner](plataforma/mais-a-fundo-na-plataforma/dast-scanner/README.md)
       * [Alvos](plataforma/mais-a-fundo-na-plataforma/dast-scanner/alvos.md)
       * [Autenticação do Alvo](plataforma/mais-a-fundo-na-plataforma/dast-scanner/autenticacao-do-alvo.md)
+    * [Créditos Vantico](plataforma/mais-a-fundo-na-plataforma/creditos-vantico.md)
   * [Changelog](plataforma/changelog/README.md)
     * [Em breve](plataforma/changelog/em-breve.md)
   * [Pentester](plataforma/pentester/README.md)
