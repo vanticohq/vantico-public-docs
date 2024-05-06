@@ -26,7 +26,7 @@ O número de créditos necessários para um pentest depende do escopo do pentest
 
 Como proprietário ou membro da organização, você pode visualizar e rastrear os créditos da sua organização. Navegue até a página **Créditos** para ver o saldo atual e analisar como sua organização usa os créditos.
 
-<figure><img src="../../.gitbook/assets/CreditsPage.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/CreditsPage.png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -37,7 +37,7 @@ Para comprar mais créditos para sua organização, siga um destes procedimentos
 * Entre em contato com seu Gerente de Sucesso do Cliente (CSM) ou support@vantico.com.br
 * No aplicativo Vantico, selecione **Adicionar Créditos** e confirme sua ação na sobreposição. Você também pode fazer uma solicitação na página **Créditos**.
 
-<figure><img src="../../.gitbook/assets/AddCredits.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/AddCredits.png" alt=""><figcaption></figcaption></figure>
 
 Depois de comprar créditos, eles aparecerão na página Créditos na data de início da sua assinatura. Os créditos não estão disponíveis antes dessa data. Se precisar deles mais cedo, entre em contato com seu CSM.
 
