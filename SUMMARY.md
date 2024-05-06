@@ -87,6 +87,7 @@
     * [Organização](plataforma/mais-a-fundo-na-plataforma/organizacao/README.md)
       * [Gerenciar usuários](plataforma/mais-a-fundo-na-plataforma/organizacao/gerenciar-usuarios.md)
       * [Seu Contrato com a Vantico](plataforma/mais-a-fundo-na-plataforma/organizacao/seu-contrato-com-a-vantico.md)
+      * [Definir configurações da organização](plataforma/mais-a-fundo-na-plataforma/organizacao/definir-configuracoes-da-organizacao.md)
   * [Changelog](plataforma/changelog/README.md)
     * [Em breve](plataforma/changelog/em-breve.md)
   * [Pentester](plataforma/pentester/README.md)
