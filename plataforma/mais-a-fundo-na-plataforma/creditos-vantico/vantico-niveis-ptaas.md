@@ -41,3 +41,9 @@ A disponibilidade de alguns recursos na plataforma Vantico depende do nível Pta
 Como proprietário ou membro da organização, você pode visualizar o nível da sua organização na página Créditos. Na IU, aparece como **Plano de Assinatura.**
 
 * Para algumas organizações, não mostramos o plano de assinatura na página **Créditos**.
+
+<figure><img src="../../../.gitbook/assets/SubscriptionPlanCreditsPage (2).png" alt=""><figcaption></figcaption></figure>
+
+**Atualize seu plano**
+
+Para atualizar seu nível PtaaS, entre em contato com seu Gerente de Sucesso do Cliente ou support@vantico.com.br.
