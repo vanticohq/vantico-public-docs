@@ -5,7 +5,7 @@ description: Oferecemos um modelo de consumo flexível.
 # Créditos Vantico
 
 {% hint style="info" %}
-Um crédito Vantico é uma unidade de trabalho padronizada que representa 8 horas de pentesting.
+Um crédito Vantico é uma unidade de trabalho padronizada que representa 1 horas de pentesting.
 {% endhint %}
 
 
@@ -14,7 +14,7 @@ Um crédito Vantico é uma unidade de trabalho padronizada que representa 8 hora
 
 Você pode pensar em um crédito Vantico como um voucher virtual que você consome sempre que deseja realizar um pentest. Oferecemos três planos de assinatura, também conhecidos como níveis PtaaS, para melhor atender ao seu orçamento e objetivos de teste. Saiba mais sobre nosso modelo de preços.
 
-> 1 crédito = 8 horas de pentest.
+> 1 crédito = 1 horas de pentest.
 
 A Vantico oferece um modelo de consumo flexível e sob demanda para atender às necessidades modernas de pentesting de todas as equipes de segurança e desenvolvimento. Vendemos créditos em pacotes anuais. Você pode comprar créditos antecipadamente e usá-los ao longo do ano com base em sua programação de pentesting.
 
