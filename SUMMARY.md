@@ -84,6 +84,7 @@
     * [Créditos Vantico](plataforma/mais-a-fundo-na-plataforma/creditos-vantico/README.md)
       * [Acompanhe seus Créditos](plataforma/mais-a-fundo-na-plataforma/creditos-vantico/acompanhe-seus-creditos.md)
       * [Vantico Níveis PtaaS](plataforma/mais-a-fundo-na-plataforma/creditos-vantico/vantico-niveis-ptaas.md)
+    * [Organização](plataforma/mais-a-fundo-na-plataforma/organizacao.md)
   * [Changelog](plataforma/changelog/README.md)
     * [Em breve](plataforma/changelog/em-breve.md)
   * [Pentester](plataforma/pentester/README.md)
