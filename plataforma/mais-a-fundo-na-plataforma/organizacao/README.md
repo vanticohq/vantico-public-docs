@@ -14,7 +14,7 @@ Ao receber um convite por e-mail da Vantico, você ingressa em uma organização
 
 Você pode visualizar a organização à qual pertence no aplicativo Vantico. Se você ingressou em várias organizações, poderá alternar entre elas.
 
-<figure><img src="../../.gitbook/assets/OrganizationsList.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/OrganizationsList.png" alt=""><figcaption></figcaption></figure>
 
 
 
