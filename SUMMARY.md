@@ -86,6 +86,7 @@
       * [Vantico Níveis PtaaS](plataforma/mais-a-fundo-na-plataforma/creditos-vantico/vantico-niveis-ptaas.md)
     * [Organização](plataforma/mais-a-fundo-na-plataforma/organizacao/README.md)
       * [Gerenciar usuários](plataforma/mais-a-fundo-na-plataforma/organizacao/gerenciar-usuarios.md)
+      * [Seu Contrato com a Vantico](plataforma/mais-a-fundo-na-plataforma/organizacao/seu-contrato-com-a-vantico.md)
   * [Changelog](plataforma/changelog/README.md)
     * [Em breve](plataforma/changelog/em-breve.md)
   * [Pentester](plataforma/pentester/README.md)
