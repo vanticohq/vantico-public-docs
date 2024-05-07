@@ -35,6 +35,7 @@
     * [Duplo Fator / MFA](metodologias/aplicacoes-web/duplo-fator-mfa.md)
     * [Race Condition](metodologias/aplicacoes-web/race-condition.md)
     * [Automatizando o Scan por Secrets](metodologias/aplicacoes-web/automatizando-o-scan-por-secrets.md)
+  * [Markdown](metodologias/markdown.md)
 * [Plataforma](plataforma/README.md)
   * [Começe aqui](plataforma/comece-aqui/README.md)
     * [Preparação para o Pentest](plataforma/comece-aqui/preparacao-para-o-pentest.md)
