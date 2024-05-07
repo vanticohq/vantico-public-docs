@@ -89,6 +89,7 @@
       * [Seu Contrato com a Vantico](plataforma/mais-a-fundo-na-plataforma/organizacao/seu-contrato-com-a-vantico.md)
       * [Definir configurações da organização](plataforma/mais-a-fundo-na-plataforma/organizacao/definir-configuracoes-da-organizacao/README.md)
         * [Aplicar autenticação de dois fatores](plataforma/mais-a-fundo-na-plataforma/organizacao/definir-configuracoes-da-organizacao/aplicar-autenticacao-de-dois-fatores.md)
+    * [Conta Vantico](plataforma/mais-a-fundo-na-plataforma/conta-vantico.md)
   * [Changelog](plataforma/changelog/README.md)
     * [Em breve](plataforma/changelog/em-breve.md)
   * [Pentester](plataforma/pentester/README.md)
