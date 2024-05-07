@@ -12,7 +12,7 @@ Para navegar até as configurações da sua conta, selecione o ícone do perfil 
 
 **Edite seu perfil**
 
-Outros usuários podem visualizar as informações do seu perfil. Para editar seu perfil, acesse https://vantico.com.br/settings/profile.
+Outros usuários podem visualizar as informações do seu perfil. Para editar seu perfil, acesse https://app.vantico.com.br/settings/profile.
 
 Na página **Configurações do perfil**, você pode:
 
@@ -39,7 +39,7 @@ Para editar as configurações gerais da conta, selecione **Configurações da c
 
 Você pode criar um nome de usuário personalizado para sua conta.
 
-1. Navegue para https://vantico.com.br/settings/account.
+1. Navegue para https://app.vantico.com.br/settings/account.
 2. No campo **Nome de usuário**, insira um novo nome de usuário.
 3. Selecione **Salvar alterações** para confirmar.
 
@@ -51,7 +51,7 @@ Você pode criar um nome de usuário personalizado para sua conta.
 
 Você pode alterar sua senha redefinindo-a.
 
-1. Navegue até https://vantico.com.br/settings/account.
+1. Navegue até https://app.vantico.com.br/settings/account.
 2. Selecione Alterar senha.
 3. Siga as instruções no e-mail que você recebeu para redefinir sua senha. Aprenda como criar uma senha forte.
 
@@ -82,7 +82,7 @@ Se estiver fazendo **login com seu e-mail e senha**, você pode ativar a autenti
 
 Para habilitar 2FA em sua conta:
 
-1. Navegue até https://vantico.com.br/settings/security/2fa.
+1. Navegue até https://app.vantico.com.br/settings/security/2fa.
 2. Em **Autenticação de dois fatores (2FA)**, selecione **Gerenciar** e reautentique sua conta.
 3. Para adicionar um novo dispositivo autenticador, selecione **Configurar**.
 4. Siga as instruções na tela para concluir o processo. Use um autenticador de sua preferência, como Authy ou Google Authenticator.
@@ -112,7 +112,7 @@ Você pode remover seu dispositivo 2FA atual e adicionar um novo para maior segu
 
 Para remover um dispositivo 2FA:
 
-1. Navegue até https://vantico.com.br/settings/security/2fa.
+1. Navegue até https://app.vantico.com.br/settings/security/2fa.
 2. Em **Autenticação de dois fatores (2FA)**, selecione **Gerenciar**.
 3. Localize o dispositivo desejado e selecione o ícone da lixeira.
 
@@ -126,7 +126,7 @@ Se você perder o acesso ao seu autenticador, peça ao proprietário da organiza
 
 **Criar e gerenciar tokens de API**
 
-Para trabalhar com a API Vantico, você precisa de um token de API. Para gerenciar seus tokens de API, acesse https://vantico.com.br/settings/api-tokens.
+Para trabalhar com a API Vantico, você precisa de um token de API. Para gerenciar seus tokens de API, acesse https://app.vantico.com.br/settings/api-tokens.
 
 Aprender como:
 
