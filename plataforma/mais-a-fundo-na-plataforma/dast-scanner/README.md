@@ -30,11 +30,11 @@ Adicione um alvo
 
 * Para adicionar um alvo, selecione o botão Adicionar alvo
 
-<figure><img src="../../../.gitbook/assets/1_CreateTarget.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/25.png" alt=""><figcaption></figcaption></figure>
 
 * Adicione um nome para o destino e o URL
 
-<figure><img src="../../../.gitbook/assets/2_AddTarget.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/26.png" alt=""><figcaption></figcaption></figure>
 
 * Veja mais sobre como configurar um alvo na **configuração de um alvo.**
 
@@ -45,9 +45,7 @@ Adicione um alvo
 * Para executar uma verificação, selecione “Iniciar verificação”
   * Você também pode agendar uma verificação posteriormente
 
-
-
-<figure><img src="../../../.gitbook/assets/4_StartScanTargets.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/27.png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -55,12 +53,9 @@ Adicione um alvo
 
 * Assim que a verificação for concluída, você terá duas opções para visualizar os resultados
   * Você pode ver os resultados no alvo
-
-<figure><img src="../../../.gitbook/assets/5_TargetScanResultsSampleReport.png" alt=""><figcaption></figcaption></figure>
-
 * Ou navegue até as verificações e visualize os resultados de verificações individuais clicando na Data de início.
 
-<figure><img src="../../../.gitbook/assets/6_ScansSampleFindingsReport.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/28.png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -70,12 +65,7 @@ Adicione um alvo
 
 * Se a verificação falhar, navegue até a lista de verificações ou a página de detalhes da verificação para ver o motivo da(s) falha(s) na(s) verificação(ões).
   * Visualização da lista de verificação:
-
-<figure><img src="../../../.gitbook/assets/scan-failed-01.png" alt=""><figcaption></figcaption></figure>
-
 * Visualização de detalhes da verificação:
-
-<figure><img src="../../../.gitbook/assets/scan-failed-02.png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -94,7 +84,7 @@ Adicione um alvo
   * Você pode testar novamente as descobertas individuais.
   * Navegue até a descoberta que deseja testar novamente e selecione “retestar”
 
-<figure><img src="../../../.gitbook/assets/9_Retest_Finding.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/29.png" alt=""><figcaption></figcaption></figure>
 
 * Se o mecanismo de verificação não encontrar a vulnerabilidade novamente, ele marcará automaticamente a descoberta como “Corrigida”. Se o problema persistir, ele voltará ao estado anterior.
 
@@ -108,7 +98,7 @@ Para conformidade e para entender melhor os resultados de suas verificações, o
 
 Em Targets, clique em Download para selecionar o relatório que deseja baixar:
 
-<figure><img src="../../../.gitbook/assets/7_ViewReport.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/30.png" alt=""><figcaption></figcaption></figure>
 
 Você também pode fazer isso na lista de verificações ou na página de detalhes da verificação.
 

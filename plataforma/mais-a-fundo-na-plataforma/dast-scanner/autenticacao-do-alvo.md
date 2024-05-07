@@ -22,7 +22,7 @@ Para adicionar autenticação, ative a opção “Verificação autenticada” e
 * Nome do campo
 * Valor do campo
 
-<figure><img src="../../../.gitbook/assets/3_AuthenticatedScan.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/26.png" alt=""><figcaption></figcaption></figure>
 
 
 
