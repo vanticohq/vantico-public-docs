@@ -58,4 +58,4 @@ Para visualizar o status 2FA nas contas de usuário da sua organização, navegu
 
 Não aplicamos 2FA para pentesters Vantico, mas exibimos um ícone de aviso na guia Pentest Collaborators caso eles não tenham habilitado 2FA.
 
-<figure><img src="../../../../.gitbook/assets/Check2FAStatus.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/35.png" alt=""><figcaption></figcaption></figure>

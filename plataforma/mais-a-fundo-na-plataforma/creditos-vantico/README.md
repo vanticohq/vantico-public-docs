@@ -26,7 +26,7 @@ O número de créditos necessários para um pentest depende do escopo do pentest
 
 Como proprietário ou membro da organização, você pode visualizar e rastrear os créditos da sua organização. Navegue até a página **Créditos** para ver o saldo atual e analisar como sua organização usa os créditos.
 
-<figure><img src="../../../.gitbook/assets/CreditsPage.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/31.png" alt=""><figcaption></figcaption></figure>
 
 
 

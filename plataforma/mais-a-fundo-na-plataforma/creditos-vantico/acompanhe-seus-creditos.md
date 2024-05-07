@@ -17,7 +17,7 @@ Aqui, os proprietários e membros da organização podem ver o seguinte:
 * Histórico de transações de crédito pendentes e concluídas.
   * Você também pode ver seu nível PtaaS mostrado como **Plano de Assinatura.**
 
-<figure><img src="../../../.gitbook/assets/CreditsPage (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/31.png" alt=""><figcaption></figcaption></figure>
 
 Sempre que o saldo credor muda, o histórico de transações é atualizado com os seguintes detalhes:
 

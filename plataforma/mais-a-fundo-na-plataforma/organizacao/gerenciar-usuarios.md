@@ -17,7 +17,7 @@ Navegue até a página **Pessoas** > **Organização**. Aqui você pode:
 * Convidar e remover usuários
 * Mude seus papéis
 
-<figure><img src="../../../.gitbook/assets/PeopleOrganization.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/32.png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -41,7 +41,7 @@ Para convidar usuários para sua organização:
 
 Os usuários recebem um convite por e-mail para ingressar na sua organização. Eles também se tornam colaboradores em todos os pentests da organização como Pentest Team Members.
 
-<figure><img src="../../../.gitbook/assets/InviteUsersOverlay.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/33.png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -49,9 +49,7 @@ Os usuários recebem um convite por e-mail para ingressar na sua organização. 
 
 Para alterar a função de um usuário de Proprietário para Membro ou vice-versa, na página Pessoas, use a lista em Função.
 
-
-
-<figure><img src="../../../.gitbook/assets/ChangeUserRole.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/34.png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -88,8 +86,6 @@ Como proprietário da organização, você pode remover um membro da equipe do P
 1. No aplicativo Vantico, selecione sua organização no canto superior esquerdo da tela.
 2. Navegue até a página **Pessoas** > **Colaboradores Pentest.**
 3. Para o membro da equipe que você deseja remover, selecione o ícone de três pontos > **Remover** usuário e selecione **Sim** na sobreposição para confirmar.
-
-<figure><img src="../../../.gitbook/assets/RemoveCollaboratorFromAllPentests.png" alt=""><figcaption></figcaption></figure>
 
 
 
