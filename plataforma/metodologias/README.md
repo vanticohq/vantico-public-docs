@@ -32,7 +32,7 @@ Para obter mais informações sobre como realizamos testes de invasão, consulte
 
 Na maioria dos casos, a Metodologia é fixa, com base no Tipo de Ativo definido anteriormente. No entanto, se você selecionou um tipo de ativo combinado, como Web + API, poderá limitar o teste a qualquer uma das metodologias individuais:
 
-<figure><img src="../../.gitbook/assets/WebOrAPI.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/10.png" alt=""><figcaption></figcaption></figure>
 
 
 
