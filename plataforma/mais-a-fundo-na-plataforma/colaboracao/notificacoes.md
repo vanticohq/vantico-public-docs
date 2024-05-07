@@ -38,7 +38,7 @@ Na página do pentest, selecione o ícone de sino Bell icon e defina sua prefer�
 * **Notificações sobre @ menções e descobertas das quais você participa**
 * **Silenciar notificações, exceto nas descobertas que você segue**
 
-<figure><img src="../../../.gitbook/assets/PentestNotifications.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/36.png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -66,8 +66,6 @@ Para cancelar a assinatura de um tópico, selecione **Deixar de seguir.**
 **Ver todas as notificações**
 
 Para visualizar notificações de todas as organizações às quais você pertence, selecione o ícone de sino Ícone de sino no canto superior direito. O número de notificações não lidas, se houver, aparece no ícone do sino.
-
-<figure><img src="../../../.gitbook/assets/ViewAllNotifications.png" alt=""><figcaption></figcaption></figure>
 
 Você só vê notificações recentes no popover. Para visualizar todas as notificações, selecione o ícone de três pontos > **Ir para a página de notificações.**
 
