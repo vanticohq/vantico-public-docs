@@ -8,7 +8,7 @@ description: O que é Markdown? Como utilizá-lo?
 
 
 
-Marcações de Texto:
+**Marcações de Texto**
 
 ```
 *itálico*
@@ -22,7 +22,7 @@ Como fica:
 
 
 
-Listas:
+**Listas**
 
 ```
 *lista
@@ -35,7 +35,7 @@ Como fica:
 
 
 
-Listas Enumeradas:
+**Listas Enumeradas**
 
 ```
 1. um
@@ -49,7 +49,7 @@ Como fica:
 
 
 
-Um Item dentro de uma Lista
+**Um Item dentro de uma Lista**
 
 ```
 *Lista
@@ -63,7 +63,7 @@ Como fica:
 
 
 
-Links
+**Links**
 
 ```
 Isto é um [link] (https://google.com)
@@ -72,3 +72,34 @@ Isto é um [link] (https://google.com)
 Como fica:
 
 <figure><img src="../.gitbook/assets/link.png" alt=""><figcaption></figcaption></figure>
+
+
+
+**Código**
+
+```
+O texto tem um simples `codígo`
+```
+
+
+
+**Tabela**
+
+````
+```
+Linha 1 
+Linha 2
+```
+````
+
+Como fica:
+
+<figure><img src="../.gitbook/assets/tabela.png" alt=""><figcaption></figcaption></figure>
+
+
+
+**Menções**
+
+```
+@usuário
+```
