@@ -71,8 +71,6 @@ Para desativar o 2FA para um usuário:
 
 * Recomendamos que você verifique a identidade do usuário antes de desativar o 2FA.
 
-<figure><img src="../../../.gitbook/assets/TurnOff2FA.png" alt=""><figcaption></figcaption></figure>
-
 3. Selecione **Confirmar** na sobreposição que aparece.
 
 

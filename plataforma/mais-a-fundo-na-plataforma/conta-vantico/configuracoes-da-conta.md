@@ -133,5 +133,3 @@ Aprender como:
 * Crie um token de API
 * Revogar tokens de API
 
-<figure><img src="../../../.gitbook/assets/API-tokens-page.png" alt=""><figcaption></figcaption></figure>
-
