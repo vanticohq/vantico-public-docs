@@ -53,3 +53,36 @@ Isto não só cria um processo de contratação menos inclusivo, que atinge um c
 
 1. Você é capaz de contratar ótimas pessoas, não importa onde elas morem.
 2. Os funcionários são mais produtivos com menos distrações, desde que a liderança apoie a equipagem das ferramentas, estrutura e cultura necessárias para prosperar.
+3. Maior economia em gastos de escritório e remuneração (devido à contratação em regiões de custos mais baixos).
+4. Totalmente remoto atrai naturalmente pessoas motivadas.
+5. É mais fácil crescer e dimensionar rapidamente sua empresa.
+6. Os funcionários esperam cada vez mais opções de trabalho remoto de seus empregadores.
+7. As empresas muitas vezes experimentam menor rotatividade de funcionários e maior moral com o trabalho remoto.
+8. Você tem menos reuniões e mais foco nos resultados e na produção de um excelente trabalho.
+9. Você não precisa pagar para realocar alguém para se juntar à sua equipe.
+10. Com funcionários localizados em todo o mundo trabalhando de forma assíncrona, as contribuições podem continuar mesmo quando o dia útil de um fuso horário terminar.
+11. Também há continuidade dos negócios em caso de distúrbios locais ou desastres naturais
+12. Maior flexibilidade pode significar maior diversidade em sua organização.
+
+
+
+* Trabalhar remotamente dá a cada pessoa a autonomia para servir num local que lhes interessa&#x20;
+* Há evidências de que o trabalho remoto pode reduzir os efeitos da aglomeração urbana em muitas cidades ao redor do mundo. Alguns estados e países estão até oferecendo incentivos para encorajar o trabalho remoto.
+* Para as empresas globais, trazer empregos com melhores salários para regiões de baixo custo tem impactos económicos positivos e contribui para inverter as tendências de despovoamento nas regiões rurais.
+
+
+
+**Desafios a considerar antes de adotar o Trabalho Remoto**
+
+Apesar de todo remoto ter muitas vantagens, o trabalho remoto não é para todos. Pode trazer desvantagens para os funcionários dependendo de seu estilo de vida e preferências de trabalho, bem como da organização.&#x20;
+
+
+
+**Determinar a elegibilidade para trabalho híbrido ou remoto**
+
+Embora os locais de trabalho e as conversas comuns possam agrupar cada função remota em uma única categoria, é importante perceber que nem todas as funções remotas são criadas iguais. Assim como as funções colocadas precisam ser avaliadas na totalidade, aqueles que procuram fazer a transição para uma função remota pela primeira vez devem fazer certas perguntas durante a fase de entrevista ou avaliação.
+
+Existem vários estágios de trabalho remoto, que podem ser facilmente representados como uma escala móvel. De não remoto a remoto híbrido a totalmente remoto, e todos os pontos intermediários, a experiência de um trabalhador remoto em cada ambiente provavelmente variará. Abaixo, destacamos os principais tópicos a serem abordados ao buscar entender como você será tratado em uma função remota de tempo integral. Perguntas adicionais devem ser consideradas dependendo do seu cenário específico e da familiaridade com a empresa contratante.
+
+Embora haja um número crescente de trabalhos freelance que podem ser realizados remotamente, este artigo está centrado em carreiras remotas em tempo integral.
+
