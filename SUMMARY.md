@@ -91,6 +91,7 @@
         * [Aplicar autenticação de dois fatores](plataforma/mais-a-fundo-na-plataforma/organizacao/definir-configuracoes-da-organizacao/aplicar-autenticacao-de-dois-fatores.md)
     * [Conta Vantico](plataforma/mais-a-fundo-na-plataforma/conta-vantico/README.md)
       * [Solucionar problemas de Login](plataforma/mais-a-fundo-na-plataforma/conta-vantico/solucionar-problemas-de-login.md)
+      * [Configurações da Conta](plataforma/mais-a-fundo-na-plataforma/conta-vantico/configuracoes-da-conta.md)
   * [Changelog](plataforma/changelog/README.md)
     * [Em breve](plataforma/changelog/em-breve.md)
   * [Pentester](plataforma/pentester/README.md)
