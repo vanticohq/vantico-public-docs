@@ -34,7 +34,7 @@ Aqui você pode ver os Domínios que já foram adicionados, e também pode adici
 
 Para os Domínios já adicionados você pode ver o status do Scan e quantos Hosts foram descobertos. Você pode usar o menu lateral kebab para excluir/remover Domínios da lista.
 
-<figure><img src="../../.gitbook/assets/listofdomains.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/23.png" alt=""><figcaption></figcaption></figure>
 
 Use o botão “Adicionar Domínio” para adicionar um novo Domínio.
 
@@ -46,17 +46,13 @@ A Vantico executará verificações diárias consecutivamente em todos os domín
 
 
 
-<figure><img src="../../.gitbook/assets/scanadomain.png" alt=""><figcaption></figcaption></figure>
-
 
 
 Quando a verificação for concluída, normalmente após alguns minutos, você verá os hosts descobertos clicando no Domínio na lista Domínios.
 
 De relance você pode ver todos os hosts, seu status, quando o IP foi visto pela primeira vez por uma varredura e o último teste de invasão onde o host foi incluído no escopo/destinos.
 
-
-
-<figure><img src="../../.gitbook/assets/hosts.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/24.png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -65,8 +61,6 @@ Você pode clicar em um Host para ver mais detalhes sobre o endereço IP resolvi
 Esses resultados referem-se aos últimos sete dias para evitar ser afetado por problemas de rede de curto prazo.
 
 
-
-<figure><img src="../../.gitbook/assets/ipsandports.png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -79,8 +73,6 @@ Os hosts são mostrados com os três status a seguir:
 Você pode pesquisar hosts, filtrar por status e filtrar por data de quando o host foi visto pela primeira vez.
 
 Filtrar por data pode ser útil, por exemplo. se você deseja exibir apenas hosts que foram descobertos na última semana.
-
-<figure><img src="../../.gitbook/assets/search.png" alt=""><figcaption></figcaption></figure>
 
 
 
