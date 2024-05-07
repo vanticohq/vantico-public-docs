@@ -4,7 +4,7 @@ description: Benefícios do trabalho remoto
 
 # Trabalho Remoto
 
-Reimaginar como o dia de alguém pode ser estruturado e como isso pode variar facilmente de um período de 24 horas para outro é fortalecedor. A liberdade e a flexibilidade que acompanham o recurso totalmente remoto permitem que os funcionários vejam o trabalho sob uma luz totalmente nova.
+A liberdade e a flexibilidade que acompanham o recurso totalmente remoto permitem que os funcionários vejam o trabalho sob uma luz totalmente nova.
 
 Em vez de forçar alguém a construir sua vida em torno de uma programação diária predefinida que envolve um deslocamento inevitável, transfere essa responsabilidade de volta para o indivíduo.
 
@@ -43,10 +43,13 @@ Seja intencional ao substituir o tempo de deslocamento recuperado. Quer seja par
 
 **Benefícios das Organizações Totalmente Remotas**
 
-O Remote permite uma força de trabalho mais diversificada e inclusiva, maior eficiência nos fluxos de trabalho e uma cobertura global mais ampla no atendimento aos clientes. Reduz significativamente os riscos de um negócio, tornando-o mais resiliente face a crises e capaz de manter a continuidade, independentemente de o escritório estar aberto ou fechado.
+O Trabalho Remoto permite uma força de trabalho mais diversificada e inclusiva, maior eficiência nos fluxos de trabalho e uma cobertura global mais ampla no atendimento aos clientes. Reduz significativamente os riscos de um negócio, tornando-o mais resiliente face a crises e capaz de manter a continuidade, independentemente de o escritório estar aberto ou fechado.
 
 As empresas podem precisar criar uma equipe de liderança remota e investir na formação de gestores. No entanto, há pouco debate sobre se esta é uma opção. O trabalho remoto em breve será simplesmente “trabalho”, sendo a flexibilidade global uma expectativa. As empresas que possuem vários escritórios já possuem equipes remotas entre si e, portanto, precisam de uma base sólida de fluência remota para operar da maneira ideal.
 
 Limitar o fluxo de recrutamento da sua empresa a uma determinada região geográfica, ou contratar funcionários que possam e estejam dispostos a se mudar, é uma desvantagem competitiva.
 
 Isto não só cria um processo de contratação menos inclusivo, que atinge um conjunto menos diversificado de candidatos, como também força a sua organização a competir principalmente com base no salário.
+
+1. Você é capaz de contratar ótimas pessoas, não importa onde elas morem.
+2. Os funcionários são mais produtivos com menos distrações, desde que a liderança apoie a equipagem das ferramentas, estrutura e cultura necessárias para prosperar.
