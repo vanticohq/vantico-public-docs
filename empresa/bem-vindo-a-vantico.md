@@ -14,7 +14,7 @@ Começamos a Vantico como algo divertido de fazer. Sabíamos em que tipo de empr
 
 **Como é na Vantico?**
 
-Temos uma cultura fácil de lidar. Não nos levamos muito a sério, mas somos **apaixonados** pelo que fazemos. Acreditamos que o que fazemos ajuda pessoas como os clientes de nossos clientes e seus funcionários. Acreditamos em **fazer o que você ama** (é uma de nossas filosofias que você ouvirá muito) e isso significa que você é responsável por si mesmo. Você pode escolher o seu horário, desde que o trabalho seja feito no prazo, seja de **excelente qualidade** e o **cliente fique satisfeito.**
+Temos uma cultura fácil de lidar. Somos **apaixonados** pelo que fazemos. Acreditamos que o que fazemos ajuda pessoas como os clientes de nossos clientes e seus colaboradores. Acreditamos em **fazer o que você ama** (é uma de nossas filosofias que você ouvirá muito) e isso significa que você é responsável por si mesmo. Você pode escolher o seu horário, desde que o trabalho seja feito no prazo, seja de **excelente qualidade** e o **cliente fique satisfeito.**
 
 Temos uma cultura estrita de não culpa. Isso vale para outras pessoas da Vantico e nossos clientes. A segurança é **genuinamente difícil** e cabe a nós torná-la um pouco mais fácil, **sem nos exibirmos ou culparmos os outros** pelos problemas de segurança.
 
@@ -79,45 +79,6 @@ Como normalmente lidamos com dados confidenciais, pedimos a todos os consultores
 * Ou você pode usar GnuPG no Linux.
 
 Certifique-se de gerar uma chave de 4.096 bits com os detalhes corretos. Gere um certificado de revogação! Não queremos que ninguém criptografe informações confidenciais com sua chave caso ela tenha sido comprometida! Envie a chave pública e sua impressão digital ao seu gerente para que ele possa adicioná-la à sua assinatura de e-mail.
-
-**Criando um par de chaves: Windows e Mac:**
-
-1. Baixe o conjunto relevante de ferramentas
-2. Abra o aplicativo Keychain (Kleopatra/GPG Keychain)
-3. Vá para Configurações > Configurar Kleopatra (Mac: Chaveiro GPG > Preferências)
-4. Altere o servidor de chaves OpenPGP para “hkps://keyserver.ubuntu.com”
-5. Clique em Aplicar/Salvar (Mac: Fechar janela)
-6. Selecione Arquivo > Novo Certificado/Nova Chave
-7. Digite seu nome e endereço de e-mail Vantico
-8. Defina a data de validade para daqui a 10 anos
-9. Windows: Caixa de seleção “Proteger a chave gerada com senha”
-10. Crie uma senha forte (guarde-a em algum lugar seguro, como seu gerenciador de senhas)
-11. Siga as instruções para concluir a configuração
-
-**Criando um certificado revogado**&#x20;
-
-Windows:
-
-1. Clique com o botão direito no seu par de chaves recém-criado no Kleopatra
-2. Selecione “Detalhes”
-3. Clique em “Gerar certificado de revogação”
-4. Salve o certificado em algum lugar seguro e faça backup dele&#x20;
-
-Mac:
-
-1. Clique com o botão direito no par de chaves recém-criado no GPG Keychain
-2. Selecione “Criar Certificado Revogado”
-3. Salve o certificado em algum lugar seguro e faça backup dele&#x20;
-
-**Publicando seu certificado em um servidor de chaves**&#x20;
-
-Windows e Mac:
-
-1. Clique com o botão direito no par de chaves recém-criado no Kleopatra/GPG Keychain
-2. Selecione “Publicar no Servidor” / “Enviar Chave Pública para Servidor Chave”
-3. Após alguns minutos, visite https://keyserver.ubuntu.com/
-4. Digite “Vantico.com.au” na caixa de pesquisa e clique em “Chave de pesquisa”
-5. Confirme se sua chave pública foi carregada com sucesso
 
 **Licenças de software para testes**
 

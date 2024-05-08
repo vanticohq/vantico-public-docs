@@ -26,15 +26,11 @@ Quando o contrato da sua organização está ativo, você tem acesso total à pl
 * Colabore em pentests.
 * Use outros recursos da plataforma, conforme determinado pelo seu nível PtaaS.
 
-
-
 {% hint style="info" %}
 Dica:
 
 Para renovar seu contrato, entre em contato com seu Gerente de Customer Success ou support@vantico.com.br.
 {% endhint %}
-
-
 
 **Quando o seu contrato expirar**
 
@@ -53,26 +49,8 @@ Após a data de vencimento do contrato, inicia-se um **período de carência de 
 
 Terminado o período de carência, revogamos o acesso à plataforma de todos os usuários da organização. Se você renovar seu contrato, terá acesso total à plataforma e aos dados da sua organização.
 
-
-
 {% hint style="info" %}
 Dica:
 
 Para renovar seu contrato, entre em contato com seu Gerente de Customer Success ou support@vantico.com.br.
 {% endhint %}
-
-
-
-**Baixe os dados do Pentest da sua organização**
-
-Para exportar dados de pentest para sua organização, você pode:
-
-* Use a API Vantico. Leia nossa documentação da API para obter detalhes. Você pode enviar solicitações de API para recuperar dados de pentest, como:
-  * Todos os testes de invasão
-  * Todas as descobertas
-  * Um relatório de pentest
-
-
-
-
-

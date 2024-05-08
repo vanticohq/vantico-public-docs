@@ -42,48 +42,6 @@ Na página do pentest, selecione o ícone de sino Bell icon e defina sua prefer�
 
 
 
-**Gerenciar notificações de descoberta**
-
-Você recebe notificações de uma descoberta quando alguém:
-
-* Designei você para a descoberta.
-* Você mencionou em um comentário.
-* Deixou um comentário sobre a descoberta – se você se inscreveu para receber notificações de pentest.
-
-Se você não estiver participando, poderá assinar notificações para receber uma descoberta.
-
-* Na página do pentest, vá para **Descobertas** e selecione uma descoberta.
-* Em **Notificações**, selecione **Seguir**.
-
-<figure><img src="../../../.gitbook/assets/FollowFinding.png" alt=""><figcaption></figcaption></figure>
-
-Para cancelar a assinatura de um tópico, selecione **Deixar de seguir.**
-
-
-
-
-
-**Ver todas as notificações**
-
-Para visualizar notificações de todas as organizações às quais você pertence, selecione o ícone de sino Ícone de sino no canto superior direito. O número de notificações não lidas, se houver, aparece no ícone do sino.
-
-Você só vê notificações recentes no popover. Para visualizar todas as notificações, selecione o ícone de três pontos > **Ir para a página de notificações.**
-
-* Para marcar todas as notificações como lidas, selecione Marcar todas como lidas.
-* Para marcar uma única notificação como lida, selecione o ícone de ponto •.
-
-
-
-
-
-**Ver atividade da equipe**
-
-Para visualizar as atividades mais recentes dos membros da sua equipe e pentesters, navegue até a página Atividade. Tanto os usuários da organização quanto os membros da equipe do Pentest podem visualizar esta página.
-
-<figure><img src="../../../.gitbook/assets/ViewActivity.png" alt=""><figcaption></figcaption></figure>
-
-
-
 
 
 **Solucionar problemas de notificações por e-mail**
