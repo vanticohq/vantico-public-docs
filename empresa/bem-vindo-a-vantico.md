@@ -137,7 +137,7 @@ Vamos negociar! Envie-nos esses detalhes…
 
 • Declaração de retenção
 
-• Declaração de variação da taxa do Medicare (opcional)
+• Declaração de variação da taxa de Assistência Médica(opcional)
 
 … e em troca lhe enviaremos:
 
@@ -149,6 +149,19 @@ Vamos negociar! Envie-nos esses detalhes…
 
 • Um copo de cerveja Vantico
 
-Você já deve ter recebido alguns formulários no Slack para preencher.
+Você já deve ter recebido **alguns formulários no Slack** para preencher.
 
-Eles cobrem tudo, exceto a declaração de variação da taxa do Medicare. Você pode encontrar esse formulário aqui:
+Eles cobrem tudo, exceto a declaração de **variação da taxa de Assistência Médica**. Você pode encontrar esse formulário aqui:
+
+
+
+**Onde encontrar Ajuda**
+
+Ufa! Isso foi muita informação. A Vantico é uma experiência de aprendizado sem fim e **todos** precisam de ajuda de vez em quando. Alguns lugares onde você pode obter essa ajuda são:
+
+* Este manual! Use a função de pesquisa no topo da página e veja se consegue encontrar as informações que precisa.
+* O canal #general do Slack é um ótimo lugar para pedir ajuda.
+* Seu amigo provavelmente poderá responder a muitas perguntas do tipo “processo” desde o início. Eles são um ótimo recurso; você deve usá-los.
+* É claro que **os fundadores estão sempre disponíveis para conversar em momentos de frustração, estresse e ansiedade, seja ele pessoal ou profissional.**
+
+Esperamos sinceramente que você se divirta muito na Vantico e mal podemos esperar para ver as coisas **incríveis** que você fará! 🎉
