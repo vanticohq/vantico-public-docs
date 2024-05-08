@@ -10,9 +10,7 @@ O teste de penetração de rede interna é um processo no qual um testador usa a
 
 Seguimos uma metodologia padrão do setor baseada principalmente no Manual de Metodologia de Teste de Segurança de Código Aberto (OSSTMM).
 
-
-
-<figure><img src="../../.gitbook/assets/rede interna.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/vantico-ilustração-reconhecimento2.png" alt=""><figcaption></figcaption></figure>
 
 O teste de penetração de uma rede interna inclui as seguintes etapas:
 

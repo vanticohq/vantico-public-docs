@@ -10,9 +10,7 @@ O teste de penetração de aplicativos móveis é um processo no qual um testado
 
 Seguimos uma metodologia padrão do setor baseada principalmente no Padrão de Verificação de Segurança de Aplicativos Móveis (MASVS) e no Guia de Teste (MASTG) da OWASP. Saiba mais sobre o OWASP Mobile Application Security (MAS).
 
-
-
-<figure><img src="../../.gitbook/assets/mobile.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/vantico-ilustração-reconhecimento1.png" alt=""><figcaption></figcaption></figure>
 
 
 
