@@ -12,7 +12,7 @@ O teste de penetração de aplicativos da Web é um processo no qual um testador
 
 Seguimos uma metodologia padrão do setor baseada principalmente no OWASP Application Security Verification Standard (ASVS) e no Guia de Testes. No suporte, utilizamos diversas ferramentas manuais e automatizadas, descritas nas etapas a seguir, para garantir cobertura total.
 
-<figure><img src="../../.gitbook/assets/sequencia.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/vantico-ilustração-reconhecimento3.png" alt=""><figcaption></figcaption></figure>
 
 
 
