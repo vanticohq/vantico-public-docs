@@ -10,7 +10,7 @@
     * [Ilustrações](empresa/branding/ilustracoes.md)
     * [Tom de voz & Descrições](empresa/branding/tom-de-voz-and-descricoes.md)
   * [Bem Vindo a Vantico!](empresa/bem-vindo-a-vantico/README.md)
-    * [Page](empresa/bem-vindo-a-vantico/page.md)
+    * [Valores da Vantico](empresa/bem-vindo-a-vantico/valores-da-vantico.md)
   * [Trabalho Remoto](empresa/trabalho-remoto.md)
 * [Pessoas](pessoas.md)
 * [Serviços](servicos/README.md)
