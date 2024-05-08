@@ -16,9 +16,13 @@ description: O que é Markdown? Como utilizá-lo?
 ~~riscado~~
 ```
 
-Como fica:
+
+
+**Como fica:**
 
 <figure><img src="../.gitbook/assets/marcacao.png" alt=""><figcaption></figcaption></figure>
+
+
 
 
 
@@ -29,9 +33,13 @@ Como fica:
 -lista
 ```
 
-Como fica:
+
+
+**Como fica:**
 
 <figure><img src="../.gitbook/assets/lista.png" alt=""><figcaption></figcaption></figure>
+
+
 
 
 
@@ -43,9 +51,13 @@ Como fica:
 3. três
 ```
 
-Como fica:
+
+
+**Como fica:**
 
 <figure><img src="../.gitbook/assets/enumerada.png" alt=""><figcaption></figcaption></figure>
+
+
 
 
 
@@ -57,9 +69,13 @@ Item
 *Lista 2
 ```
 
-Como fica:
+
+
+**Como fica:**
 
 <figure><img src="../.gitbook/assets/lista2.png" alt=""><figcaption></figcaption></figure>
+
+
 
 
 
@@ -69,9 +85,13 @@ Como fica:
 Isto é um [link] (https://google.com)
 ```
 
-Como fica:
+
+
+**Como fica:**
 
 <figure><img src="../.gitbook/assets/link.png" alt=""><figcaption></figcaption></figure>
+
+
 
 
 
@@ -80,6 +100,8 @@ Como fica:
 ```
 O texto tem um simples `codígo`
 ```
+
+
 
 
 
@@ -92,9 +114,13 @@ Linha 2
 ```
 ````
 
-Como fica:
+
+
+**Como fica:**
 
 <figure><img src="../.gitbook/assets/tabela.png" alt=""><figcaption></figcaption></figure>
+
+
 
 
 
