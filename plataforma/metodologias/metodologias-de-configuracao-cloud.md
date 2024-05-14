@@ -45,9 +45,7 @@ Seguimos uma metodologia padrão da indústria baseada principalmente no Guia de
 * Análise de projeto arquitetônico&#x20;
 * Relatórios, triagem e re-tests
 
-
-
-<figure><img src="../../.gitbook/assets/cloud.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/vantico-ilustração-reconhecimento4.png" alt=""><figcaption></figcaption></figure>
 
 Em geral, os provedores de nuvem com os quais trabalhamos não precisam mais saber antes de realizarmos nossos testes de invasão. No entanto, cada fornecedor de nuvem pode ter o seu próprio procedimento. Incluímos links para procedimentos que conhecemos na seção de cada provedor.
 
