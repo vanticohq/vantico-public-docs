@@ -6,12 +6,16 @@ description: >-
 
 # Checklist
 
-Porta Padrão: 80 (HTTP), 443 (HTTPS)
+**Porta Padrão:** 80 (HTTP), 443 (HTTPS)
 
 
+
+<pre><code><strong>PORT     STATE    SERVICE
+</strong>80/tcp   open     http
+443/tcp  open     ssl/https
+</code></pre>
 
 ```
-PORT    STATE    SERVICE
-80/tcp  open     http
- 
+nc -v (domínio.com) 80 #GET / HTTP/1.0
+openssl s_client -connect (domínio.com)
 ```
