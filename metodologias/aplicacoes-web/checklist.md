@@ -39,7 +39,7 @@ openssl s_client -connect (domínio.com):443 #GET / HTTP/1.0
 
 
 
-Fase de Reconhecimento
+**Fase de Reconhecimento**
 
 * Grande: Uma empresa com múltiplos domínios
 * Média: Um único domínio
@@ -47,14 +47,16 @@ Fase de Reconhecimento
 
 
 
-Escopo Grande
+**Escopo Grande**
 
 * [ ] Busque ASN para encontrar até onde vai o IP (amass, anslookup, metabigor, bgp)
 * [ ] Analise as últimas aquisições
 * [ ] Consiga as relações dos registrantes (viewdns)
 * [ ] Vá para o escopo médio para cada domínio
 
-Escopo Médio
+
+
+**Escopo Médio**
 
 * [ ] Enumere os subdomínios (amass ou subfinder)
 * [ ] Força Bruta nos subdomínios (puredns com wordlist)
@@ -65,7 +67,9 @@ Escopo Médio
 * [ ] Transfer Zone
 * [ ] Pegar capturas de tela (gowitness, webscreenshot, aquatone)
 
-Escopo Pequeno
+
+
+**Escopo Pequeno**
 
 * [ ] Identifique o servidor web, tecnologias e banco de dados (httpx)
 * [ ] Tente localizar /robots.txt, /crossdomain.xml, /clientacesspolicy.xml, /sitemap.xml e /.well-know/
@@ -87,7 +91,7 @@ Escopo Pequeno
 
 
 
-Rede
+**Rede**
 
 * [ ] Verifique se pacotes ICMP estão permitidos
 * [ ] Verifique as políticas DMARC/SPF (spoofcheck)
@@ -99,7 +103,7 @@ Rede
 
 
 
-Preparação
+**Preparação**
 
 * [ ] Estude a estrutura do site
 * [ ] Faça uma lista de todos os possíveis testes
@@ -108,7 +112,7 @@ Preparação
 
 
 
-Forçando Erros
+**Forçando Erros**
 
 Os servidores da Web podem se comportar de maneira inesperada quando dados estranhos são enviados a eles. Isso pode abrir vulnerabilidades ou divulgar informações confidenciais.
 
@@ -121,7 +125,7 @@ Os servidores da Web podem se comportar de maneira inesperada quando dados estra
 
 
 
-Verifique se você pode enviar arquivos (PUT, WebDav)
+**Verifique se você pode enviar arquivos (PUT, WebDav)**
 
 Se você encontrar que WebDav está habilitado mas você não tem as permissões necessárias para enviar arquivos na pasta do root, tente:
 
@@ -130,7 +134,7 @@ Se você encontrar que WebDav está habilitado mas você não tem as permissões
 
 
 
-Vulnerabilidades SSL/TLS
+**Vulnerabilidades SSL/TLS**
 
 * [ ] Se a aplicação não está forçando o usuário HTTPS em alguma parte, então é vulnerável para o MitM
 * [ ] Se a aplicação está enviando dados sensíveis (senhas) usando HTTP. Então isto é uma vulnerabilidade alta
@@ -152,7 +156,7 @@ Informações sobre vulnerabilidades SSL/TSL:
 
 {% embed url="https://www.acunetix.com/blog/articles/tls-vulnerabilities-attacks-final-part/" %}
 
-Spidering
+**Spidering**
 
 Envie um tipo de aranha dentro da teia. A meta do spider é encontrar o máximo de paths possíveis da aplicação testada. Portanto, web crawling e fontes externas devem ser usadas para encontrar o máximo de paths possíveis.
 
