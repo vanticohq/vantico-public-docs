@@ -150,3 +150,33 @@ Informações sobre vulnerabilidades SSL/TSL:
 
 {% embed url="https://www.acunetix.com/blog/articles/tls-vulnerabilities-attacks-final-part/" %}
 
+Spidering
+
+Envie um tipo de aranha dentro da teia. A meta do spider é encontrar o máximo de paths possíveis da aplicação testada. Portanto, web crawling e fontes externas devem ser usadas para encontrar o máximo de paths possíveis.
+
+* gospider
+* hakrawler
+* dirhunt
+* evine
+* meg
+* urlgrab
+* gau
+* ParamSpider
+* galer
+* LinkFinder
+* goLinkFinder
+* JSParser
+* relative-url-extractor
+* JSFScan
+* subjs
+* page-fetch
+* Feroxbuster
+* JavaScript Parsing
+* Sourcemapper
+* xnLinkFinder
+* waymore
+* HTTPLoot
+* SpiderSuite
+* jsluice
+* ParaForge
+* katana
