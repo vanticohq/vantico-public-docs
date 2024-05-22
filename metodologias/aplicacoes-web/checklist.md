@@ -186,3 +186,33 @@ Envie um tipo de aranha dentro da teia. A meta do spider é encontrar o máximo 
 * jsluice - É um pacote Go e uma ferramenta de linha de comando para extrair URLs, caminhos, segredos e outros dados interessantes do código-fonte JavaScript.
 * ParaForge - ParaForge é uma extensão simples do Burp Suite para extrair os parâmetros e endpoints da solicitação para criar uma lista de palavras personalizada para difusão e enumeração.
 * katana - Ferramenta incrível para isso.
+
+
+
+**Força Bruta nos Diretórios e Arquivos**
+
+Inicie a força bruta a partir da pasta root e certifique-se de aplicar força bruta em todos os diretórios encontrados usando este método e em todos os diretórios descobertos pelo Spidering (você pode fazer essa força bruta recursivamente e anexando no início da lista de palavras usada os nomes dos diretórios encontrados).
+
+Ferramentas:
+
+* Dirb/ Dirbuster - Incluído no Kali, antigo (e lento), mas funcional. Permitir certificados assinados automaticamente e pesquisa recursiva. Muito lento em comparação com outras opções.
+* Dirsearch - Não permite certificados assinados automaticamente, mas permite pesquisa recursiva.
+* Gobuster - Permite certificados autoassinados, não possui pesquisa recursiva.
+* Feroxbuster - Rápido, suporta pesquisa recursiva.
+* wfuzz
+
+```
+wfuzz -w /usr/share/seclists/Discovery/Web-Content/raft-medium-directories.txt 
+https://domain.com/api/FUZZ
+```
+
+* ffuf
+
+```
+ffuf -c -w /usr/share/wordlists/dirb/big.txt -u http://10.10.10.10/FUZZ
+```
+
+* uro - Este não é um spider, mas uma ferramenta que, dada a lista de URLs encontrados, excluirá URLs "duplicados".
+* Scavenger - Extensão Burp para criar uma lista de diretórios a partir do histórico de arrotos de diferentes páginas
+* TrashCompactor - Remova URLs com funcionalidades duplicadas (com base em importações js)
+* Chamaleon - Ele usa wapalyzer para detectar tecnologias usadas e selecionar as listas de palavras a serem usadas.
