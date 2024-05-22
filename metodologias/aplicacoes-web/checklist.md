@@ -112,9 +112,11 @@ Forçando Erros
 
 Os servidores da Web podem se comportar de maneira inesperada quando dados estranhos são enviados a eles. Isso pode abrir vulnerabilidades ou divulgar informações confidenciais.
 
-* [ ] Acesse as páginas falsas como qualquer página .php
+* [ ] Acesse as páginas falsas como qualquer\_página.php (aspx, html, etc)
 * [ ] Adicione "\[]", "]]", e "\[\[" nos valores dos cookies e valores dos parâmetros para criar erros
 * [ ] Gere erros colocando "/\~randomthing/%s" no fim da URL
+* [ ] Adicione diversos parâmetros como GET e POST usando diferentes valores
+* [ ] Use o Burp Intruder "Fuzzing Full" Lista em entrada para gerar códigos de erros
 * [ ] Tente diferentes verbos HTTP como PATCH, DEBUG ou algo como FAKE
 
 
@@ -154,29 +156,29 @@ Spidering
 
 Envie um tipo de aranha dentro da teia. A meta do spider é encontrar o máximo de paths possíveis da aplicação testada. Portanto, web crawling e fontes externas devem ser usadas para encontrar o máximo de paths possíveis.
 
-* gospider
-* hakrawler
-* dirhunt
-* evine
-* meg
-* urlgrab
-* gau
-* ParamSpider
-* galer
-* LinkFinder
-* goLinkFinder
-* JSParser
-* relative-url-extractor
-* JSFScan
-* subjs
-* page-fetch
-* Feroxbuster
-* JavaScript Parsing
-* Sourcemapper
-* xnLinkFinder
-* waymore
-* HTTPLoot
-* SpiderSuite
-* jsluice
-* ParaForge
-* katana
+* gospider - Spider HTML, LinkFinder em arquivos JS e fontes externas (Archive.org, CommonCrawl.org, VirusTotal.com, AlienVault.com).
+* hakrawler - Spider HML, com LinkFider para arquivos JS e Archive.org como fonte externa.
+* dirhunt - HTML spider, também indica "arquivos suculentos".
+* evine - Spider HTML CLI interativa. Ele também pesquisa no Archive.org
+* meg - Esta ferramenta não é uma spider, mas pode ser útil. Você pode apenas indicar um arquivo com hosts e um arquivo com caminhos e meg irá buscar cada caminho em cada host e salvar a resposta.
+* urlgrab - Spider HTML com recursos de renderização JS. Porém, parece que não tem manutenção, a versão pré-compilada é antiga e o código atual não compila
+* gau - Spider HTML que usa provedores externos (wayback, otx, commoncrawl)
+* ParamSpider - Este script encontrará URLs com parâmetro e os listará.
+* galer - Spider HTML com recursos de renderização JS.
+* LinkFinder - HTML spider, com recursos de embelezamento JS capazes de pesquisar novos caminhos em arquivos JS. Também pode valer a pena dar uma olhada no JSScanner, que é um wrapper do LinkFinder.
+* goLinkFinder - Para extrair endpoints em arquivos de origem HTML e javascript incorporados. Útil para caçadores de bugs, red teamers, ninjas da infosec.
+* JSParser - Um script python 2.7 usando Tornado e JSBeautifier para analisar URLs relativos de arquivos JavaScript. Útil para descobrir facilmente solicitações AJAX. Parece sem manutenção.
+* relative-url-extractor - Dado um arquivo (HTML), ele extrairá URLs dele usando uma expressão regular bacana para encontrar e extrair os URLs relativos de arquivos feios (minificar).
+* JSFScan - Reúna informações interessantes de arquivos JS usando diversas ferramentas.
+* subjs - Encontre arquivos JS.
+* page-fetch - Carregue uma página em um navegador sem cabeça e imprima todos os URLs carregados para carregar a página.
+* Feroxbuster - Ferramenta de descoberta de conteúdo misturando diversas opções das ferramentas anteriores
+* JavaScript Parsing - Uma extensão Burp para encontrar caminhos e parâmetros em arquivos JS.
+* Sourcemapper - Uma ferramenta que fornece o URL .js.map fornecerá o código JS beatificado
+* xnLinkFinder - Esta é uma ferramenta usada para descobrir endpoints para um determinado alvo.
+* waymore - Descubra links da máquina wayback (também baixando as respostas no wayback e procurando mais links
+* HTTPLoot - Rastreie (até mesmo preenchendo formulários) e também encontre informações confidenciais usando expressões regulares específicas.
+* SpiderSuite - Spider Suite é um crawler/Spider avançado de segurança da web com GUI multifuncional projetado para profissionais de segurança cibernética.
+* jsluice - É um pacote Go e uma ferramenta de linha de comando para extrair URLs, caminhos, segredos e outros dados interessantes do código-fonte JavaScript.
+* ParaForge - ParaForge é uma extensão simples do Burp Suite para extrair os parâmetros e endpoints da solicitação para criar uma lista de palavras personalizada para difusão e enumeração.
+* katana - Ferramenta incrível para isso.
