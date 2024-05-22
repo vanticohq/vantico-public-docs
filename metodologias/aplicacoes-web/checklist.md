@@ -108,3 +108,45 @@ Preparação
 
 
 
+Forçando Erros
+
+Os servidores da Web podem se comportar de maneira inesperada quando dados estranhos são enviados a eles. Isso pode abrir vulnerabilidades ou divulgar informações confidenciais.
+
+* [ ] Acesse as páginas falsas como qualquer página .php
+* [ ] Adicione "\[]", "]]", e "\[\[" nos valores dos cookies e valores dos parâmetros para criar erros
+* [ ] Gere erros colocando "/\~randomthing/%s" no fim da URL
+* [ ] Tente diferentes verbos HTTP como PATCH, DEBUG ou algo como FAKE
+
+
+
+Verifique se você pode enviar arquivos (PUT, WebDav)
+
+Se você encontrar que WebDav está habilitado mas você não tem as permissões necessárias para enviar arquivos na pasta do root, tente:
+
+* [ ] Força Bruta nas credenciais
+* [ ] Enviar arquivos via WebDav para o restante das pastas encontradas dentro da página da web. Você pode ter permissões para fazer upload de arquivos em outras pastas.
+
+
+
+Vulnerabilidades SSL/TLS
+
+* [ ] Se a aplicação não está forçando o usuário HTTPS em alguma parte, então é vulnerável para o MitM
+* [ ] Se a aplicação está enviando dados sensíveis (senhas) usando HTTP. Então isto é uma vulnerabilidade alta
+
+Use testssl.sh para verificar as vulnerabilidades e use a2sv para verificar novamente as vulnerabilidades
+
+```
+./testssl.sh [--htmlfile] 10.10.10.10:443
+#Use o --htmlfile para salvar a saída dentro de um arquivo html
+
+#Você pode também usar outras ferramentas, o testssl.sh neste momente é a melhor
+sslscan <host:porta>
+sslyze --regular <ip:porta>
+```
+
+Informações sobre vulnerabilidades SSL/TSL:
+
+{% embed url="https://www.gracefulsecurity.com/tls-ssl-vulnerabilities/" %}
+
+{% embed url="https://www.acunetix.com/blog/articles/tls-vulnerabilities-attacks-final-part/" %}
+
