@@ -112,6 +112,15 @@ openssl s_client -connect (domínio.com):443 #GET / HTTP/1.0
 
 
 
+Enumerando as Aplicações do Web Server
+
+* [ ] Enumerando com o NMAP
+* [ ] Enumerando com o Netcat
+* [ ] Execute uma consulta DNS
+* [ ] Execute uma consulta DNS reversa
+
+
+
 **Forçando Erros**
 
 Os servidores da Web podem se comportar de maneira inesperada quando dados estranhos são enviados a eles. Isso pode abrir vulnerabilidades ou divulgar informações confidenciais.
