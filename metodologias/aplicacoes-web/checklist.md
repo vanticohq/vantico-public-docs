@@ -121,6 +121,52 @@ Enumerando as Aplicações do Web Server
 
 
 
+Revise o conteúdo da Web
+
+* [ ] Inspecione a a fonte da página para informações sensíveis
+* [ ] Tente encontrar códigos sensíveis de Javascript
+* [ ] Tente encontrar alguma chave
+* [ ] Tenha certeza que o autocompletar está desabilitado
+
+
+
+Identificar Pontos de Entrada na Aplicação
+
+* [ ] Identificar quais métodos são usados
+* [ ] Identificar onde estes métodos são usados
+* [ ] Identificar o ponto de Injeção
+
+
+
+Mapeando Paths de Execução
+
+* [ ] Use Burp Suite
+* [ ] Use Dirsearch
+* [ ] Use Gobuster
+
+
+
+Estrutura de aplicativo Web de impressão digital
+
+* [ ] Use a extensão Wappalyzer do navegador
+* [ ] Use Whatweb
+* [ ] Veja as extensões URL
+* [ ] Veja o código fonte HTML
+* [ ] Veja os parâmetros do cookie
+* [ ] Veja os cabeçalhos HTTP
+
+
+
+Mapeie a Arquitetura da Aplicação
+
+* [ ] Mapeie toda a estrutura do site
+
+
+
+
+
+
+
 **Forçando Erros**
 
 Os servidores da Web podem se comportar de maneira inesperada quando dados estranhos são enviados a eles. Isso pode abrir vulnerabilidades ou divulgar informações confidenciais.
@@ -169,32 +215,33 @@ Informações sobre vulnerabilidades SSL/TSL:
 
 Envie um tipo de aranha dentro da teia. A meta do spider é encontrar o máximo de paths possíveis da aplicação testada. Portanto, web crawling e fontes externas devem ser usadas para encontrar o máximo de paths possíveis.
 
-* gospider - Spider HTML, LinkFinder em arquivos JS e fontes externas (Archive.org, CommonCrawl.org, VirusTotal.com, AlienVault.com).
-* hakrawler - Spider HML, com LinkFider para arquivos JS e Archive.org como fonte externa.
-* dirhunt - HTML spider, também indica "arquivos suculentos".
-* evine - Spider HTML CLI interativa. Ele também pesquisa no Archive.org
-* meg - Esta ferramenta não é uma spider, mas pode ser útil. Você pode apenas indicar um arquivo com hosts e um arquivo com caminhos e meg irá buscar cada caminho em cada host e salvar a resposta.
-* urlgrab - Spider HTML com recursos de renderização JS. Porém, parece que não tem manutenção, a versão pré-compilada é antiga e o código atual não compila
-* gau - Spider HTML que usa provedores externos (wayback, otx, commoncrawl)
-* ParamSpider - Este script encontrará URLs com parâmetro e os listará.
-* galer - Spider HTML com recursos de renderização JS.
-* LinkFinder - HTML spider, com recursos de embelezamento JS capazes de pesquisar novos caminhos em arquivos JS. Também pode valer a pena dar uma olhada no JSScanner, que é um wrapper do LinkFinder.
-* goLinkFinder - Para extrair endpoints em arquivos de origem HTML e javascript incorporados. Útil para caçadores de bugs, red teamers, ninjas da infosec.
-* JSParser - Um script python 2.7 usando Tornado e JSBeautifier para analisar URLs relativos de arquivos JavaScript. Útil para descobrir facilmente solicitações AJAX. Parece sem manutenção.
-* relative-url-extractor - Dado um arquivo (HTML), ele extrairá URLs dele usando uma expressão regular bacana para encontrar e extrair os URLs relativos de arquivos feios (minificar).
-* JSFScan - Reúna informações interessantes de arquivos JS usando diversas ferramentas.
-* subjs - Encontre arquivos JS.
-* page-fetch - Carregue uma página em um navegador sem cabeça e imprima todos os URLs carregados para carregar a página.
-* Feroxbuster - Ferramenta de descoberta de conteúdo misturando diversas opções das ferramentas anteriores
-* JavaScript Parsing - Uma extensão Burp para encontrar caminhos e parâmetros em arquivos JS.
-* Sourcemapper - Uma ferramenta que fornece o URL .js.map fornecerá o código JS beatificado
-* xnLinkFinder - Esta é uma ferramenta usada para descobrir endpoints para um determinado alvo.
-* waymore - Descubra links da máquina wayback (também baixando as respostas no wayback e procurando mais links
-* HTTPLoot - Rastreie (até mesmo preenchendo formulários) e também encontre informações confidenciais usando expressões regulares específicas.
-* SpiderSuite - Spider Suite é um crawler/Spider avançado de segurança da web com GUI multifuncional projetado para profissionais de segurança cibernética.
-* jsluice - É um pacote Go e uma ferramenta de linha de comando para extrair URLs, caminhos, segredos e outros dados interessantes do código-fonte JavaScript.
-* ParaForge - ParaForge é uma extensão simples do Burp Suite para extrair os parâmetros e endpoints da solicitação para criar uma lista de palavras personalizada para difusão e enumeração.
-* katana - Ferramenta incrível para isso.
+* [ ] gospider - Spider HTML, LinkFinder em arquivos JS e fontes externas (Archive.org, CommonCrawl.org, VirusTotal.com, AlienVault.com).
+* [ ] hakrawler - Spider HML, com LinkFider para arquivos JS e Archive.org como fonte externa.
+* [ ] dirhunt - HTML spider, também indica "arquivos suculentos".
+* [ ] evine - Spider HTML CLI interativa. Ele também pesquisa no Archive.org
+* [ ] meg - Esta ferramenta não é uma spider, mas pode ser útil. Você pode apenas indicar um arquivo com hosts e um arquivo com caminhos e meg irá buscar cada caminho em cada host e salvar a resposta.
+* [ ] urlgrab - Spider HTML com recursos de renderização JS. Porém, parece que não tem manutenção, a versão pré-compilada é antiga e o código atual não compila
+* [ ] gau - Spider HTML que usa provedores externos (wayback, otx, commoncrawl)
+* [ ] ParamSpider - Este script encontrará URLs com parâmetro e os listará.
+* [ ] galer - Spider HTML com recursos de renderização JS.
+* [ ] LinkFinder - HTML spider, com recursos de embelezamento JS capazes de pesquisar novos caminhos em arquivos JS. Também pode valer a pena dar uma olhada no JSScanner, que é um wrapper do LinkFinder.
+* [ ] goLinkFinder - Para extrair endpoints em arquivos de origem HTML e javascript incorporados. Útil para caçadores de bugs, red teamers, ninjas da infosec.
+* [ ] dirhunt - HTML spider, também indica "arquivos suculentos".
+* [ ] JSParser - Um script python 2.7 usando Tornado e JSBeautifier para analisar URLs relativos de arquivos JavaScript. Útil para descobrir facilmente solicitações AJAX. Parece sem manutenção.
+* [ ] relative-url-extractor - Dado um arquivo (HTML), ele extrairá URLs dele usando uma expressão regular bacana para encontrar e extrair os URLs relativos de arquivos feios (minificar).
+* [ ] JSFScan - Reúna informações interessantes de arquivos JS usando diversas ferramentas.
+* [ ] subjs - Encontre arquivos JS.
+* [ ] page-fetch - Carregue uma página em um navegador sem cabeça e imprima todos os URLs carregados para carregar a página.
+* [ ] Feroxbuster - Ferramenta de descoberta de conteúdo misturando diversas opções das ferramentas anteriores
+* [ ] JavaScript Parsing - Uma extensão Burp para encontrar caminhos e parâmetros em arquivos JS.
+* [ ] Sourcemapper - Uma ferramenta que fornece o URL .js.map fornecerá o código JS beatificado
+* [ ] xnLinkFinder - Esta é uma ferramenta usada para descobrir endpoints para um determinado alvo.
+* [ ] waymore - Descubra links da máquina wayback (também baixando as respostas no wayback e procurando mais links
+* [ ] HTTPLoot - Rastreie (até mesmo preenchendo formulários) e também encontre informações confidenciais usando expressões regulares específicas.
+* [ ] SpiderSuite - Spider Suite é um crawler/Spider avançado de segurança da web com GUI multifuncional projetado para profissionais de segurança cibernética.
+* [ ] jsluice - É um pacote Go e uma ferramenta de linha de comando para extrair URLs, caminhos, segredos e outros dados interessantes do código-fonte JavaScript.
+* [ ] ParaForge - ParaForge é uma extensão simples do Burp Suite para extrair os parâmetros e endpoints da solicitação para criar uma lista de palavras personalizada para difusão e enumeração.
+* [ ] katana - Ferramenta incrível para isso.
 
 
 
@@ -204,24 +251,24 @@ Inicie a força bruta a partir da pasta root e certifique-se de aplicar força b
 
 Ferramentas:
 
-* Dirb/ Dirbuster - Incluído no Kali, antigo (e lento), mas funcional. Permitir certificados assinados automaticamente e pesquisa recursiva. Muito lento em comparação com outras opções.
-* Dirsearch - Não permite certificados assinados automaticamente, mas permite pesquisa recursiva.
-* Gobuster - Permite certificados autoassinados, não possui pesquisa recursiva.
-* Feroxbuster - Rápido, suporta pesquisa recursiva.
-* wfuzz
+* [ ] Dirb/ Dirbuster - Incluído no Kali, antigo (e lento), mas funcional. Permitir certificados assinados automaticamente e pesquisa recursiva. Muito lento em comparação com outras opções.
+* [ ] Dirsearch - Não permite certificados assinados automaticamente, mas permite pesquisa recursiva.
+* [ ] Gobuster - Permite certificados autoassinados, não possui pesquisa recursiva.
+* [ ] Feroxbuster - Rápido, suporta pesquisa recursiva.
+* [ ] wfuzz
 
 ```
 wfuzz -w /usr/share/seclists/Discovery/Web-Content/raft-medium-directories.txt 
 https://domain.com/api/FUZZ
 ```
 
-* ffuf
+* [ ] ffuf
 
 ```
 ffuf -c -w /usr/share/wordlists/dirb/big.txt -u http://10.10.10.10/FUZZ
 ```
 
-* uro - Este não é um spider, mas uma ferramenta que, dada a lista de URLs encontrados, excluirá URLs "duplicados".
-* Scavenger - Extensão Burp para criar uma lista de diretórios a partir do histórico de arrotos de diferentes páginas
-* TrashCompactor - Remova URLs com funcionalidades duplicadas (com base em importações js)
-* Chamaleon - Ele usa wapalyzer para detectar tecnologias usadas e selecionar as listas de palavras a serem usadas.
+* [ ] uro - Este não é um spider, mas uma ferramenta que, dada a lista de URLs encontrados, excluirá URLs "duplicados".
+* [ ] Scavenger - Extensão Burp para criar uma lista de diretórios a partir do histórico de arrotos de diferentes páginas
+* [ ] TrashCompactor - Remova URLs com funcionalidades duplicadas (com base em importações js)
+* [ ] Chamaleon - Ele usa wapalyzer para detectar tecnologias usadas e selecionar as listas de palavras a serem usadas.
