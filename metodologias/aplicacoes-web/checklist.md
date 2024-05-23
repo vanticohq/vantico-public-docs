@@ -91,18 +91,6 @@ openssl s_client -connect (domínio.com):443 #GET / HTTP/1.0
 
 
 
-**Rede**
-
-* [ ] Verifique se pacotes ICMP estão permitidos
-* [ ] Verifique as políticas DMARC/SPF (spoofcheck)
-* [ ] Abra portas com o Shodan
-* [ ] Port Scan em todas as portas
-* [ ] Verifique as portas UDP (nmap)
-* [ ] Teste SSL (testssl)
-* [ ] Se possuir credenciais, tente pulverização de senhas em todos os serviços descobertos
-
-
-
 **Preparação**
 
 * [ ] Estude a estrutura do site
@@ -130,20 +118,6 @@ Revise o conteúdo da Web
 
 
 
-Identificar Pontos de Entrada na Aplicação
-
-* [ ] Identificar quais métodos são usados
-* [ ] Identificar onde estes métodos são usados
-* [ ] Identificar o ponto de Injeção
-
-
-
-Mapeando Paths de Execução
-
-* [ ] Use Burp Suite
-* [ ] Use Dirsearch
-* [ ] Use Gobuster
-
 
 
 Estrutura de aplicativo Web de impressão digital
@@ -157,13 +131,52 @@ Estrutura de aplicativo Web de impressão digital
 
 
 
-Mapeie a Arquitetura da Aplicação
+Mapeie a Infraestrutura da Aplicação
 
 * [ ] Mapeie toda a estrutura do site
+* [ ] Segregação em infraestruturas compartilhadas
+* [ ] Segregação entre aplicativos hospedados em ASP
+* [ ] Vulnerabilidades do servidor web
+* [ ] Métodos HTTP perigosos
+* [ ] Funcionalidade de proxy
+* [ ] Configuração incorreta de hospedagem virtual (VHostScan)
+* [ ] Verifique os IPs internos na solicitação
+* [ ] Verifique se há IPs externos e resolva-os
+* [ ] Teste o armazenamento em nuvem
+* [ ] Verifique a existência de canais alternativos (www.web.com vs m.web.com)
 
 
 
+Enumeração da Infraestrutura e Interface Admin
 
+* [ ] Tente encontrar a Interface da Infraestrutura
+* [ ] Tente encontrar a Interface do Admin
+* [ ] Identifique as funcionalidades escondidas do Admin
+
+
+
+Mapeando Paths de Execução
+
+* [ ] Use Burp Suite
+* [ ] Use Dirsearch
+* [ ] Use Gobuster
+
+
+
+Identificar Pontos de Entrada na Aplicação
+
+* [ ] Identificar quais métodos são usados
+* [ ] Identificar onde estes métodos são usados
+* [ ] Identificar o ponto de Injeção
+
+
+
+**Verifique se você pode enviar arquivos (PUT, WebDav)**
+
+Se você encontrar que WebDav está habilitado mas você não tem as permissões necessárias para enviar arquivos na pasta do root, tente:
+
+* [ ] Força Bruta nas credenciais
+* [ ] Enviar arquivos via WebDav para o restante das pastas encontradas dentro da página da web. Você pode ter permissões para fazer upload de arquivos em outras pastas.
 
 
 
@@ -180,12 +193,15 @@ Os servidores da Web podem se comportar de maneira inesperada quando dados estra
 
 
 
-**Verifique se você pode enviar arquivos (PUT, WebDav)**
+**Rede**
 
-Se você encontrar que WebDav está habilitado mas você não tem as permissões necessárias para enviar arquivos na pasta do root, tente:
-
-* [ ] Força Bruta nas credenciais
-* [ ] Enviar arquivos via WebDav para o restante das pastas encontradas dentro da página da web. Você pode ter permissões para fazer upload de arquivos em outras pastas.
+* [ ] Verifique se pacotes ICMP estão permitidos
+* [ ] Verifique as políticas DMARC/SPF (spoofcheck)
+* [ ] Abra portas com o Shodan
+* [ ] Port Scan em todas as portas
+* [ ] Verifique as portas UDP (nmap)
+* [ ] Teste SSL (testssl)
+* [ ] Se possuir credenciais, tente pulverização de senhas em todos os serviços descobertos
 
 
 
