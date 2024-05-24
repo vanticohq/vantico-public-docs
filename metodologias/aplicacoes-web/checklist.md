@@ -180,6 +180,115 @@ Se você encontrar que WebDav está habilitado mas você não tem as permissões
 
 
 
+Teste páginas não Criptografadas
+
+* [ ] Verifique a página HTTP de login&#x20;
+* [ ] Verifique a página HTTP de registro ou logar&#x20;
+* [ ] Verifique a página HTTP Esqueci minha Senha
+* [ ] Verifique a página HTTP Trocar minha Senha
+* [ ] Verifique por recursos em HTTP depois de logar
+* [ ] Teste forçar pesquisas em páginas HTTPS
+
+
+
+Teste por Credenciais Padrão
+
+* [ ] Teste com as credenciais padrão
+* [ ] Teste o nome da organização como credencial
+* [ ] Teste a manipulação de respostas
+* [ ] Teste pelo nome de usuário padrão e uma senha em branco
+* [ ] Procure no código fonte da página por credenciais
+
+
+
+Teste por mecanismos de bloqueios fracos
+
+* [ ] Tenha certeza de que a conta foi bloqueada depois de 3-5 tentativas
+* [ ] Tenha certeza que o sistema aceite apenas CAPTCHA válido
+* [ ] Tenha certeza que o sistema rejeite CAPTCHA inválido
+* [ ] Tenha certeza de que o código do CAPTCHA é regerado após ser recarregado
+* [ ] Tenha certeza de que o código CAPTCHA recarrega após colocar o código errado
+* [ ] Tenha certeza de que há uma opção de recuperação para contas bloqueadas
+
+
+
+Teste para passar o sistema de autenticação
+
+* [ ] Teste uma pesquisa forçada diretamente do dashboard interno sem login
+* [ ] Tente adivinhar o ID da sessão
+* [ ] Tente adulterar parâmetros de autenticação
+* [ ] Tente por Injeção SQL na página de login
+* [ ] Tente ganhar acesso com a ajuda do ID da sessão
+* [ ] Tente múltiplos logins permitidos ou não?
+
+
+
+Teste por vulnerabilidades em Lembrar a Senha
+
+* [ ] Tenha certeza de que as senhas armazenadas estão criptografadas
+* [ ] Tenha certeza de que as senhas armazenadas estão no lado do servidor
+
+
+
+Teste por fraquezas no cache do navegador
+
+* [ ] Tenha certeza que o controle do cache está configurado em páginas sensíveis
+* [ ] Tenha certeza de que não há dados sensíveis armazenados no cache do navegador
+
+
+
+Teste por Políticas de Senhas Fracas
+
+* [ ] Tenha certeza de que a política de senhas é forte
+* [ ] Verifique se a senha pode ser reutilizada
+* [ ] Verifique se o usuário é permitido utilizar seu nome de usuário como sua senha
+* [ ] Verifique se há o uso de senhas fracas comuns
+* [ ] Verifique se a quantidade mínimas de caracteres está configurada
+* [ ] Verifique se a quantidade máxima de caracteres está configurada
+
+
+
+Verifique por Questão de Segurança Fracas
+
+* [ ] Verifique a complexidade das questões
+* [ ] Verifique por força bruta
+
+
+
+Teste a função de Resetar a Senha é Fraca
+
+* [ ] Verifique qual informação é necessária para resetar a senha
+* [ ] Verifique a função de resetar a senha com HTTP
+* [ ] Teste a randomização dos tokens de resetar a senha
+* [ ] Teste a unicidade dos tokens de resetar a senha
+* [ ] Verifique a taxa limite dos tokens de resetar a senha
+* [ ] Tenha certeza de que os tokens expiram após serem usados
+* [ ] Tenha certeza de que os tokens expiram depois de um longo tempo sem serem usados
+
+
+
+Teste a função de Trocar a Senha é Fraca
+
+* [ ] Verifique se uma senha antiga é requisitada para trocar a senha
+* [ ] Verifique pela unicidade de uma senha esquecida
+* [ ] Verifique pela troca de senha em branco
+* [ ] Verifique a função de trocar a senha com HTTP
+* [ ] Tenha certeza de que a antiga senha não irá aparecer no painel
+* [ ] Tenha certeza de que as outras sessões vão ser destruídas depois de trocar a senha
+
+
+
+Teste por uma Autenticação Fraca em um Canal Alternativo
+
+* [ ] Teste por autenticação em navegadores de computador
+* [ ] Teste por autenticação em navegadores de celulares
+* [ ] Teste por autenticação em diferentes países
+* [ ] Teste por autenticação em diferentes línguas
+* [ ] Teste por autenticação por aplicações de computador
+* [ ] Teste por autenticação por aplicação de celulares
+
+
+
 **Forçando Erros**
 
 Os servidores da Web podem se comportar de maneira inesperada quando dados estranhos são enviados a eles. Isso pode abrir vulnerabilidades ou divulgar informações confidenciais.
