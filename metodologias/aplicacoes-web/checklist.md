@@ -171,6 +171,68 @@ Identificar Pontos de Entrada na Aplicação
 
 
 
+**Rede**
+
+* [ ] Verifique se pacotes ICMP estão permitidos
+* [ ] Verifique as políticas DMARC/SPF (spoofcheck)
+* [ ] Abra portas com o Shodan
+* [ ] Port Scan em todas as portas
+* [ ] Verifique as portas UDP (nmap)
+* [ ] Teste SSL (testssl)
+* [ ] Se possuir credenciais, tente pulverização de senhas em todos os serviços descobertos
+
+
+
+**Teste a Configuração da Aplicação**
+
+* [ ] Tenha certeza de que apenas os módulos requiridos são utilizados
+* [ ] Tenha certeza de que módulos não requiridos estão desabilitados
+* [ ] Tenha certeza de que o servidor suporta um DOS
+* [ ] Verifique como a aplicação está lidando com os erros 4xx e 5xx
+* [ ] Verifique os privilégios requiridos para funcionar
+* [ ] Observe os logs para verificar informações sensíveis
+
+
+
+**Teste o manuseio das Extensões de Arquivos**
+
+* [ ] Tenha certeza de que o servidor não vai retornar extensões sensíveis
+* [ ] Tenha certeza de que o servidor não aceita extensões maliciosas
+* [ ] Teste as vulnerabilidades de uploads de arquivos
+
+
+
+**Revise o Backup e Arquivos Não Referenciados**
+
+* [ ] Tenha certeza de que arquivos não referenciados não contém informações sensíveis
+* [ ] Tenha certeza das nomeações dos antigos e novos arquivos de backup
+* [ ] Verifique a funcionalidade de páginas não referenciadas
+
+
+
+**Teste as Permissões dos Arquivos**
+
+* [ ] Tenha certeza das permissões dos arquivos sensíveis
+* [ ] Realize um teste para enumeração de diretórios
+
+
+
+**Teste a Aquisição de Subdomínios**
+
+* [ ] Teste o DNS, A, as gravações do CNAME para aquisição de subdomínio
+* [ ] Teste as gravações NS para aquisição de subdomínio
+* [ ] Teste a resposta 404 para aquisição de subdomínio
+
+
+
+**Teste o Armazenamento em Nuvem**
+
+* [ ] Verifique por informações sensíveis nos paths da AWS
+* [ ] Verifique por informações sensíveis nos paths do Google Cloud
+* [ ] Verifique por informações sensíveis nos paths do Azure
+
+
+
 **Verifique se você pode enviar arquivos (PUT, WebDav)**
 
 Se você encontrar que WebDav está habilitado mas você não tem as permissões necessárias para enviar arquivos na pasta do root, tente:
@@ -300,18 +362,6 @@ Os servidores da Web podem se comportar de maneira inesperada quando dados estra
 * [ ] Adicione diversos parâmetros como GET e POST usando diferentes valores
 * [ ] Use o Burp Intruder "Fuzzing Full" Lista em entrada para gerar códigos de erros
 * [ ] Tente diferentes verbos HTTP como PATCH, DEBUG ou algo como FAKE
-
-
-
-**Rede**
-
-* [ ] Verifique se pacotes ICMP estão permitidos
-* [ ] Verifique as políticas DMARC/SPF (spoofcheck)
-* [ ] Abra portas com o Shodan
-* [ ] Port Scan em todas as portas
-* [ ] Verifique as portas UDP (nmap)
-* [ ] Teste SSL (testssl)
-* [ ] Se possuir credenciais, tente pulverização de senhas em todos os serviços descobertos
 
 
 
