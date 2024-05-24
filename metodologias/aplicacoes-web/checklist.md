@@ -118,8 +118,6 @@ Revise o conteúdo da Web
 
 
 
-
-
 Estrutura de aplicativo Web de impressão digital
 
 * [ ] Use a extensão Wappalyzer do navegador
@@ -349,6 +347,20 @@ Se você encontrar que WebDav está habilitado mas você não tem as permissões
 * [ ] Teste por autenticação em diferentes línguas
 * [ ] Teste por autenticação por aplicações de computador
 * [ ] Teste por autenticação por aplicação de celulares
+
+
+
+**Teste o Processo de Registro dos Usuários**
+
+* [ ] Tenha certeza de que o mesmo usuário não pode se registrar novamente
+* [ ] Tenha certeza de que os registros são verificados
+* [ ] Tenha certeza de que emails descartáveis são rejeitados
+* [ ] Verifique qual prova é requirida para um registro com sucesso
+* [ ] Verifique o Registro Duplo
+* [ ] A unicidade do nome dos usuários
+* [ ] Adicionar apenas espaços na senha
+* [ ] A taxa limite de tempo de registro
+* [ ] XSS no nome ou email
 
 
 
