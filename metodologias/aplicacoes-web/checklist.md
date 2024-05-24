@@ -364,6 +364,61 @@ Se você encontrar que WebDav está habilitado mas você não tem as permissões
 
 
 
+**Teste a Inclusão de Arquivos no Diretório**
+
+* [ ] Identifique o ponto de injeção na URL
+* [ ] Teste pela inclusão de arquivo local
+* [ ] Teste pela inclusão de arquivo remoto
+
+
+
+**Teste Traversal com Codificação**
+
+* [ ] Teste Traversal com codificação Base64
+* [ ] Teste Traversal com codificação URL
+* [ ] Teste Traversal com codificação ASCII
+* [ ] Teste Traversal com codificação HTML
+* [ ] Teste Traversal com codificação Hex
+* [ ] Teste Traversal com codificação Binário
+* [ ] Teste Traversal com codificação Octal
+* [ ] Teste Traversal com codificação Gzip
+
+
+
+**Teste Outras formas de Codificação**
+
+* [ ] Teste Traversal com Codificação Dupla
+* [ ] Teste Traversal com todos os caracteres de codificação
+* [ ] Teste Traversal com codificação de apenas caracteres especiais
+
+
+
+**Teste por Escalação de Privilégios**
+
+* [ ] Identifique o ponto de Injeção
+* [ ] Teste dar bypass nas medidas de segurança
+* [ ] Teste com pesquisa forçada
+* [ ] Teste por IDOR
+* [ ] Teste para adulteração de parâmetros para usuário com alto privilégio
+
+
+
+**Teste para referência direta de objeto inseguro**
+
+* [ ] Teste para alterar o parâmetro ID
+* [ ] Teste para adicionar parâmetros nos endpoints
+* [ ] Teste para poluição de parâmetros HTTP
+* [ ] Teste adicionando uma extensão no final
+* [ ] Teste com versões de API desatualizadas
+* [ ] Teste envolvendo o ID com uma matriz
+* [ ] Teste agrupando o ID com um objeto JSON
+* [ ] Teste para poluição de parâmetros JSON
+* [ ] Teste alterando o caso
+* [ ] Teste mudando palavras
+* [ ] Teste alterando métodos
+
+
+
 **Forçando Erros**
 
 Os servidores da Web podem se comportar de maneira inesperada quando dados estranhos são enviados a eles. Isso pode abrir vulnerabilidades ou divulgar informações confidenciais.
