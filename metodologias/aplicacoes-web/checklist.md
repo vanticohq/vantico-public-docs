@@ -419,6 +419,86 @@ Se você encontrar que WebDav está habilitado mas você não tem as permissões
 
 
 
+**Teste para gerenciamento de sessão**
+
+* [ ] Garanta que todas as diretivas Set-Cookie sejam seguras
+* [ ] Garanta que nenhuma operação de cookie ocorra em um canal não criptografado
+* [ ] Garanta que o cookie não possa ser forçado em um canal não criptografado
+* [ ] Certifique-se de que o sinalizador HTTPOnly esteja ativado
+* [ ] Verifique se algum cookie é persistente
+* [ ] Verifique os cookies de sessão e a data/hora de expiração dos cookies
+* [ ] Verifique a fixação da sessão
+* [ ] Verifique se há login simultâneo
+* [ ] Verifique a sessão após o logout
+* [ ] Verifique a sessão após fechar o navegador
+* [ ] Tente decodificar cookies (Base64, Hex, URL, etc)
+
+
+
+**Teste para Atributos de Cookies**
+
+* [ ] Certifique-se de que o cookie deve ser definido com o atributo seguro
+* [ ] Certifique-se de que o cookie deve ser definido com o atributo path
+* [ ] Certifique-se de que o cookie deve ter o sinalizador HTTPOnly
+
+
+
+**Teste para fixação de sessão**
+
+* [ ] Garanta que novos cookies tenham sido emitidos após uma autenticação bem-sucedida
+* [ ] Teste a manipulação dos cookies
+
+
+
+**Teste para variáveis de sessão expostas**
+
+* [ ] Teste de criptografia
+* [ ] Teste as vulnerabilidades GET e POST
+* [ ] Teste se a solicitação GET incorpora o ID de sessão usado
+* [ ] Teste trocando o método POST pelo método GET
+
+
+
+**Teste para ataque de atualização posterior**
+
+* [ ] Teste após alteração de senha
+* [ ] Teste depois de sair da conta
+
+
+
+**Teste para falsificação de solicitação entre sites**
+
+* [ ] Verifique se o token é validado no lado do servidor ou não
+* [ ] Verifique se o token está validado para comprimento total ou parcial
+* [ ] Verifique comparando os tokens CSRF para várias contas fictícias
+* [ ] Verifique CSRF trocando POST pelo método GET
+
+
+
+**Teste a funcionalidade de logout**
+
+* [ ] Verifique a função de logout em diferentes páginas
+* [ ] Verifique a visibilidade do botão de logout
+* [ ] Certifique-se de que após o logout a sessão foi encerrada
+* [ ] Certifique-se de que, após o logout, não consigamos acessar o painel pressionando o botão Voltar
+* [ ] Certifique-se de que o tempo limite da sessão adequado foi definido
+
+
+
+**Teste o tempo limite da sessão**
+
+* [ ] Certifique-se de que existe um tempo limite de sessão
+* [ ] Certifique-se de que após o tempo limite todos os tokens sejam destruídos
+
+
+
+**Teste para sequestro de sessão**
+
+* [ ] Teste o sequestro de sessão no alvo que não tem HSTS ativado
+* [ ] Teste por login com ajuda de cookies capturados
+
+
+
 **Forçando Erros**
 
 Os servidores da Web podem se comportar de maneira inesperada quando dados estranhos são enviados a eles. Isso pode abrir vulnerabilidades ou divulgar informações confidenciais.
