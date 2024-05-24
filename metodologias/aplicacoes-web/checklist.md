@@ -180,7 +180,7 @@ Se você encontrar que WebDav está habilitado mas você não tem as permissões
 
 
 
-Teste páginas não Criptografadas
+**Teste páginas não Criptografadas**
 
 * [ ] Verifique a página HTTP de login&#x20;
 * [ ] Verifique a página HTTP de registro ou logar&#x20;
@@ -191,7 +191,7 @@ Teste páginas não Criptografadas
 
 
 
-Teste por Credenciais Padrão
+**Teste por Credenciais Padrão**
 
 * [ ] Teste com as credenciais padrão
 * [ ] Teste o nome da organização como credencial
@@ -201,7 +201,7 @@ Teste por Credenciais Padrão
 
 
 
-Teste por mecanismos de bloqueios fracos
+**Teste por mecanismos de bloqueios fracos**
 
 * [ ] Tenha certeza de que a conta foi bloqueada depois de 3-5 tentativas
 * [ ] Tenha certeza que o sistema aceite apenas CAPTCHA válido
@@ -212,7 +212,7 @@ Teste por mecanismos de bloqueios fracos
 
 
 
-Teste para passar o sistema de autenticação
+**Teste para passar o sistema de autenticação**
 
 * [ ] Teste uma pesquisa forçada diretamente do dashboard interno sem login
 * [ ] Tente adivinhar o ID da sessão
@@ -223,24 +223,25 @@ Teste para passar o sistema de autenticação
 
 
 
-Teste por vulnerabilidades em Lembrar a Senha
+**Teste por vulnerabilidades em Lembrar a Senha**
 
 * [ ] Tenha certeza de que as senhas armazenadas estão criptografadas
 * [ ] Tenha certeza de que as senhas armazenadas estão no lado do servidor
 
 
 
-Teste por fraquezas no cache do navegador
+**Teste por fraquezas no cache do navegador**
 
 * [ ] Tenha certeza que o controle do cache está configurado em páginas sensíveis
 * [ ] Tenha certeza de que não há dados sensíveis armazenados no cache do navegador
 
 
 
-Teste por Políticas de Senhas Fracas
+**Teste por Políticas de Senhas Fracas**
 
 * [ ] Tenha certeza de que a política de senhas é forte
 * [ ] Verifique se a senha pode ser reutilizada
+* [ ] Verifique uma wordlist de senhas (cewl e burp-goldenNuggets)
 * [ ] Verifique se o usuário é permitido utilizar seu nome de usuário como sua senha
 * [ ] Verifique se há o uso de senhas fracas comuns
 * [ ] Verifique se a quantidade mínimas de caracteres está configurada
@@ -248,14 +249,14 @@ Teste por Políticas de Senhas Fracas
 
 
 
-Verifique por Questão de Segurança Fracas
+**Verifique por Questão de Segurança Fracas**
 
 * [ ] Verifique a complexidade das questões
 * [ ] Verifique por força bruta
 
 
 
-Teste a função de Resetar a Senha é Fraca
+**Teste a função de Resetar a Senha é Fraca**
 
 * [ ] Verifique qual informação é necessária para resetar a senha
 * [ ] Verifique a função de resetar a senha com HTTP
@@ -267,7 +268,7 @@ Teste a função de Resetar a Senha é Fraca
 
 
 
-Teste a função de Trocar a Senha é Fraca
+**Teste a função de Trocar a Senha é Fraca**
 
 * [ ] Verifique se uma senha antiga é requisitada para trocar a senha
 * [ ] Verifique pela unicidade de uma senha esquecida
@@ -278,7 +279,7 @@ Teste a função de Trocar a Senha é Fraca
 
 
 
-Teste por uma Autenticação Fraca em um Canal Alternativo
+**Teste por uma Autenticação Fraca em um Canal Alternativo**
 
 * [ ] Teste por autenticação em navegadores de computador
 * [ ] Teste por autenticação em navegadores de celulares
