@@ -94,6 +94,7 @@
   * [Kubernetes](metodologias/kubernetes.md)
   * [Aplicações Web](metodologias/aplicacoes-web/README.md)
     * [Checklist](metodologias/aplicacoes-web/checklist.md)
+    * [Referências](metodologias/aplicacoes-web/referencias.md)
     * [Low Hanging Fruit](metodologias/aplicacoes-web/low-hanging-fruit.md)
     * [Duplo Fator / MFA](metodologias/aplicacoes-web/duplo-fator-mfa.md)
     * [Race Condition](metodologias/aplicacoes-web/race-condition.md)
