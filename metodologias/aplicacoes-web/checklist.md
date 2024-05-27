@@ -556,6 +556,98 @@ Se você encontrar que WebDav está habilitado mas você não tem as permissões
 
 
 
+**Teste a Injeção XML**
+
+* [ ] Verifique se o aplicativo está usando XML para processamento
+* [ ] Identifique o ponto de injeção XML por metacaractere XML
+* [ ] Construa payload XSS sobre XML
+
+
+
+**Teste para inclusão do lado do servidor**
+
+* [ ] Use Google Dorks para encontrar SSI
+* [ ] Construa RCE em cima do SSI
+* [ ] Construa outras injeções além do SSI
+* [ ] Teste a injeção de SSI em páginas de login, campos de cabeçalho, referenciador, etc.
+
+
+
+**Teste por Injeção IMAP SMTP**
+
+* [ ] Identificar o ponto de injeção IMAP SMTP
+* [ ] Entenda o fluxo de dados
+* [ ] Entenda a estrutura de implantação do sistema
+* [ ] Avalie o impacto da injeção
+
+
+
+**Teste para inclusão de arquivo local**
+
+* [ ] Procure palavras-chave LFI
+* [ ] Tente mudar o caminho local
+* [ ] Use a lista de payloads LFI
+* [ ] Teste o LFI adicionando um byte nulo no final
+
+
+
+**Teste para inclusão remota de arquivos**
+
+* [ ] Procure palavras-chave RFI
+* [ ] Tente mudar o caminho remoto
+* [ ] Use a lista de payloads RFI
+
+
+
+**Teste para injeção de comando**
+
+* [ ] Identifique os pontos de injeção
+* [ ] Procure palavras-chave de injeção de comando
+* [ ] Teste a injeção de comando usando diferentes delimitadores
+* [ ] Testar injeção de comando com lista de payloads
+* [ ] Teste a injeção de comando com diferentes comandos do sistema operacional
+
+
+
+**Teste para injeção de string de formato**
+
+* [ ] Identifique os pontos de injeção
+* [ ] Use parâmetros de formato diferentes como payloads
+* [ ] Avalie o impacto da injeção
+
+
+
+**Teste para injeção de cabeçalho de host**
+
+* [ ] Teste o HHI alterando o parâmetro real do Host
+* [ ] Teste o HHI adicionando o parâmetro X-Forwarded Host
+* [ ] Teste o HHI trocando o parâmetro Host real e Host encaminhado por X
+* [ ] Teste o HHI adicionando dois parâmetros de host
+* [ ] Teste o HHI adicionando os valores alvo na frente dos valores originais
+* [ ] Teste o HHI adicionando o alvo com uma barra após os valores originais
+* [ ] Teste para HHI com outras injeções no parâmetro Host
+* [ ] Teste para HHI por envenenamento por redefinição de senha
+
+
+
+**Teste para falsificação de solicitação do servidor**
+
+* [ ] Procure palavras-chave SSRF
+* [ ] Pesquise palavras-chave SSRF apenas no cabeçalho e no corpo da solicitação
+* [ ] Identifique os pontos de injeção
+* [ ] Teste se os pontos de injeção são exploráveis
+* [ ] Avalie o impacto da injeção
+
+
+
+**Teste para injeção de modelo no lado do servidor**
+
+* [ ] Identifique os pontos de vulnerabilidade de injeção de modelo
+* [ ] Identifique o mecanismo de modelagem
+* [ ] Use o tplmap para explorar
+
+
+
 
 
 
