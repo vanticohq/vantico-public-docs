@@ -718,7 +718,124 @@ Se você encontrar que WebDav está habilitado mas você não tem as permissões
 
 
 
+**Teste para scripts entre sites baseados em DOM**
 
+* [ ] Tente identificar coletores DOM
+* [ ] Crie payloads para esse tipo de coletor DOM
+
+
+
+**Teste para redirecionamento de URL**
+
+* [ ] Procure parâmetros de redirecionamento de URL
+* [ ] Teste o redirecionamento de URL em parâmetros de domínio
+* [ ] Teste o redirecionamento de URL usando uma lista de payloads
+* [ ] Teste o redirecionamento de URL usando uma palavra da lista de permissões no final
+* [ ] Teste o redirecionamento de URL criando um novo subdomínio com o mesmo destino
+* [ ] Teste para redirecionamento de URL por XSS
+* [ ] Teste o redirecionamento de URL por falha de URL do perfil
+
+
+
+**Teste para compartilhamento de recursos entre origens**
+
+* [ ] Procure por “Access-Control-Allow-Origin” na resposta
+* [ ] Use o código de exploração HTML CORS para exploração adicional
+
+
+
+**Teste para clickjacking**
+
+* [ ] Certifique-se de que os cabeçalhos “X-Frame-Options” estejam ativados
+* [ ] Explorar com código HTML iframe para POC
+
+
+
+**Teste para limitação sem taxa**
+
+* [ ] Certifique-se de que a limitação de taxa esteja habilitada
+* [ ] Tente contornar a limitação de taxa alterando a caixa dos endpoints
+* [ ] Tente contornar a limitação de taxa adicionando / no final do URL
+* [ ] Tente contornar a limitação de taxa adicionando cabeçalhos HTTP
+* [ ] Tente contornar a limitação de taxa adicionando cabeçalhos HTTP duas vezes
+* [ ] Tente contornar a limitação de taxa adicionando cabeçalhos Origin
+* [ ] Tente contornar a limitação de taxa por rotação de IP
+* [ ] Tente ignorar a limitação de taxa usando bytes nulos no final
+* [ ] Tente contornar a limitação de taxa usando condições de corrida
+
+
+
+**Teste para geodados EXIF**
+
+* [ ] Certifique-se de que o site esteja distribuindo os geodados
+* [ ] Teste com verificador EXIF
+
+
+
+**Teste de sequestro de link quebrado**
+
+* [ ] Certifique-se de que não haja links quebrados
+* [ ] Teste links quebrados usando a ferramenta blc
+
+
+
+**Teste por SPF**
+
+* [ ] Certifique-se de que o site tenha registro SPF
+* [ ] Teste o SPF pelo comando nslookup
+
+
+
+**Teste para 2FA fraco**
+
+* [ ] Tente contornar o 2FA usando um gerenciamento de sessão inadequado
+* [ ] Tente ignorar o 2FA por meio do mecanismo OAuth
+* [ ] Tente contornar o 2FA por meio de força bruta
+* [ ] Tente contornar o 2FA através da manipulação de resposta
+* [ ] Tente ignorar o 2FA usando links de ativação para fazer login
+* [ ] Tente contornar 2FA usando manipulação de código de status
+* [ ] Tente contornar o 2FA alterando o e-mail ou senha
+* [ ] Tente ignorar 2FA usando uma entrada nula ou vazia
+* [ ] Tente ignorar o 2FA alterando o boolean para falso
+* [ ] Tente ignorar o 2FA removendo o parâmetro 2FA na solicitação
+
+
+
+**Teste para implementação de OTP fraca**
+
+* [ ] Tente ignorar o OTP inserindo o OTP antigo
+* [ ] Tente contornar o OTP por força bruta
+* [ ] Tente ignorar o OTP usando uma entrada nula ou vazia
+* [ ] Tente contornar o OTP manipulando a resposta
+* [ ] Tente ignorar o OTP manipulando o código de status
+
+
+
+**CAPTCHA**
+
+* [ ] Envie o valor antigo do captcha.
+* [ ] Envie o valor captcha antigo com o ID de sessão antigo.
+* [ ] Solicite o caminho absoluto do captcha como www.url.com/captcha/1.png
+* [ ] Remova o captcha com qualquer adblocker e solicite novamente
+* [ ] Ignorar com ferramenta OCR
+* [ ] Mudar de POST para GET
+* [ ] Remover parâmetro captcha
+* [ ] Converter solicitação JSON em normal
+* [ ] Experimente injeções de cabeçalho
+
+
+
+**Cabeçalhos de segurança**
+
+* [ ] X-XSS-Protection
+* [ ] Strict-Transport-Security
+* [ ] Content-Security-Policy
+* [ ] Public-Key-Pins
+* [ ] X-Frame-Options
+* [ ] X-Content-Type-Options
+* [ ] Referer-Policy
+* [ ] Cache-Control
+* [ ] Expires
 
 
 
