@@ -499,6 +499,67 @@ Se você encontrar que WebDav está habilitado mas você não tem as permissões
 
 
 
+**Teste para Refleted Cross Site Scripting**
+
+* [ ] Certifique-se de que esses caracteres sejam filtrados <> "&"
+* [ ] Teste com uma sequência de escape de caracteres
+* [ ] Teste substituindo < e > por entidades HTML < e >
+* [ ] Teste payload com letras maiúsculas e minúsculas
+* [ ] Teste para quebrar o regex do firewall pela nova linha /r/n
+* [ ] Teste com codificação dupla
+* [ ] Teste com filtros recursivos
+* [ ] Teste a injeção de tags âncora sem espaços em branco
+* [ ] Teste substituindo espaços em branco por marcadores
+* [ ] Teste alterando os métodos HTTP
+
+
+
+**Teste para Stored Cross Site Scripting**
+
+* [ ] Identifique os parâmetros de entrada armazenados que refletirão no lado do cliente
+* [ ] Procure parâmetros de entrada na página de perfil
+* [ ] Procure os parâmetros de entrada na página do carrinho de compras
+* [ ] Procure os parâmetros de entrada na página de upload do arquivo
+* [ ] Procure os parâmetros de entrada na página de configurações
+* [ ] Procure parâmetros de entrada no fórum, página de comentários
+* [ ] Teste o upload de um arquivo com payload XSS como nome de arquivo
+* [ ] Teste com tags HTML
+
+
+
+**Teste de poluição de parâmetros HTTP**
+
+* [ ] Identifique o servidor back-end e o método de análise usado
+* [ ] Tente acessar o ponto de injeção
+* [ ] Tente ignorar os filtros de entrada usando a poluição de parâmetros HTTP
+
+
+
+**Teste para injeção SQL**
+
+* [ ] Teste SQL Injection em formulários de autenticação
+* [ ] Teste a injeção de SQL na barra de pesquisa
+* [ ] Teste a injeção de SQL em características editáveis
+* [ ] Tente encontrar palavras-chave SQL ou detecções de pontos de entrada
+* [ ] Tente injetar consultas SQL
+* [ ] Use ferramentas como SQLmap ou Hackbar
+* [ ] Use o Google Dorks para encontrar as palavras-chave SQL
+* [ ] Experimente injeção SQL baseada em GET, POST, COOKIE, HEADER
+* [ ] Experimente SQL Injection com bytes nulos antes da consulta SQL
+* [ ] Experimente SQL Injection com codificação de URL
+* [ ] Experimente SQL Injection com letras maiúsculas e minúsculas
+* [ ] Experimente SQL Injection com scripts SQL Tamper
+* [ ] Experimente SQL Injection com payloads de atraso de tempo SQL
+* [ ] Experimente SQL Injection com atrasos condicionais de SQL
+* [ ] Experimente SQL Injection com SQL baseado em Boolean
+* [ ] Experimente SQL Injection com SQL baseado em tempo
+
+
+
+
+
+
+
 **Forçando Erros**
 
 Os servidores da Web podem se comportar de maneira inesperada quando dados estranhos são enviados a eles. Isso pode abrir vulnerabilidades ou divulgar informações confidenciais.
