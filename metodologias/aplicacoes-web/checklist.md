@@ -935,3 +935,40 @@ ffuf -c -w /usr/share/wordlists/dirb/big.txt -u http://10.10.10.10/FUZZ
 * [ ] Scavenger - Extensão Burp para criar uma lista de diretórios a partir do histórico de arrotos de diferentes páginas
 * [ ] TrashCompactor - Remova URLs com funcionalidades duplicadas (com base em importações js)
 * [ ] Chamaleon - Ele usa wapalyzer para detectar tecnologias usadas e selecionar as listas de palavras a serem usadas.
+
+
+
+**O que Verificar em cada Arquivo Encontrado**
+
+* [ ] Verificador de links quebrados: Encontre links quebrados dentro de HTMLs que podem estar sujeitos a aquisições
+* [ ] Backups de arquivos: Depois de encontrar todos os arquivos, procure backups de todos os arquivos executáveis ​​(".php", ".aspx"...). Variações comuns para nomear um backup são: file.ext\~, #file.ext#, \~file.ext, file.ext.bak, file.ext.tmp, file.ext.old, file.bak, file.tmp e arquivo.old. Você também pode usar a ferramenta bfac ou backup-gen.
+* [ ] Descubra novos parâmetros: você pode usar ferramentas como Arjun, parameth, x8 e Param Miner para descobrir parâmetros ocultos. Se puder, você pode tentar pesquisar parâmetros ocultos em cada arquivo executável da web.
+* [ ] Comentários: Verifique os comentários de todos os arquivos, você pode encontrar credenciais ou funcionalidades ocultas.
+* [ ] Chaves de API: Se você encontrar alguma chave de API, há um guia que indica como usar chaves de API de diferentes plataformas: keyhacks, zile, truffeHog, SecretFinder, RegHex, DumpsterDive, EarlyBird
+* [ ] Buckets S3: Durante a pesquisa, verifique se algum subdomínio ou link está relacionado a algum bucket S3. Nesse caso, verifique as permissões do bucket.
+
+
+
+**Descobertas Especiais**
+
+* [ ] Ao realizar o spidering e a força bruta, você poderá encontrar coisas interessantes que precisa observar.
+
+<!---->
+
+* Arquivos Interessantes
+
+<!---->
+
+* [ ] Procure links para outros arquivos dentro dos arquivos CSS.
+* [ ] Se você encontrar um arquivo .git, algumas informações poderão ser extraídas
+* [ ] Se você encontrar um .env, informações como chaves de API, senhas de banco de dados e outras informações podem ser encontradas.
+* [ ] Se você encontrar endpoints de API, também deverá testá-los. Estes não são arquivos, mas provavelmente serão "parecidos" com eles.
+* [ ] Arquivos JS: Na seção de spidering foram mencionadas várias ferramentas que podem extrair o caminho dos arquivos JS. Além disso, seria interessante monitorar cada arquivo JS encontrado, pois em alguns locais, uma alteração pode indicar que uma potencial vulnerabilidade foi introduzida no código. Você poderia usar, por exemplo, JSMon.
+* [ ] Você também pode monitorar os arquivos onde os formulários foram detectados, pois uma alteração no parâmetro ou o aparecimento de um novo formulário pode indicar uma potencial nova funcionalidade vulnerável.
+
+
+
+**Monitore as páginas em busca de alterações**
+
+* [ ] Você pode usar ferramentas como https://github.com/dgtlmoon/changedetection.io para monitorar páginas em busca de modificações que possam inserir vulnerabilidades.
+
