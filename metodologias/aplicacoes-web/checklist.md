@@ -542,6 +542,7 @@ Se você encontrar que WebDav está habilitado mas você não tem as permissões
 * [ ] Teste a injeção de SQL em características editáveis
 * [ ] Tente encontrar palavras-chave SQL ou detecções de pontos de entrada
 * [ ] Tente injetar consultas SQL
+* [ ] Injeção SQL com ' and '--+-
 * [ ] Use ferramentas como SQLmap ou Hackbar
 * [ ] Use o Google Dorks para encontrar as palavras-chave SQL
 * [ ] Experimente injeção SQL baseada em GET, POST, COOKIE, HEADER
@@ -620,6 +621,7 @@ Se você encontrar que WebDav está habilitado mas você não tem as permissões
 **Teste para injeção de cabeçalho de host**
 
 * [ ] Teste o HHI alterando o parâmetro real do Host
+* [ ] Fuzz todos os parâmetros de solicitação (se tiver usuário, adicione cabeçalhos ao fuzzer)
 * [ ] Teste o HHI adicionando o parâmetro X-Forwarded Host
 * [ ] Teste o HHI trocando o parâmetro Host real e Host encaminhado por X
 * [ ] Teste o HHI adicionando dois parâmetros de host
@@ -645,6 +647,74 @@ Se você encontrar que WebDav está habilitado mas você não tem as permissões
 * [ ] Identifique os pontos de vulnerabilidade de injeção de modelo
 * [ ] Identifique o mecanismo de modelagem
 * [ ] Use o tplmap para explorar
+
+
+
+**Teste para tratamento de erros inadequado**
+
+* [ ] Identifique a saída do erro
+* [ ] Analise as diferentes saídas retornadas
+* [ ] Procure falhas comuns no tratamento de erros
+* [ ] Teste o tratamento de erros modificando o parâmetro URL
+* [ ] Teste o tratamento de erros fazendo upload de formatos de arquivo não reconhecidos
+* [ ] Teste o tratamento de erros inserindo entradas não reconhecidas
+* [ ] Teste o tratamento de erros cometendo todos os erros possíveis
+
+
+
+**Teste para segurança fraca da camada de transporte**
+
+* [ ] Teste a fraqueza do DROWN no protocolo SSLv2
+* [ ] Teste a fraqueza do POODLE no protocolo SSLv3
+* [ ] Teste a fraqueza do BEAST no protocolo TLSv1.0
+* [ ] Teste a fraqueza FREAK em conjuntos de cifras de exportação
+* [ ] Teste para cifras nulas
+* [ ] Teste para NOMORE fraqueza no RC4
+* [ ] Teste a fraqueza do LUCKY 13 nas cifras do modo CBC
+* [ ] Teste a fraqueza do CRIME na compactação TLS
+* [ ] Teste para LOGJAM em chaves DHE
+* [ ] Certifique-se de que os certificados digitais tenham pelo menos 2.048 bits de comprimento de chave
+* [ ] Certifique-se de que os certificados digitais tenham pelo menos o algoritmo de assinatura SHA-256
+* [ ] Certifique-se de que os certificados digitais não devem usar MDF e SHA-1
+* [ ] Garanta a validade do certificado digital
+* [ ] Garanta os requisitos mínimos de comprimento de chave
+* [ ] Procure por conjuntos de criptografia fracos
+
+
+
+**Lógica do Negócio**
+
+* [ ] Identifique a lógica de como o aplicativo funciona
+* [ ] Identifique a funcionalidade de todos os botões
+* [ ] Teste alterando os valores numéricos para valores altos ou negativos
+* [ ] Teste alterando a quantidade
+* [ ] Teste o upload de arquivos maliciosos enviando arquivos maliciosos
+* [ ] Teste o upload de arquivos maliciosos colocando seu endereço IP no nome do arquivo
+* [ ] Teste o upload de arquivos maliciosos por nome de arquivo codificado
+* [ ] Teste o upload de arquivo malicioso por payload XSS, RCE, LFI, SQL ou outros no nome do arquivo
+* [ ] Teste o upload de arquivos maliciosos enviando arquivos grandes (leva ao DOS)
+* [ ] Identifique a superfície de ataque lógico
+* [ ] Teste a transmissão de dados através do cliente
+* [ ] Teste a dependência da validação de entrada do lado do cliente
+* [ ] Componentes de cliente espesso (Java, ActiveX, Flash)
+* [ ] Processos de vários estágios para falhas lógicas
+* [ ] Tratamento de entrada incompleta
+* [ ] Limites de confiança
+* [ ] Lógica de transação
+* [ ] Implemente CAPTCHA em formulários de e-mail para evitar inundações
+* [ ] Adulterar ID do produto, preço ou valor da quantidade em qualquer ação (adicionar, modificar, excluir, colocar, pagar...)
+* [ ] Adulteração de presentes ou códigos de desconto
+* [ ] Reutilize códigos de presente
+* [ ] Tente a poluição do parâmetro para usar o código de presente duas vezes na mesma solicitação
+* [ ] Experimente XSS armazenado em campos não limitados, como endereço
+* [ ] Verifique no formulário de pagamento se o CVV e o número do cartão estão em texto claro ou mascarados
+* [ ] Verifique se é processado pelo próprio aplicativo ou enviado para terceiros
+* [ ] IDOR de outros usuários detalha bilhete/carrinho/remessa
+* [ ] Verifique o número do cartão de crédito de teste permitido, como 4111 1111 1111 1111 (amostra1 amostra2)
+* [ ] Verifique a criação de PRINT ou PDF para IDOR
+* [ ] Verifique o botão de cancelamento de inscrição com enumeração de usuários
+* [ ] Poluição de parâmetros em links de compartilhamento de mídia social
+* [ ] Altere as solicitações confidenciais do POST para GET
 
 
 
