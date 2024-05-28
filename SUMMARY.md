@@ -95,6 +95,7 @@
   * [Aplicações Web](metodologias/aplicacoes-web/README.md)
     * [Checklist](metodologias/aplicacoes-web/checklist.md)
     * [Injeção de Modelo no Servidor](metodologias/aplicacoes-web/injecao-de-modelo-no-servidor.md)
+    * [Controle de Conta via Desvio de Limite de Taxa](metodologias/aplicacoes-web/controle-de-conta-via-desvio-de-limite-de-taxa.md)
     * [Referências](metodologias/aplicacoes-web/referencias.md)
     * [Low Hanging Fruit](metodologias/aplicacoes-web/low-hanging-fruit.md)
     * [Duplo Fator / MFA](metodologias/aplicacoes-web/duplo-fator-mfa.md)
