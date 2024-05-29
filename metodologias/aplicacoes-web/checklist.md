@@ -927,6 +927,20 @@ assunto: \<?php system($\_GET\['c'];?>
 
 
 
+**Manipulação de Quantidade**
+
+* [ ] Digite a resposta correta do cupom na resposta errada
+* [ ] Faça o pedido do produto e cancele-o (você pode encontrar o dinheiro do cancelamento na solicitação e adulterá-lo)
+* [ ] Se houver manipulação de valor, adicione esse valor como valor -ve para obter reembolso em sua conta
+* [ ] Negative o valor
+* [ ] Condição de corrida: use a mesma solicitação duas vezes para liberar o 2º pedido ou um cupom sendo deduzido mais de uma vez (você pode usar autorizar extensão
+* [ ] Envie milhares de solicitações do mesmo produto para - o valor
+* [ ] Altere o valor do valor de 555 para 001 (As vezes o servidor valida o número de dígitos apenas para o valor)
+* [ ] Altere o valor da quantidade para 0 ou nada
+* [ ] Mude a moeda dos EUA para outra moeda para reduzir o valor do valor
+
+
+
 **Forçando Erros**
 
 Os servidores da Web podem se comportar de maneira inesperada quando dados estranhos são enviados a eles. Isso pode abrir vulnerabilidades ou divulgar informações confidenciais.
