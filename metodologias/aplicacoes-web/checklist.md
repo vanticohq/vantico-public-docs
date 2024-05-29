@@ -430,6 +430,34 @@ Se você encontrar que WebDav está habilitado mas você não tem as permissões
 
 
 
+**IDOR**
+
+* [ ] Encontre e substitua `IDs` em URLs, cabeçalhos e corpo: `/users/01` > `/users/02`
+* [ ] Experimente a poluição de parâmetros: `users=01` > `users=01&users=02`
+* [ ] Caracteres especiais: `/users/01x` Ou `/users/x` > Divulgação de cada usuário
+* [ ] Experimente versões mais antigas de endpoints de API: `/api/v3/users/01` > `/api/vl/users/02`
+* [ ] Adicionar extensão: `/users/01` > `/users/02.json`
+* [ ] Métodos de solicitação de mudança: `POST /users/01` > `GET, PUT, PATCH, DELETE` etc.
+* [ ] Verifique se Referer ou algum outro cabeçalho é usado para validar os IDs:
+  * [ ] `GET /users/02`                            >                           `403 Proibido`\
+    `Referente: exemplo. com/usuários/01` \
+    \
+    `OBTER /usuários/02`                >                           `200 OK`\
+    `Referente: exemplo. com/usuários/02`
+* [ ] IDs criptografados: se o aplicativo estiver usando IDs criptografados, tente descriptografar usando `hashes.com` ou outras ferramentas.
+* [ ] Troque GUID por ID numérico ou e-mail: \
+  `/users/1b04c196-89f4-426a-b18b-ed85924ce283 > /users/02 Or /users/aQb.com`
+* [ ] Experimente GUIDs como: \
+  `00000000-0000-0000-0000-000000000000` and `11111111-1111-1111-1111-111111111111`
+* [ ] Enumeração de GUID: tente divulgar GUIDs usando `Google Dorks`, `Github`, `Wayback`, `histórico de Burp`
+* [ ] Se nenhum dos métodos de enumeração GUID funcionar, tente: `SignUp`, `Reset Password`, `Outros endpoints` no aplicativo e analise a resposta. Esses endpoints divulgam principalmente o GUID do usuário.
+* [ ] 403/401 Bypass: Se o servidor responder com um 403/401, tente usar o burp intruder e envie de 50 a 100 solicitações com IDs diferentes: Exemplo: from `/users/01` para `/users/100`
+* [ ] Se o servidor responder com 403/401, verifique novamente a função no aplicativo. Às vezes, 403/401 é lançado, mas a ação é executada.
+* [ ] IDORs cegos: Às vezes, as informações não são divulgadas diretamente. Procure endpoints e recursos que possam divulgar informações como arquivos de exportação, e-mails ou alertas de mensagens.
+* [ ] Cadeia IDOR com XSS para aquisições de contas.
+
+
+
 **Teste para referência direta de objeto inseguro**
 
 * [ ] Teste para alterar o parâmetro ID
