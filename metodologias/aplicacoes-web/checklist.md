@@ -530,6 +530,24 @@ Se você encontrar que WebDav está habilitado mas você não tem as permissões
 
 
 
+**CSRF**
+
+* [ ] Capturar solicitações no Burp: Use o Burp ou uma ferramenta semelhante para interceptar e analisar solicitações para identificar se há algum token CSRF presente.
+* [ ] Verifique a previsibilidade do token: avalie se os tokens CSRF usados na aplicação são previsíveis ou facilmente adivinháveis.
+* [ ] Remover tokens baseados em cabeçalho: se o token CSRF estiver incluído em um cabeçalho, remova-o temporariamente da solicitação e verifique se a solicitação ainda funciona corretamente
+* [ ] Manipular token no corpo da solicitação: Se o token CSRF estiver incluído no corpo da solicitação como parâmetro, tente remover apenas o valor do parâmetro. Se a solicitação ainda for bem-sucedida, tente remover o nome do parâmetro e seu valor para ver se a solicitação permanece vulnerável.
+* [ ] Mesmo token CSRF para contas diferentes: teste se o aplicativo usa o mesmo token CSRF para várias contas de usuário.
+* [ ] Substitua o token CSRF por um valor diferente: Substitua o valor do token CSRF por um valor diferente do mesmo comprimento para verificar se o aplicativo valida o token corretamente.
+* [ ] Alterar método de solicitação: modifique o método de solicitação de POST para GET e remova o token CSRF.
+* [ ] Anexar parâmetro de `_method` para solicitações PUT/PATCH: Para aplicativos que usam solicitações PUT ou PATCH, tente anexar o parâmetro de `_method` no corpo da solicitação para emular um método de solicitação diferente.
+* [ ] Verifique tipos de conteúdo alternativos: verifique se outros tipos de conteúdo, como `application/x-www-form-urlencoded`, são permitidos. Se forem permitidos, modifique o corpo da solicitação manualmente ou usando uma ferramenta. Por exemplo: `{"nome":"Teste"}` deve ser alterado para `nome=teste`
+* [ ] Ignorar validação de referenciador: tente ignorar a validação de referenciador incluindo o seguinte código em seu arquivo HTML de prova de conceito (PoC) CSRF: \
+  `<meta name="referrer" content="never">`\
+  Isso pode ajudar a avaliar se o aplicativo depende apenas de cabeçalhos de referenciador para proteção CSRF.
+* [ ] Ignorar a proteção CSRF baseada em JSON: se o aplicativo implementar proteção CSRF baseada em JSON, tente ignorá-la usando métodos como o envio de dados em texto simples ou a exploração de vulnerabilidades de CSRF baseadas em Flash.
+
+
+
 **Teste a funcionalidade de logout**
 
 * [ ] Verifique a função de logout em diferentes páginas
