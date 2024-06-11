@@ -129,7 +129,7 @@ Estrutura de aplicativo Web de impressão digital
 
 
 
-Mapeie a Infraestrutura da Aplicação
+**Mapeie a Infraestrutura da Aplicação**
 
 * [ ] Mapeie toda a estrutura do site
 * [ ] Segregação em infraestruturas compartilhadas
@@ -145,7 +145,27 @@ Mapeie a Infraestrutura da Aplicação
 
 
 
-Enumeração da Infraestrutura e Interface Admin
+**Infraestrutura Externa**
+
+* [ ] Pesquise a página do Linkedin da Empresa
+  * [ ] Liste os funcionários
+  * [ ] Extraia o endereço de email do perfil dos funcionários
+* [ ] Google Dork nos emails encontrados
+* [ ] Procure por Credenciais vazadas
+* [ ] Faça um Portscan nos IPs
+* [ ] Use Shodan nos IPs públicos
+
+
+
+**Infraestrutura Interna**
+
+* [ ] Usar Responder no Modo de Análise
+* [ ] Use Wireshark para monitorar o tráfego da Rede
+* [ ] Perfome um escanemento de range da rede
+
+
+
+**Enumeração da Infraestrutura e Interface Admin**
 
 * [ ] Tente encontrar a Interface da Infraestrutura
 * [ ] Tente encontrar a Interface do Admin
@@ -153,7 +173,20 @@ Enumeração da Infraestrutura e Interface Admin
 
 
 
-Mapeando Paths de Execução
+**Impressão Digital**
+
+* [ ] Performar WhoIs nos IPs
+* [ ] Performar uma descoberta ASN
+* [ ] Conseguir gravações DNS
+* [ ] Força Bruta nos Hostnames DNS
+* [ ] Google Dorking
+  * [ ] Site :\[domínio]
+  * [ ] Tipo de Arquivo: filetype:"xls | xlsx | doc | docx | ppt | pptx | pdf" site:\[Domain] "FOUO" | "NOFORN" | "Confidential"
+  * [ ] filetype:xml inurl:sitemap
+
+
+
+**Mapeando Paths de Execução**
 
 * [ ] Use Burp Suite
 * [ ] Use Dirsearch
@@ -161,7 +194,7 @@ Mapeando Paths de Execução
 
 
 
-Identificar Pontos de Entrada na Aplicação
+**Identificar Pontos de Entrada na Aplicação**
 
 * [ ] Identificar quais métodos são usados
 * [ ] Identificar onde estes métodos são usados
@@ -175,9 +208,144 @@ Identificar Pontos de Entrada na Aplicação
 * [ ] Verifique as políticas DMARC/SPF (spoofcheck)
 * [ ] Abra portas com o Shodan
 * [ ] Port Scan em todas as portas
+  * [ ] Scan de Serviço
+  * [ ] Scan de Versão
+  * [ ] Scan com Scripts
+  * [ ] Scan de Sistemas Operacionais
 * [ ] Verifique as portas UDP (nmap)
 * [ ] Teste SSL (testssl)
+* [ ] Identificar Hosts ativos
+* [ ] Enumeração SNMP
+  * [ ] snmpcheck
+  * [ ] snmpwalk
+* [ ] Enumeração NetBIOS
+  * [ ] nbtscan
+  * [ ] nmblookup
+* [ ] Visualizando a Rede com MindMaps
 * [ ] Se possuir credenciais, tente pulverização de senhas em todos os serviços descobertos
+* [ ] Pegue Banners da Versão do SSH
+  * [ ] Senhas Nulas
+  * [ ] Senhas Padrão
+
+
+
+**FTP (Porta 21)**
+
+* [ ] Pegar Banners da Versão
+* [ ] Login Anônimo
+* [ ] Pulo FTP
+* [ ] Senhas Padrão ou fáceis de descobrir
+
+
+
+**SMTP (Porta 25)**
+
+* [ ] Pegar Banners da Versão
+* [ ] Conectar com Telnet
+* [ ] Retransmissão SMTP
+* [ ] Enumeração de Usuários
+
+
+
+**DNS (Porta 53)**
+
+* [ ] Força Brute no Hostname DNS
+* [ ] Busca Reversa de DNS
+* [ ] Enumeração de Serviço DNS
+* [ ] Descoberta de Serviço DNS
+* [ ] Transferência de Zona DNS
+
+
+
+**SMB (Porta 445)**
+
+* [ ] Credenciais Anônimas
+* [ ] Pegar Banner da Versão
+* [ ] Sessões Nulas
+* [ ] Exploit com RPCClient
+  * [ ] Liste usuário: enumdomusers
+  * [ ] Consiga detalhes do usuário: queryuser <0xrid>
+  * [ ] Consiga detalhes do grupo: queryusergroups <0xrid>
+  * [ ] Consiga o SID do usuário: lookupnames \<username>
+  * [ ] Liste os grupos: enumdomgroups
+  * [ ] Consiga os detalhes do grupo: querygroup <0xrid>
+  * [ ] Consiga os integrantes do grupo: querygroupmem <0xrid>
+  * [ ] Liste os domínios: enumdomains
+  * [ ] Informações do domínio: querydominfo
+  * [ ] Encontre os SIDs pelo nome: lookupnames \<username>
+  * [ ] Encontre mais SIDs: lsaenumsid
+
+
+
+**MSSQL (Porta 1433)**
+
+* [ ] Pegar o Banner
+* [ ] Básico de Adquirir Informações
+  * [ ] nmap --script ms-sql-info,ms-sql-empty-password,ms-sql-xp-cmdshell,ms-sql-config,ms-sqlntlm-info,ms-sql-tables,ms-sql-hasdbaccess,ms-sql-dac,ms-sql-dump-hashes --script-args mssql.instance port=1433,mssql.username=sa,mssql.password=,mssql.instancename=MSSQLSERVER -sV -p 1433 IP
+* [ ] Executar comandos com MSSQL
+  * [ ] Autenticado
+    * [ ] crackmapexec mssql -d Domain name> -u -p -x "id"
+  * [ ] Não Autenticado
+    * [ ] If xp\_cmdshell is enabled, we can execute commands without authentication
+* [ ] Escalação de Privilégios com MSSQL
+  * [ ] auxiliary/admin/mssql/mssql\_escalate\_dbowner
+  * [ ] auxiliary/admin/mssql/mssql\_escalate\_execute\_as
+
+
+
+**MySQL (Porta 3306)**
+
+* [ ] Enumerando com Nmap
+  * [ ] nmap -sV -p 3306 --script mysql-audit,mysql-databases,mysql-dump-hashes,mysql-emptypassword,mysql-enum,mysql-info,mysql-query,mysql-users,mysql-variables,mysql-vuln-cve2012 - 2122 IP
+* [ ] Conseguir Banner
+* [ ] Comandos Básicos
+  * [ ] Enumerar Privilégios
+    * [ ] select grantee, table\_schema, privilege\_type FROM schema\_privileges;
+  * [ ] Enumerar Privilégios de Arquivos
+    * [ ] select user,file\_priv from mysql.user where user='root';
+  * [ ] Enumerar usuário atual
+    * [ ] select user();
+  * [ ] Escrever Arquivo
+    * [ ] select 1,2,"\<?php echo shell\_exec($\_GET>'c']);?>",4 into OUTFILE 'C:/xampp/htdocs/shell.php';
+  * [ ] Ler Arquivo
+    * [ ] select load\_file('/home/purabparihar/read\_file.txt');
+  * [ ] Mudar Senha do usuário
+    * [ ] UPDATE mysql.user SET authentication\_string=PASSWORD'MyNewPass') WHERE User='root';
+    * [ ] UPDATE mysql.user SET Password=PASSWORD'MyNewPass') WHERE User='root';
+  * [ ] Extrair Credenciais
+    * [ ] mysql -u root --password=\<PASSWORD -e "SELECT User,Host,authentication\_string FROM mysql.user;"
+
+
+
+**VNC (Porta 5900)**
+
+* [ ] Acesso VNC UnAuth
+* [ ] Senha VNC
+  * [ ] Localização da Senha (vai estar criptografado)
+    * [ ] \~/.vnc/passwd
+  * [ ] Descriptografar Senha
+    * [ ] vncpwd.exe \[senha criptografada]
+
+
+
+**IIS**
+
+* [ ] Enumeração de arquivos .config
+* [ ] Trace.AXD Debug habilitado
+* [ ] Passagem de Path
+* [ ] Divulgação do Código Fonte
+* [ ] Baixando DLLs
+  * [ ] System.Web.Routing.dll
+  * [ ] System.Web.Optimization.dll
+  * [ ] System.Web.Mvc.dll
+  * [ ] System.Web.Mvc.Ajax.dll
+  * [ ] System.Web.Mvc.Html.dll
+* [ ] Vulnerabilidade do caracter "\~"
+* [ ] Bypass básico de Autenticação tentando acessar
+  * [ ] /admin:$i30$INDEX\_ALLOCATION/admin.php
+  * [ ] /admin::$INDEX\_ALLOCATION/admin.php
+* [ ] Pegando Banner da Versão
+* [ ] Força Bruta no Diretório
 
 
 
