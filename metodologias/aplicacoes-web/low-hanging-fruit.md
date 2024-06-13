@@ -4,7 +4,7 @@
 
 > Ausência de Headers
 
-Toda a Vulnerabilidade de Cabeçalho deve ser adicionada **uma para cada tipo diferente** presente no Pentest.
+Toda vulnerabilidade que envolve a ausência de cabeçalhos ("header") deve ser adicionada separadamente para cada cabeçalho ausente presente no escopo.
 
 
 
@@ -14,7 +14,7 @@ Exemplo de como deve ser evidenciado a Ausência do Header:
 
 
 
-<figure><img src="../../.gitbook/assets/Captura de tela 2024-06-13 132925.png" alt=""><figcaption><p>Figura: Response Burp Suite</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Captura de tela 2024-06-13 132925.png" alt=""><figcaption><p>Figura: Response Burp Suite indicando a ausência do header</p></figcaption></figure>
 
 
 
