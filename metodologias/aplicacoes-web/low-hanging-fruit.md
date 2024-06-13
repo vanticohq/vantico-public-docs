@@ -2,6 +2,34 @@
 
 ***
 
+> Ausência de Headers
+
+Toda a Vulnerabilidade de Cabeçalho deve ser adicionada **uma para cada tipo diferente** presente no Pentest.
+
+
+
+Exemplo de como deve ser evidenciado a Ausência do Header:
+
+<figure><img src="../../.gitbook/assets/Captura de tela 2024-06-13 133028.png" alt=""><figcaption><p>Figura: Request Burp Suite</p></figcaption></figure>
+
+
+
+<figure><img src="../../.gitbook/assets/Captura de tela 2024-06-13 132925.png" alt=""><figcaption><p>Figura: Response Burp Suite</p></figcaption></figure>
+
+
+
+Por padrão os Headers são reportados pelas seguintes severidades:
+
+<figure><img src="../../.gitbook/assets/WhatsApp Image 2024-06-12 at 20.34.08.jpeg" alt=""><figcaption><p>Figura: Severidade de cada cabeçalho</p></figcaption></figure>
+
+
+
+Isto é apenas uma **indicação**, porém a severidade de cada cabeçalho deve ser indicado mediante o **impacto** que ele traz ao ambiente testado.
+
+
+
+***
+
 > Medidas de anti-adulteração de bibliotecas Javascript não estão em uso
 
 **Descrição:**
