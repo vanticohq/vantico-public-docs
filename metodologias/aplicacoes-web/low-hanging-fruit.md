@@ -18,7 +18,7 @@ Exemplo de como deve ser evidenciado a Ausência do Header:
 
 
 
-Por padrão os Headers são reportados pelas seguintes severidades:
+Por **padrão** os Headers são reportados pelas seguintes severidades:
 
 <figure><img src="../../.gitbook/assets/WhatsApp Image 2024-06-12 at 20.34.08.jpeg" alt=""><figcaption><p>Figura: Severidade de cada cabeçalho</p></figcaption></figure>
 
