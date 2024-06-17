@@ -2,7 +2,19 @@
 
 ***
 
-> Ausência de Headers
+> **Checklist Testes Iniciais**
+
+* [x] Ausência de Header
+* [ ] Js.map
+* [x] Integrity
+* [ ] SSL/TLS
+* [ ] Vulnerabilidade da Versão do Server
+
+
+
+***
+
+> **Ausência de Headers**
 
 Toda vulnerabilidade que envolve a **ausência de cabeçalhos ("header")** deve ser adicionada **separadamente** para cada cabeçalho ausente presente no escopo.
 
@@ -30,7 +42,17 @@ Isto é apenas uma **indicação**, porém a severidade de cada cabeçalho deve 
 
 ***
 
-> Medidas de anti-adulteração de bibliotecas Javascript não estão em uso
+> **Js.map**
+
+
+
+
+
+
+
+***
+
+> **Medidas de anti-adulteração de bibliotecas Javascript não estão em uso (Integrity)**
 
 **Descrição:**
 
