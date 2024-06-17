@@ -211,5 +211,27 @@ Uma boa política de senhas é aquela em que requer no mínimo 8 caracteres, car
 
 > **Mensagem de Erros**
 
+Quando a aplicação retorna um **erro inesperado** assim que um evento acontece, conforme o retorno que a aplicação der em relação ao erro, o atacante pode entender melhor como funciona a estrutura da aplicação, podendo aproveitar-se de alguma vulnerabilidade que pode ser exposta com o erro.
 
+
+
+
+
+***
+
+> **Utilizar bibliotecas JavaScript desatualizadas**
+
+
+
+
+
+
+
+***
+
+> **Enumeração de Usuário**
+
+Ocorre geralmente na área de login, cadastro ou esqueci a senha, em que quando digitamos algum usuário e senha, a aplicação nos retorna que o usuário já existe, ou que o email não está cadastrado, fazendo com que o atacante consiga enumerar quais usuários/emails são válidos ou não.
+
+A mensagem correta que a aplicação deve retornar é de **"Usuário ou Senha Incorretos"** ou **"Caso o email já estiver cadastrado você receberá um link na sua caixa de email"**&#x20;
 
