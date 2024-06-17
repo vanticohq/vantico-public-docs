@@ -91,11 +91,18 @@ integrity="sha384-oqVuAfXRKap7fdgcCY5uykM6+R9GqQ8K/uxy9rx7HNQlGYl1kPzQho
 
 ***
 
-> SSL/TLS
+> **SSL/TLS**
 
 
 
 ***
 
-> Vulnerabilidade da Versão do Server
+> **Vulnerabilidade da Versão do Server**
 
+Ocorre quando a aplicação divulga informações que podem ajudar um atacante, como a **versão do server** que é utilizada, em que através desta informação, pode-se buscar um exploit para aquela versão e depois utilizar-se deste exploit para fazer a invasão.
+
+Podemos ver no exemplo abaixo, uma aplicação em que divulga a informação da versão do server (nginx 1.18):
+
+
+
+<figure><img src="../../.gitbook/assets/Captura de tela 2024-06-17 130915.png" alt=""><figcaption><p>Figura: Exposição da versão do Servidor</p></figcaption></figure>
