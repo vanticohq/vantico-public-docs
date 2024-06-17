@@ -221,9 +221,11 @@ Quando a aplicação retorna um **erro inesperado** assim que um evento acontece
 
 > **Utilizar bibliotecas JavaScript desatualizadas**
 
+Para encontrar esta vulnerabilidade entramos no código fonte da aplicação, procuramos por arquivos JavaScript, como o **"JQuery"** e sua versão, através desta sua versão um atacante pode buscar por suas vulnerabilidades e explorar uma vulnerabilidade.
 
+**Exemplo:**
 
-
+<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption><p>Figura: Versão JQuery no Código Fonte</p></figcaption></figure>
 
 
 
