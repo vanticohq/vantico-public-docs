@@ -66,17 +66,7 @@ Assim iremos ver de forma mais simples e organizada toda a estrutura frontend da
 
 ***
 
-> **Integrity**
-
-Quando uma aplicação Web é desenvolvida, aparece um muitas partes o elemento \<script> ou \<link> em que eles linkam documentos de outras sites  para aquela página específica. Porém através disso há um risco de que o atacante ganhe controle injetando conteúdo maliciosos nos arquivos, com o uso da Integrity estamos mitigando este risco, adiciona mais uma camada de proteção, em que basicamente declaramos este código com criptografia, sendo sha256, sha384 ou sha 512.
-
-
-
-
-
-***
-
-> **Medidas de anti-adulteração de bibliotecas Javascript não estão em uso**&#x20;
+> **Medidas de anti-adulteração de bibliotecas Javascript não estão em uso (Integrity)**
 
 **Descrição:**
 
@@ -88,10 +78,24 @@ Vários hackers de roubo de informações de alto nível (em particular contra a
 
 **Então**, procure referências a javascript que não tenha a flag.
 
+**Exemplo:**
+
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption><p>Figura: Exemplo correto com SHA384</p></figcaption></figure>
+
+**Segue o código abaixo:**
+
 ```
 integrity="sha384-oqVuAfXRKap7fdgcCY5uykM6+R9GqQ8K/uxy9rx7HNQlGYl1kPzQho
 1wx4JwY8wC"
 ```
 
 ***
+
+> SSL/TLS
+
+
+
+***
+
+> Vulnerabilidade da Versão do Server
 
