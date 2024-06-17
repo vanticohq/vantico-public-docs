@@ -5,8 +5,8 @@
 * [x] Ausência de Header
 * [x] Js.map
 * [x] Integrity
-* [ ] SSL/TLS
-* [ ] Vulnerabilidade da Versão do Server
+* [x] SSL/TLS
+* [x] Vulnerabilidade da Versão do Server
 
 
 
@@ -58,7 +58,7 @@ output
 
 Depois de rodar esta ferramenta, iremos visualizar o frontend completo desta maneira:
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p>Figura: Frontend divido em diretórios</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>Figura: Frontend divido em diretórios</p></figcaption></figure>
 
 Assim iremos ver de forma mais simples e organizada toda a estrutura frontend da aplicação e podemos examinar diversas coisas, como: se possui comentários do Dev sobre sonhas, API,  o que aquilo faz e entender melhor sobre a estrutura.
 
@@ -92,6 +92,20 @@ integrity="sha384-oqVuAfXRKap7fdgcCY5uykM6+R9GqQ8K/uxy9rx7HNQlGYl1kPzQho
 ***
 
 > **SSL/TLS**
+
+São protocolos de segurança que garantem que a navegação do usuário fique protegida contra um possível vazamento de dados e ataques hackers. Ou seja, toda a informação sensível compartilhada pelo usuário, se mantém criptografada.
+
+Ambos o SSL quanto o TSL, são muito parecidos, porém o TSL é uma versão mais atualizada do SSL.
+
+**TLS:**
+
+**Transport Layer Security**, este protocolo vai codificando toda a mensagem que o usuário envia ao servidor, e são criados chaves de acesso a qual apenas o emissor e receptor tem acesso e quando a informação faz esse caminho, o TLS autentica quem tentou acessar o conteúdo, caso não seja um dos dois, não é possível acessar a mensagem.&#x20;
+
+O protocolo TLS é mais eficaz que o protocolo SSL.
+
+
+
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>Figura: Resultado teste SSL/TLS</p></figcaption></figure>
 
 
 
