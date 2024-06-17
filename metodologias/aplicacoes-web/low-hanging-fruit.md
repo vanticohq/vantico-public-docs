@@ -12,7 +12,7 @@
 * [x] Política de Senhas Permissivas
 * [ ] Mensagem de Erros
 * [x] Utilizar bibliotecas JavaScript desatualizadas
-* [ ] Enumeração de Usuário
+* [x] Enumeração de Usuário
 
 
 
