@@ -11,7 +11,7 @@
 * [x] Nuclei / Katana
 * [x] Política de Senhas Permissivas
 * [ ] Mensagem de Erros
-* [ ] Utilizar bibliotecas JavaScript desatualizadas
+* [x] Utilizar bibliotecas JavaScript desatualizadas
 * [ ] Enumeração de Usuário
 
 
@@ -214,6 +214,8 @@ Uma boa política de senhas é aquela em que requer no mínimo 8 caracteres, car
 Quando a aplicação retorna um **erro inesperado** assim que um evento acontece, conforme o retorno que a aplicação der em relação ao erro, o atacante pode entender melhor como funciona a estrutura da aplicação, podendo aproveitar-se de alguma vulnerabilidade que pode ser exposta com o erro.
 
 
+
+<figure><img src="../../.gitbook/assets/Captura de tela 2024-06-17 150507.png" alt=""><figcaption><p>Figura: Tela de Login enumerando usuário</p></figcaption></figure>
 
 
 
