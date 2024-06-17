@@ -66,7 +66,17 @@ Assim iremos ver de forma mais simples e organizada toda a estrutura frontend da
 
 ***
 
-> **Medidas de anti-adulteração de bibliotecas Javascript não estão em uso (Integrity)**
+> **Integrity**
+
+Quando uma aplicação Web é desenvolvida, aparece um muitas partes o elemento \<script> ou \<link> em que eles linkam documentos de outras sites  para aquela página específica. Porém através disso há um risco de que o atacante ganhe controle injetando conteúdo maliciosos nos arquivos, com o uso da Integrity estamos mitigando este risco, adiciona mais uma camada de proteção, em que basicamente declaramos este código com criptografia, sendo sha256, sha384 ou sha 512.
+
+
+
+
+
+***
+
+> **Medidas de anti-adulteração de bibliotecas Javascript não estão em uso**&#x20;
 
 **Descrição:**
 
