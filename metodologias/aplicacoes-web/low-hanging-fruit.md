@@ -7,6 +7,12 @@
 * [x] Integrity
 * [x] SSL/TLS
 * [x] Vulnerabilidade da Versão do Server
+* [x] Portas Abertas
+* [x] Nuclei / Katana
+* [x] Política de Senhas Permissivas
+* [ ] Mensagem de Erros
+* [ ] Utilizar bibliotecas JavaScript desatualizadas
+* [ ] Enumeração de Usuário
 
 
 
@@ -58,7 +64,7 @@ output
 
 Depois de rodar esta ferramenta, iremos visualizar o frontend completo desta maneira:
 
-<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>Figura: Frontend divido em diretórios</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption><p>Figura: Frontend divido em diretórios</p></figcaption></figure>
 
 Assim iremos ver de forma mais simples e organizada toda a estrutura frontend da aplicação e podemos examinar diversas coisas, como: se possui comentários do Dev sobre sonhas, API,  o que aquilo faz e entender melhor sobre a estrutura.
 
@@ -80,7 +86,7 @@ Vários hackers de roubo de informações de alto nível (em particular contra a
 
 **Exemplo:**
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption><p>Figura: Exemplo correto com SHA384</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p>Figura: Exemplo correto com SHA384</p></figcaption></figure>
 
 **Segue o código abaixo:**
 
@@ -95,7 +101,7 @@ integrity="sha384-oqVuAfXRKap7fdgcCY5uykM6+R9GqQ8K/uxy9rx7HNQlGYl1kPzQho
 
 São protocolos de segurança que garantem que a navegação do usuário fique protegida contra um possível vazamento de dados e ataques hackers. Ou seja, toda a informação sensível compartilhada pelo usuário, se mantém criptografada.
 
-Ambos o SSL quanto o TSL, são muito parecidos, porém o TSL é uma versão mais atualizada do SSL.
+Ambos o SSL quanto o TLS, são muito parecidos, porém o TLS é uma versão mais atualizada do SSL.
 
 **TLS:**
 
@@ -105,7 +111,7 @@ O protocolo TLS é mais eficaz que o protocolo SSL.
 
 
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>Figura: Resultado teste SSL/TLS</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption><p>Figura: Resultado teste SSL/TLS</p></figcaption></figure>
 
 
 
@@ -120,3 +126,90 @@ Podemos ver no exemplo abaixo, uma aplicação em que divulga a informação da 
 
 
 <figure><img src="../../.gitbook/assets/Captura de tela 2024-06-17 130915.png" alt=""><figcaption><p>Figura: Exposição da versão do Servidor</p></figcaption></figure>
+
+***
+
+> **Portas Abertas**
+
+Para descobrirmos as portas que estão abertas e quais serviços estão rodando, utilizamos o NMAP.
+
+Nele podemos especificar muitas coisas, como quais portas queremos fazer o teste, Scan UDP, TCP, versão do serviço, tipo de sistema operacional, etc
+
+Para rodarmos um scan simples, usamos:
+
+```
+nmap (endereço)
+```
+
+Um scan mais completo seria:
+
+```
+nmap -Pn -sS -p- (endereço)
+```
+
+
+
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>Figura: Resultado scan NMAP</p></figcaption></figure>
+
+
+
+***
+
+> **Nuclei / Katana**
+
+**Nuclei:**
+
+Nuclei é usado para enviar requisições entre os alvos baseado em um **template**. Com uma média de 0 falsos positivos, ele possui um **scanning rápido** para um grande número de hosts.
+
+
+
+**Exemplo de como utilizar:**
+
+```
+nuclei -u (domínio)
+```
+
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p>Figura: Resultado scan com Nuclei</p></figcaption></figure>
+
+
+
+**Katana:**
+
+**Katana** é uma ferramenta rápida e customizável que tem como objetivo realizar **web crawler**, ou seja, um rastreador de rede, que possa ser usado de forma ativa ou passiva, utilizando o crawl em múltiplos domínios e subdomínios simultaneamente. Seu objetivo é conseguir informações e endpoints.
+
+
+
+**Exemplo de como utilizar:**
+
+```
+katana -u (domínio)
+```
+
+
+
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption><p>Figura: Resultado scan com Katana</p></figcaption></figure>
+
+
+
+***
+
+> **Política de Senhas Permissivas**
+
+Trata-se de quando a aplicação **permite** que o usuário utilize senhas simples e fracas para cadastrar-se, fazendo com que a segurança da aplicação seja mais baixa.
+
+Uma boa política de senhas é aquela em que requer no mínimo 8 caracteres, caracteres especiais, letras maiúsculas e minúsculas... Tornando a senha mais complexa e mais difícil do atacante quebrar.
+
+
+
+**Exemplo de uma boa política de senhas:**
+
+<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption><p>Figura: Requisitos mínimos de senha para cadastro</p></figcaption></figure>
+
+
+
+***
+
+> **Mensagem de Erros**
+
+
+
