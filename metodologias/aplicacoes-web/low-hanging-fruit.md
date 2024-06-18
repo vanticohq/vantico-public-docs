@@ -15,6 +15,7 @@
 * [x] Enumeração de Usuário
 * [ ] Chave de mapa file js
 * [ ] Sessão antiga não é inválida após o logout
+* [ ] Ausência de mecanismo contra força bruta
 
 
 
