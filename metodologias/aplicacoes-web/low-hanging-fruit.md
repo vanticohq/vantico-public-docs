@@ -215,8 +215,6 @@ Quando a aplicação retorna um **erro inesperado** assim que um evento acontece
 
 
 
-<figure><img src="../../.gitbook/assets/Captura de tela 2024-06-17 150507.png" alt=""><figcaption><p>Figura: Tela de Login enumerando usuário</p></figcaption></figure>
-
 
 
 ***
