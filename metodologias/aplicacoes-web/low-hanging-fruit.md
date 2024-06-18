@@ -213,7 +213,7 @@ Uma boa política de senhas é aquela em que requer no mínimo 8 caracteres, car
 
 Quando a aplicação retorna um **erro inesperado** assim que um evento acontece, conforme o retorno que a aplicação der em relação ao erro, o atacante pode entender melhor como funciona a estrutura da aplicação, podendo aproveitar-se de alguma vulnerabilidade que pode ser exposta com o erro.
 
-
+<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption><p>Figura: Erro de Aplicação</p></figcaption></figure>
 
 
 
