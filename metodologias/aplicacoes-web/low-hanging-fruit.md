@@ -66,7 +66,7 @@ Depois de rodar esta ferramenta, iremos visualizar o frontend completo desta man
 
 <figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption><p>Figura: Frontend divido em diretórios</p></figcaption></figure>
 
-Assim iremos ver de forma mais simples e organizada toda a estrutura frontend da aplicação e podemos examinar diversas coisas, como: se possui comentários do Dev sobre sonhas, API,  o que aquilo faz e entender melhor sobre a estrutura.
+Assim iremos ver de forma mais simples e organizada toda a estrutura frontend da aplicação e podemos examinar diversas coisas, como: se possui comentários do Dev sobre senhas, API,  o que aquilo faz e entender melhor sobre a estrutura.
 
 
 
@@ -175,7 +175,7 @@ nuclei -u (domínio)
 
 **Katana:**
 
-**Katana** é uma ferramenta rápida e customizável que tem como objetivo realizar **web crawler**, ou seja, um rastreador de rede, que possa ser usado de forma ativa ou passiva, utilizando o crawl em múltiplos domínios e subdomínios simultaneamente. Seu objetivo é conseguir informações e endpoints.
+**Katana** é uma ferramenta rápida e customizável que tem como objetivo realizar **web crawler**, e que possa ser usado de forma ativa ou passiva, utilizando o crawl em múltiplos domínios e subdomínios simultaneamente. Seu objetivo é conseguir informações e endpoints.
 
 
 
