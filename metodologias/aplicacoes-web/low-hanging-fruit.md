@@ -112,6 +112,10 @@ Ambos o SSL quanto o TLS, são muito parecidos, porém o TLS é uma versão mais
 
 O protocolo TLS é mais eficaz que o protocolo SSL.
 
+{% hint style="info" %}
+ssllabs.com/ssltest/
+{% endhint %}
+
 
 
 <figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption><p>Figura: Resultado teste SSL/TLS</p></figcaption></figure>
