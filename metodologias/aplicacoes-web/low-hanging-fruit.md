@@ -10,12 +10,12 @@
 * [x] Portas Abertas
 * [x] Nuclei / Katana
 * [x] Política de Senhas Permissivas
-* [ ] Mensagem de Erros
+* [x] Mensagem de Erros
 * [x] Utilizar bibliotecas JavaScript desatualizadas
 * [x] Enumeração de Usuário
-* [ ] Chave de mapa file js
-* [ ] Sessão antiga não é inválida após o logout
-* [ ] Ausência de mecanismo contra força bruta
+* [x] Chave de mapa file js
+* [x] Sessão antiga não é inválida após o logout
+* [x] Ausência de mecanismo contra força bruta
 
 
 
