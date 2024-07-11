@@ -91,6 +91,7 @@
   * [Mobile](metodologias/mobile/README.md)
     * [Android](metodologias/mobile/android.md)
     * [iOS](metodologias/mobile/ios.md)
+    * [Referências](metodologias/mobile/referencias.md)
   * [Kubernetes](metodologias/kubernetes.md)
   * [Aplicações Web](metodologias/aplicacoes-web/README.md)
     * [Checklist](metodologias/aplicacoes-web/checklist.md)
