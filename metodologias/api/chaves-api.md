@@ -55,3 +55,13 @@ Podemos validar essa chave através do link:
 
 Podemos validar trocando o parâmetro "your\_acess\_token"
 
+
+
+Para mais informações consulte:
+
+{% embed url="https://gitlab.com/pentest-tools/PayloadsAllTheThings/-/tree/master/API%20Key%20Leaks" %}
+
+{% embed url="https://github.com/streaak/keyhacks" %}
+
+
+
