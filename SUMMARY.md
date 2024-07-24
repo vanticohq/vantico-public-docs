@@ -81,6 +81,7 @@
   * [API](metodologias/api/README.md)
     * [GraphQL](metodologias/api/graphql.md)
     * [REST](metodologias/api/rest.md)
+    * [Chaves API](metodologias/api/chaves-api.md)
   * [Cloud](metodologias/cloud/README.md)
     * [AWS](metodologias/cloud/aws.md)
     * [Referências](metodologias/cloud/referencias.md)
