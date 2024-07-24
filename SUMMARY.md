@@ -83,6 +83,7 @@
     * [REST](metodologias/api/rest.md)
   * [Cloud](metodologias/cloud/README.md)
     * [AWS](metodologias/cloud/aws.md)
+    * [Referências](metodologias/cloud/referencias.md)
   * [Redes](metodologias/redes/README.md)
     * [AD](metodologias/redes/ad.md)
     * [Powershell](metodologias/redes/powershell.md)
