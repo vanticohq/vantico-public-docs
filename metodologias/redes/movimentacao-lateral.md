@@ -1,15 +1,5 @@
 # Movimentação Lateral
 
-O **Putty** é uma ferramenta de emulação de terminal open source, em que suporta diversos protocolos, como: SSH (com tunelamento), Telnet, Serial, Rlogin, etc.&#x20;
-
-Funciona tanto para Windows ou Linux,  se faz fácil de instalação (arquivo .exe), sem custos e possui uma interface bem customizável, possibilitando salvar os hosts para acesso mais rápido.
-
-
-
-A ferramenta Putty é muito útil para principalmente tunelamentos via SSH. Mas o que é um tunelamento?
-
-
-
 **Tunelamento SSH ou SSH Port Forwarding** é um método para criar uma conexão criptografada (um túnel) entre uma máquina cliente e um servidor permitindo a troca (redirecionamento) das portas de acesso aos serviços.
 
 Esse método é útil para transportar dados de serviços que utilizem protocolos não criptografados, como VNC ou FTP, evitar monitoramento de rede e dar _bypass_ em firewalls.
