@@ -88,6 +88,7 @@
   * [Redes](metodologias/redes/README.md)
     * [AD](metodologias/redes/ad.md)
     * [Powershell](metodologias/redes/powershell.md)
+    * [Movimentação Lateral](metodologias/redes/movimentacao-lateral.md)
     * [Pós Exploração](metodologias/redes/pos-exploracao.md)
     * [Escalação de Privilégios](metodologias/redes/escalacao-de-privilegios.md)
   * [Mobile](metodologias/mobile/README.md)
