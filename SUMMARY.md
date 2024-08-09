@@ -84,6 +84,7 @@
     * [Chaves API](metodologias/api/chaves-api.md)
   * [Cloud](metodologias/cloud/README.md)
     * [AWS](metodologias/cloud/aws.md)
+    * [BucketLoot](metodologias/cloud/bucketloot.md)
     * [Referências](metodologias/cloud/referencias.md)
   * [Redes](metodologias/redes/README.md)
     * [AD](metodologias/redes/ad.md)
