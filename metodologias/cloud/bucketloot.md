@@ -4,20 +4,6 @@
 
 
 
-**Como funciona?**
-
-1 - Valida se há exposições públicas, verificando se a URL é de um bucket válido e se é público, permitindo que pessoas listem seus arquivos.
-
-2 - Verifica se há extensões de arquivos dentro do bucket que usam dados em texto plano.
-
-3 - Modo Guest para escaneamentos iniciais: a ferramenta faz um request GET para pegar no máximo 1000 arquivos da response XML.
-
-4 - Escaneamento completo: a ferramenta oferece a possibilidade de passar credenciais de autenticação, para que assim ela realize uma varredura maior dentro do ativo.
-
-5 - Depois de descobrir arquivos, passa a fazer uma requisição GET em cada arquivo encontrado para extrair seu conteúdo. Desse modo, permite que o BucketLoot consiga buscar por secrets, ativos, palavras customizadas e expressões.
-
-
-
 **Como utilizar?**
 
 ```
