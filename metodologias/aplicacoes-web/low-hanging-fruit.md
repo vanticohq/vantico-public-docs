@@ -57,6 +57,8 @@ Primeiro devemos encontrar o código do bootstrap, basta: Inspecionar Elemento, 
 
 A partir disso iremos procurar no final por "js.map".
 
+Iremos buscar sempre o final "js.map" de arquivos como "main" e "app".
+
 Então vamos usar uma ferramenta chamada "unwebpack-sourcemap", através dela usamos o seguinte código como exemplo:
 
 ```
