@@ -53,11 +53,11 @@ Isto é apenas uma **indicação**, porém a severidade de cada cabeçalho deve 
 
 É uma ótima forma de investigarmos mais sobre a estrutura do site, através de seu código JavaScript.
 
-Primeiro devemos encontrar o código do bootstrap, basta: Inspecionar Elemento, depois clicamos nos três pontos do  canto superior direito, vamos em "More Tools", "Search", e pesquisamos por "Loading Chunk".
-
-A partir disso iremos procurar no final por "js.map".
+Primeiro devemos entrar no código fonte da aplicação pressionando CTRL + U, dentro dela iremos procurar por arquivos Javascript.
 
 Iremos buscar sempre o final "js.map" de arquivos como "main" e "app".
+
+Dentro deles iremos procurar no final se contém "js.map".
 
 Então vamos usar uma ferramenta chamada "unwebpack-sourcemap", através dela usamos o seguinte código como exemplo:
 
