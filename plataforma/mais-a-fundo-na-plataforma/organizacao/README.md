@@ -10,11 +10,7 @@ Os proprietários da organização podem gerenciar usuários e ajustar as config
 
 
 
-Ao receber um convite por e-mail da Vantico, você ingressa em uma organização específica com uma função atribuída a você. Dentro de uma organização, você e sua equipe têm acesso à plataforma Vantico e à experiência de pentest.
-
-Você pode visualizar a organização à qual pertence no aplicativo Vantico. Se você ingressou em várias organizações, poderá alternar entre elas.
-
-<figure><img src="../../../.gitbook/assets/OrganizationsList.png" alt=""><figcaption></figcaption></figure>
+Ao receber um convite por e-mail da Vantico, você ingressa em uma organização específica com uma função atribuída a você. Dentro de uma organização, você e sua equipe têm acesso à plataforma Vantico e à experiência de pentest.&#x20;
 
 
 
