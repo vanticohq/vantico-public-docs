@@ -1,5 +1,6 @@
 ---
 description: Oferecemos um modelo de consumo flexível.
+hidden: true
 ---
 
 # Créditos Vantico
