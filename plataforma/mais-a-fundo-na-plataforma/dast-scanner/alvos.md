@@ -12,8 +12,6 @@ Um alvo define o escopo da verificação.
 
 O que é um alvo DAST?
 
-<figure><img src="../../../.gitbook/assets/Anatomy_DASTTarget.png" alt=""><figcaption></figcaption></figure>
-
 Um alvo ADAST é o ponto de entrada específico (URL ou endpoint) de um aplicativo web, site, API ou qualquer componente que aceite entrada do mundo externo. Ele define o escopo, ou limites, da verificação de segurança conduzida por uma ferramenta DAST, limitando a ferramenta a analisar apenas as páginas, links ou formulários dentro do domínio do alvo.
 
 Por exemplo, com um destino https://example.com, a verificação cobriria https://example.com/app1, mas não https://app2.example.com. Essencialmente, o scanner examina URLs que começam com “example.com”.

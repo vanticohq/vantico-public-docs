@@ -57,7 +57,6 @@
         * [Relatórios de Pentest de marca conjunta](plataforma/mais-a-fundo-na-plataforma/pentests/relatorios/relatorios-de-pentest-de-marca-conjunta.md)
     * [Colaboração](plataforma/mais-a-fundo-na-plataforma/colaboracao/README.md)
       * [Colabore em Pentests](plataforma/mais-a-fundo-na-plataforma/colaboracao/colabore-em-pentests.md)
-      * [Grupos](plataforma/mais-a-fundo-na-plataforma/colaboracao/grupos.md)
       * [Gerenciar colaboradores do Pentest](plataforma/mais-a-fundo-na-plataforma/colaboracao/gerenciar-colaboradores-do-pentest.md)
       * [Funções e permissões do usuário](plataforma/mais-a-fundo-na-plataforma/colaboracao/funcoes-e-permissoes-do-usuario.md)
       * [Notificações](plataforma/mais-a-fundo-na-plataforma/colaboracao/notificacoes.md)
