@@ -48,7 +48,7 @@ Funções e Permissões Principais
 
 * Pentester: Conclui testes de pentes para clientes Vantico.
 * Líder: Lidera um grupo de Vantico Pentesters para completar um pentest completo.
-* Coordenador: Lidera um grupo de Vantico Pentesters para concluir um teste Agile.,
+* Coordenador: Lidera um grupo de Vantico Pentesters para concluir um teste Agile.
 
 ***
 
