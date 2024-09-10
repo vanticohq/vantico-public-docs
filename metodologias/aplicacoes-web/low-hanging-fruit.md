@@ -16,6 +16,7 @@
 * [x] Chave de mapa file js
 * [x] Sessão antiga não é inválida após o logout
 * [x] Ausência de mecanismo contra força bruta
+* [x] Uso de IDs sequenciais
 
 
 
@@ -248,3 +249,14 @@ Porém o mesmo pode ser encontrado em outras partes da aplicação, como por exe
 
 A mensagem correta que a aplicação deve retornar é de **"Usuário ou Senha Incorretos"** ou **"Caso o email já estiver cadastrado você receberá um link na sua caixa de email"**&#x20;
 
+
+
+***
+
+> **Uso de IDs sequenciais**
+
+Praticamente qualquer sistema moderno tem referências direta a objetos. Este comportamento faz com algumas aplicações utilizem IDs sequenciais, ou seja, se há um objeto de ID 5, o próximo será 6 e assim por diante.
+
+A partir disto pode-se tornar uma vulnerabilidade maior como por exemplo um IDOR.
+
+Uma boa prática é a utilização de algoritmos modernos como _UUID v4_ para mitigar esta vulnerabilidade.
