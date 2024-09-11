@@ -18,6 +18,7 @@
 * [x] Ausência de mecanismo contra força bruta
 * [x] Uso de IDs sequenciais
 * [x] Upload irrestrito de arquivos
+* [x] Registro e monitoramento insuficiente de atividades
 
 
 
@@ -274,3 +275,6 @@ Algumas aplicações possuem funcionalidades de subir arquivos, seja para altera
 
 ***
 
+> Registro e monitoramento insuficiente de atividades
+
+Quando uma aplicação possuir _logs_, deve-se verificar caso a mesma esteja realmente capturando todas as informações que ocorrem na aplicação, pois pode ocorrer de a mesma estar apenas registrando algumas atividades ou refletindo apenas **informações parciais**, o que é uma implicação de **segurança e auditoria**.
