@@ -19,6 +19,7 @@
 * [x] Uso de IDs sequenciais
 * [x] Upload irrestrito de arquivos
 * [x] Registro e monitoramento insuficiente de atividades
+* [x] Negação de serviço através de múltiplas tentativas de login
 
 
 
@@ -278,3 +279,11 @@ Algumas aplicações possuem funcionalidades de subir arquivos, seja para altera
 > Registro e monitoramento insuficiente de atividades
 
 Quando uma aplicação possuir _logs_, deve-se verificar caso a mesma esteja realmente capturando todas as informações que ocorrem na aplicação, pois pode ocorrer de a mesma estar apenas registrando algumas atividades ou refletindo apenas **informações parciais**, o que é uma implicação de **segurança e auditoria**.
+
+
+
+***
+
+> Negação de serviço através de múltiplas tentativas de login
+
+Algumas aplicações impõem (ou não) bloqueio na conta depois de um número de tentativas de acesso, porém muitas vezes esse número pode ser muito grande, permitindo que o atacante tente múltiplas tentativas antes de ser bloqueado, o que também permite um possível ataque de negação de serviço em conjunto.
