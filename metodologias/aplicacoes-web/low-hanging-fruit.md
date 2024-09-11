@@ -20,6 +20,7 @@
 * [x] Upload irrestrito de arquivos
 * [x] Registro e monitoramento insuficiente de atividades
 * [x] Negação de serviço através de múltiplas tentativas de login
+* [x] Falta de validação na alteração de dados
 
 
 
@@ -287,3 +288,13 @@ Quando uma aplicação possuir _logs_, deve-se verificar caso a mesma esteja rea
 > Negação de serviço através de múltiplas tentativas de login
 
 Algumas aplicações impõem (ou não) bloqueio na conta depois de um número de tentativas de acesso, porém muitas vezes esse número pode ser muito grande, permitindo que o atacante tente múltiplas tentativas antes de ser bloqueado, o que também permite um possível ataque de negação de serviço em conjunto.
+
+
+
+***
+
+> Falta de validação na alteração de dados
+
+Quando requisitado alguma alteração dentro da área logada, como: **alterar a senha, e-mail ou algum dado pessoal**, a aplicação deve realizar alguma **validação**, que pode ser: requisitar a senha novamente, algum _challenge_ para resolver, e-mail de confirmação, etc.
+
+Caso não haja nenhuma validação é considerado como uma vulnerabilidade.
