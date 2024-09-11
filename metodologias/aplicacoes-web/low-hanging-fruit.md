@@ -17,6 +17,7 @@
 * [x] Sessão antiga não é inválida após o logout
 * [x] Ausência de mecanismo contra força bruta
 * [x] Uso de IDs sequenciais
+* [x] Upload irrestrito de arquivos
 
 
 
@@ -260,3 +261,16 @@ Praticamente qualquer sistema moderno tem referências direta a objetos. Este co
 A partir disto pode-se tornar uma vulnerabilidade maior como por exemplo um IDOR.
 
 Uma boa prática é a utilização de algoritmos modernos como _UUID v4_ para mitigar esta vulnerabilidade.
+
+
+
+***
+
+> **Upload irrestrito de arquivos**
+
+Algumas aplicações possuem funcionalidades de subir arquivos, seja para alterar a foto de perfil, enviar algum documento ou qualquer outra função, porém se a mesma não for sanitizada corretamente é possível fazer o upload de algum arquivo malicioso para realizar diversas ações não autorizadas dentro da aplicação, como abrir uma shell com um arquivo **.php,** executar um arquivo **.exe**, exploit _client-side based_ com um **.html**, etc.
+
+
+
+***
+
