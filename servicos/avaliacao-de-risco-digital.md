@@ -17,7 +17,6 @@ A Avaliação de Risco Digital é um tipo de envolvimento fora do nosso **Pentes
 | Cumprido por                                    | Serviços de CiberSegurança                                                                                                                            |
 | Número de Créditos                              | Geralmente em torno de 6 a 12 créditos, dependendo do escopo                                                                                          |
 | Números de Testadores                           | 1 Testador                                                                                                                                            |
-| Colaboração                                     | Slack                                                                                                                                                 |
 | Re-Test                                         | Sim, de acordo com rank de crédito                                                                                                                    |
 | Data de Início mais cedo                        | A data de início será baseada na disponibilidade. Datas de início tipicamente são de 3 a 5 dias úteis, uma vez que o teste é enviado para **Revisão** |
 | Duração do Teste                                | Tipicamente 10 dias. Uma vez que finalizado o teste, é movido para **Planejado**                                                                      |

@@ -77,7 +77,7 @@ Um membro da equipe do Pentest tem acesso a um pentest específico com as seguin
 
 * Visualize e edite detalhes do pentest.
 * Gerenciar descobertas para um pentest.
-* Colabore em um pentest no aplicativo Vantico e no Slack. Gerencie usuários para um pentest.
+* Colabore em um pentest no aplicativo Vantico. Gerencie usuários para um pentest.
 * Veja atualizações de atividades de pentest e atualizações de pentester.
 * Gerencie integrações para um pentest: Jira e GitHub.
 

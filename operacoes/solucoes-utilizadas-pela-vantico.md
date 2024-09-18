@@ -16,4 +16,3 @@ Usamos muitos provedores de serviços terceirizados (ferramentas SaaS). Seguindo
 | Asana                | Todos        | Gestão de atividades e projetos |
 | Twitter              | Marketing    |                                 |
 | Linkedin             | Marketing    |                                 |
-| Slack                | Todos        | Communication, chat, ChatOps    |
