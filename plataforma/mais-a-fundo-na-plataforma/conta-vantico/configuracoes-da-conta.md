@@ -78,7 +78,7 @@ Para gerenciar as configurações de autenticação de dois fatores (2FA) da sua
 Se estiver fazendo **login com seu e-mail e senha**, você pode ativar a autenticação de dois fatores (2FA) para proteger sua conta. O 2FA adiciona outra camada de segurança à sua conta, exigindo mais do que apenas uma senha para fazer login.
 
 * Mesmo que sua organização não aplique 2FA para todos os usuários, recomendamos que você ative-o para aumentar a segurança de sua conta.
-* Se você estiver fazendo login por meio de logon único, o 2FA não se aplica. Isso inclui SSO SAML e OAuth.
+* Se você estiver fazendo login por meio de logon único, o 2FA não se aplica. Isso inclui OAuth.
 
 Para habilitar 2FA em sua conta:
 

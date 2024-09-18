@@ -116,7 +116,7 @@ Quando um cliente inicia sua jornada com a Vantico, adicionamos um proprietário
 | Ver a página Insights                                                                                        | ✓                     | ✓                   |
 | Gerenciar usuários de uma organização                                                                        | —                     | ✓                   |
 | Criar e gerenciar grupos                                                                                     | —                     | ✓                   |
-| Gerencie as configurações de segurança de uma organização: autenticação de dois fatores e SAML               | —                     | ✓                   |
+| Gerencie as configurações de segurança de uma organização: autenticação de dois fatores                      | —                     | ✓                   |
 | Habilite relatórios de marca conjunta (para parceiros Vantico)                                               | —                     | ✓                   |
 
 
@@ -134,7 +134,7 @@ Um proprietário da organização tem as seguintes **permissões**:
   * Veja os endereços de e-mail dos usuários.
   * Remova os membros da equipe do Pentest de todos os pentests em que colaboram.
 * Crie, edite e gerencie grupos.
-* Gerencie as configurações de segurança de uma organização: autenticação de dois fatores e SAML.
+* Gerencie as configurações de segurança de uma organização: autenticação de dois fatores
 * Habilite relatórios de marca conjunta (para parceiros Vantico).
 * Gerenciar integrações para uma organização.
 * Edite o perfil da organização.

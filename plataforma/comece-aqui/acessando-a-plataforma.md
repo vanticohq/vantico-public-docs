@@ -20,8 +20,6 @@ Assim que você confirmou seu endereço de email e criou uma senha forte, sua co
 \
 Dependendo das configurações da sua Organização, você pode logar na Vantico das seguintes maneiras:
 
-* Através da SAML, se configurado. Acesse o sistema do seu provedor de identidade para fazer login na Vantico, ou siga um URL exclusivo.
-  * Se a sua organização tiver implementado o SAML, a autenticação a partir da página de login da Vantico não é possível.
 * Na página de Login da Vantico, com:
   * Seu email e senha
   * Sua conta Google que foi convidada para a Vantico
