@@ -13,7 +13,6 @@
 * [x] Mensagem de Erros
 * [x] Utilizar bibliotecas JavaScript desatualizadas
 * [x] Enumeração de Usuário
-* [x] Chave de mapa file js
 * [x] Sessão antiga não é inválida após o logout
 * [x] Ausência de mecanismo contra força bruta
 * [x] Uso de IDs sequenciais
