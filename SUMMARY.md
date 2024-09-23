@@ -14,6 +14,7 @@
 * [Pessoas](pessoas.md)
 * [Serviços](servicos/README.md)
   * [Avaliação de Risco Digital](servicos/avaliacao-de-risco-digital.md)
+  * [Revisão de código seguro](servicos/revisao-de-codigo-seguro.md)
 * [Pentester](pentester/README.md)
   * [Como reportar uma vulnerabilidade](pentester/como-reportar-uma-vulnerabilidade.md)
 * [Operações](operacoes/README.md)
