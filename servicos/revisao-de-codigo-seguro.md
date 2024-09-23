@@ -24,7 +24,7 @@ As revisões de código seguro são um tipo especializado de engajamento que nã
 
 **Detalhes da Metodologia**
 
-Na Vantico, seguimos as Diretrizes de Codificação Segura da OWASP quando se trata de Revisão Segura de Código. A Revisão Segura de Código da Cobalt é um exame sistemático do código-fonte. Durante a revisão segura de código, a Cobalt levará em consideração o risco que o código apresenta, o propósito e o contexto do código, a contagem de linhas de código e a(s) linguagem(s) de programação usada(s).
+Na Vantico, seguimos as Diretrizes de Codificação Segura da OWASP quando se trata de Revisão Segura de Código. A Revisão Segura de Código da Vantico é um exame sistemático do código-fonte. Durante a revisão segura de código, a Vantico levará em consideração o risco que o código apresenta, o propósito e o contexto do código, a contagem de linhas de código e a(s) linguagem(s) de programação usada(s).
 
 Aqui estão algumas etapas que podem ser incluídas em uma revisão segura de código:
 
@@ -53,7 +53,7 @@ As seis fases para SCA são:
 * Avaliação de Risco&#x20;
 * Orientação de Remediação
 
-> Ferramentas:
+> Ferramentas
 >
 > * Semgrep Pro
 > * OWASP Dependency-Check
@@ -64,5 +64,48 @@ As seis fases para SCA são:
 
 
 
+**Teste de segurança de aplicativos estáticos**
 
+A Vantico utiliza ferramentas Static Application Security Testing (SAST) ao executar revisões de código seguras, o que auxilia nos esforços manuais ao procurar padrões em grandes bases de código. Um benefício do uso de ferramentas SAST é que elas ajudam a identificar todas as instâncias da vulnerabilidade no aplicativo. Algumas descobertas comuns encontradas com uma ferramenta SAST são:
+
+* SQL injection
+* Cross-site scripting (XSS)
+* Cross-site request forgery (CSRF)
+* Insecure cryptographic storage
+* Insecure communications
+* Buffer overflows
+* Authorization flaws
+
+> Ferramentas
+>
+> Os pentesters Vantico podem usar ferramentas de teste de segurança de aplicativos estáticos, como:
+>
+> * Semgrep Pro
+> * Bearer
+> * Checkmarx
+> * Fortify
+> * Snyk
+> * SonarQube
+> * Veracode
+
+
+
+**Revisão manual da lógica de negócios**
+
+A execução de uma revisão manual de código seguro é essencial para descobrir falhas de lógica de negócios e verificar os resultados das ferramentas SAST. Abaixo estão alguns exemplos de áreas de foco durante uma revisão manual de código seguro.
+
+* Validação de entrada&#x20;
+* Codificação de saída&#x20;
+* Gerenciamento de autenticação e senha&#x20;
+* Gerenciamento de sessão&#x20;
+* Controle de acesso&#x20;
+* Práticas criptográficas&#x20;
+* Manipulação e registro de erros&#x20;
+* Proteção de dados&#x20;
+* Segurança da comunicação&#x20;
+* Configuração do sistema&#x20;
+* Segurança do banco de dados&#x20;
+* Gerenciamento de arquivos&#x20;
+* Gerenciamento de memória&#x20;
+* Práticas gerais de codificação
 
