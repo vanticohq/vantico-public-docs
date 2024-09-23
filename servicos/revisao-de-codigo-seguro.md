@@ -38,3 +38,31 @@ Aqui estão algumas etapas que podem ser incluídas em uma revisão segura de c�
 >
 > As ferramentas que nossos pentesters usam durante cada fase podem variar de teste para teste.
 
+
+
+**Análise da Composição do Software**
+
+Durante a Análise de Composição de Software (SCA), a Vantico analisa componentes de código aberto e de terceiros para vulnerabilidades conhecidas.
+
+As seis fases para SCA são:
+
+* Identificação de Componentes&#x20;
+* Detecção de Vulnerabilidade&#x20;
+* Conformidade de Licença&#x20;
+* Análise de Versão&#x20;
+* Avaliação de Risco&#x20;
+* Orientação de Remediação
+
+> Ferramentas:
+>
+> * Semgrep Pro
+> * OWASP Dependency-Check
+> * Snyk Open Source
+> * Trivy
+> * Sonatype
+> * Jfrog Xray
+
+
+
+
+
