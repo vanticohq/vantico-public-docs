@@ -20,6 +20,7 @@
 * [x] Registro e monitoramento insuficiente de atividades
 * [x] Negação de serviço através de múltiplas tentativas de login
 * [x] Falta de validação na alteração de dados
+* [x] Validação de input insuficiente
 
 
 
@@ -297,3 +298,11 @@ Algumas aplicações impõem (ou não) bloqueio na conta depois de um número de
 Quando requisitado alguma alteração dentro da área logada, como: **alterar a senha, e-mail ou algum dado pessoal**, a aplicação deve realizar alguma **validação**, que pode ser: requisitar a senha novamente, algum _challenge_ para resolver, e-mail de confirmação, etc.
 
 Caso não haja nenhuma validação é considerado como uma vulnerabilidade.
+
+***
+
+> Validação de input insuficiente
+
+Esta vulnerabilidade ocorre quando a aplicação não valida corretamente a entrada de dados fornecidos pelos usuários, por exemplo, ao criar uma conta, não é validado o e-mail informado, número de telefone ou outro dado solicitado.
+
+Permitindo assim de que haja a criação de contas com dados fictícios ou inválidos e sem a validação adequada, as políticas implementadas, como de senhas fortes, formatos de e-mail, entre outros se tornam ineficazes.
