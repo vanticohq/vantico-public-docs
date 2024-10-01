@@ -21,6 +21,7 @@
 * [x] Negação de serviço através de múltiplas tentativas de login
 * [x] Falta de validação na alteração de dados
 * [x] Validação de input insuficiente
+* [x] Validação de registro de dados pessoais
 
 
 
@@ -277,7 +278,7 @@ Algumas aplicações possuem funcionalidades de subir arquivos, seja para altera
 
 ***
 
-> Registro e monitoramento insuficiente de atividades
+> **Registro e monitoramento insuficiente de atividades**
 
 Quando uma aplicação possuir _logs_, deve-se verificar caso a mesma esteja realmente capturando todas as informações que ocorrem na aplicação, pois pode ocorrer de a mesma estar apenas registrando algumas atividades ou refletindo apenas **informações parciais**, o que é uma implicação de **segurança e auditoria**.
 
@@ -285,7 +286,7 @@ Quando uma aplicação possuir _logs_, deve-se verificar caso a mesma esteja rea
 
 ***
 
-> Negação de serviço através de múltiplas tentativas de login
+> **Negação de serviço através de múltiplas tentativas de login**
 
 Algumas aplicações impõem (ou não) bloqueio na conta depois de um número de tentativas de acesso, porém muitas vezes esse número pode ser muito grande, permitindo que o atacante tente múltiplas tentativas antes de ser bloqueado, o que também permite um possível ataque de negação de serviço em conjunto.
 
@@ -293,7 +294,7 @@ Algumas aplicações impõem (ou não) bloqueio na conta depois de um número de
 
 ***
 
-> Falta de validação na alteração de dados
+> **Falta de validação na alteração de dados**
 
 Quando requisitado alguma alteração dentro da área logada, como: **alterar a senha, e-mail ou algum dado pessoal**, a aplicação deve realizar alguma **validação**, que pode ser: requisitar a senha novamente, algum _challenge_ para resolver, e-mail de confirmação, etc.
 
@@ -301,8 +302,15 @@ Caso não haja nenhuma validação é considerado como uma vulnerabilidade.
 
 ***
 
-> Validação de input insuficiente
+> **Validação de input insuficiente**
 
 Esta vulnerabilidade ocorre quando a aplicação não valida corretamente a entrada de dados fornecidos pelos usuários, por exemplo, ao criar uma conta, não é validado o e-mail informado, número de telefone ou outro dado solicitado.
 
 Permitindo assim de que haja a criação de contas com dados fictícios ou inválidos e sem a validação adequada, as políticas implementadas, como de senhas fortes, formatos de e-mail, entre outros se tornam ineficazes.
+
+***
+
+> **Validação de registro de dados pessoais**
+
+A vulnerabilidade se remete quando no registro de conta de usuário e é requisitado dados pessoais como CPF, o mesmo deve validar se o CPF inserido é válido (formato) e também se é verdadeiro, ou seja, condiz com as informações subsequentes registradas.
+
