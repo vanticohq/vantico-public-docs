@@ -99,6 +99,7 @@
     * [Injeção de Modelo no Servidor](metodologias/aplicacoes-web/injecao-de-modelo-no-servidor.md)
     * [Controle de Conta via Desvio de Limite de Taxa](metodologias/aplicacoes-web/controle-de-conta-via-desvio-de-limite-de-taxa.md)
     * [Exposição Excessiva de Dados](metodologias/aplicacoes-web/exposicao-excessiva-de-dados.md)
+    * [Account Takeover](metodologias/aplicacoes-web/account-takeover.md)
     * [Mattermost](metodologias/aplicacoes-web/mattermost.md)
     * [Referências](metodologias/aplicacoes-web/referencias.md)
     * [Low Hanging Fruit](metodologias/aplicacoes-web/low-hanging-fruit.md)
