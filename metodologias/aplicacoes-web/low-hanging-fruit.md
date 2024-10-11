@@ -22,6 +22,7 @@
 * [x] Falta de validação na alteração de dados
 * [x] Validação de input insuficiente
 * [x] Validação de registro de dados pessoais
+* [x] Invalidação do link de redefinição de senha
 
 
 
@@ -313,4 +314,10 @@ Permitindo assim de que haja a criação de contas com dados fictícios ou invá
 > **Validação de registro de dados pessoais**
 
 A vulnerabilidade se remete quando no registro de conta de usuário e é requisitado dados pessoais como CPF, o mesmo deve validar se o CPF inserido é válido (formato) e também se é verdadeiro, ou seja, condiz com as informações subsequentes registradas.
+
+***
+
+> **Invalidação do link de redefinição de senha**
+
+Quando clicado em "Esqueci a senha", o link enviado deve ser inválidado após o uso, ou seja, depois de ter trocado a senha, o mesmo link não deve funcionar mais para alterar a senha novamente, a aplicação deve gerar um novo link caso o usuário queira redefinir novamente a senha.
 
