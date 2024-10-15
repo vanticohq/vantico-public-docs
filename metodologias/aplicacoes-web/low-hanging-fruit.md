@@ -23,6 +23,7 @@
 * [x] Validação de input insuficiente
 * [x] Validação de registro de dados pessoais
 * [x] Invalidação do link de redefinição de senha
+* [x] Host header injection
 
 
 
@@ -320,4 +321,12 @@ A vulnerabilidade se remete quando no registro de conta de usuário e é requisi
 > **Invalidação do link de redefinição de senha**
 
 Quando clicado em "Esqueci a senha", o link enviado deve ser inválidado após o uso, ou seja, depois de ter trocado a senha, o mesmo link não deve funcionar mais para alterar a senha novamente, a aplicação deve gerar um novo link caso o usuário queira redefinir novamente a senha.
+
+***
+
+> **Host header injection**
+
+É quando clicado em "Esqueci a senha", depois ao apertar para enviar a requisição, interceptamos ela e trocar o header "Host" por outro site, caso não redirecionar para lá, mantemos o header Host original e adicionamos abaixo dele o header "X-Forwarded-Host" com o outro site.
+
+Para aumentar a severidade, caso a aplicação seja vulnerável, podemos redirecionar para algum server que temos controle para capturar o token do usuário, possibilitando assim que alteramos a senha do mesmo e ganhamos controle sobre a conta.
 
