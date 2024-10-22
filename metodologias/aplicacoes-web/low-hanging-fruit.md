@@ -24,7 +24,7 @@
 * [x] Validação de registro de dados pessoais
 * [x] Invalidação do link de redefinição de senha
 * [x] Host header injection
-* [x] Flood de e-mail por meio de refefinição de senha
+* [x] Flood de e-mail por meio de redefinição de senha
 
 
 
@@ -333,7 +333,7 @@ Para aumentar a severidade, caso a aplicação seja vulnerável, podemos redirec
 
 ***
 
-> **Flood de e-mail por meio de refefinição de senha**
+> **Flood de e-mail por meio de redefinição de senha**
 
 Para realizar o teste dessa vulnerabilidade, devemos: entrar na aba esqueci minha senha, depois inserir o e-mail e interceptar o request quando apertado o botão de enviar, assim com este request, jogamos no repeater e ficamos enviando a mesma requisição diversas vezes, caso todas foram aceitas, irá gerar um flood de e-mails na caixa de entrada do usuário.
 
