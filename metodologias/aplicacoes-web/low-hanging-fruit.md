@@ -123,15 +123,19 @@ Ambos o SSL quanto o TLS, são muito parecidos, porém o TLS é uma versão mais
 
 O protocolo TLS é mais eficaz que o protocolo SSL.
 
+
+
+Através disto iremos procurar aplicações que contenham cifras fracas, com isso podemos usar o site a seguir:
+
 {% hint style="info" %}
 ssllabs.com/ssltest/
 {% endhint %}
 
+<figure><img src="../../.gitbook/assets/222.png" alt=""><figcaption><p>Figura: Classificação</p></figcaption></figure>
 
 
-<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption><p>Figura: Resultado teste SSL/TLS</p></figcaption></figure>
 
-
+<figure><img src="../../.gitbook/assets/333.png" alt=""><figcaption><p>Figura: Cifras fracas</p></figcaption></figure>
 
 ***
 
