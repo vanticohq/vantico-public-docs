@@ -102,6 +102,7 @@
     * [Exposição Excessiva de Dados](metodologias/aplicacoes-web/exposicao-excessiva-de-dados.md)
     * [Account Takeover](metodologias/aplicacoes-web/account-takeover.md)
     * [Wordpress](metodologias/aplicacoes-web/wordpress.md)
+    * [Enumeração de Subdomínios](metodologias/aplicacoes-web/enumeracao-de-subdominios.md)
     * [Mattermost](metodologias/aplicacoes-web/mattermost.md)
     * [Referências](metodologias/aplicacoes-web/referencias.md)
     * [Duplo Fator / MFA](metodologias/aplicacoes-web/duplo-fator-mfa.md)
