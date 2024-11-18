@@ -1,4 +1,4 @@
-# AD
+# Referências
 
 Ataques para executar em ambientes AD
 
@@ -19,20 +19,12 @@ Ataques para executar em ambientes AD
 
 [AD-Attacks/Active-Directory-Penetration-Testing: Active Directory Penetration Testing for Red Teams (github.com)](https://github.com/AD-Attacks/Active-Directory-Penetration-Testing)
 
-Bloodhound
+[Bloodhound](https://github.com/BloodHoundAD/BloodHound)
+
+[PowerHuntShares](https://www.netspi.com/blog/technical-blog/network-pentesting/powerhuntshares-2-0-release/)
 
 Pingcastle
 
 [https://github.com/Mazars-Tech/AD\_Miner](https://github.com/Mazars-Tech/AD\_Miner)
 
 [Active Directory Security Assessment by Purple Knight (purple-knight.com)](https://www.purple-knight.com/)
-
-### [Material Oficial CRTP](https://onedrive.live.com/?authkey=%21AFyxF%2DRsazdEu78\&id=B93D8E0B989433F4%21588\&cid=B93D8E0B989433F4)
-
-[https://github.com/esidate/pentesting-active-directory](https://github.com/esidate/pentesting-active-directory)
-
-[https://github.com/Orange-Cyberdefense/GOAD](https://github.com/Orange-Cyberdefense/GOAD)
-
-Checar usuários sem expiração de senha
-
-[https://book.hacktricks.xyz/windows-hardening/active-directory-methodology](https://book.hacktricks.xyz/windows-hardening/active-directory-methodology)
