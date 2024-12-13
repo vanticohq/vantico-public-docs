@@ -2,13 +2,9 @@
 description: Revise metodologias para configurações de nuvem.
 ---
 
-# Metodologias de Configuração Cloud
+# Revisão de configuração cloud
 
-Nossos pentesters testam seus ativos rigorosamente.
-
-
-
-Apoiamos testes de penetração de sistemas nos seguintes ambientes de nuvem:
+Apoiamos testes de invasão de sistemas nos seguintes ambientes de nuvem:
 
 * Amazon AWS&#x20;
 * Google Cloud Platform (GCP)&#x20;
@@ -45,7 +41,7 @@ Seguimos uma metodologia padrão da indústria baseada principalmente no Guia de
 * Análise de projeto arquitetônico&#x20;
 * Relatórios, triagem e re-tests
 
-<figure><img src="../../.gitbook/assets/vantico-ilustração-reconhecimento4.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/vantico-ilustração-reconhecimento4.png" alt=""><figcaption></figcaption></figure>
 
 Em geral, os provedores de nuvem com os quais trabalhamos não precisam mais saber antes de realizarmos nossos testes de invasão. No entanto, cada fornecedor de nuvem pode ter o seu próprio procedimento. Incluímos links para procedimentos que conhecemos na seção de cada provedor.
 
