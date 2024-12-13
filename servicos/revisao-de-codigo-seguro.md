@@ -6,7 +6,7 @@ Revise os detalhes e a metodologia para uma revisão de código seguro.
 
 Uma revisão de código seguro é o exame conduzido por humanos do código-fonte do software para identificar vulnerabilidades de segurança que são o resultado de falhas de design, mas comprovadamente são problemas de segurança válidos. É uma parte importante do ciclo de vida de desenvolvimento de software (SDLC) de qualquer organização e ajuda a melhorar a qualidade geral e a segurança do software e a postura geral de segurança de uma organização.
 
-As revisões de código seguro são um tipo especializado de engajamento que não está incluído em nossa oferta padrão de teste de penetração como serviço (PtaaS). Este serviço é fornecido por nossa equipe de serviços de segurança cibernética.
+As revisões de código seguro são um tipo especializado de engajamento que não está incluído em nossa oferta padrão de teste de invasão como serviço (PtaaS). Este serviço é fornecido por nossa equipe de serviços de segurança cibernética.
 
 
 
