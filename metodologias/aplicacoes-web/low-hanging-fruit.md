@@ -27,11 +27,7 @@
 * [x] Flood de e-mail por meio de redefinição de senha
 * [x] Redirecionamento HTTP para HTTPS
 * [x] Acesso via IP diretamente
-* [ ] Aplicação mostrando hash de senhas
-
-
-
-
+* [x] Aplicação mostrando hash de senhas
 
 
 
