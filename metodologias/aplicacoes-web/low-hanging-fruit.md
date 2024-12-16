@@ -120,7 +120,7 @@ output
 
 Depois de rodar esta ferramenta, iremos visualizar o frontend completo desta maneira:
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption><p>Figura: Frontend divido em diretórios</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption><p>Figura: Frontend divido em diretórios</p></figcaption></figure>
 
 Assim iremos ver de forma mais simples e organizada toda a estrutura frontend da aplicação e podemos examinar diversas coisas, como: se possui comentários do Dev sobre senhas, API,  o que aquilo faz e entender melhor sobre a estrutura.
 
@@ -213,7 +213,7 @@ nmap -Pn -sS -p- (endereço)
 
 
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>Figura: Resultado scan NMAP</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p>Figura: Resultado scan NMAP</p></figcaption></figure>
 
 
 
@@ -233,7 +233,7 @@ Nuclei é usado para enviar requisições entre os alvos baseado em um **templat
 nuclei -u (domínio)
 ```
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p>Figura: Resultado scan com Nuclei</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>Figura: Resultado scan com Nuclei</p></figcaption></figure>
 
 
 
