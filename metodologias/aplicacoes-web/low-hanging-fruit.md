@@ -25,50 +25,15 @@
 * [x] Invalidação do link de redefinição de senha
 * [x] Host header injection
 * [x] Flood de e-mail por meio de redefinição de senha
+* [x] Redirecionamento HTTP para HTTPS
+* [x] Acesso via IP diretamente
+* [ ] Aplicação mostrando hash de senhas
 
 
 
-<details>
-
-<summary>Gray Box</summary>
 
 
 
-**Ausência de Headers**
-
-Toda vulnerabilidade que envolve a **ausência de cabeçalhos ("header")** deve ser adicionada **separadamente** para cada cabeçalho ausente presente no escopo.
-
-
-
-Exemplo de como deve ser evidenciado a Ausência do Header:
-
-<img src="../../.gitbook/assets/Captura de tela 2024-06-13 133028.png" alt="Figura: Request Burp Suite" data-size="original">
-
-
-
-<img src="../../.gitbook/assets/Captura de tela 2024-06-13 132925.png" alt="Figura: Response Burp Suite indicando a ausência do header" data-size="original">
-
-
-
-Por **padrão** os Headers são reportados pelas seguintes severidades:
-
-<img src="../../.gitbook/assets/WhatsApp Image 2024-06-12 at 20.34.08.jpeg" alt="Figura: Severidade de cada cabeçalho" data-size="original">
-
-
-
-Isto é apenas uma **indicação**, porém a severidade de cada cabeçalho deve ser indicado mediante o **impacto** que ele traz ao ambiente testado.
-
-</details>
-
-
-
-<details>
-
-<summary>Black Box</summary>
-
-
-
-</details>
 
 ***
 
@@ -349,6 +314,8 @@ Quando requisitado alguma alteração dentro da área logada, como: **alterar a 
 
 Caso não haja nenhuma validação é considerado como uma vulnerabilidade.
 
+
+
 ***
 
 > **Validação de input insuficiente**
@@ -357,17 +324,23 @@ Esta vulnerabilidade ocorre quando a aplicação não valida corretamente a entr
 
 Permitindo assim de que haja a criação de contas com dados fictícios ou inválidos e sem a validação adequada, as políticas implementadas, como de senhas fortes, formatos de e-mail, entre outros se tornam ineficazes.
 
+
+
 ***
 
 > **Validação de registro de dados pessoais**
 
 A vulnerabilidade se remete quando no registro de conta de usuário e é requisitado dados pessoais como CPF, o mesmo deve validar se o CPF inserido é válido (formato) e também se é verdadeiro, ou seja, condiz com as informações subsequentes registradas.
 
+
+
 ***
 
 > **Invalidação do link de redefinição de senha**
 
 Quando clicado em "Esqueci a senha", o link enviado deve ser inválidado após o uso, ou seja, depois de ter trocado a senha, o mesmo link não deve funcionar mais para alterar a senha novamente, a aplicação deve gerar um novo link caso o usuário queira redefinir novamente a senha.
+
+
 
 ***
 
@@ -377,11 +350,47 @@ Quando clicado em "Esqueci a senha", o link enviado deve ser inválidado após o
 
 Para aumentar a severidade, caso a aplicação seja vulnerável, podemos redirecionar para algum server que temos controle para capturar o token do usuário, possibilitando assim que alteramos a senha do mesmo e ganhamos controle sobre a conta.
 
+
+
 ***
 
 > **Flood de e-mail por meio de redefinição de senha**
 
 Para realizar o teste dessa vulnerabilidade, devemos: entrar na aba esqueci minha senha, depois inserir o e-mail e interceptar o request quando apertado o botão de enviar, assim com este request, jogamos no repeater e ficamos enviando a mesma requisição diversas vezes, caso todas foram aceitas, irá gerar um flood de e-mails na caixa de entrada do usuário.
+
+
+
+***
+
+> **Redirecionamento HTTP**&#x20;
+
+Esta vulnerabilidade ocorre quando realizado uma requisição para a aplicação com **HTTP** ao invés de **HTTPS**, a maneira recomendada é a aplicação fazer o redirecionamento, caso não fizer, a aplicação encontra-se vulnerável.
+
+
+
+***
+
+> **Acesso via IP diretamente**
+
+Ao identificar o endereço IP da aplicação, realize uma requisição com o endereço IP, caso a aplicação não faça o redirecionamento para o endereço DNS a mesma se encontra vulnerável a alguns ataques como bypass de WAF.
+
+
+
+***
+
+> **Aplicação mostrando hash de senha**
+
+Identificar se a aplicação em alguma rota demonstra o hash de senha do usuário, caso ocorrer, identificar o tipo de hash e se o mesmo possui algum tipo de _salt_.
+
+Para identificar se possui ou não o _salt_, basta codificar a senha inserida no mesmo formato do hash, caso os dois hashes se apresentarem diferente um do outro significa que a aplicação utiliza alguma forma de _salt_ para proteger os hashes de senha.
+
+***
+
+
+
+
+
+
 
 
 
