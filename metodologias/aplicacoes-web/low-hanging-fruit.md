@@ -30,7 +30,7 @@
 
 <details>
 
-<summary>Grey Box</summary>
+<summary>Gray Box</summary>
 
 
 
