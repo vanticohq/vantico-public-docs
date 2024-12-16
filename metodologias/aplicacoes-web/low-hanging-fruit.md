@@ -28,6 +28,48 @@
 
 
 
+<details>
+
+<summary>Grey Box</summary>
+
+
+
+**Ausência de Headers**
+
+Toda vulnerabilidade que envolve a **ausência de cabeçalhos ("header")** deve ser adicionada **separadamente** para cada cabeçalho ausente presente no escopo.
+
+
+
+Exemplo de como deve ser evidenciado a Ausência do Header:
+
+<img src="../../.gitbook/assets/Captura de tela 2024-06-13 133028.png" alt="Figura: Request Burp Suite" data-size="original">
+
+
+
+<img src="../../.gitbook/assets/Captura de tela 2024-06-13 132925.png" alt="Figura: Response Burp Suite indicando a ausência do header" data-size="original">
+
+
+
+Por **padrão** os Headers são reportados pelas seguintes severidades:
+
+<img src="../../.gitbook/assets/WhatsApp Image 2024-06-12 at 20.34.08.jpeg" alt="Figura: Severidade de cada cabeçalho" data-size="original">
+
+
+
+Isto é apenas uma **indicação**, porém a severidade de cada cabeçalho deve ser indicado mediante o **impacto** que ele traz ao ambiente testado.
+
+</details>
+
+
+
+<details>
+
+<summary>Black Box</summary>
+
+
+
+</details>
+
 ***
 
 > **Ausência de Headers**
