@@ -1,6 +1,6 @@
 # Marketing
 
-Segue aqui os whitepapers de nossos serviços:
+Segue aqui os whitepapers dos nossos serviços:
 
 * [Whitepaper - Adversary Emulation](https://github.com/vanticohq/resources/blob/main/whitepaper/Whitepaper%20-%20Adversary%20Emulation.pdf)
 * [Whitepaper - LLM-IA](https://github.com/vanticohq/resources/blob/main/whitepaper/Whitepaper%20-%20LLM-IA.pdf)
