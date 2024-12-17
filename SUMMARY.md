@@ -23,6 +23,7 @@
   * [Revisão de configuração cloud](servicos/revisao-de-configuracao-cloud.md)
   * [Pentest Azure Active Directory](servicos/pentest-azure-active-directory.md)
   * [Pentest Desktop](servicos/pentest-desktop.md)
+* [Marketing](marketing.md)
 * [Pentester](pentester/README.md)
   * [Markdown](pentester/markdown.md)
   * [Como reportar uma vulnerabilidade](pentester/como-reportar-uma-vulnerabilidade.md)
