@@ -215,3 +215,24 @@ Os custos de viagem devem ser estimados com antecedência e adicionados ao orça
 <mark style="color:blue;">**Dúvidas?**</mark>&#x20;
 
 A segurança é um problema complicado, então, se você tiver alguma dúvida, nossos consultores estão sempre disponíveis para respondê-las ou atender chamadas de escopo com os clientes.&#x20;
+
+
+
+<mark style="color:blue;">**Outros Serviços**</mark>
+
+Oferecemos muitos outros serviços que podem ser melhor explorados em uma curta ligação de 30 minutos.
+
+
+
+|                                  |                                                                                                                                                                                     |
+| -------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Teste de intrusão personalizado  | Encontre vulnerabilidades no seu sistema personalizado.                                                                                                                             |
+| Red Team                         | Simule um adversário mirando sua organização. Teste seus playbooks de SOC e resposta a incidentes.                                                                                  |
+| Avaliação de Segurança em Nuvem  | Verifique a configuração do seu ambiente AWS, Azure ou Microsoft 365.                                                                                                               |
+| Revisão Segura                   | Verifique a configuração do seu Active Directory, Windows 10 SOE, Exchange e outros produtos.                                                                                       |
+| Campanha de Vishing              | Engenharia social por telefone para testar a conscientização de segurança de sua equipe.                                                                                            |
+| Campanha de SMishing             | Engenharia social baseada em SMS para testar a conscientização de segurança de sua equipe.                                                                                          |
+| Distribuição de USB              | Teste a conscientização de segurança da sua equipe contra pen drives maliciosos.                                                                                                    |
+| Intrusão física                  | Teste seus controles de segurança física contra ataques.                                                                                                                            |
+| Governança, Risco & Conformidade | Estratégia de segurança, execução de serviços de educação e análise de lacunas, verifique sua governança de segurança em relação ao NIST, ISO 27001, ACSC Essential 8 e muito mais. |
+
