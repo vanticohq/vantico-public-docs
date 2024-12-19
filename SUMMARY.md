@@ -31,6 +31,8 @@
   * [Visão geral do rocesso](parceiros/visao-geral-do-rocesso.md)
   * [Documentos](parceiros/documentos.md)
   * [Relatório do Pentest](parceiros/relatorio-do-pentest.md)
+  * [Correção](parceiros/correcao.md)
+  * [PCI DSS](parceiros/pci-dss.md)
 * [Pentester](pentester/README.md)
   * [Markdown](pentester/markdown.md)
   * [Como reportar uma vulnerabilidade](pentester/como-reportar-uma-vulnerabilidade.md)
