@@ -29,11 +29,33 @@ Durante a chamada de escopo, além dos pontos já mencionados, os seguintes aspe
 
 
 
+## Documentação fornecida antes do teste de intrusão do aplicativo PCI DSS:
+
+Considere fornecer a seguinte documentação antes ou depois da chamada de escopo:
+
+* Um diagrama de rede ilustrando todos os segmentos de rede dentro do escopo do teste;
+* Um diagrama de fluxo de dados do titular do cartão;
+* Uma lista de todos os serviços e portos previstos expostos no perímetro do CDE;
+* Detalhes sobre como usuários autorizados acessam o CDE;
+* Uma lista de todos os segmentos de rede que foram isolados do CDE para minimizar o escopo.
 
 
 
+## Frequência de um teste de intrusão PCI DSS
+
+De acordo com os **Requisitos 11.3.1 e 11.3.2 do PCI DSS**, o teste de intrusão é obrigatório pelo menos anualmente e após quaisquer alterações substanciais no ambiente de rede. Essas alterações podem abranger atualizações de infraestrutura, modificações de aplicativos ou a instalação de novos componentes do sistema.
+
+A definição de uma "**mudança significativa**" flutua com base no processo de **avaliação de risco de uma organização** e na configuração específica de seu ambiente. Como o PCI DSS não fornece uma definição rígida de uma mudança significativa, cabe a cada entidade avaliar se uma mudança pode comprometer a segurança da rede ou expor os dados do titular do cartão. Se uma modificação pode afetar a segurança ou o acesso aos dados do titular do cartão, geralmente é considerada significativa e deve levar a um teste de intrusão.
 
 
 
+## Exemplo de uma mudança significativa
 
+**Migração para um novo sistema de firewall**: atualizar ou substituir o firewall que protege o CDE é uma mudança substancial porque afeta diretamente a segurança da rede. Essa transição pode introduzir novas configurações, alterar caminhos de rede e influenciar o fluxo de dados, comprometendo potencialmente os dados do titular do cartão. Dado o papel crítico que os firewalls desempenham na segurança, um teste de intrusão é essencial para validar se os controles de segurança estão funcionando conforme o esperado.
+
+
+
+## Exemplo de uma mudança não significativa
+
+**Patch para um sistema não CDE**: aplicar um pequeno patch de software a um sistema fora do CDE que não interage com ou impacta os dados do titular do cartão seria considerado uma mudança não significativa. Essa manutenção não altera os controles de segurança no CDE nem afeta o acesso a dados confidenciais, portanto, um teste de intrusão sob PCI DSS não é necessário.
 
