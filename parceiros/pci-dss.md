@@ -1,6 +1,6 @@
 # PCI DSS
 
-Se você contratou a Vantico para um teste de penetração PCI DSS, haverá algumas pequenas diferenças em comparação ao nosso processo regular de teste de penetração. Os objetivos principais do teste de penetração PCI DSS são:
+Se você contratou a Vantico para um teste de intrusão PCI DSS, haverá algumas pequenas diferenças em comparação ao nosso processo regular de teste de intrusão. Os objetivos principais do teste de intrusão PCI DSS são:
 
 * Valide se o ambiente de dados do titular do cartão (CDE) é isolado, seguro e compatível com os padrões PCI DSS.
 * Garanta que os dados do titular do cartão (CHD) estejam protegidos contra acesso não autorizado.
@@ -9,7 +9,7 @@ Se você contratou a Vantico para um teste de penetração PCI DSS, haverá algu
 Como resultado, os seguintes processos serão ligeiramente diferentes:
 
 * O escopo do teste de intrusão.
-* A documentação antes do teste de penetração do aplicativo PCI DSS.
+* A documentação antes do teste de intrusão do aplicativo PCI DSS.
 * A frequência dos testes de intrusão.
 
 

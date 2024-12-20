@@ -1,5 +1,7 @@
 # Visão geral do rocesso
 
+<figure><img src="../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+
 1. **Escopo**
 
 * Chamada de escopo de 30 minutos, na qual nosso pentester estará presente.&#x20;
