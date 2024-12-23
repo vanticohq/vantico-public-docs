@@ -119,3 +119,4 @@
     * [Duplo Fator / MFA](metodologias/aplicacoes-web/duplo-fator-mfa.md)
     * [Race Condition](metodologias/aplicacoes-web/race-condition.md)
     * [Automatizando o Scan por Secrets](metodologias/aplicacoes-web/automatizando-o-scan-por-secrets.md)
+* [Gerando Valor](gerando-valor.md)
