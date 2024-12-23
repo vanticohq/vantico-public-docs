@@ -39,6 +39,40 @@ openssl s_client -connect (domínio.com):443 #GET / HTTP/1.0
 
 
 
+**Low Hanging Fruit**
+
+* [ ] Ausência de Header
+* [ ] Js.map
+* [ ] Integrity
+* [ ] SSL/TLS
+* [ ] Vulnerabilidade da Versão do Server
+* [ ] Portas Abertas
+* [ ] Nuclei / Katana
+* [ ] Política de Senhas Permissivas
+* [ ] Mensagem de Erros
+* [ ] Utilizar bibliotecas JavaScript desatualizadas
+* [ ] Enumeração de Usuário
+* [ ] Sessão antiga não é inválida após o logout
+* [ ] Ausência de mecanismo contra força bruta
+* [ ] Uso de IDs sequenciais
+* [ ] Upload irrestrito de arquivos
+* [ ] Registro e monitoramento insuficiente de atividades
+* [ ] Negação de serviço através de múltiplas tentativas de login
+* [ ] Falta de validação na alteração de dados
+* [ ] Validação de input insuficiente
+* [ ] Validação de registro de dados pessoais
+* [ ] Invalidação do link de redefinição de senha
+* [ ] Host header injection
+* [ ] Flood de e-mail por meio de redefinição de senha
+* [ ] Redirecionamento HTTP para HTTPS
+* [ ] Acesso via IP diretamente
+* [ ] Aplicação mostrando hash de senhas
+* [ ] Verificações no JWT
+* [ ] Cookie de sessão sem a flag Secure habilitada
+* [ ] Cookie de sessão sem a flag Httponly habilitada
+
+
+
 **Fase de Reconhecimento**
 
 * Grande: Uma empresa com múltiplos domínios
@@ -1129,7 +1163,7 @@ assunto: \<?php system($\_GET\['c'];?>
 * [ ] Acesse grupos de organizações do grupo sem autorização: https://groups.google.com/a/\<nome\_do\_dominio>
 * [ ] waybackurls site.com
 * [ ] Se está usando Ruby então: Accept: ../../../../../..)..)..|..Jetc/passwd\{{
-* [ ] CVE-2013-0156: Injeção de Objetos Rails: Ruby rails.rce.rb http://site.com 'cp /etc/passwd public/ahsan. txt!([https://gist.githubusercontent.com/postmodern/4499206/raw/a68a6ff8c1f9570a0936503aeb96f6a9fff7121/rails\_rce.rb](https://gist.githubusercontent.com/postmodern/4499206/raw/a68a6ff8c1f9570a0936503aeb96f6a9fff7121/rails\_rce.rb))
+* [ ] CVE-2013-0156: Injeção de Objetos Rails: Ruby rails.rce.rb http://site.com 'cp /etc/passwd public/ahsan. txt!([https://gist.githubusercontent.com/postmodern/4499206/raw/a68a6ff8c1f9570a0936503aeb96f6a9fff7121/rails\_rce.rb](https://gist.githubusercontent.com/postmodern/4499206/raw/a68a6ff8c1f9570a0936503aeb96f6a9fff7121/rails_rce.rb))
 * [ ] CVE-2019-11043 Dica: Se o website for baseado em PHP com NGINX phuip-fpizdam [http://site.com/anyphpfile.php](http://site.com/anyphpfile.php)
 * [ ] Verifique se há injeção crif
 * [ ] Ignorar proteção de redirecionamento aberto
@@ -1269,11 +1303,7 @@ ffuf -c -w /usr/share/wordlists/dirb/big.txt -u http://10.10.10.10/FUZZ
 
 * [ ] Ao realizar o spidering e a força bruta, você poderá encontrar coisas interessantes que precisa observar.
 
-<!---->
-
-* Arquivos Interessantes
-
-<!---->
+- Arquivos Interessantes
 
 * [ ] Procure links para outros arquivos dentro dos arquivos CSS.
 * [ ] Se você encontrar um arquivo .git, algumas informações poderão ser extraídas

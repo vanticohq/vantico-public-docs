@@ -2,35 +2,6 @@
 
 **Checklist Testes Iniciais**
 
-* [x] Ausência de Header
-* [x] Js.map
-* [x] Integrity
-* [x] SSL/TLS
-* [x] Vulnerabilidade da Versão do Server
-* [x] Portas Abertas
-* [x] Nuclei / Katana
-* [x] Política de Senhas Permissivas
-* [x] Mensagem de Erros
-* [x] Utilizar bibliotecas JavaScript desatualizadas
-* [x] Enumeração de Usuário
-* [x] Sessão antiga não é inválida após o logout
-* [x] Ausência de mecanismo contra força bruta
-* [x] Uso de IDs sequenciais
-* [x] Upload irrestrito de arquivos
-* [x] Registro e monitoramento insuficiente de atividades
-* [x] Negação de serviço através de múltiplas tentativas de login
-* [x] Falta de validação na alteração de dados
-* [x] Validação de input insuficiente
-* [x] Validação de registro de dados pessoais
-* [x] Invalidação do link de redefinição de senha
-* [x] Host header injection
-* [x] Flood de e-mail por meio de redefinição de senha
-* [x] Redirecionamento HTTP para HTTPS
-* [x] Acesso via IP diretamente
-* [x] Aplicação mostrando hash de senhas
-
-
-
 ***
 
 > Ausência de Header
@@ -382,11 +353,11 @@ Para identificar se possui ou não o _salt_, basta codificar a senha inserida no
 
 ***
 
+> Verificações no JWT
 
+Verificar o que há dentro do token JWT, deve ser reportado caso o token apresente: Criptografia fraca ou dados pessoais e informações sensíveis.
 
+Para verificar basta acessar:&#x20;
 
-
-
-
-
+[JWT](https://jwt.io)
 
