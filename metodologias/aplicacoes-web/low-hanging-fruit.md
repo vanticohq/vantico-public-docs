@@ -351,13 +351,33 @@ Identificar se a aplicação em alguma rota demonstra o hash de senha do usuári
 
 Para identificar se possui ou não o _salt_, basta codificar a senha inserida no mesmo formato do hash, caso os dois hashes se apresentarem diferente um do outro significa que a aplicação utiliza alguma forma de _salt_ para proteger os hashes de senha.
 
+
+
 ***
 
-> Verificações no JWT
+> **Verificações no JWT**
 
 Verificar o que há dentro do token JWT, deve ser reportado caso o token apresente: Criptografia fraca ou dados pessoais e informações sensíveis.
 
 Para verificar basta acessar:&#x20;
 
 [JWT](https://jwt.io)
+
+
+
+***
+
+> **Cookie de sessão sem a flag Secure habilitada**
+
+Verificar se o cookie de sessão possui a flag Secure.
+
+
+
+***
+
+> **Cookie de sessão sem a flag HttpOnly habilitada**
+
+Verificar se o cookie de sessão possui a flag HttpOnly.
+
+
 
