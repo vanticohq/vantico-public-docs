@@ -6,7 +6,7 @@ Após explorar a vulnerabilidade de SQL Injection, podemos explorar ainda mais d
 
 **Verificação de presença de salt:**
 
-* Validar se dentro da criptografia, a mesma possui salt implementado como forma de tornar mais seguro o hash.
+* Validar se tipos de informações críticas como senhas ou segredos não são armazenadas em texto puro e sim suas representações através de algoritmo de hashing. Também verificar se a mesma possui salt implementado como forma de tornar mais seguro o hash evitando ataques baseados em tabelas pré-calculadas ou repetição de hashes para entradas iguais.
 
 **Permissão do usuário:**
 
