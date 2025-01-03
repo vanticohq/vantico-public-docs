@@ -1,5 +1,7 @@
 # Metodologia Red Team e simulação de adversário
 
+#### "Atacantes não hackeiam, eles fazem login!"
+
 A Vantico realizará um exercício de Red Team na organização. Diferentemente de um teste de penetração, o objetivo de um Red Team não é identificar vulnerabilidades, mas alcançar metas pré-definidas. Isso é feito por quaisquer meios necessários, seja por meio de um computador ou engenharia social. O Red Team continua executando campanhas até que os objetivos sejam alcançados ou o tempo alocado expire.
 
 Nossos exercícios de Red Team são personalizados. Por isso, utilizamos uma metodologia flexível para obter melhores resultados e nos permitir simular com precisão um adversário. Consideramos frameworks padrão da indústria, como CORIE, TIBER e Mitre ATT\&CK, mas não os seguimos rigidamente em favor da flexibilidade.

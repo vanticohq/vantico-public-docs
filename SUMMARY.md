@@ -127,3 +127,4 @@
   * [Gerando wordlists efetivas](ajustar/gerando-wordlists-efetivas.md)
   * [Pentest mobile](ajustar/pentest-mobile.md)
   * [Guia de engajamento de um pentest](ajustar/guia-de-engajamento-de-um-pentest.md)
+  * [Ferramentas](ajustar/ferramentas.md)
