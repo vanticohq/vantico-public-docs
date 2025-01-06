@@ -10,12 +10,6 @@ Uma ferramenta ofensiva para enumerar e abusar dos Serviços de Certificação d
 
 **Por que gostamos dela:** Esta ferramenta foi projetada para ajudá-lo a acessar melhor a postura de segurança dos seus ambientes de Serviços de Certificação do Active Directory. Com o Certipy, você pode identificar modelos de certificado vulneráveis que podem ser usados para obter informações sensíveis ou elevar o domínio AD. O Certipy pode extrair credenciais, realizar ataques de credenciais sombra e criar Golden Tickets para privilégios de alto nível para qualquer usuário no domínio.
 
-#### [Freeway](https://github.com/FLOCK4H/Freeway)
-
-Uma ferramenta baseada em scapy para teste de intrusão em WiFi escrita em Python que visa ajudar hackers éticos e pentesters a desenvolver suas habilidades e conhecimentos na auditoria e segurança de redes domésticas ou empresariais.
-
-**Por que gostamos dela:** O Freeway possui uma interface de linha de comando (CLI) amigável que a torna acessível tanto para usuários novos quanto experientes. O Freeway apresenta várias técnicas de ataque, captura de pacotes e auditoria para ajudá-lo a aprimorar suas habilidades.
-
 #### [BloodHound](https://github.com/BloodHoundAD/BloodHound)
 
 Uma aplicação web em Javascript de página única que utiliza teoria dos grafos para revelar as relações ocultas e muitas vezes não intencionais dentro de um ambiente do Active Directory ou Azure.
@@ -46,31 +40,19 @@ Uma ferramenta de conversão baseada em tags escrita em Java, implementada como 
 
 **Por que gostamos dela:** O Response-Overview fornece, como o nome sugere, uma visão detalhada da sua postura de segurança. Ele permite identificar vulnerabilidades, entender o impacto potencial, incluindo perda de dados e interrupções, e priorizar a remediação com base na gravidade, fornecendo orientações. A visão abrangente é um dos principais atrativos desta ferramenta.
 
-#### [CloudFox](https://bishopfox.com/tools/cloudfox-tool)
+#### [CloudFox](https://github.com/BishopFox/cloudfox)
 
 Uma ferramenta de linha de comando criada para ajudar pentesters e outros profissionais de segurança ofensiva a encontrar caminhos de ataque exploráveis na infraestrutura em nuvem.
 
 **Por que gostamos dela:** O CloudFox é uma ferramenta indispensável para pentesters avaliando ambientes de nuvem e o faz de maneira eficiente e eficaz. Ele automatiza muitas das tarefas envolvidas, como enumeração e coleta de credenciais, permitindo que pentesters se concentrem nos aspectos mais complicados de sua avaliação. O CloudFox é versátil e se integra com as principais plataformas de nuvem como AWS, Azure e GCP. Não acredite apenas em nós, pergunte à forte comunidade de usuários ativos que contribuem para o desenvolvimento.
 
-#### [Broken Hill](https://bishopfox.com/tools/broken-hill)
-
-Uma ferramenta de ataque Greedy Coordinate Gradient (GCG) produzida para uso contra grandes modelos de linguagem (LLMs).
-
-**Por que gostamos dela:** Esta ferramenta ajudará você a entender e reduzir ataques adversariais em LLMs e a melhorar a robustez dos modelos de IA contra ameaças do mundo real. Podemos ousar dizer que é uma das primeiras de seu tipo.
-
-#### [Swagger Jacker](https://bishopfox.com/tools/swagger-jacker)
+#### [Swagger Jacker](https://github.com/BishopFox/sj)
 
 Swagger Jacker é uma ferramenta de linha de comando projetada para auxiliar na auditoria de arquivos de definição Swagger/OpenAPI expostos, verificando os endpoints de API associados para autenticação fraca.
 
 **Por que gostamos dela:** O Swagger Jacker reduz a tarefa tediosa de auditar endpoints de API, ajudando você a não se sobrecarregar com centenas de rotas definidas e testes manuais que podem estar associados a testes e avaliações de API. Ele avalia vulnerabilidades como ataques de injeção, falhas de autenticação e problemas de autorização.
 
-#### Asminject.py
-
-Um fork altamente modificado do projeto dlinject de David Buchanan, a ferramenta injeta payloads de assembly arbitrários (ou binários pré-compilados) diretamente em processos Linux x86-64 e ARM32.
-
-**Por que gostamos dela:** O Asminject.py oferece a capacidade de manipular processos Linux confiáveis em execução e containers, injetando código arbitrário através da interface do sistema de arquivos do processo Linux para capturar dados sensíveis. Pentesters podem contornar controles de segurança, criar exploits personalizados que visam vulnerabilidades específicas e depurar processos e analisar comportamentos em tempo real para uma análise mais aprofundada das causas raiz. Esta ferramenta permite proteger seus ambientes Linux.
-
-#### [JSluice](https://bishopfox.com/tools/jsluice)
+#### [JSluice](https://github.com/bishopfox/jsluice)
 
 Um pacote Go e uma ferramenta de linha de comando para extrair URLs, caminhos, segredos e outros dados interessantes do código-fonte JavaScript.
 
