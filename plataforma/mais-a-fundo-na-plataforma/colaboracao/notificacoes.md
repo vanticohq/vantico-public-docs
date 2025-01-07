@@ -18,11 +18,9 @@ Por padrão, você recebe notificações sobre algumas atividades relacionadas �
 
 Você é notificado quando alguém:
 
-* Criou ou excluiu um pentest
 * Postou uma atualização para um pentest
-* Relatou uma vulnerabilidade
-* Alterou um estado de descoberta
-* Usuários convidados para a organização
+* Reportou uma vulnerabilidade
+* Alterou o status de uma vulnerabilidade
 
 Sua função de usuário determina quais notificações você receberá.
 
@@ -40,10 +38,6 @@ Na página do pentest, selecione o ícone de sino Bell icon e defina sua prefer�
 
 <figure><img src="../../../.gitbook/assets/36.png" alt=""><figcaption></figcaption></figure>
 
-
-
-
-
 **Solucionar problemas de notificações por e-mail**
 
 Você não está recebendo e-mails do Vantico
@@ -56,8 +50,6 @@ Faça o seguinte:
 * Verifique os filtros da sua caixa de correio. Verifique se as regras que você ativou não afetam os e-mails do domínio de e-mail vantico.com.br.
 * Verifique se os e-mails do Vantico não estão sendo marcados como spam ou lixo eletrônico.
 * Certifique-se de confirmar seu endereço de e-mail no Vantico. Para fazer isso, clique no link do convite por e-mail.
-
-
 
 
 
