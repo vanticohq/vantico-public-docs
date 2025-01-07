@@ -26,7 +26,7 @@ Aconselhamos não implementar mudanças significativas no sistema durante o test
 
 ## O que devo esperar da chamada de definição do escopo teste de intrusão? Devo preparar algo?
 
-Veja [esta ](visao-geral-do-rocesso.md)seção.
+Veja [esta ](visao-geral-sobre-pentest.md)seção.
 
 
 
