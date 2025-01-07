@@ -8,8 +8,6 @@ description: Gerencie usuários da sua organização.
 Como proprietário da organização, você pode gerenciar os usuários da sua organização, além de gerenciar os colaboradores do pentest.
 {% endhint %}
 
-
-
 **Gerencie usuários da sua organização**
 
 Navegue até a página **Pessoas** > **Organização**. Aqui você pode:
@@ -19,8 +17,6 @@ Navegue até a página **Pessoas** > **Organização**. Aqui você pode:
 
 <figure><img src="../../../.gitbook/assets/32.png" alt=""><figcaption></figcaption></figure>
 
-
-
 **Convidar usuários**
 
 Para convidar usuários para sua organização:
@@ -28,9 +24,6 @@ Para convidar usuários para sua organização:
 1. No aplicativo Vantico, selecione sua organização.
 2. Navegue até a página **Pessoas** e selecione **Convidar usuários**.
 3. Na sobreposição exibida, especifique os endereços de e-mail dos usuários que você deseja convidar. Insira os e-mails e selecione **Adicionar** ou pressione **Enter**.
-
-* Use vírgulas para separar vários endereços de e-mail.
-
 4. Para cada usuário, selecione uma função: Membro ou Proprietário.
 
 * Tanto os membros quanto os proprietários têm acesso a todos os ativos e testes de invasão de uma organização.
@@ -77,23 +70,9 @@ Para visualizar pentests nos quais o usuário colabora, selecione o link em Pent
 
 Os membros da equipe do Pentest que não pertencem à organização podem gerenciar colaboradores para um pentest específico.
 
-
-
-**Remover um usuário de todos os Pentests**
-
-Como proprietário da organização, você pode remover um membro da equipe do Pentest — que não pertence à organização — de todos os pentests em que colaboram.
-
-1. No aplicativo Vantico, selecione sua organização no canto superior esquerdo da tela.
-2. Navegue até a página **Pessoas** > **Colaboradores Pentest.**
-3. Para o membro da equipe que você deseja remover, selecione o ícone de três pontos > **Remover** usuário e selecione **Sim** na sobreposição para confirmar.
-
-
-
 **Adicionar um membro da equipe Pentest**
 
 Como membro da equipe do Pentest, você pode adicionar usuários a um pentest específico. Isso não requer a função de proprietário da organização.
-
-
 
 **Remover um membro da equipe Pentest**
 

@@ -74,7 +74,6 @@
     * [Autenticação do Alvo](plataforma/mais-a-fundo-na-plataforma/dast-scanner/autenticacao-do-alvo.md)
   * [Organização](plataforma/mais-a-fundo-na-plataforma/organizacao/README.md)
     * [Gerenciar usuários](plataforma/mais-a-fundo-na-plataforma/organizacao/gerenciar-usuarios.md)
-    * [Seu Contrato com a Vantico](plataforma/mais-a-fundo-na-plataforma/organizacao/seu-contrato-com-a-vantico.md)
   * [Conta Vantico](plataforma/mais-a-fundo-na-plataforma/conta-vantico/README.md)
     * [Solucionar problemas de Login](plataforma/mais-a-fundo-na-plataforma/conta-vantico/solucionar-problemas-de-login.md)
     * [Configurações da Conta](plataforma/mais-a-fundo-na-plataforma/conta-vantico/configuracoes-da-conta.md)

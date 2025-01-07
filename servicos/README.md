@@ -1,28 +1,27 @@
 ---
-description: Execute serviços com o Time de CiberSegurança da Vantico.
+description: Execute serviços com o time de Segurança Ofensiva da Vantico.
 ---
 
 # Serviços
 
-Os serviços de cibersegurança fornece soluções de testes de segurança além do Pentesting as a Service. Nosso foco na execução de processos permite engajamentos mais rápidos com uma visão centralizada da integridade dos programas de segurança e um caminho claro para uma postura de segurança elevada.
+Os serviços de Segurança Ofensiva vão além do Pentesting as a Service. Nosso foco na execução de processos permite engajamentos mais rápidos com uma visão centralizada da integridade dos programas de segurança e um caminho claro para uma postura de segurança elevada.
 
 
 
-**Compromissos**
+**Serviços**
 
-O time de cibersegurança da Vantico segue os seguintes compromissos:
+O time de Segurança Ofensiva da Vantico executam os seguintes serviços:
 
 * Avaliação de Risco Digital
 * Ecossistema Pentest IoT
 * Revisão de código seguro
 * Validação de Vulnerabilidade
-* Metas baseadas no Pentest
 * Modelagem de ameaças
 * Red Team
 * Pentest em redes wireless
-* Engenharia Social Física
-* Engenharia Social Eletrônica
-* Fortalecimento da Segurança
+* Engenharia Social
+
+
 
 
 
@@ -52,7 +51,7 @@ Os serviços de segurança cibernética oferecem suporte a tipos de ativos adici
 
 
 
-**Como solicitar um Serviço de CiberSegurança**
+**Como solicitar um Serviço de Segurança Ofensiva**
 
 Para solicitar um serviço de segurança cibernética, navegue até a página Catálogo na Vantico. Selecione Solicitar no serviço em que você está interessado.
 
