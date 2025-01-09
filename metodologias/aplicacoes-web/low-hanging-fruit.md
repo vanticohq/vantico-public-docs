@@ -42,13 +42,15 @@ Iremos buscar sempre o final "js.map" de arquivos como "main" e "app".
 
 Dentro deles iremos procurar no final se contém "js.map".
 
-Então vamos usar uma ferramenta chamada "unwebpack-sourcemap", através dela usamos o seguinte código como exemplo:
+Então vamos usar uma ferramenta chamada "[decompile\_sourcemap](https://github.com/vanticohq/decompile_sourcemap/tree/main)", através dela usamos o seguinte código como exemplo:
 
 ```
-python3 unwebpack_sourcemap.py --make-directory 
+python3 decompile_sourcemap.py 
 https://example.com/assets/UserNameComplete-d6c0c7fc8bc309d9b022.js.map 
-output
+(nome_da_pasta)
 ```
+
+Em que "(nome\_da\_pasta)" é a pasta que a ferramente irá criar com o arquivo js.map.
 
 Depois de rodar esta ferramenta, iremos visualizar o frontend completo desta maneira:
 
