@@ -61,3 +61,9 @@ Um pacote Go e uma ferramenta de linha de comando para extrair URLs, caminhos, s
 #### [OFFAT](https://github.com/OWASP/OFFAT)
 
 A ferramenta OWASP OFFAT avalia autonomamente sua API em busca de vulnerabilidades prevalentes, embora a compatibilidade completa com OAS v3 esteja pendente. O projeto continua em desenvolvimento, evoluindo continuamente em direção à conclusão.
+
+
+
+#### [**Spider Foot**](https://github.com/smicallef/spiderfoot)
+
+Ferramenta
