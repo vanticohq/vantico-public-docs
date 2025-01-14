@@ -62,8 +62,6 @@ Um pacote Go e uma ferramenta de linha de comando para extrair URLs, caminhos, s
 
 A ferramenta OWASP OFFAT avalia autonomamente sua API em busca de vulnerabilidades prevalentes, embora a compatibilidade completa com OAS v3 esteja pendente. O projeto continua em desenvolvimento, evoluindo continuamente em direção à conclusão.
 
-
-
 #### [**Spider Foot**](https://github.com/smicallef/spiderfoot)
 
-Ferramenta
+A ferramenta SpiderFoot é um recurso valioso para pentesters durante a fase de Reconnaissance, oferecendo uma ampla gama de informações relevantes sobre o alvo. Ela suporta a integração com diversas fontes, permitindo a inclusão de chaves de APIs, o que expande significativamente a quantidade e a diversidade dos dados obtidos.
