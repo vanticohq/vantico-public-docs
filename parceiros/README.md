@@ -40,41 +40,33 @@ Normalmente, a conversa pode começar com um cliente pedindo um trabalho muito e
 
 Esse é um ótimo ponto de partida, mas precisamos dar alguns passos para trás. &#x20;
 
-Por que eles precisam de um teste de invasão externo? &#x20;
+* Por que eles precisam de um teste de invasão externo? &#x20;
 
 Pesquise profundamente aqui. Respostas como "Para encontrar vulnerabilidades" não são úteis, então você terá que ser mais direto. &#x20;
 
-Existe um requisito de auditoria? &#x20;
-
-Eles estão preocupados que os dados do cliente sejam violados?&#x20;
-
-Eles têm um dever de cuidado? &#x20;
-
-Existe um requisito de tempo de atividade? &#x20;
+* Existe um requisito de auditoria? &#x20;
+* Eles estão preocupados que os dados do cliente sejam violados?&#x20;
+* Eles têm um programa de segurança? &#x20;
+* Existe um requisito de tempo do teste? &#x20;
 
 Diferentes empresas se preocupam com a segurança por diferentes motivos, e é importante chegar ao cerne desses motivos.&#x20;
 
 Entender os motivos ajudará imensamente ao recomendar o que eles devem fazer com sua segurança. Talvez um teste de invasão externo seja o caminho certo a seguir, mas talvez uma revisão de segurança seja melhor, ou ambos.&#x20;
 
-&#x20;**Perguntas de contexto**&#x20;
+**Perguntas de contexto**&#x20;
 
 Algumas outras coisas que você pode querer perguntar:&#x20;
 
-&#x20;**Prazos**: quando eles precisam que o trabalho comece? Há algum prazo?&#x20;
-
-Orçamento: é totalmente aceitável se o cliente não tiver um e não quiser compartilhar essas informações, mas saber o orçamento nos ajuda a fazer melhores recomendações e obter o melhor retorno sobre o investimento.&#x20;
-
-**Restrições**: há algo que possa afetar nossa capacidade de fazer o trabalho?&#x20;
-
-**Comunicação**: eles preferem e-mail ou chamadas telefônicas? Eles usam o Slack para comunicações (se sim, podemos conectar os espaços de trabalho)?&#x20;
+* **Prazos**: quando eles precisam que o trabalho comece? Há algum prazo?&#x20;
+* **Orçamento**: é totalmente aceitável se o cliente não tiver um e não quiser compartilhar essas informações, mas saber o orçamento nos ajuda a fazer melhores recomendações e obter o melhor retorno sobre o investimento.&#x20;
+* **Restrições**: há algo que possa afetar nossa capacidade de fazer o trabalho?&#x20;
+* **Comunicação**: eles preferem e-mail ou reuniões?
 
 **Escopo do teste de invasão** &#x20;
 
 Agora que você conhece os requisitos do cliente e por que ele precisa de ajuda com infosec, podemos fazer perguntas específicas sobre o escopo pretendido.&#x20;
 
 (Se ainda não fez, agora é um bom momento para fazer uma pausa e verificar nosso Catálogo de Serviços antes de continuar) .
-
-
 
 <mark style="color:blue;">**Teste de Invasão externo**</mark>&#x20;
 
@@ -85,8 +77,6 @@ Este é bem fácil. Usamos números brutos para isso, então precisamos saber:&#
 * Quantos domínios raiz estão no escopo (por exemplo, example.com)?&#x20;
 
 Uma coisa importante a ser observada: os testes de invasão externos cobrem aplicativos prontos para uso, como Outlook Web Access, páginas de login VPN, compartilhamento de arquivos etc., mas não cobrem aplicativos da Web personalizados criados apenas para o cliente. Use o guia de escopo do aplicativo da Web para eles.&#x20;
-
-
 
 <mark style="color:blue;">**Teste de invasão interno**</mark>&#x20;
 
@@ -99,25 +89,23 @@ Os internos são muito parecidos. Usamos números brutos para determinar o taman
 * Existe um domínio do Windows (Active Directory)?&#x20;
 * De qual local físico estamos testando?&#x20;
 
-
-
 <mark style="color:blue;">**Teste de invasão de Aplicação Web**</mark>&#x20;
 
 Devido à complexidade dos aplicativos da Web, eles podem ser incrivelmente difíceis de definir. Em vez de usar números brutos como nos anteriores, tentamos avaliar o quão "complexo" um aplicativo da Web é. Normalmente, quanto mais funções, mais complexo o aplicativo é. Se alguma funcionalidade afeta outra funcionalidade, a complexidade aumenta novamente.&#x20;
 
 Para demonstrar, aqui estão alguns exemplos:&#x20;
 
-**Aplicação grande**&#x20;
+**Aplicação pequena**&#x20;
 
-Um aplicativo grande é aquele que tem centenas de recursos/funções e onde as funções podem ser inter-relacionadas entre si. Ele pode ter vários caminhos de autenticação, funcionalidade de leitura/gravação para vários conjuntos de dados, ter funcionalidade de upload ou um fluxo complexo. Por exemplo, um CMS como o Pipedrive é considerado um aplicativo grande.&#x20;
+Um aplicativo pequeno tem poucas funções (menos de 10) e são simples por natureza. Por exemplo, um site quase estático com uma função de pesquisa e um formulário de contato seria considerado pequeno.&#x20;
 
 **Aplicação média**&#x20;
 
 Um aplicativo médio tem dezenas de funções (10-100). Essas funções são complexas e podem se inter-relacionar entre si. Por exemplo, um aplicativo básico de comércio eletrônico com produtos, um carrinho de compras e funcionalidade de pagamento é considerado um aplicativo médio.&#x20;
 
-**Aplicação pequena**&#x20;
+**Aplicação grande**&#x20;
 
-Um aplicativo pequeno tem poucas funções (menos de 10) e são simples por natureza. Por exemplo, um site quase estático com uma função de pesquisa e um formulário de contato seria considerado pequeno.&#x20;
+Um aplicativo grande é aquele que tem centenas de recursos/funções e onde as funções podem ser inter-relacionadas entre si. Ele pode ter vários caminhos de autenticação, funcionalidade de leitura/gravação para vários conjuntos de dados, ter funcionalidade de upload ou um fluxo complexo. Por exemplo, um CMS como o Pipedrive é considerado um aplicativo grande.&#x20;
 
 **Autenticado vs. Não autenticado**&#x20;
 
@@ -140,8 +128,6 @@ O phishing é mais bem discutido com o cliente por meio de uma chamada. No entan
 Outros serviços&#x20;
 
 Qualquer serviço não coberto acima deve ter uma chamada de escopo. Como a infosec é cheia de jargões e terminologia mista, há muito espaço para confusão sem uma chamada de escopo.
-
-
 
 **Projetos com tempo limitado**&#x20;
 
