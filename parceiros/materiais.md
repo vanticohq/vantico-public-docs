@@ -11,3 +11,6 @@ Segue aqui os whitepapers dos nossos serviços:
 * [Whitepaper - Secure Code Review](https://github.com/vanticohq/resources/blob/main/whitepaper/Whitepaper%20-%20Secure%20Code%20Review.pdf)
 * [Whitepaper - Simulação de Pishing](https://github.com/vanticohq/resources/blob/main/whitepaper/Whitepaper%20-%20Simula%C3%A7%C3%A3o%20de%20Phishing.pdf)
 * [Whitepaper - Threat Intelligence](https://github.com/vanticohq/resources/blob/main/whitepaper/Whitepaper%20-%20Threat%20Intelligence.pdf)
+* Whitepaper - Active Directory Security Audit&#x20;
+* Whitepaper - Revisão de Segurança de Cloud
+* Whitepaper - Risco Iminente de Fornecedores
