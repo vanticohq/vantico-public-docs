@@ -1,19 +1,16 @@
+---
+description: Revise os detalhes e a metodologia para uma revisão de código seguro.
+---
+
 # Revisão de código seguro
-
-Revise os detalhes e a metodologia para uma revisão de código seguro.
-
-
 
 Uma revisão de código seguro é o exame conduzido por humanos do código-fonte do software para identificar vulnerabilidades de segurança que são o resultado de falhas de design, mas comprovadamente são problemas de segurança válidos. É uma parte importante do ciclo de vida de desenvolvimento de software (SDLC) de qualquer organização e ajuda a melhorar a qualidade geral e a segurança do software e a postura geral de segurança de uma organização.
 
 As revisões de código seguro são um tipo especializado de engajamento que não está incluído em nossa oferta padrão de teste de invasão como serviço (PtaaS). Este serviço é fornecido por nossa equipe de serviços de segurança cibernética.
 
-
-
 | Recurso                         | Descrição                                                                                                                                        |
 | ------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Cumprido por                    | Serviços de Cibersegurança                                                                                                                       |
-| Números de créditos             | A partir de 8 créditos\*, mínimo de 4 dias de trabalho                                                                                           |
+| Números de créditos             | A partir de 40                                                                                                                                   |
 | Números de testes               | A depender do escopo                                                                                                                             |
 | Reteste                         | Sim                                                                                                                                              |
 | Data de início mais cedo        | A data de início mais cedo será baseada na disponibilidade. Datas de início típicas de 3 a 5 datas úteis após o teste ser enviado para In Review |
@@ -108,4 +105,3 @@ A execução de uma revisão manual de código seguro é essencial para descobri
 * Gerenciamento de arquivos&#x20;
 * Gerenciamento de memória&#x20;
 * Práticas gerais de codificação
-

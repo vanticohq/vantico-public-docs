@@ -2,7 +2,7 @@
 description: Revise detalhes e metodologia para avaliações de risco digital
 ---
 
-# Avaliação de Risco Digital
+# Inteligência de ameaças
 
 **Avaliação de Risco Digital**
 
@@ -14,17 +14,14 @@ A Avaliação de Risco Digital é um tipo de envolvimento fora do nosso **Pentes
 
 | Recurso                                         | Descrição                                                                                                                                             |
 | ----------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Cumprido por                                    | Serviços de CiberSegurança                                                                                                                            |
-| Número de Créditos                              | Geralmente em torno de 6 a 12 créditos, dependendo do escopo                                                                                          |
-| Números de Testadores                           | 1 Testador                                                                                                                                            |
+| Número de Créditos                              | A partir de 60                                                                                                                                        |
+| Números de Analistas                            |                                                                                                                                                       |
 | Re-Test                                         | Sim, de acordo com rank de crédito                                                                                                                    |
 | Data de Início mais cedo                        | A data de início será baseada na disponibilidade. Datas de início tipicamente são de 3 a 5 dias úteis, uma vez que o teste é enviado para **Revisão** |
 | Duração do Teste                                | Tipicamente 10 dias. Uma vez que finalizado o teste, é movido para **Planejado**                                                                      |
 | Data da entrega do Relatório                    | 5 dias úteis após o perído de testes finalizar. O relatório será entregue em PDF dentro da seção **Relatórios** na plataforma                         |
 | Kick off call (Reunião Inicial)                 | Não incluso                                                                                                                                           |
 | Debrief Call (Reunião Pós Conlcusão do Projeto) | Não incluso                                                                                                                                           |
-
-
 
 
 
