@@ -4,13 +4,9 @@ Olá e bem-vindo a **Vantico**! Se você está lendo isso, provavelmente acabou 
 
 Neste guia você aprenderá o básico sobre a Vantico e conhecerá como trabalhamos, quais ferramentas utilizamos e onde pedir ajuda. Sabemos como é importante começar com o **pé direito** e este guia tem como objetivo capacitá-lo a fazer exatamente isso.
 
-
-
 **Breve introdução a Vantico**
 
 Começamos a Vantico como algo divertido de fazer. Sabíamos em que tipo de empresa queríamos trabalhar e nada era adequado para nós, então decidimos tentar nós mesmos. Tendo trabalhado com segurança desde 2021 pelo menos, não vimos muitas mudanças significativas na indústria e sabíamos que ela precisava mudar. Queremos continuar a **inovar** e ajudar a indústria a crescer como um todo, ao mesmo tempo que cuidamos daqueles que nos rodeiam e os ajudamos a prosperar.
-
-
 
 **Como é na Vantico?**
 
@@ -22,17 +18,11 @@ Também somos grandes em **ensinar e aprender**. Ninguém sabe tudo e todos (mes
 
 Confira também uma descrição mais detalhada de nossos **valores**.
 
-
-
 **O que esperar no Primeiro Dia**
 
 O primeiro dia é sobre **aprender e se estabelecer**. Você provavelmente estará lendo isso no primeiro dia. Seu gerente irá ajudá-lo a começar, dando-lhe acesso a ferramentas básicas como **E-mail e Slack.** Você também receberá uma lista do Trello com coisas para fazer. Isto incluirá o acesso aos sistemas e o preenchimento de alguns formulários oficiais.
 
 Você conhecerá muitas pessoas novas, incluindo os fundadores. Serão muitas informações, mas não deixe que isso o sobrecarregue; você não precisa memorizar nada. Vá com calma, continue lendo e reserve um tempo para configurar seu sistema ao seu gosto.
-
-Você também receberá um **“amigo”**, alguém que o ajudará no aprendizado das coisas da Vantico e alguém com quem você poderá conversar sobre qualquer coisa.
-
-
 
 **Sistemas Importantes (equipe de prestação de serviços)**
 
@@ -87,34 +77,6 @@ Você receberá licenças para as ferramentas usuais, como Burp Suite Profession
 **Outros hardwares/softwares**
 
 Se você tiver seu hardware/software favorito que gostaria de usar, provavelmente poderemos reembolsá-lo pelo custo. Basta perguntar!
-
-**Formulários e produtos**
-
-Vamos negociar! Envie-nos esses detalhes…
-
-• Declaração de número fiscal
-
-• Escolha padrão de aposentadoria
-
-• Declaração de retenção
-
-• Declaração de variação da taxa de Assistência Médica(opcional)
-
-… e em troca lhe enviaremos:
-
-• Seus próprios cartões de visita
-
-• Adesivos Vantico
-
-• Uma camiseta Vantico
-
-• Um copo de cerveja Vantico
-
-Você já deve ter recebido **alguns formulários no Slack** para preencher.
-
-Eles cobrem tudo, exceto a declaração de **variação da taxa de Assistência Médica**. Você pode encontrar esse formulário aqui:
-
-
 
 **Onde encontrar Ajuda**
 

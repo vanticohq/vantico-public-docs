@@ -1,6 +1,10 @@
-# Teste de correção
+---
+description: >-
+  Você acabou de concluir um projeto conosco e agora está se perguntando como é
+  o teste de remediação incluído (reteste). Não procure mais!
+---
 
-Você acabou de concluir um projeto conosco e agora está se perguntando como é o teste de remediação incluído (reteste). Não procure mais!
+# Teste de correção (Re-test)
 
 ## O que é um reteste?
 

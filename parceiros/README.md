@@ -1,14 +1,15 @@
+---
+description: >-
+  Neste guia, discutiremos como realizamos o escopo e as perguntas que você deve
+  fazer a clientes em potencial para ter uma ideia melhor do tamanho de um
+  projeto.
+---
+
 # Parceiros
-
-Neste guia, discutiremos como realizamos o escopo e as perguntas que você deve fazer a clientes em potencial para ter uma ideia melhor do tamanho de um projeto.
-
-
 
 **Documentos de suporte:**
 
 * Precificação em excel
-
-
 
 **Antes de começarmos**&#x20;
 
@@ -47,27 +48,19 @@ Existe um requisito de auditoria? &#x20;
 
 Eles estão preocupados que os dados do cliente sejam violados?&#x20;
 
-&#x20;Eles têm um dever de cuidado? &#x20;
+Eles têm um dever de cuidado? &#x20;
 
 Existe um requisito de tempo de atividade? &#x20;
 
 Diferentes empresas se preocupam com a segurança por diferentes motivos, e é importante chegar ao cerne desses motivos.&#x20;
 
-&#x20;
-
 Entender os motivos ajudará imensamente ao recomendar o que eles devem fazer com sua segurança. Talvez um teste de invasão externo seja o caminho certo a seguir, mas talvez uma revisão de segurança seja melhor, ou ambos.&#x20;
 
-&#x20;
-
-&#x20;
-
-**Perguntas de contexto**&#x20;
+&#x20;**Perguntas de contexto**&#x20;
 
 Algumas outras coisas que você pode querer perguntar:&#x20;
 
-&#x20;
-
-**Prazos**: quando eles precisam que o trabalho comece? Há algum prazo?&#x20;
+&#x20;**Prazos**: quando eles precisam que o trabalho comece? Há algum prazo?&#x20;
 
 Orçamento: é totalmente aceitável se o cliente não tiver um e não quiser compartilhar essas informações, mas saber o orçamento nos ajuda a fazer melhores recomendações e obter o melhor retorno sobre o investimento.&#x20;
 
@@ -75,9 +68,7 @@ Orçamento: é totalmente aceitável se o cliente não tiver um e não quiser co
 
 **Comunicação**: eles preferem e-mail ou chamadas telefônicas? Eles usam o Slack para comunicações (se sim, podemos conectar os espaços de trabalho)?&#x20;
 
-&#x20;
-
-Escopo do teste de invasão &#x20;
+**Escopo do teste de invasão** &#x20;
 
 Agora que você conhece os requisitos do cliente e por que ele precisa de ajuda com infosec, podemos fazer perguntas específicas sobre o escopo pretendido.&#x20;
 
@@ -89,11 +80,9 @@ Agora que você conhece os requisitos do cliente e por que ele precisa de ajuda 
 
 Este é bem fácil. Usamos números brutos para isso, então precisamos saber:&#x20;
 
-Quantos endereços IP externos o cliente possui (total)?&#x20;
-
-Quantos deles estão ativos (hospedando pelo menos 1 serviço)?&#x20;
-
-Quantos domínios raiz estão no escopo (por exemplo, example.com)?&#x20;
+* Quantos endereços IP externos o cliente possui (total)?&#x20;
+* Quantos deles estão ativos (hospedando pelo menos 1 serviço)?&#x20;
+* Quantos domínios raiz estão no escopo (por exemplo, example.com)?&#x20;
 
 Uma coisa importante a ser observada: os testes de invasão externos cobrem aplicativos prontos para uso, como Outlook Web Access, páginas de login VPN, compartilhamento de arquivos etc., mas não cobrem aplicativos da Web personalizados criados apenas para o cliente. Use o guia de escopo do aplicativo da Web para eles.&#x20;
 
@@ -103,25 +92,18 @@ Uma coisa importante a ser observada: os testes de invasão externos cobrem apli
 
 Os internos são muito parecidos. Usamos números brutos para determinar o tamanho do escopo:&#x20;
 
-Quantos servidores existem (físicos e virtuais)?&#x20;
-
-Quantos dispositivos de rede existem (roteadores, switches, pontos de acesso etc.)?&#x20;
-
-Quantos dispositivos de usuário existem (estações de trabalho, laptops)?&#x20;
-
-Quantos dispositivos de IoT existem (câmeras, telefones, impressoras, qualquer outra coisa com um endereço IP)?&#x20;
-
-Existe um domínio do Windows (Active Directory)?&#x20;
-
-De qual local físico estamos testando?&#x20;
+* Quantos servidores existem (físicos e virtuais)?&#x20;
+* Quantos dispositivos de rede existem (roteadores, switches, pontos de acesso etc.)?&#x20;
+* Quantos dispositivos de usuário existem (estações de trabalho, laptops)?&#x20;
+* Quantos dispositivos de IoT existem (câmeras, telefones, impressoras, qualquer outra coisa com um endereço IP)?&#x20;
+* Existe um domínio do Windows (Active Directory)?&#x20;
+* De qual local físico estamos testando?&#x20;
 
 
 
 <mark style="color:blue;">**Teste de invasão de Aplicação Web**</mark>&#x20;
 
 Devido à complexidade dos aplicativos da Web, eles podem ser incrivelmente difíceis de definir. Em vez de usar números brutos como nos anteriores, tentamos avaliar o quão "complexo" um aplicativo da Web é. Normalmente, quanto mais funções, mais complexo o aplicativo é. Se alguma funcionalidade afeta outra funcionalidade, a complexidade aumenta novamente.&#x20;
-
-&#x20;
 
 Para demonstrar, aqui estão alguns exemplos:&#x20;
 
@@ -133,41 +115,27 @@ Um aplicativo grande é aquele que tem centenas de recursos/funções e onde as 
 
 Um aplicativo médio tem dezenas de funções (10-100). Essas funções são complexas e podem se inter-relacionar entre si. Por exemplo, um aplicativo básico de comércio eletrônico com produtos, um carrinho de compras e funcionalidade de pagamento é considerado um aplicativo médio.&#x20;
 
-&#x20;
-
 **Aplicação pequena**&#x20;
 
 Um aplicativo pequeno tem poucas funções (menos de 10) e são simples por natureza. Por exemplo, um site quase estático com uma função de pesquisa e um formulário de contato seria considerado pequeno.&#x20;
-
-&#x20;
 
 **Autenticado vs. Não autenticado**&#x20;
 
 Autenticado vs. Não autenticado é tudo sobre a perspectiva. Quantas funções podem ser vistas/acessadas da perspectiva fornecida. A perspectiva guiará o tamanho visível do aplicativo. Por exemplo, um aplicativo CMS visto de uma perspectiva autenticada teria centenas de funções, tornando-o uma aplicação grande. Enquanto isso, o mesmo aplicativo de uma perspectiva não autenticada teria apenas as funções de login e redefinição de senha visíveis, tornando-o uma aplicação pequena.&#x20;
 
-&#x20;
-
-<mark style="color:blue;">**Teste de invasão de aplicação mobile**</mark>&#x20;
+&#x20;<mark style="color:blue;">**Teste de invasão de aplicação mobile**</mark>&#x20;
 
 Aplicativos móveis são tão complexos de escopo quanto aplicação web.&#x20;
 
-&#x20;
+* Este aplicativo está no Android, iOS ou ambos?&#x20;
+* Como podemos obter acesso ao aplicativo (por exemplo, AppStore, TestFlight, arquivo apk personalizado)?&#x20;
 
-Este aplicativo está no Android, iOS ou ambos?&#x20;
-
-Como podemos obter acesso ao aplicativo (por exemplo, AppStore, TestFlight, arquivo apk personalizado)?&#x20;
-
-&#x20;
-
-<mark style="color:blue;">**Campanha de phishing**</mark>&#x20;
+&#x20;<mark style="color:blue;">**Campanha de phishing**</mark>&#x20;
 
 O phishing é mais bem discutido com o cliente por meio de uma chamada. No entanto, algumas perguntas preliminares são:&#x20;
 
-&#x20;
-
-Quantos usuários estamos testando?&#x20;
-
-Quantas campanhas (rodadas) estamos realizando?&#x20;
+* Quantos usuários estamos testando?&#x20;
+* Quantas campanhas (rodadas) estamos realizando?&#x20;
 
 Outros serviços&#x20;
 
@@ -181,22 +149,7 @@ Embora prefiramos projetos de escopo completo (cujo fim é ditado por um resulta
 
 Em um projeto com tempo limitado (ou time-boxed), realizamos qualquer trabalho que pudermos em um determinado período de tempo. Nesse cenário, não podemos garantir um resultado satisfatório ou que cobrimos todo o escopo, e é por isso que não é o ideal.&#x20;
 
-Há, no entanto, circunstâncias em que um projeto com tempo limitado é favorável; por exemplo, quando o escopo não é bem definido devido à falta de informações, ou quando há restrições de tempo ou orçamento. Nesses casos, um escopo ainda precisa ser definido, mas pode ser limitado no tempo com os seguintes mínimos:&#x20;
-
-
-
-| Tipo de Projeto          | Mínimo de dias necessários |
-| ------------------------ | -------------------------- |
-| Pentest Externo          | 2                          |
-| Pentest Interno          | 3                          |
-| Pentest Aplicação Web    | 2                          |
-| Pentest Aplicação Mobile | 3                          |
-
-
-
-Outros tipos não podem ser limitados por tempo.
-
-
+Há, no entanto, circunstâncias em que um projeto com tempo limitado é favorável; por exemplo, quando o escopo não é bem definido devido à falta de informações, ou quando há restrições de tempo ou orçamento.&#x20;
 
 <mark style="color:blue;">**Custos de viagem**</mark>&#x20;
 
@@ -210,29 +163,6 @@ Os custos de viagem devem ser estimados com antecedência e adicionados ao orça
 * Aluguel de carro&#x20;
 * Refeições&#x20;
 
-&#x20;
-
-<mark style="color:blue;">**Dúvidas?**</mark>&#x20;
+&#x20;<mark style="color:blue;">**Dúvidas?**</mark>&#x20;
 
 A segurança é um problema complicado, então, se você tiver alguma dúvida, nossos consultores estão sempre disponíveis para respondê-las ou atender chamadas de escopo com os clientes.&#x20;
-
-
-
-<mark style="color:blue;">**Outros Serviços**</mark>
-
-Oferecemos muitos outros serviços que podem ser melhor explorados em uma curta ligação de 30 minutos.
-
-
-
-|                                  |                                                                                                                                                                                     |
-| -------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Teste de intrusão personalizado  | Encontre vulnerabilidades no seu sistema personalizado.                                                                                                                             |
-| Red Team                         | Simule um adversário mirando sua organização. Teste seus playbooks de SOC e resposta a incidentes.                                                                                  |
-| Avaliação de Segurança em Nuvem  | Verifique a configuração do seu ambiente AWS, Azure ou Microsoft 365.                                                                                                               |
-| Revisão Segura                   | Verifique a configuração do seu Active Directory, Windows 10 SOE, Exchange e outros produtos.                                                                                       |
-| Campanha de Vishing              | Engenharia social por telefone para testar a conscientização de segurança de sua equipe.                                                                                            |
-| Campanha de SMishing             | Engenharia social baseada em SMS para testar a conscientização de segurança de sua equipe.                                                                                          |
-| Distribuição de USB              | Teste a conscientização de segurança da sua equipe contra pen drives maliciosos.                                                                                                    |
-| Intrusão física                  | Teste seus controles de segurança física contra ataques.                                                                                                                            |
-| Governança, Risco & Conformidade | Estratégia de segurança, execução de serviços de educação e análise de lacunas, verifique sua governança de segurança em relação ao NIST, ISO 27001, ACSC Essential 8 e muito mais. |
-
