@@ -100,6 +100,8 @@
     * [Movimentação Lateral](metodologias/rede-interna/movimentacao-lateral.md)
     * [Pós Exploração](metodologias/rede-interna/pos-exploracao.md)
     * [Escalação de Privilégios](metodologias/rede-interna/escalacao-de-privilegios.md)
+    * [Low Hanging Fruits](metodologias/rede-interna/low-hanging-fruits.md)
+    * [Credenciais de Serviços padrão](metodologias/rede-interna/credenciais-de-servicos-padrao.md)
     * [Referências](metodologias/rede-interna/referencias.md)
   * [Aplicações Web](metodologias/aplicacoes-web/README.md)
     * [Checklist](metodologias/aplicacoes-web/checklist.md)
