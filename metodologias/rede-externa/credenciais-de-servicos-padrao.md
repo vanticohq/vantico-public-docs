@@ -48,6 +48,8 @@
 
 ***
 
+
+
 <details>
 
 <summary>FTP</summary>
@@ -364,3 +366,10 @@
 
 </details>
 
+***
+
+
+
+{% embed url="https://github.com/danielmiessler/SecLists/tree/master/Passwords/Default-Credentials" %}
+
+{% embed url="https://github.com/netbiosX/Default-Credentials/blob/master/Apache-Tomcat-Default-Passwords.mdown" %}
