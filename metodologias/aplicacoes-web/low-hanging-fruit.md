@@ -391,3 +391,11 @@ Testar se é possível subir uma extensão de arquivo diferente da qual a aplica
 
 
 
+***
+
+> Gerenciamento de patch insuficiente
+
+Identificado a versão do produto, buscar CVEs relacionadas.
+
+
+
