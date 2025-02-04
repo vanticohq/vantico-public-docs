@@ -93,6 +93,7 @@
   * [Kubernetes](metodologias/kubernetes.md)
   * [Rede Externa](metodologias/rede-externa/README.md)
     * [Enumeração de Subdomínios](metodologias/rede-externa/enumeracao-de-subdominios.md)
+    * [Low Hanging Fruits](metodologias/rede-externa/low-hanging-fruits.md)
   * [Rede Interna](metodologias/rede-interna/README.md)
     * [Powershell](metodologias/rede-interna/powershell.md)
     * [Movimentação Lateral](metodologias/rede-interna/movimentacao-lateral.md)
