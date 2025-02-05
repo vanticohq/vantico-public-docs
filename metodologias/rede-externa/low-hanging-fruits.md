@@ -119,12 +119,10 @@ Primeiro devemos separar os tipos de serviços que podem ser vulneráveis como S
 
 * Versão do servidor (vulnerabilidades específicas)
 * Credenciais padrão ou fracas (root sem senha, etc.)
-* Permissão de acesso remoto ao banco
 * Brute force
 
 **Ferramentas**
 
-* mysql (cliente)
 * nmap (scripts mysql-\*)
 * hydra, medusa (força bruta)
 
