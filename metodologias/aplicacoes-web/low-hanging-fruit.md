@@ -369,6 +369,14 @@ Para verificar basta acessar:&#x20;
 
 ***
 
+> Página web armazenando credenciais sem criptografia
+
+Podemos validar essa vulnerabilidade em campos que inserimos ou há a presença de senhas, em que iremos clicar em "Exibir código fonte", caso a senha apareça em texto plano por lá, é vulnerável.
+
+
+
+***
+
 > **Cookie de sessão sem a flag Secure habilitada**
 
 Verificar se o cookie de sessão possui a flag Secure.

@@ -68,6 +68,7 @@ openssl s_client -connect (domínio.com):443 #GET / HTTP/1.0
 * [ ] Acesso via IP diretamente
 * [ ] Aplicação mostrando hash de senhas
 * [ ] Verificações no JWT
+* [ ] Página web armazenando credenciais sem criptografia
 * [ ] Cookie de sessão sem a flag Secure habilitada
 * [ ] Cookie de sessão sem a flag HttpOnly habilitada
 * [ ] Upload de arquivos
