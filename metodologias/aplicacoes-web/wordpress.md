@@ -67,7 +67,7 @@ Por fim o comando que é utilizado para encontrar plugins desatualizados (de for
 
 
 ```
-wpscan --url https://(alvo).com.br --api-token (token) -e -ap --plugins-detection 
+wpscan --url https://(alvo).com.br --api-token (token) -e ap --plugins-detection 
 aggressive 
 ```
 
@@ -79,7 +79,7 @@ _--api-token_ = token api adquirido ao cadastrar-se na plataforma
 
 _-e_ = enumerar
 
-_-ap_ = todos os plugins
+_ap_ = todos os plugins
 
 _--plugins-detection aggressive_ = performar um scan mais agressivo no alvo
 
