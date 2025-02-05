@@ -68,8 +68,8 @@ Primeiro devemos separar os tipos de serviços que podem ser vulneráveis como S
 **Checks principais**
 
 * Versão do OpenSSH (ou outra implementação)
-* Métodos de autenticação habilitados (senha, chaves, GSSAPI)
-* Login root permitido?
+* Métodos de autenticação habilitados (senha, chaves)
+* Login root permitido
 * Brute force (senhas fracas, chaves privadas vazadas)
 
 **Ferramentas**
@@ -86,12 +86,11 @@ Primeiro devemos separar os tipos de serviços que podem ser vulneráveis como S
 
 * Login padrão do fabricante (HP, Xerox, Canon, etc.)
 * Interfaces de administração expostas (sem HTTPS ou sem senha)
-* SNMP aberto (possibilidade de ler dados, senhas, config)
 * Versão/firmware vulneráveis
 
 **Ferramentas**
 
-* nmap (scripts `snmp-*` ou porta TCP/UDP específica)
+* nmap (scripts snmp-\* ou porta TCP/UDP específica)
 * Acesso web (painel de gerenciamento via portas 80/443)
 * Ferramentas específicas do fabricante, se houver
 
@@ -134,7 +133,6 @@ Primeiro devemos separar os tipos de serviços que podem ser vulneráveis como S
 
 * Versão (RealVNC, UltraVNC, TightVNC etc.)
 * Login padrão ou sem senha
-* Criptografia/segurança do protocolo (algun(s) VNC não usam TLS)
 * Brute force
 
 **Ferramentas**
@@ -150,7 +148,6 @@ Primeiro devemos separar os tipos de serviços que podem ser vulneráveis como S
 
 * Versão RDP (checar vulnerabilidades como BlueKeep – CVE-2019-0708)
 * Brute force de credenciais (senhas fracas)
-* Restrição de IP ou exposto publicamente?
 
 **Ferramentas**
 
@@ -164,17 +161,16 @@ Primeiro devemos separar os tipos de serviços que podem ser vulneráveis como S
 
 **Checks principais**
 
-* Páginas de login padrão ou expostas (/admin, /login)
 * Credenciais padrão (admin:admin, root:root, etc.)
-* Versão do CMS / frameworks (WordPress, Joomla, etc.)
+* Versão de frameworks (WordPress, Joomla, etc.)
 * Falhas conhecidas (SQLi, XSS, RCE, LFI)
-* Brute force / enum de diretórios
+* Brute force
 
 **Ferramentas**
 
-* nmap (scripts `http-*`), nikto, whatweb
+* nmap (scripts `http-*`)
 * wpscan (para WordPress), droopescan (Joomla, Drupal, SilverStripe)
-* Burp Suite, WFuzz (para bruteforce e enumeração)
+* Burp Suite, WFuzz&#x20;
 
 ***
 
@@ -182,10 +178,9 @@ Primeiro devemos separar os tipos de serviços que podem ser vulneráveis como S
 
 **Checks principais**
 
-* Serviço ainda ativo? (obsoleto)
+* Serviço ainda ativo (obsoleto)
 * Credenciais padrão ou fracas
 * Brute force
-* Configuração em dispositivos de rede antigos
 
 **Ferramentas**
 
