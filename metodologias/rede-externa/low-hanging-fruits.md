@@ -13,34 +13,14 @@ Primeiro devemos separar os tipos de serviços que podem ser vulneráveis como S
 * MS17-010 (EternalBlue)
 * Assinatura SMB desabilitada
 * Sessão “guest” habilitada
-* Responder / Relay (NTLM Relay)
 * Enumeração de shares, usuários e grupos
 
 **Ferramentas**
 
-* Responder (para capturar hashes NTLM, LLMNR)
-* Impacket (ntlmrelayx, smbrelay)
 * Netexec(para test bruteforce, netexec, enum, Pass the Hash)
 * enum4linux (enumeração de shares, usuários, grupos)
 * smbclient (listar e acessar shares)
 * BloodHound (análise de ambiente AD via shares/dump)
-
-***
-
-### **SNMP**
-
-**Checks principais**
-
-* Comunidades padrão (“public”, “private” etc.)
-* Comunidades adivinháveis (nomes de empresa, rede, etc.)
-* Versão do SNMP (v1, v2, v3 — criptografia habilitada ou não)
-* Acesso de leitura/escrita via comunidade (Write Community)
-
-**Ferramentas**
-
-* onesixtyone (bruteforce de comunidades)
-* snmpwalk (coleta de informações, MIBs)
-* nmap (scripts snmp-\*)
 
 ***
 
@@ -80,22 +60,6 @@ Primeiro devemos separar os tipos de serviços que podem ser vulneráveis como S
 
 ***
 
-### **Impressoras**
-
-**Checks principais**
-
-* Login padrão do fabricante (HP, Xerox, Canon, etc.)
-* Interfaces de administração expostas (sem HTTPS ou sem senha)
-* Versão/firmware vulneráveis
-
-**Ferramentas**
-
-* nmap (scripts snmp-\* ou porta TCP/UDP específica)
-* Acesso web (painel de gerenciamento via portas 80/443)
-* Ferramentas específicas do fabricante, se houver
-
-***
-
 ### **NFS**
 
 **Checks principais**
@@ -124,21 +88,6 @@ Primeiro devemos separar os tipos de serviços que podem ser vulneráveis como S
 
 * nmap (scripts mysql-\*)
 * hydra, medusa (força bruta)
-
-***
-
-### **VNC**
-
-**Checks principais**
-
-* Versão (RealVNC, UltraVNC, TightVNC etc.)
-* Login padrão ou sem senha
-* Brute force
-
-**Ferramentas**
-
-* nmap (scripts vnc-\*)
-* hydra, medusa (força bruta de VNC)
 
 ***
 
