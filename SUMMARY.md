@@ -121,3 +121,4 @@
   * [Ferramentas](metodologias/ferramentas.md)
   * [Gerando wordlists efetivas](metodologias/gerando-wordlists-efetivas.md)
   * [Guia de engajamento de um pentest](metodologias/guia-de-engajamento-de-um-pentest.md)
+  * [Checklist Account Takeover (ATO)](metodologias/checklist-account-takeover-ato.md)
