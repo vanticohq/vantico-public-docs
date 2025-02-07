@@ -1,6 +1,6 @@
 # Low Hanging Fruits
 
-Primeiro devemos separar os tipos de serviços que podem ser vulneráveis como SSH, SNMP, SMB, SQL, NFS, FTP, Impressoras, VNC, RDP, Web, Telnet.
+Primeiro devemos separar os tipos de serviços que podem ser vulneráveis como SSH,  SMB, SQL, NFS, FTP,  RDP, Web, Telnet.
 
 
 
