@@ -23,6 +23,7 @@
   * [Revisão de configuração cloud](servicos/revisao-de-configuracao-cloud.md)
   * [Pentest Azure Active Directory](servicos/pentest-azure-active-directory.md)
   * [Pentest Desktop](servicos/pentest-desktop.md)
+  * [Pentest IA/LLM](servicos/pentest-ia-llm.md)
   * [Red Team e Emulação de Adversário](servicos/red-team-e-emulacao-de-adversario.md)
 * [Parceiros](parceiros/README.md)
   * [Visão geral sobre Pentest](parceiros/visao-geral-sobre-pentest.md)
