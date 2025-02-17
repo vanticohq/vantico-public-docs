@@ -393,7 +393,7 @@ Verificar se o cookie de sessão possui a flag HttpOnly.
 
 ***
 
-> Upload de arquivos
+> **Upload de arquivos**
 
 Testar se é possível subir uma extensão de arquivo diferente da qual a aplicação aceita, ex: caso aceite apenas .png, testar subir um .exe,. rar, etc.
 
@@ -401,9 +401,21 @@ Testar se é possível subir uma extensão de arquivo diferente da qual a aplica
 
 ***
 
-> Gerenciamento de patch insuficiente
+> **Gerenciamento de patch insuficiente**
 
 Identificado a versão do produto, buscar CVEs relacionadas.
+
+
+
+***
+
+> **Ausência do arquivo robots.txt**
+
+Buscar na aplicação o endpoint robots.txt, caso retornado 404 e não demonstrado o campo, a aplicação encontra-se com a falta deste mecanismo.
+
+
+
+
 
 
 
