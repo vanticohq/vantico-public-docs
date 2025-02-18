@@ -32,7 +32,6 @@
   * [Teste de correção (Re-test)](parceiros/teste-de-correcao-re-test.md)
   * [Pentest para PCI DSS](parceiros/pentest-para-pci-dss.md)
   * [Perguntas frequentes](parceiros/perguntas-frequentes.md)
-  * [Materiais](parceiros/materiais.md)
 * [Pentester](pentester/README.md)
   * [Markdown](pentester/markdown.md)
   * [Como reportar uma vulnerabilidade](pentester/como-reportar-uma-vulnerabilidade.md)
