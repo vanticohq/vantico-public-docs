@@ -89,6 +89,7 @@
   * [Mobile](metodologias/mobile/README.md)
     * [iOS](metodologias/mobile/ios.md)
     * [Android](metodologias/mobile/android.md)
+    * [Teste Pentest Mobile](metodologias/mobile/teste-pentest-mobile.md)
     * [Referências](metodologias/mobile/referencias.md)
   * [Kubernetes](metodologias/kubernetes.md)
   * [Rede Externa](metodologias/rede-externa/README.md)
