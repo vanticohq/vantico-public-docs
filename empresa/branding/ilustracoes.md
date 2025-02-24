@@ -6,14 +6,10 @@ description: >-
 
 # Ilustrações
 
-<figure><img src="../../.gitbook/assets/Vantico - Personagem A contorno.png" alt="" width="375"><figcaption><p>Personagem</p></figcaption></figure>
-
-<figure><img src="../../.gitbook/assets/Vantico - Cenario completo (1).png" alt=""><figcaption><p>Wallpaper</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/HackerVantico-WIDE_B.png" alt=""><figcaption><p>solo</p></figcaption></figure>
 
 
 
-<figure><img src="../../.gitbook/assets/wallpaper-vantico.png" alt=""><figcaption><p>wallpaper</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/HackerVantico-WIDE.png" alt=""><figcaption><p>wallpaper</p></figcaption></figure>
 
-
-
-<figure><img src="../../.gitbook/assets/wallpaper-vantico2.png" alt=""><figcaption><p>wallpaper</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/HackerVantico-WIDE_flat.png" alt=""><figcaption><p>flat</p></figcaption></figure>
