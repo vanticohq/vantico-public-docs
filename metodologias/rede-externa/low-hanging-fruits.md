@@ -1,28 +1,8 @@
 # Low Hanging Fruits
 
-Primeiro devemos separar os tipos de serviços que podem ser vulneráveis como SSH,  SMB, SQL, NFS, FTP,  RDP, Web, Telnet.
+Primeiro devemos separar os tipos de serviços que podem ser vulneráveis como SSH, SQL, NFS, FTP,  RDP, Web, Telnet.
 
 
-
-### **SMB**
-
-**Checks principais**
-
-* Versão (vulnerabilidades conhecidas)
-* SMBv1 habilitado
-* MS17-010 (EternalBlue)
-* Assinatura SMB desabilitada
-* Sessão “guest” habilitada
-* Enumeração de shares, usuários e grupos
-
-**Ferramentas**
-
-* Netexec(para test bruteforce, netexec, enum, Pass the Hash)
-* enum4linux (enumeração de shares, usuários, grupos)
-* smbclient (listar e acessar shares)
-* BloodHound (análise de ambiente AD via shares/dump)
-
-***
 
 ### **FTP**
 
