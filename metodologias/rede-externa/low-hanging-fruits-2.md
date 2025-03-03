@@ -4,7 +4,6 @@ O pentest vai irá passar pelos seguintes estágios:
 
 * [Reconhecimento](low-hanging-fruits-2.md#reconhecimento)
 * [Descoberta de serviços](low-hanging-fruits-2.md#descobertas-de-servicos)
-* teste2
 
 
 
