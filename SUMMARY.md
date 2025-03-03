@@ -116,7 +116,7 @@
     * [Duplo Fator / MFA](metodologias/aplicacoes-web/duplo-fator-mfa.md)
     * [Race Condition](metodologias/aplicacoes-web/race-condition.md)
     * [Automatizando o Scan por Secrets](metodologias/aplicacoes-web/automatizando-o-scan-por-secrets.md)
-    * [Chaves API](metodologias/aplicacoes-web/chaves-api.md)
+    * [Chaves API](metodologias/api/chaves-api.md)
   * [Spear Phishing](metodologias/spear-phishing.md)
   * [Ferramentas](metodologias/ferramentas.md)
   * [Gerando wordlists efetivas](metodologias/gerando-wordlists-efetivas.md)

@@ -41,7 +41,7 @@ Trocando o campo "TOKEN" pela chave encontrada.
 
 Podemos validar essa chave através do link:
 
-> [https://api.github.com/users/whatever?client\_id=xxxx\&client\_secret=yyyy](https://api.github.com/users/whatever?client\_id=xxxx\&client\_secret=yyyy)
+> [https://api.github.com/users/whatever?client\_id=xxxx\&client\_secret=yyyy](https://api.github.com/users/whatever?client_id=xxxx\&client_secret=yyyy)
 
 Podemos validar trocando o parâmetro "client\_id" e "client\_secret"
 
@@ -51,7 +51,7 @@ Podemos validar trocando o parâmetro "client\_id" e "client\_secret"
 
 Podemos validar essa chave através do link:
 
-> [https://gitlab.example.com/api/v4/projects?private\_token=\<your\_access\_token>](https://gitlab.example.com/api/v4/projects?private\_token=%3Cyour\_access\_token%3E)
+> [https://gitlab.example.com/api/v4/projects?private\_token=\<your\_access\_token>](https://gitlab.example.com/api/v4/projects?private_token=%3Cyour_access_token%3E)
 
 Podemos validar trocando o parâmetro "your\_acess\_token"
 
