@@ -93,7 +93,6 @@
   * [Rede Externa](metodologias/rede-externa/README.md)
     * [Enumeração de Subdomínios](metodologias/rede-externa/enumeracao-de-subdominios.md)
     * [Low Hanging Fruits](metodologias/rede-externa/low-hanging-fruits.md)
-    * [Low Hanging Fruits 2](metodologias/rede-externa/low-hanging-fruits-2.md)
     * [Credenciais de Serviços padrão](metodologias/rede-externa/credenciais-de-servicos-padrao.md)
   * [Rede Interna](metodologias/rede-interna/README.md)
     * [Powershell](metodologias/rede-interna/powershell.md)
