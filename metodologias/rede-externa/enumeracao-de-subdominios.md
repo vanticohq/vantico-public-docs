@@ -56,3 +56,9 @@ amass enum -active -df (dominios.txt)
 
 Uma das maneiras mais interessantes de enumerarmos subdomínios de forma manual é através de arquivos js presentes no código da aplicação (CTRL+U), como o **main.js** ou o **app.js**, quando visualizado os arquivos, dentro deles pode conter informações sobre subdomínios ou até mesmo alguns secrets da aplicação.
 
+
+
+**OpenINTEL:**
+
+{% embed url="https://openintel.nl/team/" %}
+
