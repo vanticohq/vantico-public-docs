@@ -4,7 +4,7 @@ O pentest irá passar pelos seguintes estágios:
 
 * [Reconhecimento](low-hanging-fruits.md#reconhecimento)
 * [Descoberta de serviços](low-hanging-fruits.md#descobertas-de-servicos)
-* [Scans de vulnerabilidade](low-hanging-fruits.md#scans-de-vulnerablidade)
+* [Scans de vulnerabilidades](low-hanging-fruits.md#scans-de-vulnerablidades)
 * [Avaliação Manual](low-hanging-fruits.md#avaliacao-manual)
 * [Testes Adicionais](low-hanging-fruits.md#testes-adicionais)
 
@@ -52,7 +52,7 @@ Durante esta fase foram usadas as seguintes ferramentas:
 
 
 
-### Port Scan
+#### Port Scan
 
 Os pentesters podem performar uma busca completa pelo range de IPs da empresa a fim de identificar serviços possivelmente vulneráveis funcionando, tais como:
 
@@ -62,7 +62,7 @@ Os pentesters podem performar uma busca completa pelo range de IPs da empresa a 
 
 
 
-### Investigações profundas
+#### Investigações profundas
 
 Com base nos resultados da varredura inicial de portas, nossos pentesters trabalham para identificar:
 
@@ -76,7 +76,7 @@ Em alguns casos, uma máquina exposta externamente pode apresentar serviços abe
 
 
 
-### Scans de vulnerablidade
+### Scans de vulnerablidades
 
 Os pentesters da Vantico, em seguida, identificam vulnerabilidades na parte da rede voltada para o público externo. O objetivo é penetrar nos endpoints externos para obter acesso à rede interna e aos recursos da organização.
 

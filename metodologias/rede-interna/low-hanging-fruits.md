@@ -1,189 +1,175 @@
 # Low Hanging Fruits
 
-Primeiro devemos separar os tipos de serviços que podem ser vulneráveis como SSH, SNMP, SMB, SQL, NFS, FTP, Impressoras, VNC, RDP, Web, Telnet.
+O pentest irá passar pelos seguintes estágios:
+
+* [Descoberta de Serviços](low-hanging-fruits.md#descoberta-de-servicos)
+* [Scans de vulnerabilidades](low-hanging-fruits.md#scans-de-vulnerabilidades)
+* [Avaliação Manual](low-hanging-fruits.md#avaliacao-manual)
 
 
 
-### **SMB**
+### Descoberta de Serviços
 
-**Checks principais**
+#### Portscan
 
-* Versão (vulnerabilidades conhecidas)
-* SMBv1 habilitado
-* MS17-010 (EternalBlue)
-* Assinatura SMB desabilitada
-* Sessão “guest” habilitada
-* Responder / Relay (NTLM Relay)
-* Enumeração de shares, usuários e grupos
+Os pentesters realizam uma varredura completa de portas nos intervalos de rede interna fornecidos. Isso fornece um detalhamento minucioso das máquinas e dos serviços em execução dentro da rede corporativa, bem como as funções que exercem.
 
-**Ferramentas**
+Por exemplo, os seguintes serviços requerem acesso à rede para funcionar:
 
-* Responder (para capturar hashes NTLM, LLMNR)
-* Impacket (ntlmrelayx, smbrelay)
-* Netexec(para test bruteforce, netexec, enum, Pass the Hash)
-* enum4linux (enumeração de shares, usuários, grupos)
-* smbclient (listar e acessar shares)
-* BloodHound (análise de ambiente AD via shares/dump)
+* Servidores de arquivos
+* Servidores de e-mail
+* Servidores web
+* Dispositivos de rede conectados (impressoras e telefones)
+* Servidores FTP
+* Servidores e clientes Active Directory (AD)
+
+Todos esses serviços deixam assinaturas características que podem ser detectadas por uma varredura de portas.
+
+
+
+#### Ferramentas
+
+Durante esta fase foram usadas as seguintes ferramentas:
+
+* Nmap
+* Masscan
+
+
 
 ***
 
-### **SNMP**
 
-**Checks principais**
 
-* Comunidades padrão (“public”, “private” etc.)
-* Comunidades adivinháveis (nomes de empresa, rede, etc.)
-* Versão do SNMP (v1, v2, v3 — criptografia habilitada ou não)
-* Acesso de leitura/escrita via comunidade (Write Community)
+### Scans de vulnerabilidades
 
-**Ferramentas**
+Os pentesters da Vantico realizam varreduras de vulnerabilidade para oferecer uma avaliação abrangente. Nesta fase, busca-se identificar brechas na rede interna que possam ser exploradas posteriormente pelo pentester. As seguintes vulnerabilidades são comumente encontradas ao realizar varreduras de vulnerabilidade:
 
-* onesixtyone (bruteforce de comunidades)
-* snmpwalk (coleta de informações, MIBs)
-* nmap (scripts snmp-\*)
+* Identificação de configurações incorretas, como senhas padrão e permissões fracas
+* Detecção de software e sistemas operacionais desatualizados
+* Identificação do uso de serviços de rede inseguros
+* Métodos de criptografia fracos
 
-***
 
-### **FTP**
 
-**Checks principais**
+#### Ferramentas
 
-* FTP Bounce Attack
-* Login anônimo habilitado
-* Credenciais padrão (ex.: ftp:ftp, anonymous:anonymous)
-* Versão do servidor (vulnerabilidades conhecidas)
-* Permissão de upload/download em anônimo
-* Brute force
+Durante esta fase foram usadas as seguintes ferramentas:
 
-**Ferramentas**
+* Nessus
+* QualysGuard
+* Metasploit
+* Nikto
+* InsightVM
 
-* nmap (scripts ftp-\*)
-* ftp (cliente para testes manuais)
-* hydra, medusa (força bruta)
+
 
 ***
 
-### **SSH**
 
-**Checks principais**
 
-* Versão do OpenSSH (ou outra implementação)
-* Métodos de autenticação habilitados (senha, chaves)
-* Login root permitido
-* Brute force (senhas fracas, chaves privadas vazadas)
+### Avaliação Manual
 
-**Ferramentas**
+Durante a avaliação manual, os pentesters da Vantico analisam recursos específicos que foram identificados. Na maioria dos casos, os pentesters se concentram em serviços visivelmente abertos:
 
-* nmap (scripts ssh-\*)
-* ssh-audit (verificação da versão, ciphers, etc.)
-* hydra, medusa (para brute force)
+* Servidores Web/FTP/E-mail/DNS
+* Servidores Active Directory (AD) e todos os clientes associados
+* Controladores de Domínio (DC)
+* Dispositivos conectados à rede
+* Servidores SMB e servidores de arquivos
+* Outros serviços configurados no intervalo de endereços IP internos
 
-***
 
-### **Impressoras**
 
-**Checks principais**
+### Ambientes de Active Directory (Windows)
 
-* Login padrão do fabricante (HP, Xerox, Canon, etc.)
-* Interfaces de administração expostas (sem HTTPS ou sem senha)
-* Versão/firmware vulneráveis
+**AD (Active Directory)** é uma solução de gerenciamento de identidades e acessos. As organizações utilizam esse serviço em redes de domínio Windows e também em outros sistemas operacionais.
 
-**Ferramentas**
+Dependendo da configuração e do nível de correção (patch level), um pentester pode encontrar uma forma de assumir o controle da rede corporativa comprometendo o Controlador de Domínio (DC).
 
-* nmap (scripts snmp-\* ou porta TCP/UDP específica)
-* Acesso web (painel de gerenciamento via portas 80/443)
-* Ferramentas específicas do fabricante, se houver
+Algumas áreas-chave nas quais os pentesters da Vantico podem se concentrar durante testes em Active Directory incluem:
 
-***
+* Políticas de senha fracas
+* Protocolos antigos ou vulneráveis
+* Vulnerabilidades em Kerberos
+* Uso de credenciais em cache ou em texto claro (cleartext)
+* Relações de confiança mal configuradas
+* Permissões mal configuradas em ACDS
 
-### **NFS**
 
-**Checks principais**
 
-* Shares exportadas (showmount -e \<host>)
-* Montagem de shares sem restrição (permissões de leitura/escrita)
-* Acesso a arquivos sensíveis (chaves SSH, backups, etc.)
+### Testes de SMB
 
-**Ferramentas**
+O Server Message Block (SMB) é um protocolo de comunicação que permite a interação entre computadores e dispositivos em uma rede. O SMB é comumente utilizado para compartilhamento de arquivos, acesso a impressoras e serviços de domínio.
 
-* showmount, rpcinfo
-* mount -t nfs
-* nmap (scripts nfs-\*)
+Os pentesters da Vantico fazem a enumeração de servidores SMB e tentam explorar vulnerabilidades conhecidas, como:
 
-***
+* Assinatura de mensagens SMB desativada
+* Falta de patches críticos
+* Sessões nulas (null sessions)
+* Compartilhamentos de arquivos SMB com autenticação fraca ou ausente
+* Ataques de retransmissão SMB (SMB relay)
+* Criptografia SMB insegura
 
-### **MySQL**
 
-**Checks principais**
 
-* Versão do servidor (vulnerabilidades específicas)
-* Credenciais padrão ou fracas (root sem senha, etc.)
-* Brute force
+### Servidores Web e FTP
 
-**Ferramentas**
+Servidores web podem ser alvo de ataques de desfiguração (defacement) ou ser usados como ponto de partida para ataques adicionais contra hosts locais ao próprio servidor web.
 
-* nmap (scripts mysql-\*)
-* hydra, medusa (força bruta)
+Os pentesters da Vantico realizam varreduras em todos os servidores web e FTP da rede interna, em busca de possíveis explorações e vulnerabilidades, tais como:
 
-***
+* Política de correções (patching) deficiente
+* Instalações padrão
+* Credenciais inseguras
 
-### **VNC**
 
-**Checks principais**
 
-* Versão (RealVNC, UltraVNC, TightVNC etc.)
-* Login padrão ou sem senha
-* Brute force
+### Dispositivos Conectados à Rede
 
-**Ferramentas**
+Impressoras dentro de redes corporativas podem ser compartilhadas com toda a organização e podem ser membros de uma rede AD. Esses dispositivos podem usar credenciais padrão inseguras ou ser vulneráveis a ataques de aplicação web.
 
-* nmap (scripts vnc-\*)
-* hydra, medusa (força bruta de VNC)
+Telefones VOIP são comumente encontrados em redes internas e podem ser vulneráveis a configurações incorretas, falhas em SIP ou firmware desatualizado que permita execução remota de código (RCE).
 
-***
+Os pentesters da Vantico testam impressoras e telefones contra todos os ataques comuns e verificam se usam credenciais seguras.
 
-### **RDP**
 
-**Checks principais**
 
-* Versão RDP (checar vulnerabilidades como BlueKeep – CVE-2019-0708)
-* Brute force de credenciais (senhas fracas)
+### Quebra de Senhas
 
-**Ferramentas**
+Durante uma avaliação de AD, um pentester pode realizar quebra de senhas offline (offline password cracking) contra hashes obtidos durante o engajamento. Algumas técnicas comuns para obter hashes incluem:
 
-* nmap (scripts rdp-\*)
-* rdpscan (ferramenta específica para BlueKeep)
-* hydra, medusa (força bruta)
+* Ataques de envenenamento (poisoning) de LLMNR/NBNS
+* Extração de bases NTDS.dit
+* Realização de ataques de Kerberoasting
+* Execução de ataques de AS-REP roasting
+* Extração de bancos de dados SAM
+* Realização de ataques com Mimikatz
 
-***
+A quebra de senhas permite que os pentesters da Vantico elevem privilégios e se movimentem lateralmente dentro da rede.
 
-### **Web**
 
-**Checks principais**
 
-* Credenciais padrão (admin:admin, root:root, etc.)
-* Versão de frameworks (WordPress, Joomla, etc.)
-* Falhas conhecidas (SQLi, XSS, RCE, LFI)
-* Brute force
+#### Ferramentas
 
-**Ferramentas**
+Durante esta fase foram usadas as seguintes ferramentas:
 
-* nmap (scripts `http-*`), nikto, whatweb
-* wpscan (para WordPress), droopescan (Joomla, Drupal, SilverStripe)
-* Burp Suite, WFuzz
+* Ettercap
+* Metasploit
+* Nmap
+* Responder
+* Impacket
 
-***
 
-### **Telnet**
 
-**Checks principais**
 
-* Serviço ainda ativo (obsoleto)
-* Credenciais padrão ou fracas
-* Brute force
 
-**Ferramentas**
 
-* nmap (scripts telnet-\*)
-* telnet (cliente para teste manual)
-* hydra, medusa (força bruta)
+
+
+
+
+
+
+
+
+
