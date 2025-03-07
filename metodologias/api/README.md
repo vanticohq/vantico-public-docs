@@ -6,7 +6,7 @@
 
 ### [REST](rest.md)
 
-> Nesta página você vai encontrar informações sobre o REST e tricks para realizar testes em aplicações com REST
+> Nesta página você vai encontrar informações sobre o REST e _tricks_ para realizar testes em aplicações com REST
 
 
 
