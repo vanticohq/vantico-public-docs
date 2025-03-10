@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Controle de Conta via Desvio de Limite de Taxa
 
 Em um programa privado de bug bounty, quando uma redefinição de senha era iniciada, os usuários eram obrigados a inserir um `código numérico de seis dígitos` enviado para seu e-mail para verificação.

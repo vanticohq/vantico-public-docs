@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Wordpress
 
 Em aplicações que se utilizam de **Wordpress**, há algumas vulnerabilidades que podem ser testadas, como as seguintes que irão ser demonstradas abaixo.

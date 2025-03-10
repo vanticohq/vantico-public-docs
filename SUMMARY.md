@@ -106,6 +106,7 @@
     * [Checklist](metodologias/aplicacoes-web/checklist.md)
     * [Low Hanging Fruits](metodologias/aplicacoes-web/low-hanging-fruits.md)
     * [Gerando Valor](metodologias/aplicacoes-web/gerando-valor.md)
+    * [Técnicas](metodologias/aplicacoes-web/tecnicas.md)
     * [Injeção de Modelo no Servidor](metodologias/aplicacoes-web/injecao-de-modelo-no-servidor.md)
     * [Controle de Conta via Desvio de Limite de Taxa](metodologias/aplicacoes-web/controle-de-conta-via-desvio-de-limite-de-taxa.md)
     * [Exposição Excessiva de Dados](metodologias/aplicacoes-web/exposicao-excessiva-de-dados.md)

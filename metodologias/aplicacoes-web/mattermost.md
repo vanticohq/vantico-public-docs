@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Mattermost
 
 Mattermost é uma aplicação open source de bate-papo muito utilizada por organizações e empresas, ela se torna uma alternativa entre o Microsoft Teams e o Slack.

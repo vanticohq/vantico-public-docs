@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Race Condition
 
 O principal problema de explorar Race Conditions é que você precisa que as solicitações sejam processadas em paralelo com uma diferença de tempo muito curta (geralmente >1ms). A versão 2023.9 do Burp Suite introduz uma nova função no Burp Repeater, focada em aprimorar a capacidade de enviar solicitações em paralelo com um impacto reduzido do jitter de rede. Onde o jitter de rede pode afetar negativamente a sincronização de solicitações.

@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Duplo Fator / MFA
 
 **Verifique se o código enviado para seu e-mail/sms é devidamente atrelado a conta do usuário:**&#x20;

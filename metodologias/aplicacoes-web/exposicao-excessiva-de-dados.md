@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Exposição Excessiva de Dados
 
 Em um programa privado de bug bounty, a resposta à solicitação de login tinha três parâmetros: `isAdmin`, `isStaff` e `isSupport`. Todos os três foram inicialmente definidos como `false`. Configurando eles para `true` concedeu acesso a um novo endpoint que permitiu pesquisar empresas usando seus IDs de registro.

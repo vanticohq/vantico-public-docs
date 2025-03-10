@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Account Takeover
 
 A vulnerabilidade de **Account Takeover** se remete a quando um atacante consegue aproveitar de algum fluxo vulnerável para obter acesso a contas as quais o mesmo não poderia ter acesso.

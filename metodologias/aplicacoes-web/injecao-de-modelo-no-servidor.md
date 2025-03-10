@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Injeção de Modelo no Servidor
 
 **Detecção:** `{% if 'ahsan' == 'ahsan' %} a {% endif %}`
