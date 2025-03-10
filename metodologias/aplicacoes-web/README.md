@@ -1,58 +1,58 @@
 # Aplicações Web
 
-{% embed url="https://handbook.vantico.com.br/metodologias/aplicacoes-web/checklist" %}
-Checklist inicial que deve ser seguido em pentests web
-{% endembed %}
+### [Checklist](checklist.md)
 
-{% embed url="https://handbook.vantico.com.br/metodologias/aplicacoes-web/low-hanging-fruit" %}
-Low Hanging Fruit - Testes iniciais explicados
-{% endembed %}
+> Checklist inicial que deve ser seguido em pentests web
 
-{% embed url="https://handbook.vantico.com.br/metodologias/aplicacoes-web/gerando-valor" %}
-Agregar valor a vulnerabilidades exploradas
-{% endembed %}
+### [Low Hanging Fruits](low-hanging-fruits.md)
 
-{% embed url="https://handbook.vantico.com.br/metodologias/aplicacoes-web/injecao-de-modelo-no-servidor" %}
-Injeção de modelo no servidor
-{% endembed %}
+> Aqui você encontra os testes inicias de um pentest em aplicações web
 
-{% embed url="https://handbook.vantico.com.br/metodologias/aplicacoes-web/controle-de-conta-via-desvio-de-limite-de-taxa" %}
-Como contornar a proteção de limite de taxa
-{% endembed %}
+### [Gerando Valor](gerando-valor.md)
 
-{% embed url="https://handbook.vantico.com.br/metodologias/aplicacoes-web/exposicao-excessiva-de-dados" %}
-Exposição excessiva de dados
-{% endembed %}
+> Nesta página você vai entender como agregar valor a vulnerabilidades explroadas
 
-{% embed url="https://handbook.vantico.com.br/metodologias/aplicacoes-web/account-takeover" %}
-Maneiras de realizar Account Takeover
-{% endembed %}
+### [Injeção de Modelo no Servidor](injecao-de-modelo-no-servidor.md)
 
-{% embed url="https://handbook.vantico.com.br/metodologias/aplicacoes-web/wordpress" %}
-Pentest em aplicações Wordpress
-{% endembed %}
+> Como testar injeção de modelo no servidor
 
-{% embed url="https://handbook.vantico.com.br/metodologias/aplicacoes-web/mattermost" %}
-Falha comum presente no Mattermost
-{% endembed %}
+### [Controle de Conta via Desvio de Limite de Taxa](controle-de-conta-via-desvio-de-limite-de-taxa.md)
 
-{% embed url="https://handbook.vantico.com.br/metodologias/aplicacoes-web/referencias" %}
-Referências
-{% endembed %}
+> Como contornar a proteção de limite de taxa
 
-{% embed url="https://handbook.vantico.com.br/metodologias/aplicacoes-web/duplo-fator-mfa" %}
-Verificações realizadas em aplicações com 2FA / MFA presente
-{% endembed %}
+### [Exposição Excessiva de Dados](exposicao-excessiva-de-dados.md)
 
-{% embed url="https://handbook.vantico.com.br/metodologias/aplicacoes-web/race-condition" %}
-Exploração de Race Conditions
-{% endembed %}
+> Exemplo de exploração de vulnerabilidade de exposição excessiva de dados
 
-{% embed url="https://handbook.vantico.com.br/metodologias/aplicacoes-web/automatizando-o-scan-por-secrets" %}
-Automatização de scans através de ferramentas
-{% endembed %}
+### [Account Takeover](account-takeover.md)
 
-{% embed url="https://handbook.vantico.com.br/metodologias/aplicacoes-web/chaves-api" %}
-Validação de chaves API
-{% endembed %}
+> Maneiras de realizar Account Takeover
+
+### [Wordpress](wordpress.md)
+
+> Um guia com as vulnerabilidades mais comuns e como explorá-las em aplicações Wordpress
+
+### [Mattermost](mattermost.md)
+
+> Uma vulnerabilidade comum presente no Mattermost
+
+### [Referências](referencias.md)
+
+> Referências úteis de informações relacionadas ao pentest de aplicações web
+
+### [Duplo Fator / MFA](duplo-fator-mfa.md)
+
+> Verificações realizadas em aplicaçãoes com 2FA / MFA presente
+
+### [Race Condition](race-condition.md)
+
+> Exploração de Race Conditions
+
+### [Automatizando o Scan por Secrets](automatizando-o-scan-por-secrets.md)
+
+> Automatização de scans através de ferramentas
+
+### [Chaves API](../api/chaves-api.md)
+
+> Links úteis para validação de chaves de API
 
