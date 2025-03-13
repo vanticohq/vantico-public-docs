@@ -147,32 +147,3 @@ Os pentesters da Vantico utilizam diversas ferramentas personalizadas e disponí
 * Exploits
 * Scripts personalizados
 * Aplicativos de segurança
-
-
-
-
-
-
-
-
-
-
-
-o1
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
