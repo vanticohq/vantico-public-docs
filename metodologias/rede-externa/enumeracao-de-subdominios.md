@@ -60,5 +60,4 @@ Uma das maneiras mais interessantes de enumerarmos subdomínios de forma manual 
 
 **OpenINTEL:**
 
-{% embed url="https://openintel.nl/team/" %}
-
+{% embed url="https://openintel.nl" %}
