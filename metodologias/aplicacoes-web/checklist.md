@@ -39,6 +39,29 @@ openssl s_client -connect (domínio.com):443 #GET / HTTP/1.0
 
 
 
+**Low Hanging Fruit - Information Gathering**
+
+* [ ] Encontrar LinkedIn
+* [ ] Informações Pastebin e Trello
+* [ ] Google Hacking, exemplo: ext:, intext: intitle:
+* [ ] Metadados em arquivos
+* [ ] Shodan / Censys
+* [ ] Busca em certificados (crt.sh)
+* [ ] Virus Total
+* [ ] DnsDumpster
+* [ ] SecurityTrails
+* [ ] [email-spoof](https://github.com/vanticohq/email-spoof)
+* [ ] Subdominios (subfinder, SecurityTrails, DnsDumpster, crt.sh, Amass)
+* [ ] Subdomain Takeover
+* [ ] Busca robots.txt e sitemap.xml
+* [ ] Busca e-mails (hunter.io, anymailfinder, rocketreach)
+* [ ] SpiderFoot
+* [ ] Wappalyzer
+
+
+
+
+
 **Low Hanging Fruit**
 
 * [ ] Ausência de Header
