@@ -65,3 +65,17 @@ A ferramenta OWASP OFFAT avalia autonomamente sua API em busca de vulnerabilidad
 #### [**Spider Foot**](https://github.com/smicallef/spiderfoot)
 
 A ferramenta SpiderFoot é um recurso valioso para pentesters durante a fase de Reconnaissance, oferecendo uma ampla gama de informações relevantes sobre o alvo. Ela suporta a integração com diversas fontes, permitindo a inclusão de chaves de APIs, o que expande significativamente a quantidade e a diversidade dos dados obtidos.
+
+
+
+[From Nmap to CSV](https://www.secureideas.com/blog/from-nmap-to-csv)
+
+Este script permite com que você transforme seu resultado do Nmap em uma planilha CSV, tornando assim mais fácil a visualização e organização.
+
+Para utilização basta:
+
+1. Rodar um scan com o Nmap e transformar o resultado em um arquivo "_.nmap_" (pode ser usado o ">" no Linux);
+2. Em seguida rodamos o script da seguinte maneira: **nmap\_to\_csv.sh (arquivo.nmap) (arquivo\_de\_saida.csv)**;
+
+Desta maneira conseguimos gerar o scan do Nmap em um arquivo CSV.
+
