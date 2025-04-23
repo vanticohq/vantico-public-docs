@@ -97,6 +97,7 @@ openssl s_client -connect (domínio.com):443 #GET / HTTP/1.0
 * [ ] Upload de arquivos
 * [ ] Gerenciamento de patch insuficiente
 * [ ] Ausência do arquivo robots.txt
+* [ ] Ausência de WAF
 
 
 

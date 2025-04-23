@@ -1,4 +1,4 @@
-# Low Hanging Fruit
+# Low Hanging Fruits
 
 **Checklist Testes Iniciais**
 
@@ -414,6 +414,12 @@ Identificado a versão do produto, buscar CVEs relacionadas.
 Buscar na aplicação o endpoint robots.txt, caso retornado 404 e não demonstrado o campo, a aplicação encontra-se com a falta deste mecanismo.
 
 
+
+***
+
+> Ausência de WAF
+
+Identificar se a aplicação possui algum mecanismo de WAF presente.
 
 
 
