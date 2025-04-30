@@ -371,7 +371,7 @@ Para verificar basta acessar:&#x20;
 
 > Página web armazenando credenciais sem criptografia
 
-Podemos validar essa vulnerabilidade em campos que inserimos ou há a presença de senhas, em que iremos clicar em "Exibir código fonte", caso a senha apareça em texto plano por lá, é vulnerável.
+Podemos validar essa vulnerabilidade ao clicar em "Exibir código fonte", dessa maneira devemos buscar caso haja alguma credencial exposta em texto claro.
 
 
 
