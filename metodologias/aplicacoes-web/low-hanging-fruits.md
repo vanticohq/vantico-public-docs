@@ -371,7 +371,7 @@ Para verificar basta acessar:&#x20;
 
 > Página web armazenando credenciais sem criptografia
 
-Podemos validar essa vulnerabilidade ao clicar em "Exibir código fonte", dessa maneira devemos buscar caso haja alguma credencial exposta em texto claro.
+Podemos validar essa vulnerabilidade ao entrar em algum arquivo de javascript presente, dessa maneira devemos buscar alguma credencial exposta em texto claro.
 
 
 
