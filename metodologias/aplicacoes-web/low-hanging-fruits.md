@@ -423,5 +423,11 @@ Identificar se a aplicação possui algum mecanismo de WAF presente.
 
 
 
+***
+
+> Aplicação permite acesso simultâneo
+
+Para verificar essa vulnerabilidade, realize o acesso à mesma sessão simultaneamente em uma aba comum e em uma aba anônima. Se ambas operarem normalmente, isso indica que a aplicação está vulnerável.
+
 
 
