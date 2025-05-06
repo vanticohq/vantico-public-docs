@@ -431,3 +431,9 @@ Para verificar essa vulnerabilidade, realize o acesso à mesma sessão simultane
 
 
 
+***
+
+> Flood em páginas com brute force
+
+Esta vulnerabilidade se refere a realizar flood em partes específicas da aplicação, como por exemplo: A aplicação possui um campo de criar postagens, neste caso, deve ser realizado um teste de fazer um flood de postagens.
+
