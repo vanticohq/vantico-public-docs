@@ -437,3 +437,15 @@ Para verificar essa vulnerabilidade, realize o acesso à mesma sessão simultane
 
 Esta vulnerabilidade se refere a realizar flood em partes específicas da aplicação, como por exemplo: A aplicação possui um campo de criar postagens, neste caso, deve ser realizado um teste de fazer um flood de postagens.
 
+
+
+***
+
+> Ausência de notifcação por login suspeito
+
+O sistema não envia nenhum alerta ao titular da conta quando ocorre um login considerado suspeito, por exemplo, de um endereço IP ou localização geográfica nunca antes observados, dispositivo/user‑agent diferente, horário incomum ou após diversas tentativas falhas.
+
+
+
+
+

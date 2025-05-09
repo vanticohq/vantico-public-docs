@@ -100,6 +100,7 @@ openssl s_client -connect (domínio.com):443 #GET / HTTP/1.0
 * [ ] Ausência de WAF
 * [ ] Aplicação permite acesso simultâneo
 * [ ] Flood em páginas com brute force
+* [ ] Ausência de notifcação por login suspeito
 
 
 
