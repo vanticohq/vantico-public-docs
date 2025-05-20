@@ -75,6 +75,7 @@ openssl s_client -connect (domínio.com):443 #GET / HTTP/1.0
 * [ ] Mensagem de Erros
 * [ ] Utilizar bibliotecas JavaScript desatualizadas
 * [ ] Enumeração de Usuário
+* [ ] Falsificação de e-mails
 * [ ] Sessão antiga não é inválida após o logout
 * [ ] Ausência de mecanismo contra força bruta
 * [ ] Uso de IDs sequenciais

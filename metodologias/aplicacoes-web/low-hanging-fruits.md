@@ -241,6 +241,14 @@ A mensagem correta que a aplicação deve retornar é de **"Usuário ou Senha In
 
 ***
 
+> **Falsificação de e-mails**
+
+Verificar se há falhas no DMARC ou SPF do domínio.
+
+
+
+***
+
 > **Uso de IDs sequenciais**
 
 Praticamente qualquer sistema moderno tem referências direta a objetos. Este comportamento faz com algumas aplicações utilizem IDs sequenciais, ou seja, se há um objeto de ID 5, o próximo será 6 e assim por diante.
@@ -417,7 +425,7 @@ Buscar na aplicação o endpoint robots.txt, caso retornado 404 e não demonstra
 
 ***
 
-> Ausência de WAF
+> **Ausência de WAF**
 
 Identificar se a aplicação possui algum mecanismo de WAF presente.
 
@@ -425,7 +433,7 @@ Identificar se a aplicação possui algum mecanismo de WAF presente.
 
 ***
 
-> Aplicação permite acesso simultâneo
+> **Aplicação permite acesso simultâneo**
 
 Para verificar essa vulnerabilidade, realize o acesso à mesma sessão simultaneamente em uma aba comum e em uma aba anônima. Se ambas operarem normalmente, isso indica que a aplicação está vulnerável.
 
@@ -433,7 +441,7 @@ Para verificar essa vulnerabilidade, realize o acesso à mesma sessão simultane
 
 ***
 
-> Flood em páginas com brute force
+> **Flood em páginas com brute force**
 
 Esta vulnerabilidade se refere a realizar flood em partes específicas da aplicação, como por exemplo: A aplicação possui um campo de criar postagens, neste caso, deve ser realizado um teste de fazer um flood de postagens.
 
@@ -441,7 +449,7 @@ Esta vulnerabilidade se refere a realizar flood em partes específicas da aplica
 
 ***
 
-> Ausência de notifcação por login suspeito
+> **Ausência de notifcação por login suspeito**
 
 O sistema não envia nenhum alerta ao titular da conta quando ocorre um login considerado suspeito, por exemplo, de um endereço IP ou localização geográfica nunca antes observados, dispositivo/user‑agent diferente, horário incomum ou após diversas tentativas falhas.
 
