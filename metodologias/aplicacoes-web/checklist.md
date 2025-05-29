@@ -99,9 +99,9 @@ openssl s_client -connect (domínio.com):443 #GET / HTTP/1.0
 * [ ] Gerenciamento de patch insuficiente
 * [ ] Ausência do arquivo robots.txt
 * [ ] Ausência de WAF
-* [ ] Aplicação permite acesso simultâneo
 * [ ] Flood em páginas com brute force
 * [ ] Ausência de notifcação por login suspeito
+* [ ] Subdomínios apontando para IPs privados
 
 
 

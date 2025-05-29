@@ -433,14 +433,6 @@ Identificar se a aplicação possui algum mecanismo de WAF presente.
 
 ***
 
-> **Aplicação permite acesso simultâneo**
-
-Para verificar essa vulnerabilidade, realize o acesso à mesma sessão simultaneamente em uma aba comum e em uma aba anônima. Se ambas operarem normalmente, isso indica que a aplicação está vulnerável.
-
-
-
-***
-
 > **Flood em páginas com brute force**
 
 Esta vulnerabilidade se refere a realizar flood em partes específicas da aplicação, como por exemplo: A aplicação possui um campo de criar postagens, neste caso, deve ser realizado um teste de fazer um flood de postagens.
@@ -454,6 +446,12 @@ Esta vulnerabilidade se refere a realizar flood em partes específicas da aplica
 O sistema não envia nenhum alerta ao titular da conta quando ocorre um login considerado suspeito, por exemplo, de um endereço IP ou localização geográfica nunca antes observados, dispositivo/user‑agent diferente, horário incomum ou após diversas tentativas falhas.
 
 
+
+***
+
+> **Subdomínios apontando para IPs privados**
+
+Devemos testar se subdomínios da aplicação apontam para endereços privados, para testar isto basta realizar um dig no subdomínio. Caso vulnerável a aplicação pode estar vulnerável a _DNS Rebinding_).
 
 
 
