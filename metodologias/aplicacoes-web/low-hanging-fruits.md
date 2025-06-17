@@ -455,3 +455,16 @@ Devemos testar se subdomínios da aplicação apontam para endereços privados, 
 
 
 
+***
+
+> **DoS JWT**
+
+Em um campo onde inserimos o e-mail e a partir dele é criado um token JWT (de acordo com o e-mail), inserimos um e-mail com diversos caracteres a fim de causar lentidão no momento de geração do token, levando a um possível DoS através do JWT.
+
+
+
+***
+
+> **CORS Miconfiguration**
+
+Fazer verificações no CORS para validar se o mesmo está muito permissivo e se encontra vulnerável a ataques.
