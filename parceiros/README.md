@@ -93,19 +93,9 @@ Os internos são muito parecidos. Usamos números brutos para determinar o taman
 
 Devido à complexidade dos aplicativos da Web, eles podem ser incrivelmente difíceis de definir. Em vez de usar números brutos como nos anteriores, tentamos avaliar o quão "complexo" um aplicativo da Web é. Normalmente, quanto mais funções, mais complexo o aplicativo é. Se alguma funcionalidade afeta outra funcionalidade, a complexidade aumenta novamente.&#x20;
 
-Para demonstrar, aqui estão alguns exemplos:&#x20;
-
-**Aplicação pequena**&#x20;
-
-Um aplicativo pequeno tem poucas funções (menos de 10) e são simples por natureza. Por exemplo, um site quase estático com uma função de pesquisa e um formulário de contato seria considerado pequeno.&#x20;
-
-**Aplicação média**&#x20;
-
-Um aplicativo médio tem dezenas de funções (10-100). Essas funções são complexas e podem se inter-relacionar entre si. Por exemplo, um aplicativo básico de comércio eletrônico com produtos, um carrinho de compras e funcionalidade de pagamento é considerado um aplicativo médio.&#x20;
-
-**Aplicação grande**&#x20;
-
-Um aplicativo grande é aquele que tem centenas de recursos/funções e onde as funções podem ser inter-relacionadas entre si. Ele pode ter vários caminhos de autenticação, funcionalidade de leitura/gravação para vários conjuntos de dados, ter funcionalidade de upload ou um fluxo complexo. Por exemplo, um CMS como o Pipedrive é considerado um aplicativo grande.&#x20;
+* Em média quantas páginas existem na aplicação?
+* A aplicação consome API?
+* Quantos Perfis de Usuários seriam testados?
 
 **Autenticado vs. Não autenticado**&#x20;
 
@@ -117,6 +107,7 @@ Aplicativos móveis são tão complexos de escopo quanto aplicação web.&#x20;
 
 * Este aplicativo está no Android, iOS ou ambos?&#x20;
 * Como podemos obter acesso ao aplicativo (por exemplo, AppStore, TestFlight, arquivo apk personalizado)?&#x20;
+* Em média quantas telas existem no aplicativo?
 
 &#x20;<mark style="color:blue;">**Campanha de phishing**</mark>&#x20;
 
