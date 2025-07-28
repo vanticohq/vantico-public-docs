@@ -1,6 +1,6 @@
 # Ferramentas
 
-Na Vantico, adotamos uma seleção rigorosa das ferramentas de segurança mais avançadas e atualizadas para conduzir nossos testes de penetração. Além disso, complementamos essas soluções tecnológicas com técnicas manuais aplicadas por nossos especialistas altamente qualificados, assegurando uma avaliação abrangente e precisa da segurança da sua infraestrutura.
+Na Vantico, adotamos uma seleção rigorosa das ferramentas de segurança mais avançadas e atualizadas para conduzir nossos testes de intrusão. Além disso, complementamos essas soluções tecnológicas com técnicas manuais aplicadas por nossos especialistas altamente qualificados, assegurando uma avaliação abrangente e precisa da segurança da sua infraestrutura.
 
 Abaixo se encontram algumas das ferramentas utilizadas pelos nossos profissionais:
 
