@@ -1,10 +1,8 @@
 # Mobile
 
-Testes móveis são um verdadeiro desafio. Esperamos que este guia o ajude a começar.
-
 ## Dispositivos Físicos vs Virtuais
 
-Como regra geral, é aconselhável testar em um dispositivo físico. Embora os emuladores Android geralmente sejam bons, eles não representam 100% um dispositivo físico (pense em scanners de impressão digital/reconhecimento facial). Este guia não cobre a configuração de um dispositivo virtual (ainda).
+Como regra geral, é aconselhável testar em um dispositivo físico. Embora os emuladores Android geralmente sejam bons, eles não representam 100% um dispositivo físico (pense em scanners de impressão digital/reconhecimento facial). Este guia não cobre a configuração de um dispositivo virtual.
 
 ## Jailbreaking/Rooting
 

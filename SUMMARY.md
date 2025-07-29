@@ -108,6 +108,7 @@
     * [BucketLoot](metodologias/cloud/bucketloot.md)
     * [Referências](metodologias/cloud/referencias.md)
   * [Mobile](metodologias/mobile/README.md)
+    * [Vulnerabilidades em dispositivos móveis](metodologias/metodologias-de-pentest/mobile/vulnerabilidades-em-dispositivos-moveis.md)
     * [iOS](metodologias/mobile/ios.md)
     * [Android](metodologias/mobile/android.md)
     * [Referências](metodologias/mobile/referencias.md)
