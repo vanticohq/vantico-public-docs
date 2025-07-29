@@ -114,6 +114,7 @@
   * [Kubernetes](metodologias/kubernetes.md)
   * [Rede Externa](metodologias/rede-externa/README.md)
     * [Low Hanging Fruits](metodologias/rede-externa/low-hanging-fruits.md)
+    * [VPN](metodologias/metodologias-de-pentest/rede-externa/vpn.md)
     * [Enumeração de Subdomínios](metodologias/rede-externa/enumeracao-de-subdominios.md)
     * [Credenciais de Serviços padrão](metodologias/rede-externa/credenciais-de-servicos-padrao.md)
   * [Rede Interna](metodologias/rede-interna/README.md)
@@ -134,5 +135,4 @@
     * [Referências](metodologias/aplicacoes-web/referencias.md)
   * [Ferramentas](metodologias/ferramentas.md)
   * [Gerando wordlists efetivas](metodologias/gerando-wordlists-efetivas.md)
-  * [VPN](metodologias/metodologias-de-pentest/vpn.md)
   * [Password Spray](metodologias/metodologias-de-pentest/password-spray.md)
