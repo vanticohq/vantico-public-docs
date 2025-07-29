@@ -1,3 +1,20 @@
+---
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: false
+  metadata:
+    visible: true
+---
+
 # Mobile
 
 Aqui você encontra as metodologias para realizar um teste de intrusão em aplicações móveis tanto Android quanto iOS.
