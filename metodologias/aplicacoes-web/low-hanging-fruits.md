@@ -373,6 +373,12 @@ Para verificar basta acessar:&#x20;
 
 [JWT](https://jwt.io)
 
+Ferramentas úteis para auxiliar:
+
+[JWT Pentest Tool](https://github.com/ticofookfook/JWT_PENTEST/)
+
+[JWTLens](https://jwtlens.netlify.app/)
+
 
 
 ***
