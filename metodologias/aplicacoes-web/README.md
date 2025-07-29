@@ -1,30 +1,27 @@
+---
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: false
+---
+
 # Aplicações Web
 
-### [Checklist](checklist.md)
+Nesta aba iremos abordar sobre diversas técnicas utilizadas em pentest em aplicações web.
 
-> Checklist inicial que deve ser seguido em pentests web
 
-### [Low Hanging Fruits](low-hanging-fruits.md)
 
-> Aqui você encontra os testes inicias de um pentest em aplicações web
+<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Checklist</strong></td><td><a href="checklist.md">checklist.md</a></td></tr><tr><td><strong>Low Hanging Fruits</strong></td><td><a href="low-hanging-fruits.md">low-hanging-fruits.md</a></td></tr><tr><td><strong>Gerando valor</strong></td><td><a href="gerando-valor.md">gerando-valor.md</a></td></tr><tr><td><strong>Técnicas</strong></td><td><a href="tecnicas.md">tecnicas.md</a></td></tr><tr><td><strong>Automatizando o Scan por Secrets</strong></td><td><a href="automatizando-o-scan-por-secrets.md">automatizando-o-scan-por-secrets.md</a></td></tr><tr><td><strong>Chaves API</strong></td><td><a href="../api/chaves-api.md">chaves-api.md</a></td></tr><tr><td><strong>Referências</strong></td><td><a href="referencias.md">referencias.md</a></td></tr></tbody></table>
 
-### [Gerando Valor](gerando-valor.md)
 
-> Nesta página você vai entender como agregar valor a vulnerabilidades exploradas
-
-### [Técnicas](tecnicas.md)
-
-> Aqui você encontra diversas técnicas para diversas tecnologias diferentes presentes em pentests de aplicações web
-
-### [Referências](referencias.md)
-
-> Referências úteis de informações relacionadas ao pentest de aplicações web
-
-### [Automatizando o Scan por Secrets](automatizando-o-scan-por-secrets.md)
-
-> Automatização de scans através de ferramentas
-
-### [Chaves API](../api/chaves-api.md)
-
-> Links úteis para validação de chaves de API
 

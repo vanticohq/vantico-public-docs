@@ -1,20 +1,25 @@
+---
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: false
+  metadata:
+    visible: true
+---
+
 # Cloud
 
-### [AWS](aws.md)
+Nesta seção abordamos sobre pentest em Cloud, com dicas e _tricks_ para auxiliar no pentest.
 
-> Aqui você encontra informações, dicas e _tricks_ para realizar pentest em ambientes AWS
-
-### [BucketLoot](bucketloot.md)
-
-> Nesta aba você encontra informações sobre como utilizar a ferramenta _BucketLoot_
-
-### [Referências](referencias.md)
-
-> Referências úteis de informações relacionadas ao pentest em cloud
-
-
-
-
+<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>AWS</strong></td><td><a href="aws.md">aws.md</a></td></tr><tr><td><strong>BucketLoot</strong></td><td><a href="bucketloot.md">bucketloot.md</a></td></tr><tr><td><strong>Referências</strong></td><td><a href="referencias.md">referencias.md</a></td></tr></tbody></table>
 
 
 

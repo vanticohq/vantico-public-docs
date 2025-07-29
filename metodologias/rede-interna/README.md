@@ -1,32 +1,27 @@
+---
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: false
+  metadata:
+    visible: true
+---
+
 # Rede Interna
 
-### [PowerShell](powershell.md)
+Nesta aba iremos abordar sobre técnicas para pentest em ambientes de rede interna.
 
-> Nesta página você irá encontrar comandos para utilizar com o PoweShell&#x20;
 
-### [Movimentação Lateral](movimentacao-lateral.md)
 
-> Nesta aba contém técnicas para realizar uma Movimentação Lateral dentro da rede
-
-### [Pós Exploração](pos-exploracao.md)
-
-> Aqui você encontra informações para realizar uma Pós Exploração
-
-### [Escalação de Privilégios](escalacao-de-privilegios.md)
-
-> Nesta página você irá encontrar diversas dicas e técnicas para realizar uma Escalação de Privilégios com sucesso
-
-### [Low Hanging Fruits](low-hanging-fruits.md)
-
-> Aqui você encontra os testes inicias de um pentest de rede interna
-
-### [Credenciais de Serviços padrão](credenciais-de-servicos-padrao.md)
-
-> As credenciais de serviços padrão utilizadas em serviços mais comuns
-
-### [Referências](referencias.md)
-
-> Referências úteis de informações relacionadas ao pentest de rede interna
+<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Low Hanging Fruits</strong></td><td><a href="low-hanging-fruits.md">low-hanging-fruits.md</a></td></tr><tr><td><strong>PowerShell</strong></td><td><a href="powershell.md">powershell.md</a></td></tr><tr><td><strong>Movimentação lateral</strong></td><td><a href="movimentacao-lateral.md">movimentacao-lateral.md</a></td></tr><tr><td><strong>Pós Exploração</strong></td><td><a href="pos-exploracao.md">pos-exploracao.md</a></td></tr><tr><td><strong>Escalação de Privilégios</strong></td><td><a href="escalacao-de-privilegios.md">escalacao-de-privilegios.md</a></td></tr><tr><td><strong>Credenciais padrão</strong></td><td><a href="credenciais-de-servicos-padrao.md">credenciais-de-servicos-padrao.md</a></td></tr><tr><td><strong>Referências</strong></td><td><a href="referencias.md">referencias.md</a></td></tr></tbody></table>
 
 
 
