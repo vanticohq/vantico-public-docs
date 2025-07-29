@@ -100,6 +100,7 @@
 
 * [Metodologias de pentest](metodologias/README.md)
   * [API](metodologias/api/README.md)
+    * [Low Hanging Fruits](metodologias/metodologias-de-pentest/api/low-hanging-fruits.md)
     * [GraphQL](metodologias/api/graphql.md)
     * [REST](metodologias/api/rest.md)
   * [Cloud](metodologias/cloud/README.md)
