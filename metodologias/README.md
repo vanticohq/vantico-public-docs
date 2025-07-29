@@ -1,5 +1,22 @@
+---
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: false
+  metadata:
+    visible: true
+---
+
 # Metodologias de pentest
 
+Aqui você encontra em detalhes sobre a metodologia de cada um dos tipos de pentest.
 
-
-<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>API</strong></td><td><a href="api/">api</a></td></tr><tr><td><strong>Cloud</strong></td><td><a href="cloud/">cloud</a></td></tr><tr><td><strong>Mobile</strong></td><td><a href="mobile/">mobile</a></td></tr><tr><td><strong>Kubernetes</strong></td><td><a href="kubernetes.md">kubernetes.md</a></td></tr><tr><td><strong>Rede Externa</strong></td><td><a href="rede-externa/">rede-externa</a></td></tr><tr><td><strong>Rede Interna</strong></td><td><a href="rede-interna/">rede-interna</a></td></tr><tr><td><strong>Aplicações Web</strong></td><td><a href="aplicacoes-web/">aplicacoes-web</a></td></tr><tr><td><strong>Ferramentas</strong></td><td><a href="ferramentas.md">ferramentas.md</a></td></tr><tr><td><strong>Gerando wordlists efetivas</strong></td><td><a href="gerando-wordlists-efetivas.md">gerando-wordlists-efetivas.md</a></td></tr><tr><td><strong>VPN</strong></td><td><a href="metodologias-de-pentest/rede-externa/vpn.md">vpn.md</a></td></tr><tr><td><strong>Password spray</strong></td><td><a href="metodologias-de-pentest/password-spray.md">password-spray.md</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>API</strong></td><td><a href="api/">api</a></td></tr><tr><td><strong>Cloud</strong></td><td><a href="cloud/">cloud</a></td></tr><tr><td><strong>Mobile</strong></td><td><a href="mobile/">mobile</a></td></tr><tr><td><strong>Kubernetes</strong></td><td><a href="kubernetes.md">kubernetes.md</a></td></tr><tr><td><strong>Rede Externa</strong></td><td><a href="rede-externa/">rede-externa</a></td></tr><tr><td><strong>Rede Interna</strong></td><td><a href="rede-interna/">rede-interna</a></td></tr><tr><td><strong>Aplicações Web</strong></td><td><a href="aplicacoes-web/">aplicacoes-web</a></td></tr><tr><td><strong>Ferramentas</strong></td><td><a href="ferramentas.md">ferramentas.md</a></td></tr><tr><td><strong>Gerando wordlists efetivas</strong></td><td><a href="gerando-wordlists-efetivas.md">gerando-wordlists-efetivas.md</a></td></tr><tr><td><strong>Password spray</strong></td><td><a href="metodologias-de-pentest/password-spray.md">password-spray.md</a></td></tr></tbody></table>
