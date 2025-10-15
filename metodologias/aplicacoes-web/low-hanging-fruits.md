@@ -169,7 +169,11 @@ nuclei -u (domínio)
 
 <figure><img src="../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption><p>Figura: Resultado scan com Nuclei</p></figcaption></figure>
 
+Para um scan mais preciso podemos utilizar:
 
+```
+nuclei -u (domínio) -headless -sc -fr -rl 50
+```
 
 **Katana:**
 
