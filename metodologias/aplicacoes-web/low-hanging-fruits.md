@@ -199,7 +199,7 @@ katana -u (domínio)
 
 Trata-se de quando a aplicação **permite** que o usuário utilize senhas simples e fracas para cadastrar-se, fazendo com que a segurança da aplicação seja mais baixa.
 
-Uma boa política de senhas é aquela em que requer no mínimo 8 caracteres, caracteres especiais, letras maiúsculas e minúsculas... Tornando a senha mais complexa e mais difícil do atacante quebrar.
+Uma boa política de senhas é aquela em que requer no mínimo 10 caracteres, caracteres especiais, letras maiúsculas e minúsculas e números. Tornando a senha mais complexa e mais difícil do atacante quebrar.
 
 
 
@@ -417,7 +417,7 @@ Ferramentas úteis para auxiliar:
 
 ***
 
-> Página web armazenando credenciais sem criptografia
+> **Página web armazenando credenciais sem criptografia**
 
 Podemos validar essa vulnerabilidade ao entrar em algum arquivo de javascript presente, dessa maneira devemos buscar alguma credencial exposta em texto claro.
 
@@ -516,3 +516,19 @@ Validar se durante o processo de registro, é enviado algum e-mail de verificaç
 > **Invalidação da sessão após troca de senha**
 
 Verificar se ao trocar a senha do usuário a sessão é invalidada. Para testar basta: Capturar uma requisição autenticada, em seguida fazer a troca de senha da conta utilizada, depois repetir a requisição capturada.
+
+
+
+***
+
+> **Ausência de segundo fator de autenticação no procedimento de login**
+
+Quando realizado o login na aplicação a mesma deve haver a opção do usuário ativar o segundo fator de autenticação (MFA).
+
+
+
+***
+
+> **Exposição de metadados em imagens**
+
+Durante o upload de imagens, o sistema deve garantir a remoção dos metadados EXIF antes do armazenamento ou exibição do arquivo. Esses metadados podem conter informações sensíveis, como coordenadas GPS, modelo e marca do dispositivo, data e hora da captura, dados de software e outros detalhes capazes de comprometer a privacidade do usuário.

@@ -82,8 +82,10 @@ openssl s_client -connect (domínio.com):443 #GET / HTTP/1.0
 * [ ] Ausência de notifcação por login suspeito
 * [ ] Subdomínios apontando para IPs privados
 * [ ] CORS Misconfiguration
+* [ ] Ausência de segundo fator de autenticação no procedimento de login
 * [ ] Falta de e-mail de verificação no processo de registro
 * [ ] Invalidação da sessão após troca de senha
+* [ ] Exposição de metadados em imagens
 
 
 
