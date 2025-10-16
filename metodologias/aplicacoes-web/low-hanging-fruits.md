@@ -253,6 +253,28 @@ Verificar se há falhas no DMARC ou SPF do domínio.
 
 ***
 
+> **Sessão antiga não é invalidada após logout**
+
+Para testar essa vulnerabilidade, enquanto logado na aplicação, deve ser capturado requisição e em seguida realizado o logout, após isto, a requisição capturada anteriormente deve ser repetida a fim de identificar se a mesma ainda funciona ou se o token já foi invalidado.
+
+
+
+***
+
+> **Ausência de mecanismo contra força bruta**
+
+Essa vulnerabilidade deve ser testada em diferentes campos, como login, redefinição de senha e MFA.
+
+Login: Deve ser testado se há algum controle anti automação ao inserir o mesmo e-mail porém com diversas senhas em um curto período de tempo.
+
+Redefinição de senha: Verificar se possui algum mecanismo ao inserir diversos e-mails no campo.
+
+MFA: Validar se pode ser realizado ataques de força bruta no campo de código do MFA a fim de descobrir a combinação certa para realizar o bypass do mecanismo.
+
+
+
+***
+
 > **Uso de IDs sequenciais**
 
 Praticamente qualquer sistema moderno tem referências direta a objetos. Este comportamento faz com algumas aplicações utilizem IDs sequenciais, ou seja, se há um objeto de ID 5, o próximo será 6 e assim por diante.
@@ -268,6 +290,14 @@ Uma boa prática é a utilização de algoritmos modernos como _UUID v4_ para mi
 > **Upload irrestrito de arquivos**
 
 Algumas aplicações possuem funcionalidades de subir arquivos, seja para alterar a foto de perfil, enviar algum documento ou qualquer outra função, porém se a mesma não for sanitizada corretamente é possível fazer o upload de algum arquivo malicioso para realizar diversas ações não autorizadas dentro da aplicação, como abrir uma shell com um arquivo **.php,** executar um arquivo **.exe**, exploit _client-side based_ com um **.html**, etc.
+
+
+
+***
+
+> **Upload de arquivos sem limite de tamanho**
+
+Em alguma funcionalidade de upload de arquivos, deve ser enviado um arquivo com um tamanho maior do que o comum (1GB por exemplo), a fim de verificar se o mesmo vai ser realizado ou não o upload. O envio de um arquivo deste tamanho em algumas aplicações pode causar uma indisponibilidade temporária.
 
 
 
@@ -411,17 +441,9 @@ Verificar se o cookie de sessão possui a flag HttpOnly.
 
 ***
 
-> **Upload de arquivos**
-
-Testar se é possível subir uma extensão de arquivo diferente da qual a aplicação aceita, ex: caso aceite apenas .png, testar subir um .exe,. rar, etc.
-
-
-
-***
-
 > **Gerenciamento de patch insuficiente**
 
-Identificado a versão do produto, buscar CVEs relacionadas.
+Identificado a versão do produto, buscar CVEs relacionadas e o EndOfLife do produto ([https://endoflife.date/](https://endoflife.date/)).
 
 
 
@@ -478,3 +500,19 @@ Em um campo onde inserimos o e-mail e a partir dele é criado um token JWT (de a
 > **CORS Miconfiguration**
 
 Fazer verificações no CORS para validar se o mesmo está muito permissivo e se encontra vulnerável a ataques.
+
+
+
+***
+
+> **Falta de e-mail de verificação no processo de registro**
+
+Validar se durante o processo de registro, é enviado algum e-mail de verificação ao e-mail cadastrado.
+
+
+
+***
+
+> **Invalidação da sessão após troca de senha**
+
+Verificar se ao trocar a senha do usuário a sessão é invalidada. Para testar basta: Capturar uma requisição autenticada, em seguida fazer a troca de senha da conta utilizada, depois repetir a requisição capturada.
