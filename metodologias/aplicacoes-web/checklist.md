@@ -59,6 +59,7 @@ openssl s_client -connect (domínio.com):443 #GET / HTTP/1.0
 * [ ] Ausência de mecanismo contra força bruta
 * [ ] Uso de IDs sequenciais
 * [ ] Upload irrestrito de arquivos
+* [ ] Upload de arquivos sem limite de tamanho
 * [ ] Registro e monitoramento insuficiente de atividades
 * [ ] Negação de serviço através de múltiplas tentativas de login
 * [ ] Falta de validação na alteração de dados
@@ -81,6 +82,8 @@ openssl s_client -connect (domínio.com):443 #GET / HTTP/1.0
 * [ ] Ausência de notifcação por login suspeito
 * [ ] Subdomínios apontando para IPs privados
 * [ ] CORS Misconfiguration
+* [ ] Falta de e-mail de verificação no processo de registro
+* [ ] Invalidação da sessão após troca de senha
 
 
 
