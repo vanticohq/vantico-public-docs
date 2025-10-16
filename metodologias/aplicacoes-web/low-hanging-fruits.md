@@ -247,7 +247,9 @@ A mensagem correta que a aplicação deve retornar é de **"Usuário ou Senha In
 
 > **Falsificação de e-mails**
 
-Verificar se há falhas no DMARC ou SPF do domínio.
+Verificar se há falhas no DMARC ou SPF do domínio. Como por exemplo no DMARC, possuir algum valor no "p=" diferente de "reject;".
+
+Enquanto no SPF, caso possua "\~all" ao invés de "-all".
 
 
 
