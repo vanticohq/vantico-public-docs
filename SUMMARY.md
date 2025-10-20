@@ -133,6 +133,7 @@
     * [Técnicas](metodologias/aplicacoes-web/tecnicas.md)
     * [Automatizando o Scan por Secrets](metodologias/aplicacoes-web/automatizando-o-scan-por-secrets.md)
     * [Chaves API](metodologias/api/chaves-api.md)
+    * [Vulnerabilidades para compliance](metodologias/metodologias-de-pentest/aplicacoes-web/vulnerabilidades-para-compliance.md)
     * [Referências](metodologias/aplicacoes-web/referencias.md)
   * [Ferramentas](metodologias/ferramentas.md)
   * [Gerando wordlists efetivas](metodologias/gerando-wordlists-efetivas.md)
