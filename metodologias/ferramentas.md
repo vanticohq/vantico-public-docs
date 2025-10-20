@@ -81,3 +81,17 @@ Desta maneira conseguimos gerar o scan do Nmap em um arquivo CSV.
 
 Uma extensão do Burp Suite que permite a definição e reutilização de variáveis, como tokens de sessão e identificadores mutáveis, em requisições HTTP durantes os testes realizados. Ela automatiza a atualização dessas variáveis conforme seus valores mudam, economizando tempo e reduzindo erros manuais comuns ao manipular os dados em múltiplas requisições.
 
+#### [MailSniper](https://github.com/dafthack/MailSniper)
+
+É uma ferramenta utilizada para pesquisas de termos específicos como senhas, informações sobre arquitetura, e outras informações, através de um ambiente Microsoft Exchange.
+
+A ferramenta também conta com módulos de password spray, enumeração de usuários  e domínios.
+
+#### [MFASweep](https://github.com/dafthack/MFASweep)
+
+Uma ferramenta desenvolvida com o intuito de verificar se o MFA está habilitado em múltiplos serviços da Microsoft.
+
+#### [GraphRunner](https://github.com/dafthack/GraphRunner?tab=readme-ov-file)
+
+Um conjunto de ferramentas utilizadas para pós-exploração, que realiza reconhecimento, persistência e busca de dados de uma conta Microsoft Entra ID (AD Azure) através da API Microsoft Graph.
+
