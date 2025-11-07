@@ -54,7 +54,7 @@ Em que "(nome\_da\_pasta)" é a pasta que a ferramente irá criar com o arquivo 
 
 Depois de rodar esta ferramenta, iremos visualizar o frontend completo desta maneira:
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Figura: Frontend divido em diretórios</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Figura: Frontend divido em diretórios</p></figcaption></figure>
 
 Assim iremos ver de forma mais simples e organizada toda a estrutura frontend da aplicação e podemos examinar diversas coisas, como: se possui comentários do Dev sobre senhas, API,  o que aquilo faz e entender melhor sobre a estrutura.
 
@@ -76,7 +76,7 @@ Vários hackers de roubo de informações de alto nível (em particular contra a
 
 **Exemplo:**
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption><p>Figura: Exemplo correto com SHA384</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption><p>Figura: Exemplo correto com SHA384</p></figcaption></figure>
 
 **Segue o código abaixo:**
 
@@ -147,7 +147,7 @@ nmap -Pn -sS -p- (endereço)
 
 
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption><p>Figura: Resultado scan NMAP</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption><p>Figura: Resultado scan NMAP</p></figcaption></figure>
 
 
 
@@ -167,7 +167,7 @@ Nuclei é usado para enviar requisições entre os alvos baseado em um **templat
 nuclei -u (domínio)
 ```
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption><p>Figura: Resultado scan com Nuclei</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Figura: Resultado scan com Nuclei</p></figcaption></figure>
 
 Para um scan mais preciso podemos utilizar:
 
@@ -189,7 +189,7 @@ katana -u (domínio)
 
 
 
-<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p>Figura: Resultado scan com Katana</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption><p>Figura: Resultado scan com Katana</p></figcaption></figure>
 
 
 

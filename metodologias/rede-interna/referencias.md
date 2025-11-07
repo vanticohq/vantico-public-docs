@@ -23,7 +23,7 @@ Ataques para executar em ambientes AD
 
 [PowerHuntShares](https://www.netspi.com/blog/technical-blog/network-pentesting/powerhuntshares-2-0-release/)
 
-Pingcastle
+[Pingcastle](https://github.com/netwrix/pingcastle)
 
 [https://github.com/Mazars-Tech/AD\_Miner](https://github.com/Mazars-Tech/AD_Miner)
 
