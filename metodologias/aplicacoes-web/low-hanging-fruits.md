@@ -117,7 +117,7 @@ ssllabs.com/ssltest/
 
 > **Vulnerabilidade da Versão do Server**
 
-Ocorre quando a aplicação divulga informações que podem ajudar um atacante, como a **versão do server** que é utilizada, em que através desta informação, pode-se buscar um exploit para aquela versão e depois utilizar-se deste exploit para fazer a invasão.
+Ocorre quando a aplicação divulga informações que podem ajudar um atacante, como a **versão do server** que é utilizada, em que através desta informação, através dessa informação, deve ser realizado uma busca pelo [endoflife](https://endoflife.date/) do serviço e se o mesmo possui vulnerabilidades conhecidas (CVEs).
 
 Podemos ver no exemplo abaixo, uma aplicação em que divulga a informação da versão do server (nginx 1.18):
 
