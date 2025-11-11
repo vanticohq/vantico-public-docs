@@ -16,7 +16,7 @@ Inicialmente você irá configurá-lo da seguinte maneira:
 
 Em _Session_, você irá adicionar o IP da sua máquina com a porta 22;
 
-<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption><p>Figura: Session</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9) (1).png" alt=""><figcaption><p>Figura: Session</p></figcaption></figure>
 
 
 
