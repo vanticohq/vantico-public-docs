@@ -10,14 +10,11 @@ As revisões de código seguro são um tipo especializado de engajamento que nã
 
 | Recurso                         | Descrição                                                                                                                                        |
 | ------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Números de créditos             | A partir de 40                                                                                                                                   |
 | Números de testes               | A depender do escopo                                                                                                                             |
 | Reteste                         | Sim                                                                                                                                              |
 | Data de início mais cedo        | A data de início mais cedo será baseada na disponibilidade. Datas de início típicas de 3 a 5 datas úteis após o teste ser enviado para In Review |
 | Duração do teste                | Normalmente entre 8 e 20 dias, dependendo do escopo. A duração exata será finalizada assim que for movido para Planejado.                        |
 | Data de vencimento do relatório | 5 dias úteis após a data de término do teste. O relatório será entregue como PDF na seção Relatório da plataforma                                |
-
-
 
 **Detalhes da Metodologia**
 
@@ -59,8 +56,6 @@ As seis fases para SCA são:
 > * Sonatype
 > * Jfrog Xray
 
-
-
 **Teste de segurança de aplicativos estáticos**
 
 A Vantico utiliza ferramentas Static Application Security Testing (SAST) ao executar revisões de código seguras, o que auxilia nos esforços manuais ao procurar padrões em grandes bases de código. Um benefício do uso de ferramentas SAST é que elas ajudam a identificar todas as instâncias da vulnerabilidade no aplicativo. Algumas descobertas comuns encontradas com uma ferramenta SAST são:
@@ -84,8 +79,6 @@ A Vantico utiliza ferramentas Static Application Security Testing (SAST) ao exec
 > * Snyk
 > * SonarQube
 > * Veracode
-
-
 
 **Revisão manual da lógica de negócios**
 

@@ -10,20 +10,12 @@ Uma Avaliação de Risco Digital (DRA) é um processo sistemático para identifi
 
 A Avaliação de Risco Digital é um tipo de envolvimento fora do nosso **Pentesting as a Service** padrão. Consulte o gráfico abaixo para obter detalhes de uma avaliação de risco digital.
 
-
-
-| Recurso                                         | Descrição                                                                                                                                             |
-| ----------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Número de Créditos                              | A partir de 60                                                                                                                                        |
-| Números de Analistas                            |                                                                                                                                                       |
-| Re-Test                                         | Sim, de acordo com rank de crédito                                                                                                                    |
-| Data de Início mais cedo                        | A data de início será baseada na disponibilidade. Datas de início tipicamente são de 3 a 5 dias úteis, uma vez que o teste é enviado para **Revisão** |
-| Duração do Teste                                | Tipicamente 10 dias. Uma vez que finalizado o teste, é movido para **Planejado**                                                                      |
-| Data da entrega do Relatório                    | 5 dias úteis após o perído de testes finalizar. O relatório será entregue em PDF dentro da seção **Relatórios** na plataforma                         |
-| Kick off call (Reunião Inicial)                 | Não incluso                                                                                                                                           |
-| Debrief Call (Reunião Pós Conlcusão do Projeto) | Não incluso                                                                                                                                           |
-
-
+| Recurso                      | Descrição                                                                                                                                             |
+| ---------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Re-Test                      | Sim, de acordo com rank de crédito                                                                                                                    |
+| Data de Início mais cedo     | A data de início será baseada na disponibilidade. Datas de início tipicamente são de 3 a 5 dias úteis, uma vez que o teste é enviado para **Revisão** |
+| Duração do Teste             | Tipicamente 10 dias. Uma vez que finalizado o teste, é movido para **Planejado**                                                                      |
+| Data da entrega do Relatório | 5 dias úteis após o perído de testes finalizar. O relatório será entregue em PDF dentro da seção **Relatórios** na plataforma                         |
 
 **Detalhes da Metodologia**
 

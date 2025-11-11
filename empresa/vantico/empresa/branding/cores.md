@@ -4,7 +4,7 @@ Nosso logotipo principal é usado nas versões Light & Dark para garantir a legi
 
 
 
-<figure><img src="../../.gitbook/assets/paleta de cores (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/paleta de cores (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -20,27 +20,27 @@ Use CMYK para qualquer design de projeto que será impresso fisicamente, e não 
 
 ## :white\_check\_mark:Utilize as cores indicadas pela Vantico e com alto contraste
 
-<figure><img src="../../.gitbook/assets/vantico-post-grandes-violações (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/vantico-post-grandes-violações (1).png" alt=""><figcaption></figcaption></figure>
 
 ## :x:Não use cores com baixo contraste, nem combinações de cores não indicadas pela Vantico
 
-<figure><img src="../../.gitbook/assets/vantico-post-grandes-violações-errado.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/vantico-post-grandes-violações-errado.png" alt=""><figcaption></figcaption></figure>
 
 ## :white\_check\_mark:Utilize a fonte correta indicada pela Vantico
 
-<figure><img src="../../.gitbook/assets/post-vantico-rfp (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/post-vantico-rfp (2).png" alt=""><figcaption></figcaption></figure>
 
 ## :x:Não utilize outras fontes
 
-<figure><img src="../../.gitbook/assets/post-vantico-rfp-errado (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/post-vantico-rfp-errado (2).png" alt=""><figcaption></figcaption></figure>
 
 ## :white\_check\_mark:Dê prioridade para elementos e background minimalistas, que permitam a leitura. Utilize cores com contraste.
 
 \
 
 
-<figure><img src="../../.gitbook/assets/vantico-post-segurança-de-aplicações (2) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/vantico-post-segurança-de-aplicações (2) (2).png" alt=""><figcaption></figcaption></figure>
 
 ## :x:Não utilize elementos e backgrounds que prejudiquem a leitura ou sejam maximalistas. Não utilize cores com baixo contraste.
 
-<figure><img src="../../.gitbook/assets/vantico-post-segurança-de-aplicações-errado (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/vantico-post-segurança-de-aplicações-errado (1).png" alt=""><figcaption></figcaption></figure>

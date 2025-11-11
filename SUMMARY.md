@@ -5,16 +5,16 @@
 ## Empresa
 
 * [Vantico](empresa/vantico/README.md)
-  * [Empresa](empresa/README.md)
   * [Bem Vindo a Vantico!](empresa/bem-vindo-a-vantico.md)
+  * [Empresa](empresa/vantico/empresa/README.md)
+    * [Branding](empresa/vantico/empresa/branding/README.md)
+      * [Cores](empresa/vantico/empresa/branding/cores.md)
+      * [Tipografia](empresa/vantico/empresa/branding/tipografia.md)
+      * [Ilustrações](empresa/vantico/empresa/branding/ilustracoes.md)
+      * [Tom de voz & Descrições](empresa/vantico/empresa/branding/tom-de-voz-and-descricoes.md)
+  * [Políticas](empresa/politicas.md)
   * [Valores da Vantico](empresa/valores-da-vantico.md)
   * [Trabalho Remoto](empresa/trabalho-remoto.md)
-  * [Branding](empresa/branding/README.md)
-    * [Cores](empresa/branding/cores.md)
-    * [Tipografia](empresa/branding/tipografia.md)
-    * [Ilustrações](empresa/branding/ilustracoes.md)
-    * [Tom de voz & Descrições](empresa/branding/tom-de-voz-and-descricoes.md)
-  * [Políticas](empresa/politicas.md)
   * [Soluções utilizadas pela Vantico](empresa/solucoes-utilizadas-pela-vantico.md)
 
 ## Serviços
@@ -32,7 +32,6 @@
   * [Pentest Desktop](servicos/pentest-desktop.md)
   * [Pentest IA/LLM](servicos/pentest-ia-llm.md)
   * [Red Team e Emulação de Adversário](servicos/red-team-e-emulacao-de-adversario.md)
-  * [Guia de engajamento de um pentest](servicos/guia-de-engajamento-de-um-pentest.md)
   * [Spear Phishing](servicos/spear-phishing.md)
 
 ## Parceiros
@@ -43,13 +42,13 @@
   * [Relatório do Pentest](parceiros/relatorio-do-pentest.md)
   * [Teste de correção (Re-test)](parceiros/teste-de-correcao-re-test.md)
   * [Pentest para PCI DSS](parceiros/pentest-para-pci-dss.md)
-  * [Perguntas frequentes](parceiros/perguntas-frequentes.md)
 
 ## Pentester
 
 * [Pentester](pentester/README.md)
   * [Markdown](pentester/markdown.md)
   * [Como reportar uma vulnerabilidade](pentester/como-reportar-uma-vulnerabilidade.md)
+  * [Guia de engajamento de um pentest](pentester/pentester/guia-de-engajamento-de-um-pentest.md)
 
 ## Plataforma
 
@@ -85,10 +84,6 @@
     * [Gerenciar colaboradores do Pentest](plataforma/mais-a-fundo-na-plataforma/colaboracao/gerenciar-colaboradores-do-pentest.md)
     * [Funções e permissões do usuário](plataforma/mais-a-fundo-na-plataforma/colaboracao/funcoes-e-permissoes-do-usuario.md)
     * [Notificações](plataforma/mais-a-fundo-na-plataforma/colaboracao/notificacoes.md)
-  * [Domínios](plataforma/mais-a-fundo-na-plataforma/dominios.md)
-  * [DAST Scanner](plataforma/mais-a-fundo-na-plataforma/dast-scanner/README.md)
-    * [Alvos](plataforma/mais-a-fundo-na-plataforma/dast-scanner/alvos.md)
-    * [Autenticação do Alvo](plataforma/mais-a-fundo-na-plataforma/dast-scanner/autenticacao-do-alvo.md)
   * [Organização](plataforma/mais-a-fundo-na-plataforma/organizacao/README.md)
     * [Gerenciar usuários](plataforma/mais-a-fundo-na-plataforma/organizacao/gerenciar-usuarios.md)
   * [Conta Vantico](plataforma/mais-a-fundo-na-plataforma/conta-vantico/README.md)

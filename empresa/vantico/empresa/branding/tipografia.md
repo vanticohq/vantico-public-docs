@@ -14,7 +14,7 @@ Nós o recusamos em estilos diferentes para criar uma hierarquia visual em nosso
 
 ## Estilo de fonte
 
-<figure><img src="../../.gitbook/assets/fonte - roboto bold (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/fonte - roboto bold (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 Variante: **Poppins Bold**
 
@@ -26,13 +26,13 @@ Sempre use Roboto em negrito para seus títulos! Se precisar destacar uma palavr
 
 
 
-<figure><img src="../../.gitbook/assets/fonte - roboto regular (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/fonte - roboto regular (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 
 
 
 
-<figure><img src="../../.gitbook/assets/fonte - roboto light.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/fonte - roboto light.png" alt="" width="375"><figcaption></figcaption></figure>
 
 
 
@@ -45,7 +45,7 @@ Sempre use Roboto em negrito para seus títulos! Se precisar destacar uma palavr
 \
 
 
-<figure><img src="../../.gitbook/assets/fonte - roboto black.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/fonte - roboto black.png" alt="" width="375"><figcaption></figcaption></figure>
 
 
 
