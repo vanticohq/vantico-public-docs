@@ -115,9 +115,6 @@ Quando um cliente inicia sua jornada com a Vantico, adicionamos um proprietário
 | Veja o livro de créditos                                                                                     | ✓                     | ✓                   |
 | Ver a página Insights                                                                                        | ✓                     | ✓                   |
 | Gerenciar usuários de uma organização                                                                        | —                     | ✓                   |
-| Criar e gerenciar grupos                                                                                     | —                     | ✓                   |
-| Gerencie as configurações de segurança de uma organização: autenticação de dois fatores                      | —                     | ✓                   |
-| Habilite relatórios de marca conjunta (para parceiros Vantico)                                               | —                     | ✓                   |
 
 
 
