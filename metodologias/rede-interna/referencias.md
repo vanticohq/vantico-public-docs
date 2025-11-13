@@ -13,6 +13,12 @@ Ataques para executar em ambientes AD
 
 [Beyond the MCSE: Red Teaming Active Directory (adsecurity.org)](https://adsecurity.org/wp-content/uploads/2016/08/DEFCON24-2016-Metcalf-BeyondTheMCSE-RedTeamingActiveDirectory.pdf)
 
+[DNS Server Dynamic Update Record Injection](https://www.virtuesecurity.com/kb/dns-server-dynamic-update-record-injection/)
+
+[Integrated DNS](https://www.netspi.com/blog/technical-blog/network-pentesting/exploiting-adidns/)
+
+[AD-Pentest Methodology](https://www.vaadata.com/blog/active-directory-pentesting-objective-methodology-black-box-and-grey-box-tests/)
+
 [PlumHound](https://github.com/PlumHound/PlumHound)
 
 [AD-Attacks](https://github.com/AD-Attacks/Active-Directory-Penetration-Testing)
@@ -36,4 +42,6 @@ Ataques para executar em ambientes AD
 [Impacket](https://github.com/fortra/impacket)
 
 [CredsMaster](https://github.com/knavesec/CredMaster)
+
+[Certify](https://github.com/GhostPack/Certify)
 
