@@ -43,17 +43,20 @@ openssl s_client -connect (domínio.com):443 #GET / HTTP/1.0
 
 **Low Hanging Fruit**
 
-* [ ] Ausência de Header
+* [ ] Ausência de cabeçalho
+* [ ] Uso de cabeçalho depreciado
 * [ ] Js.map
 * [ ] Integrity
 * [ ] SSL/TLS
-* [ ] Vulnerabilidade da Versão do Server
-* [ ] Portas Abertas
+* [ ] Vulnerabilidade da versão do server
+* [ ] Possibilidade de clickjacking
+* [ ] Portas abertas
 * [ ] Nuclei / Katana
-* [ ] Política de Senhas Permissivas
-* [ ] Mensagem de Erros
+* [ ] Fuzzuli
+* [ ] Política de senhas permissivas
+* [ ] Mensagem de erros
 * [ ] Utilizar bibliotecas JavaScript desatualizadas
-* [ ] Enumeração de Usuário
+* [ ] Enumeração de usuários
 * [ ] Falsificação de e-mails
 * [ ] Sessão antiga não é inválida após o logout
 * [ ] Ausência de mecanismo contra força bruta
@@ -67,14 +70,21 @@ openssl s_client -connect (domínio.com):443 #GET / HTTP/1.0
 * [ ] Validação de registro de dados pessoais
 * [ ] Invalidação do link de redefinição de senha
 * [ ] Host header injection
+* [ ] Exposição de chaves API
 * [ ] Flood de e-mail por meio de redefinição de senha
 * [ ] Redirecionamento HTTP para HTTPS
 * [ ] Acesso via IP diretamente
 * [ ] Aplicação mostrando hash de senhas
+* [ ] Páginas do WordPress padrão disponíveis
+* [ ] Plugins do WordPress desatualizados
 * [ ] Verificações no JWT
+* [ ] Negação de serviço com JWT
+* [ ] Força bruta na assinatura JWT
 * [ ] Página web armazenando credenciais sem criptografia
 * [ ] Cookie de sessão sem a flag Secure habilitada
 * [ ] Cookie de sessão sem a flag HttpOnly habilitada
+* [ ] Cookie com tamanho maior que 4096 bytes
+* [ ] Listagem de diretórios
 * [ ] Gerenciamento de patch insuficiente
 * [ ] Ausência do arquivo robots.txt
 * [ ] Ausência de WAF
@@ -86,6 +96,11 @@ openssl s_client -connect (domínio.com):443 #GET / HTTP/1.0
 * [ ] Falta de e-mail de verificação no processo de registro
 * [ ] Invalidação da sessão após troca de senha
 * [ ] Exposição de metadados em imagens
+* [ ] Roubo de conta através de redefinição de senha
+* [ ] Ausência de notificação para redirecionamento externo
+* [ ] Verificação se o usuário pode alterar a senha
+* [ ] Token de sessão passado via GET
+* [ ] Aplicação sem mecanismo de logout
 
 
 
