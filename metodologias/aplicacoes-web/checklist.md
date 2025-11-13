@@ -77,6 +77,7 @@ openssl s_client -connect (domínio.com):443 #GET / HTTP/1.0
 * [ ] Aplicação mostrando hash de senhas
 * [ ] Páginas do WordPress padrão disponíveis
 * [ ] Plugins do WordPress desatualizados
+* [ ] Enumeração de usuários via endpoint WordPress
 * [ ] Verificações no JWT
 * [ ] Negação de serviço com JWT
 * [ ] Força bruta na assinatura JWT

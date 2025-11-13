@@ -4,7 +4,7 @@
 
 ***
 
-> **Ausência de Header**
+> **Ausência de cabeçalho**
 
 Toda vulnerabilidade que envolve a **ausência de cabeçalhos ("header")** deve ser adicionada **separadamente** para cada cabeçalho ausente presente no escopo.
 
@@ -534,3 +534,162 @@ Quando realizado o login na aplicação a mesma deve haver a opção do usuário
 > **Exposição de metadados em imagens**
 
 Durante o upload de imagens, o sistema deve garantir a remoção dos metadados EXIF antes do armazenamento ou exibição do arquivo. Esses metadados podem conter informações sensíveis, como coordenadas GPS, modelo e marca do dispositivo, data e hora da captura, dados de software e outros detalhes capazes de comprometer a privacidade do usuário.
+
+
+
+***
+
+> **Uso de cabeçalho depreciado**
+
+Verificar se a aplicação apresenta cabeçalhos depreciados, como X-Frame-Options, X-XSS-Protection ou Feature-Policy.&#x20;
+
+Essa validação pode ser feita em conjunto com a identificação da ausência de cabeçalhos.
+
+
+
+***
+
+> **Divulgação de informações no cabeçalho HTTP**
+
+Outra vulnerabilidade sobre cabeçalhos, esta no caso é quando a aplicação divulga informações como tecnologias, server, no cabeçalho HTTP. Em alguns casos é encontrado como:
+
+_Server: Apache/2.4.52 (Ubuntu)_
+
+
+
+***
+
+> **Fuzzuli**
+
+Fuzzuli é uma ferramenta utilizada para buscar arquivos de backup presentes na aplicação.
+
+Pode ser utilizada com o seguinte comando:\
+&#xNAN;_&#x63;at alvos.txt | fuzzuli -mt all_
+
+Para mais informações, consulte [Fuzzuli](https://github.com/musana/fuzzuli).
+
+
+
+***
+
+> **Roubo  de conta via redefinição de senha**
+
+Em um campo de redefinição de senha, podemos testar algumas combinações com o intuito de o link de redefinição de senha ou código ser enviado para ambos os usuários (usuário válido e atacante). Algumas das formas são.
+
+Requisição original:
+
+_{"email":"vitima@pentest.com"}_
+
+Requisição modificada:
+
+_{"email":\["vitima@pentest.com","pentester@pentest.com"]}_
+
+Dessa forma, caso vulnerável o e-mail de redefinição será enviado para a vítima e para o atacante.
+
+
+
+***
+
+> **Força bruta na assinatura do token JWT**
+
+Caso a aplicação possua tokens JWT, o mesmo deve ser copiado e enviado para tentar quebrá-lo, a fim de obter o valor do _secret_ e assim poder forjar tokens.
+
+Para quebrar podemos utilizar o _hashcat_, seguindo o formato a seguir.
+
+_hashcat -a 0 -m 16500 token.txt wordlist.txt_&#x20;
+
+
+
+***
+
+> **Exposição de chaves API**
+
+Há casos em que dentro de arquivos JavaScript podem ser encontrados credenciais, chaves API e outras informações interessantes, deve sempre verificar estes arquivos.
+
+
+
+***
+
+> **Plugins do WordPress desatualizados**
+
+Alguns plugins do WordPress quando desatualizados podem comprometer a aplicação devido a vulnerabilidades conhecidas, para isto, pode ser feito a validação manualmente ou com ferramentas como o [wpscan](https://github.com/wpscanteam/wpscan) para identificar plugins desatualizados.
+
+
+
+***
+
+> **Páginas padrão do WordPress**
+
+Algumas páginas do WordPress são padrão e caso não removidas / restringidas, podem auxiliar o processo de reconhecimento, em alguns casos demonstrando a versão utilizada.
+
+Algumas dessas páginas são:
+
+_/readme.txt_
+
+_/license.txt_
+
+_/wp-admin/upgrade.php_
+
+_/wp-admin/install.php_
+
+
+
+***
+
+> **Enumeração de usuários via endpoint WordPress**
+
+O WordPress possui diretórios padrões que permitem a enumeração de usuários válidos da aplicação, sendo eles:
+
+_/wp-json/wp/v2/users_
+
+_/wp-json/wp/v2/users/1_
+
+_/wp-json/oembed/1.0/embed?url=https://{URL.com}_
+
+
+
+***
+
+> **Tamanho do cookie maior que 4096 bytes**
+
+Cookies com valores maior de que 4096 bytes podem ocasionar negação de serviço no servidor.
+
+
+
+***
+
+> **Listagem de diretórios**
+
+Para validar essa vulnerabilidade, basta abrir alguma imagem e voltar um diretório. Também é possível caso enumerado alguns diretórios tentar fazer o acesso direto.
+
+
+
+***
+
+> **Falta de aviso para redirecionamento externo**
+
+Qualquer redirecionamento externo que a aplicação realizar com o usuário, deve haver uma notificação precedida a ação.
+
+
+
+***
+
+> **Verificação se o usuário pode alterar a senha**
+
+Deve ser validado se o usuário pode alterar sua própria senha.
+
+
+
+***
+
+> **Token de sessão passado via GET**
+
+Verificar se em alguma requisição o token de sessão é enviado via GET, ou seja, junto com a URL.
+
+
+
+***
+
+> **Aplicação sem mecanismo de logout**
+
+A aplicação deve possuir um mecanismo claro que possibilite o usuário encerrar sua sessão.
