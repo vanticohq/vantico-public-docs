@@ -22,7 +22,7 @@ Exemplo de como deve ser evidenciado a Ausência do Header:
 
 Por **padrão** os Headers são reportados pelas seguintes severidades:
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p>Figura: Severidade de cada cabeçalho</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>Figura: Severidade de cada cabeçalho</p></figcaption></figure>
 
 Isto é apenas uma **indicação**, porém a severidade de cada cabeçalho deve ser indicado mediante o **impacto** que ele traz ao ambiente testado.
 
@@ -52,7 +52,7 @@ Em que "(nome\_da\_pasta)" é a pasta que a ferramente irá criar com o arquivo 
 
 Depois de rodar esta ferramenta, iremos visualizar o frontend completo desta maneira:
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Figura: Frontend divido em diretórios</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Figura: Frontend divido em diretórios</p></figcaption></figure>
 
 Assim iremos ver de forma mais simples e organizada toda a estrutura frontend da aplicação e podemos examinar diversas coisas, como: se possui comentários do Dev sobre senhas, API,  o que aquilo faz e entender melhor sobre a estrutura.
 
@@ -145,7 +145,7 @@ nmap -Pn -sS -p- (endereço)
 
 
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Figura: Resultado scan NMAP</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Figura: Resultado scan NMAP</p></figcaption></figure>
 
 
 
@@ -165,7 +165,7 @@ Nuclei é usado para enviar requisições entre os alvos baseado em um **templat
 nuclei -u (domínio)
 ```
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Figura: Resultado scan com Nuclei</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Figura: Resultado scan com Nuclei</p></figcaption></figure>
 
 Para um scan mais preciso podemos utilizar:
 
@@ -182,7 +182,7 @@ nuclei -u (domínio) -headless -sc -fr -rl 50
 **Exemplo de como utilizar:**
 
 ```
-katana -u (domínio)
+katana -u (domínio) -jc -jsl
 ```
 
 
