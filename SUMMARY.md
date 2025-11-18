@@ -97,6 +97,7 @@
     * [Checklist](metodologias/metodologias-de-pentest/api/checklist.md)
     * [GraphQL](metodologias/api/graphql.md)
     * [REST](metodologias/api/rest.md)
+    * [Referências](metodologias/metodologias-de-pentest/api/referencias.md)
   * [Cloud](metodologias/cloud/README.md)
     * [AWS](metodologias/cloud/aws.md)
     * [BucketLoot](metodologias/cloud/bucketloot.md)
