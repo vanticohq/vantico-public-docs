@@ -24,18 +24,15 @@ Misconfig Mapper&#x20;
 
 {% embed url="https://bugology.intigriti.io/misconfig-mapper-docs" %}
 
-```
-Misconfig Mapper - A tool for identifying misconfigured CloudFront domains
-https://bugology.intigriti.io/misconfig-mapper-docs
-```
-
 > CloudFrunt
 
 * [https://github.com/MindPointGroup/cloudfrunt](https://github.com/MindPointGroup/cloudfrunt)
 
 
 
-CloudFrunt - A tool for identifying misconfigured CloudFront domains
+> CloudFrunt - A tool for identifying misconfigured CloudFront domains
+
+[https://github.com/MindPointGroup/cloudfrunt](https://github.com/MindPointGroup/cloudfrunt)
 
 {% embed url="https://github.com/MindPointGroup/cloudfrunt" %}
 
