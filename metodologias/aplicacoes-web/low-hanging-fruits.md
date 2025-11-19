@@ -48,7 +48,7 @@ https://example.com/assets/UserNameComplete-d6c0c7fc8bc309d9b022.js.map
 (nome_da_pasta)
 ```
 
-Em que "(nome\_da\_pasta)" é a pasta que a ferramente irá criar com o arquivo js.map.
+Em que "(nome\_da\_pasta)" é a pasta que a ferramenta irá criar com o arquivo js.map.
 
 Depois de rodar esta ferramenta, iremos visualizar o frontend completo desta maneira:
 
