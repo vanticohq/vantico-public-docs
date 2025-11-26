@@ -36,8 +36,7 @@ Use CMYK para qualquer design de projeto que será impresso fisicamente, e não 
 
 ## :white\_check\_mark:Dê prioridade para elementos e background minimalistas, que permitam a leitura. Utilize cores com contraste.
 
-\
-
+<br>
 
 <figure><img src="../../../../.gitbook/assets/vantico-post-segurança-de-aplicações (2) (2).png" alt=""><figcaption></figcaption></figure>
 

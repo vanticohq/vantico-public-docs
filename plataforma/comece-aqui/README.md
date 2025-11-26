@@ -50,13 +50,11 @@ Entre na Vantico, e comece a definir seus ativos. Aqui há algumas etapas que vo
 6. Planeje e defina o teste. Defina a data de início desejada para o pentest e especifique o escopo do pentest. Precisamos de tempo para encontrar os melhores pentesters disponíveis para seus ativos.
 7. Revise sua solicitação de pentest para garantir que você tenha incluído todas as informações necessárias para nossos pentesters.
 
-Uma vez que você tenha configurado um pentest, começamos a analisar seu ativo. Quando possível, compartilhamos os resultados antes mesmo de criar o relatório. Aqui está o que você pode esperar.\
+Uma vez que você tenha configurado um pentest, começamos a analisar seu ativo. Quando possível, compartilhamos os resultados antes mesmo de criar o relatório. Aqui está o que você pode esperar.<br>
 
 
 
-
-**Perguntas Frequentes**\
-
+**Perguntas Frequentes**<br>
 
 * **O que é uma organização?**
 
@@ -85,18 +83,15 @@ Se você precisar de ajuda, não hesite em entrar em contato conosco.
 * Se você tiver um Gerente para o Cliente Designado, entre em contato com ele.
 * Caso contrário, envie um ticket ou envie um e-mail para [support@vantico.com.br](mailto:support@vantico.com.br)
 
-Processamos solicitações de suporte dentro de um dia útil.\
+Processamos solicitações de suporte dentro de um dia útil.<br>
 
-
-Se você encontrar um problema de segurança na plataforma Vantico, por favor, reporte para [support@vantico.com.br](mailto:support@vantico.com.br). Saiba mais sobre nossas práticas de segurança.\
-
+Se você encontrar um problema de segurança na plataforma Vantico, por favor, reporte para [support@vantico.com.br](mailto:support@vantico.com.br). Saiba mais sobre nossas práticas de segurança.<br>
 
 
 
 **Preparação para Pentest Checklist**
 
-Informações necessárias para configurar seu Pentest\
-
+Informações necessárias para configurar seu Pentest<br>
 
 **Entrar na Vantico**
 
@@ -126,15 +121,13 @@ Defina os Requisitos do Pentest
 \
 **Especifique os detalhes do Pentest**
 
-Descreve os detalhes chaves de seu Pentest\
-
+Descreve os detalhes chaves de seu Pentest<br>
 
 **Planejar e Definir o Escopo do Pentest**
 
 Estabeleça um cronograma. Definir o escopo do&#x20;
 
-Pentest.\
-
+Pentest.<br>
 
 **Revisar e Enviar o Pentest**
 
@@ -144,8 +137,7 @@ Revisar seu pedido de Pentest
 
 **Expectativas do Pentest**
 
-O que acontece depois de planejar seu Pentest\
-
+O que acontece depois de planejar seu Pentest<br>
 
 **Glossário**
 

@@ -42,8 +42,7 @@ Sempre use Roboto em negrito para seus títulos! Se precisar destacar uma palavr
 
 
 
-\
-
+<br>
 
 <figure><img src="../../../../.gitbook/assets/fonte - roboto black.png" alt="" width="375"><figcaption></figcaption></figure>
 
@@ -57,6 +56,5 @@ O que não fazer
 
 :x:Utilizar outras variações da fonte
 
-\
-
+<br>
 

@@ -19,8 +19,7 @@ Nosso logotipo principal é usado nas versões Light & Dark para garantir a legi
 
 **Light version**
 
-Esta é a versão preferida do nosso logotipo. Esta é a sua escolha se você tiver um fundo claro.\
-
+Esta é a versão preferida do nosso logotipo. Esta é a sua escolha se você tiver um fundo claro.<br>
 
 <div><figure><img src="../../../../.gitbook/assets/logo azul fundo branco (1).png" alt=""><figcaption></figcaption></figure> <figure><img src="../../../../.gitbook/assets/logo branco fundo azul escuro (1).png" alt=""><figcaption></figcaption></figure> <figure><img src="../../../../.gitbook/assets/logo branco fundo preto (1).png" alt=""><figcaption></figcaption></figure> <figure><img src="../../../../.gitbook/assets/logo preto fundo branco (1).png" alt=""><figcaption></figcaption></figure></div>
 

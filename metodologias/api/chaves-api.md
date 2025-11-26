@@ -6,8 +6,7 @@ Porém muitas vezes essas chaves API (que são um componente que deve ser privad
 
 
 
-Para validar uma chave API encontrada há diversos meios variando para qual tipo de API ela funciona, por exemplo:\
-
+Para validar uma chave API encontrada há diversos meios variando para qual tipo de API ela funciona, por exemplo:<br>
 
 * Google Maps:
 

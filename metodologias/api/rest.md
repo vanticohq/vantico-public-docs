@@ -23,15 +23,14 @@ JSON Parameter Pollution\
 
 #### &#x20;POST /api/get\_profile
 
-#### Content-Type: application/json {“user\_id”:\<attacker\_id>,”user\_id”:\<victim’s\_id>} 
+#### Content-Type: application/json {“user\_id”:\<attacker\_id>,”user\_id”:\<victim’s\_id>}<br>
 
 ***
 
 **HTTP Parameter Pollution**
 
 \
-GET /api\_v1/messages?user\_id=VICTIM\_ID --> 401GET /api\_v1/messages?user\_id=attack\&user\_id=VICTIM --> 200 OK\
-
+GET /api\_v1/messages?user\_id=VICTIM\_ID --> 401GET /api\_v1/messages?user\_id=attack\&user\_id=VICTIM --> 200 OK<br>
 
 ***
 

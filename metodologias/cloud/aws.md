@@ -6,8 +6,7 @@ Pacu: https://github.com/RhinoSecurityLabs/pacu
 
 ScoutSuite: https://github.com/nccgroup/ScoutSuite
 
-Prowler: https://github.com/prowler-cloud/prowler\
-
+Prowler: https://github.com/prowler-cloud/prowler<br>
 
 \
 **Videos:**&#x20;
@@ -19,14 +18,12 @@ PACU - AWS Exploitation framework by Julio Melo: [https://www.youtube.com/watch?
 \
 **Treinamentos:**
 
-Breaking and Pwning Apps and Servers on AWS and Azure by Appsecco: [https://github.com/appsecco/breaking-and-pwning-apps-and-servers-aws-azure-training/blob/master/documentation/SUMMARY.md](https://github.com/appsecco/breaking-and-pwning-apps-and-servers-aws-azure-training/blob/master/documentation/SUMMARY.md)\
-
+Breaking and Pwning Apps and Servers on AWS and Azure by Appsecco: [https://github.com/appsecco/breaking-and-pwning-apps-and-servers-aws-azure-training/blob/master/documentation/SUMMARY.md](https://github.com/appsecco/breaking-and-pwning-apps-and-servers-aws-azure-training/blob/master/documentation/SUMMARY.md)<br>
 
 ***
 
 PACU\
-`run iam__enum_permissions --all-usersrun ec2__enum --instances`\
-
+`run iam__enum_permissions --all-usersrun ec2__enum --instances`<br>
 
 ***
 
@@ -36,8 +33,7 @@ Coletar todos os Ips Públicos e domínios → Fazer port scan para checar por s
 Enumerar todas as policies associadas a perfis/grupos → Checar por possibilidades de escalação de privilégios
 
 Dumpar todos os registros no Route 53 → Conferir se tem como fazer subdomain takeover em algum\
-\
-
+<br>
 
 ***
 
