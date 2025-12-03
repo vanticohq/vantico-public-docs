@@ -125,74 +125,6 @@ Podemos ver no exemplo abaixo, uma aplicação em que divulga a informação da 
 
 ***
 
-> **Portas Abertas**
-
-Para descobrirmos as portas que estão abertas e quais serviços estão rodando, utilizamos o NMAP.
-
-Nele podemos especificar muitas coisas, como quais portas queremos fazer o teste, Scan UDP, TCP, versão do serviço, tipo de sistema operacional, etc
-
-Para rodarmos um scan simples, usamos:
-
-```
-nmap (endereço)
-```
-
-Um scan mais completo seria:
-
-```
-nmap -Pn -sS -p- (endereço)
-```
-
-
-
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Figura: Resultado scan NMAP</p></figcaption></figure>
-
-
-
-***
-
-> **Nuclei / Katana**
-
-**Nuclei:**
-
-Nuclei é usado para enviar requisições entre os alvos baseado em um **template**. Com uma média de 0 falsos positivos, ele possui um **scanning rápido** para um grande número de hosts.
-
-
-
-**Exemplo de como utilizar:**
-
-```
-nuclei -u (domínio)
-```
-
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Figura: Resultado scan com Nuclei</p></figcaption></figure>
-
-Para um scan mais preciso podemos utilizar:
-
-```
-nuclei -u (domínio) -headless -sc -fr -rl 50
-```
-
-**Katana:**
-
-**Katana** é uma ferramenta rápida e customizável que tem como objetivo realizar **web crawler**, e que possa ser usado de forma ativa ou passiva, utilizando o crawl em múltiplos domínios e subdomínios simultaneamente. Seu objetivo é conseguir informações e endpoints.
-
-
-
-**Exemplo de como utilizar:**
-
-```
-katana -u (domínio) -jc -jsl
-```
-
-
-
-<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1).png" alt=""><figcaption><p>Figura: Resultado scan com Katana</p></figcaption></figure>
-
-
-
-***
-
 > **Política de Senhas Permissivas**
 
 Trata-se de quando a aplicação **permite** que o usuário utilize senhas simples e fracas para cadastrar-se, fazendo com que a segurança da aplicação seja mais baixa.
@@ -403,16 +335,6 @@ Para identificar se possui ou não o _salt_, basta codificar a senha inserida no
 
 Verificar o que há dentro do token JWT, deve ser reportado caso o token apresente: Criptografia fraca ou dados pessoais e informações sensíveis.
 
-Para verificar basta acessar:&#x20;
-
-[JWT](https://jwt.io)
-
-Ferramentas úteis para auxiliar:
-
-[JWT Pentest Tool](https://github.com/ticofookfook/JWT_PENTEST/)
-
-[JWTLens](https://jwtlens.netlify.app/)
-
 
 
 ***
@@ -552,19 +474,6 @@ Essa validação pode ser feita em conjunto com a identificação da ausência d
 Outra vulnerabilidade sobre cabeçalhos, esta no caso é quando a aplicação divulga informações como tecnologias, server, no cabeçalho HTTP. Em alguns casos é encontrado como:
 
 _Server: Apache/2.4.52 (Ubuntu)_
-
-
-
-***
-
-> **Fuzzuli**
-
-Fuzzuli é uma ferramenta utilizada para buscar arquivos de backup presentes na aplicação.
-
-Pode ser utilizada com o seguinte comando:\
-&#xNAN;_&#x63;at alvos.txt | fuzzuli -mt all_
-
-Para mais informações, consulte [Fuzzuli](https://github.com/musana/fuzzuli).
 
 
 

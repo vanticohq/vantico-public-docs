@@ -41,7 +41,25 @@ openssl s_client -connect (domínio.com):443 #GET / HTTP/1.0
 
 
 
-**Low Hanging Fruit**
+Low Hanging Fruits - Tools
+
+* [ ] [Nmap](https://github.com/nmap/nmap)
+* [ ] [Nuclei](https://github.com/projectdiscovery/nuclei)
+* [ ] [Katana](https://github.com/projectdiscovery/katana)
+* [ ] Força bruta no JWT
+  * [ ] [Hashcat](https://github.com/hashcat/hashcat)
+  * [ ] [John the Ripper](https://github.com/openwall/john)
+* [ ] Verificações no JWT
+  * [ ] [JWT](https://jwt.io/)
+  * [ ] [JWT Pentest Tool](https://github.com/ticofookfook/JWT_PENTEST/)
+  * [ ] [JWTLens](https://jwtlens.netlify.app/)
+* [ ] [wafw00f](https://github.com/EnableSecurity/wafw00f)
+* [ ] [Fuzzuli](https://github.com/musana/fuzzuli)
+* [ ] [WPScan](https://github.com/wpscanteam/wpscan)
+
+
+
+**Low Hanging Fruits - Checklist**
 
 * [ ] Ausência de cabeçalho
 * [ ] Uso de cabeçalho depreciado
