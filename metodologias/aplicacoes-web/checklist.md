@@ -41,8 +41,9 @@ openssl s_client -connect (domínio.com):443 #GET / HTTP/1.0
 
 
 
-Low Hanging Fruits - Tools
+**Low Hanging Fruits - Tools**
 
+* [ ] Executar low hanging fruits
 * [ ] [Nmap](https://github.com/nmap/nmap)
 * [ ] [Nuclei](https://github.com/projectdiscovery/nuclei)
 * [ ] [Katana](https://github.com/projectdiscovery/katana)
@@ -56,6 +57,7 @@ Low Hanging Fruits - Tools
 * [ ] [wafw00f](https://github.com/EnableSecurity/wafw00f)
 * [ ] [Fuzzuli](https://github.com/musana/fuzzuli)
 * [ ] [WPScan](https://github.com/wpscanteam/wpscan)
+* [ ] [ffuf](https://github.com/ffuf/ffuf)
 
 
 
@@ -82,7 +84,6 @@ Low Hanging Fruits - Tools
 * [ ] Upload irrestrito de arquivos
 * [ ] Upload de arquivos sem limite de tamanho
 * [ ] Registro e monitoramento insuficiente de atividades
-* [ ] Negação de serviço através de múltiplas tentativas de login
 * [ ] Falta de validação na alteração de dados
 * [ ] Validação de input insuficiente
 * [ ] Validação de registro de dados pessoais

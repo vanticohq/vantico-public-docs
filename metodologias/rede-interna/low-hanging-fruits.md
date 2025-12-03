@@ -1,175 +1,194 @@
 # Low Hanging Fruits
 
-O pentest irá passar pelos seguintes estágios:
+MFA na VPN
 
-* [Descoberta de Serviços](low-hanging-fruits.md#descoberta-de-servicos)
-* [Scans de vulnerabilidades](low-hanging-fruits.md#scans-de-vulnerabilidades)
-* [Avaliação Manual](low-hanging-fruits.md#avaliacao-manual)
-
-
-
-### Descoberta de Serviços
-
-#### Portscan
-
-Os pentesters realizam uma varredura completa de portas nos intervalos de rede interna fornecidos. Isso fornece um detalhamento minucioso das máquinas e dos serviços em execução dentro da rede corporativa, bem como as funções que exercem.
-
-Por exemplo, os seguintes serviços requerem acesso à rede para funcionar:
-
-* Servidores de arquivos
-* Servidores de e-mail
-* Servidores web
-* Dispositivos de rede conectados (impressoras e telefones)
-* Servidores FTP
-* Servidores e clientes Active Directory (AD)
-
-Todos esses serviços deixam assinaturas características que podem ser detectadas por uma varredura de portas.
-
-
-
-#### Ferramentas
-
-Durante esta fase foram usadas as seguintes ferramentas:
-
-* Nmap
-* Masscan
+O MFA deve ser implementado de maneira obrigatória ao usuário, ao fazer a requisição de login na VPN.
 
 
 
 ***
 
+> Proteção por geolocalização na VPN
 
-
-### Scans de vulnerabilidades
-
-Os pentesters da Vantico realizam varreduras de vulnerabilidade para oferecer uma avaliação abrangente. Nesta fase, busca-se identificar brechas na rede interna que possam ser exploradas posteriormente pelo pentester. As seguintes vulnerabilidades são comumente encontradas ao realizar varreduras de vulnerabilidade:
-
-* Identificação de configurações incorretas, como senhas padrão e permissões fracas
-* Detecção de software e sistemas operacionais desatualizados
-* Identificação do uso de serviços de rede inseguros
-* Métodos de criptografia fracos
-
-
-
-#### Ferramentas
-
-Durante esta fase foram usadas as seguintes ferramentas:
-
-* Nessus
-* QualysGuard
-* Metasploit
-* Nikto
-* InsightVM
+Para validar essa vulnerabilidade, antes de realizar o login na VPN, deve ser ativado outra VPN levando o IP para outro país a fim de validar a restrição por geolocalização.
 
 
 
 ***
 
+> Múltiplas conexões na VPN
 
+Quando a mesma conta da VPN é usada por mais de uma sessão ao mesmo tempo, como forma de validação, deve ser aberto sessões simultâneas com duas origens diferentes.
 
-### Avaliação Manual
-
-Durante a avaliação manual, os pentesters da Vantico analisam recursos específicos que foram identificados. Na maioria dos casos, os pentesters se concentram em serviços visivelmente abertos:
-
-* Servidores Web/FTP/E-mail/DNS
-* Servidores Active Directory (AD) e todos os clientes associados
-* Controladores de Domínio (DC)
-* Dispositivos conectados à rede
-* Servidores SMB e servidores de arquivos
-* Outros serviços configurados no intervalo de endereços IP internos
+Deve validar também quando o logout é realizado se apenas uma das sessões é encerrada ou ambas.
 
 
 
-### Ambientes de Active Directory (Windows)
+***
 
-**AD (Active Directory)** é uma solução de gerenciamento de identidades e acessos. As organizações utilizam esse serviço em redes de domínio Windows e também em outros sistemas operacionais.
+> LDAP bind anônimo
 
-Dependendo da configuração e do nível de correção (patch level), um pentester pode encontrar uma forma de assumir o controle da rede corporativa comprometendo o Controlador de Domínio (DC).
+Validar se o LDAP permite bind anônimo, pode se usar o comando a seguir.
 
-Algumas áreas-chave nas quais os pentesters da Vantico podem se concentrar durante testes em Active Directory incluem:
-
-* Políticas de senha fracas
-* Protocolos antigos ou vulneráveis
-* Vulnerabilidades em Kerberos
-* Uso de credenciais em cache ou em texto claro (cleartext)
-* Relações de confiança mal configuradas
-* Permissões mal configuradas em ACDS
+```
+ldapsearch -x -H ldap://{IP} -b "<baseDN>"
+```
 
 
 
-### Testes de SMB
+***
 
-O Server Message Block (SMB) é um protocolo de comunicação que permite a interação entre computadores e dispositivos em uma rede. O SMB é comumente utilizado para compartilhamento de arquivos, acesso a impressoras e serviços de domínio.
+> Assinatura LDAP
 
-Os pentesters da Vantico fazem a enumeração de servidores SMB e tentam explorar vulnerabilidades conhecidas, como:
-
-* Assinatura de mensagens SMB desativada
-* Falta de patches críticos
-* Sessões nulas (null sessions)
-* Compartilhamentos de arquivos SMB com autenticação fraca ou ausente
-* Ataques de retransmissão SMB (SMB relay)
-* Criptografia SMB insegura
+Validar se o LDAP utiliza de assinatura.
 
 
 
-### Servidores Web e FTP
+***
 
-Servidores web podem ser alvo de ataques de desfiguração (defacement) ou ser usados como ponto de partida para ataques adicionais contra hosts locais ao próprio servidor web.
+> SMB com shares abertas para usuários anônimos
 
-Os pentesters da Vantico realizam varreduras em todos os servidores web e FTP da rede interna, em busca de possíveis explorações e vulnerabilidades, tais como:
+Validar se o SMB permite o acesso anônimo as shares, pode ser utilizando o seguinte comando para validar.
 
-* Política de correções (patching) deficiente
-* Instalações padrão
-* Credenciais inseguras
-
-
-
-### Dispositivos Conectados à Rede
-
-Impressoras dentro de redes corporativas podem ser compartilhadas com toda a organização e podem ser membros de uma rede AD. Esses dispositivos podem usar credenciais padrão inseguras ou ser vulneráveis a ataques de aplicação web.
-
-Telefones VOIP são comumente encontrados em redes internas e podem ser vulneráveis a configurações incorretas, falhas em SIP ou firmware desatualizado que permita execução remota de código (RCE).
-
-Os pentesters da Vantico testam impressoras e telefones contra todos os ataques comuns e verificam se usam credenciais seguras.
+```
+nxc smb (alvo) -u 'guest' -p '' --shares
+```
 
 
 
-### Quebra de Senhas
+***
 
-Durante uma avaliação de AD, um pentester pode realizar quebra de senhas offline (offline password cracking) contra hashes obtidos durante o engajamento. Algumas técnicas comuns para obter hashes incluem:
+> SMBv1
 
-* Ataques de envenenamento (poisoning) de LLMNR/NBNS
-* Extração de bases NTDS.dit
-* Realização de ataques de Kerberoasting
-* Execução de ataques de AS-REP roasting
-* Extração de bancos de dados SAM
-* Realização de ataques com Mimikatz
-
-A quebra de senhas permite que os pentesters da Vantico elevem privilégios e se movimentem lateralmente dentro da rede.
+Validar se o SMBv1 está habilitado na aplicação, o correto é utilizar algoritmos mais fortes e atuais como o SMBv3.
 
 
 
-#### Ferramentas
+***
 
-Durante esta fase foram usadas as seguintes ferramentas:
+> Assinatura SMB
 
-* Ettercap
-* Metasploit
-* Nmap
-* Responder
-* Impacket
+Verificar se o SMB utiliza de assinatura.
 
 
 
+***
+
+> SNMP com communitys padrões
+
+Verificar se o SNMP utiliza de communitys padrões como _private_, _public_.
 
 
 
+***
+
+> Terrapin SSH
+
+Validar se os serviços de SSH abertos estão vulneráveis a Terrapin.
 
 
 
+***
+
+> FTP com usuário anônimo habilitado
+
+Deve ser realizado a tentativa de login anônimo no FTP utilizando as seguintes credenciais.
+
+```
+anonymous:anonymous
+```
+
+```
+anonymous:(vazio)
+```
 
 
 
+***
+
+> SMTP openrelay
+
+Verificar se o SMTP não possui login habilitado, o que permite o openrelay.
 
 
 
+***
+
+> Gerenciamento de patch insuficiente
+
+Deve ser realizado uma busca pelas versões dos serviços a seguir, buscando vulnerabilidades conhecidas ou versões desatualizadas ([https://endoflife.date/](https://endoflife.date/)).
+
+Deve ser validado os seguintes serviços:
+
+* Windows
+* Windows Server
+* Linux
+* Samba
+* SSH
+* FTP
+* Banco de dados
+* Outros serviços identificados
+
+
+
+***
+
+> RDP com nla desabilitado
+
+Identificar se o nla está ativoado no serviço RDP, para isso basta realizar uma busca com o NetExec, o comando a seguir retorna o resultado esperado.
+
+```
+nxc rdp (alvo)
+```
+
+
+
+***
+
+> Política de senhas fracas
+
+Verificar se a política de senhas cumpre com no mínimo 8 caracteres, _password history lenght_ com no mínimo 24, _minimium password age_ com o valor ideal de 1.
+
+Para validar isso, pode ser utilizado o NetExec.
+
+```
+nxc smb (alvo) -u 'guest' -p '' --pass-pol
+```
+
+
+
+***
+
+> Política de senhas sem bloqueio
+
+Validar se possui a diretiva account lockout threshold definida, para isso podemos executar o seguinte comando.
+
+```
+nxc smb (alvo) -u 'guest' -p '' --pass-pol
+```
+
+
+
+***
+
+> Senhas padrões
+
+Deve ser validado após identificar os serviços se os mesmo possuem senhas padrões definidas. Os serviços são:
+
+* Banco de dados
+* Web
+
+
+
+***
+
+> Brute force
+
+Realizar ataques de brute force nos serviços identificados, como:
+
+* FTP
+* SSH
+* Banco de dados
+* RDP
+
+<br>

@@ -1,9 +1,5 @@
 # Low Hanging Fruits
 
-**Checklist Testes Iniciais**
-
-***
-
 > **Ausência de cabeçalho**
 
 Toda vulnerabilidade que envolve a **ausência de cabeçalhos ("header")** deve ser adicionada **separadamente** para cada cabeçalho ausente presente no escopo.

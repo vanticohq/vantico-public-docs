@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Low Hanging Fruits
 
 O pentest irá passar pelos seguintes estágios:
