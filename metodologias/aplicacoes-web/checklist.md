@@ -71,8 +71,6 @@ openssl s_client -connect (domínio.com):443 #GET / HTTP/1.0
 * [ ] Vulnerabilidade da versão do server
 * [ ] Possibilidade de clickjacking
 * [ ] Portas abertas
-* [ ] Nuclei / Katana
-* [ ] Fuzzuli
 * [ ] Política de senhas permissivas
 * [ ] Mensagem de erros
 * [ ] Utilizar bibliotecas JavaScript desatualizadas
