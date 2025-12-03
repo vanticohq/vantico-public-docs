@@ -126,6 +126,7 @@
     * [Automatizando o Scan por Secrets](metodologias/aplicacoes-web/automatizando-o-scan-por-secrets.md)
     * [Configurando o Burp Suite](metodologias/metodologias-de-pentest/aplicacoes-web/configurando-o-burp-suite.md)
     * [Chaves API](metodologias/api/chaves-api.md)
+    * [Checklist para checkout](metodologias/metodologias-de-pentest/aplicacoes-web/checklist-para-checkout.md)
     * [Vulnerabilidades para compliance](metodologias/metodologias-de-pentest/aplicacoes-web/vulnerabilidades-para-compliance.md)
     * [Referências](metodologias/aplicacoes-web/referencias.md)
   * [Ferramentas](metodologias/ferramentas.md)
