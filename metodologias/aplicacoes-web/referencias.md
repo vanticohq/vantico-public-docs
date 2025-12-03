@@ -24,11 +24,15 @@
 
 
 
-
-
 > **KeyHacks** - Um repositório contendo informações de como testar chaves APIs de diversos tipos de serviços
 >
 > [https://github.com/streaak/keyhacks](https://github.com/streaak/keyhacks)
+
+
+
+> **Checklist** - Um checklist de vulnerabilidades para serem testadas durante o pentest.
+>
+> [https://pentestbook.six2dez.com/others/web-checklist](https://pentestbook.six2dez.com/others/web-checklist)
 
 
 

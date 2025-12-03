@@ -105,9 +105,3 @@ openssl s_client -connect (domínio.com):443 #GET / HTTP/1.0
 
 
 
-{% hint style="info" %}
-Para mais informações sobre checklist de pentest em aplicações web, consulte:
-
-[Checklist](https://pentestbook.six2dez.com/others/web-checklist)
-{% endhint %}
-
