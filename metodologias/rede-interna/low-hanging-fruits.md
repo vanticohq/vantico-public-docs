@@ -26,6 +26,22 @@ Deve validar também quando o logout é realizado se apenas uma das sessões é 
 
 ***
 
+> **Ausência de EDR / Antivírus**
+
+Validar se a rede não possui um EDR ou antivírus instalado.
+
+
+
+***
+
+> **Ausência de mecanismo de bloqueio / detecção**
+
+Quando realizado muitos requests deve ser validado se há algum mecanismo de bloqueio ou detecção implementado.
+
+
+
+***
+
 > **LDAP bind anônimo**
 
 Validar se o LDAP permite bind anônimo, pode se usar o comando a seguir.
