@@ -1,6 +1,6 @@
 # Low Hanging Fruits
 
-MFA na VPN
+> **MFA na VPN**
 
 O MFA deve ser implementado de maneira obrigatória ao usuário, ao fazer a requisição de login na VPN.
 
@@ -8,7 +8,7 @@ O MFA deve ser implementado de maneira obrigatória ao usuário, ao fazer a requ
 
 ***
 
-> Proteção por geolocalização na VPN
+> **Proteção por geolocalização na VPN**
 
 Para validar essa vulnerabilidade, antes de realizar o login na VPN, deve ser ativado outra VPN levando o IP para outro país a fim de validar a restrição por geolocalização.
 
@@ -16,7 +16,7 @@ Para validar essa vulnerabilidade, antes de realizar o login na VPN, deve ser at
 
 ***
 
-> Múltiplas conexões na VPN
+> **Múltiplas conexões na VPN**
 
 Quando a mesma conta da VPN é usada por mais de uma sessão ao mesmo tempo, como forma de validação, deve ser aberto sessões simultâneas com duas origens diferentes.
 
@@ -26,7 +26,7 @@ Deve validar também quando o logout é realizado se apenas uma das sessões é 
 
 ***
 
-> LDAP bind anônimo
+> **LDAP bind anônimo**
 
 Validar se o LDAP permite bind anônimo, pode se usar o comando a seguir.
 
@@ -38,7 +38,7 @@ ldapsearch -x -H ldap://{IP} -b "<baseDN>"
 
 ***
 
-> Assinatura LDAP
+> **Assinatura LDAP**
 
 Validar se o LDAP utiliza de assinatura.
 
@@ -46,7 +46,7 @@ Validar se o LDAP utiliza de assinatura.
 
 ***
 
-> SMB com shares abertas para usuários anônimos
+> **SMB com shares abertas para usuários anônimos**
 
 Validar se o SMB permite o acesso anônimo as shares, pode ser utilizando o seguinte comando para validar.
 
@@ -58,7 +58,7 @@ nxc smb (alvo) -u 'guest' -p '' --shares
 
 ***
 
-> SMBv1
+> **SMBv1**
 
 Validar se o SMBv1 está habilitado na aplicação, o correto é utilizar algoritmos mais fortes e atuais como o SMBv3.
 
@@ -66,7 +66,7 @@ Validar se o SMBv1 está habilitado na aplicação, o correto é utilizar algori
 
 ***
 
-> Assinatura SMB
+> **Assinatura SMB**
 
 Verificar se o SMB utiliza de assinatura.
 
@@ -74,7 +74,7 @@ Verificar se o SMB utiliza de assinatura.
 
 ***
 
-> SNMP com communitys padrões
+> **SNMP com communitys padrões**
 
 Verificar se o SNMP utiliza de communitys padrões como _private_, _public_.
 
@@ -82,7 +82,7 @@ Verificar se o SNMP utiliza de communitys padrões como _private_, _public_.
 
 ***
 
-> Terrapin SSH
+> **Terrapin SSH**
 
 Validar se os serviços de SSH abertos estão vulneráveis a Terrapin.
 
@@ -90,7 +90,7 @@ Validar se os serviços de SSH abertos estão vulneráveis a Terrapin.
 
 ***
 
-> FTP com usuário anônimo habilitado
+> **FTP com usuário anônimo habilitado**
 
 Deve ser realizado a tentativa de login anônimo no FTP utilizando as seguintes credenciais.
 
@@ -106,7 +106,7 @@ anonymous:(vazio)
 
 ***
 
-> SMTP openrelay
+> **SMTP openrelay**
 
 Verificar se o SMTP não possui login habilitado, o que permite o openrelay.
 
@@ -114,7 +114,7 @@ Verificar se o SMTP não possui login habilitado, o que permite o openrelay.
 
 ***
 
-> Gerenciamento de patch insuficiente
+> **Gerenciamento de patch insuficiente**
 
 Deve ser realizado uma busca pelas versões dos serviços a seguir, buscando vulnerabilidades conhecidas ou versões desatualizadas ([https://endoflife.date/](https://endoflife.date/)).
 
@@ -133,7 +133,7 @@ Deve ser validado os seguintes serviços:
 
 ***
 
-> RDP com nla desabilitado
+> **RDP com nla desabilitado**
 
 Identificar se o nla está ativoado no serviço RDP, para isso basta realizar uma busca com o NetExec, o comando a seguir retorna o resultado esperado.
 
@@ -145,7 +145,7 @@ nxc rdp (alvo)
 
 ***
 
-> Política de senhas fracas
+> **Política de senhas fracas**
 
 Verificar se a política de senhas cumpre com no mínimo 8 caracteres, _password history lenght_ com no mínimo 24, _minimium password age_ com o valor ideal de 1.
 
@@ -159,7 +159,7 @@ nxc smb (alvo) -u 'guest' -p '' --pass-pol
 
 ***
 
-> Política de senhas sem bloqueio
+> **Política de senhas sem bloqueio**
 
 Validar se possui a diretiva account lockout threshold definida, para isso podemos executar o seguinte comando.
 
@@ -171,7 +171,7 @@ nxc smb (alvo) -u 'guest' -p '' --pass-pol
 
 ***
 
-> Senhas padrões
+> **Senhas padrões**
 
 Deve ser validado após identificar os serviços se os mesmo possuem senhas padrões definidas. Os serviços são:
 
@@ -182,7 +182,7 @@ Deve ser validado após identificar os serviços se os mesmo possuem senhas padr
 
 ***
 
-> Brute force
+> **Brute force**
 
 Realizar ataques de brute force nos serviços identificados, como:
 
