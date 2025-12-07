@@ -5,7 +5,6 @@
 ## Empresa
 
 * [Vantico](empresa/vantico/README.md)
-  * [Bem Vindo a Vantico!](empresa/bem-vindo-a-vantico.md)
   * [Empresa](empresa/vantico/empresa/README.md)
     * [Branding](empresa/vantico/empresa/branding/README.md)
       * [Cores](empresa/vantico/empresa/branding/cores.md)
