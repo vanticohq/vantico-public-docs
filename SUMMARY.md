@@ -93,8 +93,6 @@
   * [API](metodologias/api/README.md)
     * [Checklist](metodologias/metodologias-de-pentest/api/checklist.md)
     * [Low Hanging Fruits](metodologias/metodologias-de-pentest/api/low-hanging-fruits.md)
-    * [Copy of Low Hanging Fruits](metodologias/metodologias-de-pentest/api/copy-of-low-hanging-fruits.md)
-    * [Copy of Checklist](metodologias/metodologias-de-pentest/api/copy-of-checklist.md)
     * [GraphQL](metodologias/api/graphql.md)
     * [REST](metodologias/api/rest.md)
     * [Referências](metodologias/metodologias-de-pentest/api/referencias.md)
