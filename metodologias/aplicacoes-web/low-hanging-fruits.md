@@ -165,7 +165,9 @@ Ocorre geralmente na área de login, cadastro ou esqueci a senha, em que quando 
 
 Porém o mesmo pode ser encontrado em outras partes da aplicação, como por exemplo alguma aba de alterar o e-mail do usuário dentro da plataforma, pode haver de constar que o e-mail já está cadastrado.
 
-A mensagem correta que a aplicação deve retornar é de **"Usuário ou Senha Incorretos"** ou **"Caso o email já estiver cadastrado você receberá um link na sua caixa de email"**&#x20;
+A mensagem correta que a aplicação deve retornar é de **"Usuário ou Senha Incorretos"** ou **"Caso o email já estiver cadastrado você receberá um link na sua caixa de email"** .
+
+A enumeração também pode ser identificada via _time-based_, ou seja, por tempo de resposta, ocorre quando o tempo de resposta quando inserido um usuário válido e inválido são muito diferentes.
 
 
 
