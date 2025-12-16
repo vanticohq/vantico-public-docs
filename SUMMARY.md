@@ -5,12 +5,7 @@
 ## Empresa
 
 * [Vantico](empresa/vantico/README.md)
-  * [Empresa](empresa/vantico/empresa/README.md)
-    * [Branding](empresa/vantico/empresa/branding/README.md)
-      * [Cores](empresa/vantico/empresa/branding/cores.md)
-      * [Tipografia](empresa/vantico/empresa/branding/tipografia.md)
-      * [Ilustrações](empresa/vantico/empresa/branding/ilustracoes.md)
-      * [Tom de voz & Descrições](empresa/vantico/empresa/branding/tom-de-voz-and-descricoes.md)
+  * [Empresa](empresa/vantico/empresa.md)
   * [Políticas](empresa/politicas.md)
   * [Valores da Vantico](empresa/valores-da-vantico.md)
   * [Trabalho Remoto](empresa/trabalho-remoto.md)
