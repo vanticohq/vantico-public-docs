@@ -403,7 +403,7 @@ O sistema não envia nenhum alerta ao titular da conta quando ocorre um login 
 
 > **Subdomínios apontando para IPs privados**
 
-Devemos testar se subdomínios da aplicação apontam para endereços privados, para testar isto basta realizar um dig no subdomínio. Caso vulnerável a aplicação pode estar vulnerável a _DNS Rebinding_).
+Devemos testar se subdomínios da aplicação apontam para endereços privados, para testar isto basta realizar um dig no subdomínio. Caso vulnerável a aplicação pode estar vulnerável a _DNS Rebinding_.
 
 
 
