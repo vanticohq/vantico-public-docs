@@ -211,8 +211,6 @@ Praticamente qualquer sistema moderno tem referências direta a objetos. Este co
 
 A partir disto pode-se tornar uma vulnerabilidade maior como por exemplo um IDOR.
 
-Uma boa prática é a utilização de algoritmos modernos como _UUID v4_ para mitigar esta vulnerabilidade.
-
 
 
 ***
