@@ -596,3 +596,11 @@ Verificar se em alguma requisição o token de sessão é enviado via GET, ou se
 > **Aplicação sem mecanismo de logout**
 
 A aplicação deve possuir um mecanismo claro que possibilite o usuário encerrar sua sessão.
+
+
+
+***
+
+> **Ausência de código anti-phishing**
+
+Validar se é possível inserir um código anti-phishing gerado pelo usuário, para assim, quando realizado alguma ação que seja enviado um e-mail ou SMS, seja enviado em conjunto o código criado pelo usuário.
