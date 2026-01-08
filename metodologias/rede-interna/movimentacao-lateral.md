@@ -16,7 +16,7 @@ Inicialmente você irá configurá-lo da seguinte maneira:
 
 Em _Session_, você irá adicionar o IP da sua máquina com a porta 22;
 
-<figure><img src="../../.gitbook/assets/image (9) (1).png" alt=""><figcaption><p>Figura: Session</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9) (1) (1).png" alt=""><figcaption><p>Figura: Session</p></figcaption></figure>
 
 
 
@@ -30,7 +30,7 @@ Dentro de _Tunnels_, em _Source port_, você irá colocar o seu local host com a
 
 E em _Destination_, o IP que você pretende se conectar com a porta;
 
-<figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption><p>Figura: Configurações Tunnels</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (10) (1).png" alt=""><figcaption><p>Figura: Configurações Tunnels</p></figcaption></figure>
 
 
 
