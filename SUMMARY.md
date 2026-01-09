@@ -120,6 +120,7 @@
     * [Low Hanging Fruits](metodologias/metodologias-de-pentest/aplicacoes-web/low-hanging-fruits/README.md)
       * [Black Box](metodologias/metodologias-de-pentest/aplicacoes-web/low-hanging-fruits/black-box.md)
       * [Gray Box](metodologias/metodologias-de-pentest/aplicacoes-web/low-hanging-fruits/gray-box.md)
+      * [Copy of Gray Box](metodologias/metodologias-de-pentest/aplicacoes-web/low-hanging-fruits/copy-of-gray-box.md)
     * [Copy of Low Hanging Fruits](metodologias/metodologias-de-pentest/aplicacoes-web/copy-of-low-hanging-fruits.md)
     * [Gerando Valor](metodologias/aplicacoes-web/gerando-valor.md)
     * [Técnicas](metodologias/aplicacoes-web/tecnicas.md)
