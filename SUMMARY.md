@@ -97,6 +97,8 @@
     * [BucketLoot](metodologias/cloud/bucketloot.md)
     * [Referências](metodologias/cloud/referencias.md)
   * [Mobile](metodologias/mobile/README.md)
+    * [Low Hanging Fruits](metodologias/metodologias-de-pentest/mobile/low-hanging-fruits/README.md)
+      * [Black Box](metodologias/metodologias-de-pentest/mobile/low-hanging-fruits/black-box.md)
     * [Vulnerabilidades em dispositivos móveis](metodologias/metodologias-de-pentest/mobile/vulnerabilidades-em-dispositivos-moveis.md)
     * [iOS](metodologias/mobile/ios.md)
     * [Android](metodologias/mobile/android.md)
