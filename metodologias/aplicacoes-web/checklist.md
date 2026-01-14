@@ -122,7 +122,7 @@ openssl s_client -connect (domínio.com):443 #GET / HTTP/1.0
 
 
 
-**Checklist para checkout**
+**Low Hanging Fruits - Checkout**
 
 * [ ] Manipulação de Preço
 * [ ] Alterar valores no corpo da requisição (price, total, shipping)
@@ -159,7 +159,7 @@ openssl s_client -connect (domínio.com):443 #GET / HTTP/1.0
 
 
 
-**Checklist para magic link**
+**Low Hanging Fruits - Magic link**
 
 * [ ] Verificar se o token é criptograficamente aleatório (>=128 bits)
 * [ ] Verificar se o token segue algum padrão previsível
@@ -176,4 +176,25 @@ openssl s_client -connect (domínio.com):443 #GET / HTTP/1.0
 * [ ] Rate limit na geração do link
 
 
+
+**Low Hanging Fruits - Aplicação financeira**
+
+* [ ] Ausência de senha de confirmação no procedimento de transação
+* [ ] Repetir o mesmo parâmetro múltiplas vezes
+* [ ] Omitir um parâmetro ou valor
+* [ ] Inserir números negativos
+* [ ] Inserir números decimais
+* [ ] Inserir números grandes
+* [ ] Inserir números pequenos
+* [ ] Inserir zero ou nulo
+* [ ] Inserir notação científica
+* [ ] Inserir _reserverd words_
+  * [ ] NaN
+  * [ ] Infinity
+  * [ ] -NaN
+  * [ ] -Infinity
+* [ ] Mostrar os dados completos de um cartão salvo
+* [ ] Enumeração de cartão através de registro de cartão existente
+* [ ] Usar múltiplos códigos de desconto
+* [ ] Usar códigos de desconto expirados
 
