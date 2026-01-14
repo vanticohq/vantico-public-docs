@@ -89,6 +89,7 @@
     * [Checklist](metodologias/metodologias-de-pentest/api/checklist.md)
     * [Low Hanging Fruits](metodologias/metodologias-de-pentest/api/low-hanging-fruits/README.md)
       * [Gray Box](metodologias/metodologias-de-pentest/api/low-hanging-fruits/gray-box.md)
+      * [GraphQL](metodologias/metodologias-de-pentest/api/low-hanging-fruits/graphql.md)
     * [GraphQL](metodologias/api/graphql.md)
     * [REST](metodologias/api/rest.md)
     * [Referências](metodologias/metodologias-de-pentest/api/referencias.md)

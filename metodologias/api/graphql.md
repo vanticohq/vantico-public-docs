@@ -1,6 +1,10 @@
+---
+hidden: true
+---
+
 # GraphQL
 
-É uma linguagem de consulta e uma estrutura de execução para APIs que permite que os clientes solicitem apenas os dados específicos de que precisam, em vez de receberem uma resposta completa com todos os dados disponíveis. Foi desenvolvido pelo Facebook em 2012 e lançado publicamente em 2015.A principal diferença entre GraphQL e as abordagens tradicionais de API, como REST (Representational State Transfer), é que o GraphQL coloca o controle nas mãos dos clientes. Em vez de o servidor determinar quais dados são retornados em uma resposta, o cliente especifica exatamente quais campos e relacionamentos ele deseja que a API retorne. Isso torna as consultas mais eficientes e flexíveis, pois os clientes podem buscar apenas o que precisam, evitando a sobrecarga de dados.Principais características do GraphQL:
+É uma linguagem de consulta e uma estrutura de execução para APIs que permite que os clientes solicitem apenas os dados específicos de que precisam, em vez de receberem uma resposta completa com todos os dados disponíveis. Foi desenvolvido pelo Facebook em 2012 e lançado publicamente em 2015.A principal diferença entre GraphQL e as abordagens tradicionais de API, como REST (Representational State Transfer), é que o GraphQL coloca o controle nas mãos dos clientes. Em vez de o servidor determinar quais dados são retornados em uma resposta, o cliente especifica exatamente quais campos e relacionamentos ele deseja que a API retorne. Isso torna as consultas mais eficientes e flexíveis, pois os clientes podem buscar apenas o que precisam, evitando a sobrecarga de dados. Principais características do GraphQL:
 
 * Consulta única: Em uma única consulta GraphQL, você pode solicitar dados de várias entidades e seus relacionamentos, em vez de fazer várias chamadas de API para obter dados separados.
 * Tipo de sistema: O GraphQL define um sistema de tipos para os dados que podem ser consultados. Isso ajuda a documentar a API de forma clara e permite a validação de consulta em tempo de execução.
