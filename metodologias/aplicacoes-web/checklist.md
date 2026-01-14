@@ -159,5 +159,21 @@ openssl s_client -connect (domínio.com):443 #GET / HTTP/1.0
 
 
 
+**Checklist para magic link**
+
+* [ ] Verificar se o token é criptograficamente aleatório (>=128 bits)
+* [ ] Verificar se o token segue algum padrão previsível
+* [ ] Testar se o magic link pode ser usado mais de uma vez
+* [ ] Testar se o magic link pode ser usado após logout
+* [ ] Verificar tempo de validade do link (ideal de 5-15 min)
+  * [ ] Validar com mudança de fuso horário / relógio
+* [ ] Testar troca de parâmetros (user\_id, email, account\_id)
+* [ ] Testar se ocorre enumeração de usuários na geração do link
+  * [ ] Enumeração por tempo de resposta
+* [ ] Verificar se o token aparece na URL
+* [ ] Verificar se o token aparece no Referrer Header
+* [ ] Verificar se o link funciona com HTTP
+* [ ] Rate limit na geração do link
+
 
 
