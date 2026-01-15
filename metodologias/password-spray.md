@@ -55,5 +55,5 @@ Ferramenta focada no protocolo Kerberos.
 {% hint style="info" %}
 Para criar wordlists mais efetivas para realização do password spray, você pode consultar:
 
-[Gerando wordlists efetivas](../gerando-wordlists-efetivas.md)
+[Gerando wordlists efetivas](gerando-wordlists-efetivas.md)
 {% endhint %}
