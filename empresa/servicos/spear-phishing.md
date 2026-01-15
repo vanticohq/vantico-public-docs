@@ -26,31 +26,31 @@ Se o filtro marcar os e-mails de simulação de phishing como spam e os mover pa
 
 1.1 Acesse o grupo **"Email & Colaboração" \[1]** -> **"Políticas e regras \[2]"**:
 
-<figure><img src="../.gitbook/assets/unknown (18).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/unknown (18).png" alt=""><figcaption></figcaption></figure>
 
 2. Ainda em **"Políticas e Regras \[2]"**, vá em **"Políticas de ameaças \[3]"**:
 
-<figure><img src="../.gitbook/assets/unknown (20).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/unknown (20).png" alt=""><figcaption></figcaption></figure>
 
 3. Nesta tela serão exibidas as políticas e regras configuradas no painel. Acessaremos a opção **“AntiSpam \[4]”**, que se encontra no grupo Políticas, conforme a imagem:
 
-<figure><img src="../.gitbook/assets/unknown (21).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/unknown (21).png" alt=""><figcaption></figcaption></figure>
 
 4. Após isso, clique em **“Política AntiSpam de entrada (Padrão) \[5]”**:
 
-<figure><img src="../.gitbook/assets/unknown (22).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/unknown (22).png" alt=""><figcaption></figcaption></figure>
 
 5. Ao clicar, abrirá uma página à direita, navegue até o final da página, e clique em **“Editar remetentes e domínios permitidos e bloqueados \[6]”**:
 
-<figure><img src="../.gitbook/assets/unknown (23).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/unknown (23).png" alt=""><figcaption></figcaption></figure>
 
 6. Após isso, vá em **"Domínios"** -> **"Mostrar domínios \[7]"**:
 
-<figure><img src="../.gitbook/assets/unknown (26).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/unknown (26).png" alt=""><figcaption></figcaption></figure>
 
 7. Adicione os Domínios necessários em **"Domínios"** -> **"Inserir domínio personalizado \[8]"** e depois clique em **"Adicionar domínios"**:
 
-<figure><img src="../.gitbook/assets/unknown (27).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/unknown (27).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -69,27 +69,27 @@ Porque a entrega avançada garante que as mensagens de simulação de phishing s
 
 1.1 Acesse o grupo **"Email & Colaboração \[1]"** -> **"Políticas e Regras \[2]"**:
 
-<figure><img src="../.gitbook/assets/unknown (28).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/unknown (28).png" alt=""><figcaption></figcaption></figure>
 
 2. Ainda em **"Políticas e Regras \[2**]**"**, vá em **"Políticas de ameaças \[3]"**:
 
-<figure><img src="../.gitbook/assets/unknown (30).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/unknown (30).png" alt=""><figcaption></figcaption></figure>
 
 3. Nesta tela serão exibidas as políticas e regras configuradas no painel. Acessaremos a opção **“Entrega Avançada \[4]”**, que se encontra no grupo Regras, conforme a imagem:
 
-<figure><img src="../.gitbook/assets/unknown (32).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/unknown (32).png" alt=""><figcaption></figcaption></figure>
 
 4. Ao entrar, clique em **"Simulação de Phishing \[5]"** e após isso, **"Add \[6]"**:
 
-<figure><img src="../.gitbook/assets/unknown (33).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/unknown (33).png" alt=""><figcaption></figcaption></figure>
 
 5. Adicione os **"Domínios \[7]"** e **"IPs \[8]"** necessários, após adicionar, clique em **"Salvar \[9]"**:
 
-<figure><img src="../.gitbook/assets/unknown (34).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/unknown (34).png" alt=""><figcaption></figcaption></figure>
 
 6. Após Finalizar, você deverá ver uma Tela com os **"Domínios e IPs salvos \[10]**":
 
-<figure><img src="../.gitbook/assets/unknown (36).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/unknown (36).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -108,23 +108,23 @@ Usado para garantir que remetentes externos de fornecedores de simulação não 
 
 1.1 Acesse o grupo **"Email & Colaboração \[1]"** -> **"Políticas e Regras \[2]"**:
 
-<figure><img src="../.gitbook/assets/unknown (37).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/unknown (37).png" alt=""><figcaption></figcaption></figure>
 
 2. Ainda em **"Políticas e Regras \[2]"**, vá em **"Políticas de ameaças \[3]"**:
 
-<figure><img src="../.gitbook/assets/unknown (38).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/unknown (38).png" alt=""><figcaption></figcaption></figure>
 
 3. Nesta tela serão exibidas as políticas e regras configuradas no painel. Acessaremos a opção **“Listas de Permissões/Bloqueios do Locatário \[4]”**, que se encontra no grupo Regras, conforme a imagem:
 
-<figure><img src="../.gitbook/assets/unknown (39).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/unknown (39).png" alt=""><figcaption></figcaption></figure>
 
 4. Ao entrar, clique em **"Domains & Addresses \[5]"** e depois em **"Adicionar -> Block \[6]"**:
 
-<figure><img src="../.gitbook/assets/unknown (40).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/unknown (40).png" alt=""><figcaption></figcaption></figure>
 
 5. Após clicar em **"Block"**, você deverá fornecer os Domínios **"Adicionar Domínios e Endereços \[7]"** necessários e a quantidade de dias **"Remove Block Entry After \[8]"** após isso, clique em **"Salvar"**:
 
-<figure><img src="../.gitbook/assets/unknown (41).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/unknown (41).png" alt=""><figcaption></figcaption></figure>
 
 ## Pré-lançamento: Testando a campanha
 

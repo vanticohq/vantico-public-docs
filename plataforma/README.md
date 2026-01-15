@@ -1,2 +1,0 @@
-# Sobre a plataforma
-
