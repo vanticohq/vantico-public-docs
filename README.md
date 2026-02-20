@@ -1,21 +1,4 @@
----
-layout:
-  width: default
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: false
-  metadata:
-    visible: true
----
-
-# Introdução
+# Início
 
 Bem-vindo ao Manual da Vantico! Aqui, armazenamos todas as informações para nossos próprios funcionários, clientes, colegas do setor e qualquer pessoa interessada. Seguimos a filosofia de que o **conhecimento existe para ser compartilhado**, por isso, desde que os dados não sejam **confidenciais**, tentamos publicá-los.
 

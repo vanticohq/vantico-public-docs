@@ -1,20 +1,3 @@
----
-layout:
-  width: default
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: false
-  metadata:
-    visible: true
----
-
 # Aplicações Web
 
 Nesta aba iremos abordar sobre diversas técnicas utilizadas em pentest em aplicações web.

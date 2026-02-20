@@ -1,20 +1,3 @@
----
-layout:
-  width: default
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: false
-  metadata:
-    visible: true
----
-
 # Rede Externa
 
 A seguir, é abordado sobre pentest em rede externa, com informações sobre enumeração de subdomínios, low hanging, VPN e credenciais padrão.

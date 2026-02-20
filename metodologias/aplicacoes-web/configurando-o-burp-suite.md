@@ -18,11 +18,11 @@ Caso você queira usar um navegador customizado, basta fazer a instalação da e
 
 Na extensão, basta adicionar um nome, hostname e porta, os valores recomendados são **127.0.0.1:8080**, pois são padrões do Burp Suite.
 
-<figure><img src="../../../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
 
 No Burp Suite, basta ir em **Settings** > **Proxy** e inserir a interface e porta a mesma inserida na extensão.
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -32,7 +32,7 @@ Assim que configurado, podemos abrir a aplicação do nosso alvo. Assim que aber
 
 Para fazer isso, vamos acessar a URL do nosso alvo, em seguida vamos a aba **Targets**. Localize o seu alvo e selecione com o botão direito **Add to scope.**
 
-<figure><img src="../../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 Quando selecionado irá aparecer um pop-up, escolha uma das seguintes opções tendo em vista de que:
 
@@ -45,21 +45,21 @@ Uma vez configurado, você agora pode filtrar por apenas o que está no seu esco
 
 Aba HTTP History sem aplicar o filtro:
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
-<figure><img src="../../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Aba HTTP History após aplicar o filtro:
 
-<figure><img src="../../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
 Mesmo com o alvo no escopo, as requisições para outros host na aba **Intercept**, permanecem aparecendo, para filtrar isso também, assim que um host indesejado aparecer basta clicar com o botão direito, **Don't intercept requests** > **To this host**.
 
-<figure><img src="../../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -71,11 +71,11 @@ Para o funcionamento adequado de algumas extensões, deve ser realizado o downlo
 
 Acessando o site oficial do Jython (pode ser encontrado [aqui](https://www.jython.org/download.html)) você deve selecionar a opção **Jython Standalone JAR**, assim que realizado o download basta inserir na aba de configurações do Burp.
 
-<figure><img src="../../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 Para inserir no Burp basta ir em **Settings** > **Extensions** > **Default settings** e dentro de **Python enviroment** inserir a localização do download do arquivo.
 
-<figure><img src="../../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -83,7 +83,7 @@ Inserido o ambiente, basta ir em **Extensions** > **BApp Store** e buscar a exte
 
 Para mais informações sobre instalação consulte [aqui](https://portswigger.net/burp/documentation/desktop/extend-burp/extensions/installing/bapp-store).
 
-<figure><img src="../../../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -95,4 +95,42 @@ A seguir, algumas das extensões que vão facilitar o seu dia a dia:
 4. [Software Vulnerability Scanner](https://portswigger.net/bappstore/c9fb79369b56407792a7104e3c4352fb) essa integração automaticamente detecta por softwares com vulnerabilidades na aplicação web que está sendo acessada.
 5. [403 Bypasser](https://portswigger.net/bappstore/444407b96d9c4de0adb7aed89e826122) auxilia no bypass de códigos HTTP 403, alterando os métodos e cabeçalhos da requisição, tenta fazer o downgrade do HTTP (1.1 > 1.0), entre outras formas.
 6. [JS Miner](https://portswigger.net/bappstore/0ab7a94d8e11449daaf0fb387431225b) essa extensão vai fazer uma busca em arquivos JS na aplicação, buscando por itens como credenciais, subdomínios, URLs de Cloud, endpoints da API, entre outros, facilitando na fase de recon inicial.
+
+
+
+## Recursos
+
+O Burp Suite possui diversos recursos instalados que muitas vezes não são vistos ou lembrados, que podem ajudar bastante durante a realização de um pentest.
+
+A seguir, vamos explicar mais sobre alguns recursos muito interessantes que podem fazer diferença durante seu teste de intrusão.
+
+
+
+1. **Unhide hidden inputs**
+
+Este recurso serve para revelar campos escondidos de formulários, o que pode ser muito útil para encontrar falhas como XSS, SQL Injection, SSRF, entre outros.
+
+Para ativar basta ir em **Settings** --> **Tools** --> **Proxy**, descer até o recurso **Response modification rules** e marcar as duas primeiras opções.
+
+<figure><img src="../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
+
+
+
+2. **Macros**
+
+Essa ferramenta serve para automatizar o processo de inserção do token anti-CSRF que geralmente são gerados novos a cada request, tornando possível inserir um novo token antes de cada nova requisição do **Repeater** ou **Intruder**.
+
+Para acionar, basta ir em **Settings** --> **Sessions** --> **Macros**, depois basta apertar em "**Add**" e ele irá mostrar requests realizados, basta selecionar o que deseja e depois pressionar "**OK**".
+
+<figure><img src="../../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
+
+
+
+3. **Find scripts** (disponível apenas no Professional)
+
+Este mecanismo possibilita buscar todos os arquivos JavaScripts referenciados em uma aplicação web de maneira organizada e instantânea.
+
+Para isso, deve acessar uma aplicação, depois ir na aba **Target** --> clicar com o botão direito --> **Engagement tools** --> **Find scripts**.
+
+<figure><img src="../../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
 
